@@ -31,7 +31,7 @@ There are two broad ways by which you can start working with Clojure professiona
 1. Find a job at an established company
 2. Introduce Clojure to your team / Start a Clojure company
 
-Depending on your situation, one of the ways might be easier for you. In this article, I'll focus on the first path. To learn more about the second path, check out [Should you adopt Clojure at your company?](https://krimlabs.com/blog/making-clojure-jobs)
+Depending on your situation, one of the ways might be easier for you. In this article, I'll focus on the first path. To learn more about the second path, check out [Should you adopt Clojure at your company?](https://shivekkhurana.com/blog/making-clojure-jobs)
 
 ## Brave Clojure Jobs
 

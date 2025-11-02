@@ -17,7 +17,7 @@ author: shivekkhurana
 ---
 *Base Photo by [Jose Antonio Gallego Vázquez](https://unsplash.com/@joseantoniogall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
-Over the last 2 years, Clojure has become my primary language. It compiles to Java & JavaScript and has a [few other advantages that I learnt over time](https://krimlabs.com/clojure-424-days/).One  of the disadvantage was the steep upfront learning curve. If you are  just getting started with Clojure, this (and a series of future posts)  might help you.For today, we’ll be building a Drug Dealer API. Imagine a drug store near you (don’t let the word dealer delude you):
+Over the last 2 years, Clojure has become my primary language. It compiles to Java & JavaScript and has a [few other advantages that I learnt over time](https://shivekkhurana.com/clojure-424-days/).One  of the disadvantage was the steep upfront learning curve. If you are  just getting started with Clojure, this (and a series of future posts)  might help you.For today, we’ll be building a Drug Dealer API. Imagine a drug store near you (don’t let the word dealer delude you):
 
 * it has an inventory
 * each drug has a price and a stock
