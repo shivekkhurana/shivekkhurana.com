@@ -40,6 +40,10 @@ jobs:
       - name: '✅ Install dependencies'
         run: bun install
 
+      - name: '🔧 Install sharp for linux-x64'
+        run: |
+          npm install --include=optional --os=linux --cpu=x64 sharp
+
       - name: '🧰 Build'
         run: bun run build
 
