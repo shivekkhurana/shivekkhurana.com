@@ -9,10 +9,18 @@ import StateOfBeing from '@src/containers/StateOfBeing';
 import { fetchWorkoutStats } from '@src/domain/workouts';
 import { fetchMeditationAggregates } from '@src/domain/meditations';
 import { fetchSleepAggregates } from '@src/domain/sleep';
+import {
+  fetchRestingHeartRate,
+  fetchHRV,
+  fetchBodySurfaceTemp,
+} from '@src/domain/healthkit';
 
 const workoutStats = await fetchWorkoutStats();
 const meditationAggregates = await fetchMeditationAggregates();
 const sleepAggregates = await fetchSleepAggregates();
+const rhrData = await fetchRestingHeartRate();
+const hrvData = await fetchHRV();
+const bodyTempData = await fetchBodySurfaceTemp();
 ---
 
 <HtmlLayout>
@@ -27,7 +35,9 @@ const sleepAggregates = await fetchSleepAggregates();
         workoutStats={workoutStats}
         sleepAggregates={sleepAggregates}
         meditationAggregates={meditationAggregates}
-        client:idle
+        rhrData={rhrData}
+        hrvData={hrvData}
+        bodyTempData={bodyTempData}
       />
     </main>
   </BodyLayout>

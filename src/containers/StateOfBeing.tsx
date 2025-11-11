@@ -1,11 +1,13 @@
 import clsx from 'clsx';
 import type { PropsWithChildren } from 'react';
 
-import { getMonthName, getNumberOfDaysInMonth } from '@src/utils/time';
+import { getMonthName } from '@src/utils/time';
 import FrappeChart from '@src/components/FrappeChart';
+import UnoTimeSeriesExplorer from '@src/components/healthkit/UnoTimeSeriesExplorer';
 import type { WorkoutStats } from '@src/domain/workouts';
 import type { MeditationAggregates } from '@src/domain/meditations';
-import type { SleepAggregates, fetchSleepAggregates } from '@src/domain/sleep';
+import type { SleepAggregates } from '@src/domain/sleep';
+import type { HealthMetricData } from '@src/domain/healthkit.types';
 
 function MeasurmentUnit({
   label,
@@ -18,7 +20,7 @@ function MeasurmentUnit({
     <div className="flex flex-col">
       <div className="text-xs uppercase">{label}</div>
       <div className={clsx('text-xl')}>
-        {value?.toFixed ? value.toFixed(0) : value || 0}
+        {typeof value === 'number' ? value.toFixed(0) : value || 0}
       </div>
     </div>
   );
@@ -329,11 +331,72 @@ function Health(
   );
 }
 
+function TimeSeriesExplorer(
+  props: PropsWithChildren<{
+    rhrData: HealthMetricData;
+    hrvData: HealthMetricData;
+    bodyTempData: HealthMetricData;
+    className?: string;
+  }>
+) {
+  return (
+    <div className={clsx('w-full', props.className)}>
+      <SectionHeader
+        title={'Time Series Explorer'}
+        description={
+          'Detailed time series data for HRV, Resting Heart Rate, and Body Surface Temperature. Use the period selector to view different time ranges.'
+        }
+      />
+
+      <div className={clsx('space-y-12')}>
+        <div>
+          <h3 className={clsx('text-sm font-medium mb-4 text-white')}>
+            HRV (Heart Rate Variability)
+          </h3>
+          <UnoTimeSeriesExplorer
+            data={props.hrvData}
+            title="HRV"
+            unit="ms"
+            color="#8cd187"
+          />
+        </div>
+
+        <div>
+          <h3 className={clsx('text-sm font-medium mb-4 text-white')}>
+            Resting Heart Rate
+          </h3>
+          <UnoTimeSeriesExplorer
+            data={props.rhrData}
+            title="Resting Heart Rate"
+            unit="bpm"
+            color="#FFC2CE"
+          />
+        </div>
+
+        <div>
+          <h3 className={clsx('text-sm font-medium mb-4 text-white')}>
+            Body Surface Temperature
+          </h3>
+          <UnoTimeSeriesExplorer
+            data={props.bodyTempData}
+            title="Body Surface Temperature"
+            unit="°C"
+            color="#bab7ea"
+          />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function StateOfBeing(
   props: PropsWithChildren<{
     workoutStats: WorkoutStats;
     meditationAggregates: MeditationAggregates;
     sleepAggregates: SleepAggregates;
+    rhrData: HealthMetricData;
+    hrvData: HealthMetricData;
+    bodyTempData: HealthMetricData;
   }>
 ) {
   return (
@@ -347,6 +410,14 @@ function StateOfBeing(
         sleepAggregates={props.sleepAggregates}
         className={'mt-12'}
       />
+
+      <div className={clsx('mt-12 bg-black rounded-lg p-4')}>
+        <TimeSeriesExplorer
+          rhrData={props.rhrData}
+          hrvData={props.hrvData}
+          bodyTempData={props.bodyTempData}
+        />
+      </div>
     </div>
   );
 }

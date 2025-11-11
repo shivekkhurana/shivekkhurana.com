@@ -4,10 +4,27 @@ import IndexBase from '@src/layouts/IndexBase.astro';
 import About from '@src/components/About';
 import Timeline from '@src/components/Timeline';
 import { getTimeline } from '@src/domain/content';
+import Snapshot from '@src/components/healthkit/Snapshot';
+import {
+  fetchRestingHeartRate,
+  fetchHRV,
+  fetchBodySurfaceTemp,
+} from '@src/domain/healthkit';
+
 const timelineItems = getTimeline();
+const rhrData = await fetchRestingHeartRate();
+const hrvData = await fetchHRV();
+const bodyTempData = await fetchBodySurfaceTemp();
 ---
 
 <IndexBase>
   <About />
+  <div class="mb-8">
+    <Snapshot
+      rhrData={rhrData}
+      hrvData={hrvData}
+      bodyTempData={bodyTempData}
+    />
+  </div>
   <Timeline timelineItems={timelineItems} />
 </IndexBase>
