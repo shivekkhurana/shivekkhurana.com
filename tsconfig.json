@@ -13,5 +13,5 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*", ".contentlayer/generated"]
+  "include": ["src/**/*", "test/**/*", ".contentlayer/generated"]
 }

@@ -13,11 +13,12 @@ import StateItem, {
   SpaceIcon,
   FireIcon,
 } from '@src/components/StateItem';
-import Travels from '@src/components/spotlight/Travels';
 import Projects from '@src/components/spotlight/Projects';
+import Location from '@src/components/spotlight/Location';
 
 import type { WorkoutStats } from '@src/domain/workouts';
 import type { StateItemProps } from '@src/components/StateItem';
+import type { LocationData } from '@src/domain/location.types';
 
 const workoutStats = await fetchWorkoutStats();
 const meditationAggregates = await fetchMeditationAggregates();
@@ -237,36 +238,45 @@ function ClojureCourseContent() {
   );
 }
 
-const spotlightItems: Record<string, SpotlightBaseCardProps> = {
-  projects: {
-    title: 'Projects',
-    icon: '/img/spotlightIcons/workbot.png',
-    contentComponent: Projects,
-    bgColorClass: 'from-[#D4F4D4] to-[#C8E6C8]',
-    smallHeading: true,
-    ctaLabel: 'LinkedIn',
-    ctaLink: 'https://www.linkedin.com/in/shivekkhurana/',
-    ctaColorClass: 'text-[#3D6520]',
-    ctaArrow: 'out',
-  },
-  stateOfBeing: {
-    title: 'State of being',
-    contentComponent: StateOfBeingContent,
-    icon: '/img/spotlightIcons/orb.png',
-    bgColorClass: 'from-[#D9D3FF] to-[#C0B6FC]',
-    ctaColorClass: 'text-[#6157A1]',
-    ctaArrow: 'right',
-  },
-  currentLocation: {
-    title: 'Currently in',
-    contentComponent: Travels,
-    icon: '/img/spotlightIcons/globe.png',
-    bgColorClass: 'from-[#D3F4FF] to-[#A8E6FF]',
-    smallHeading: true,
-  },
-};
+function LocationContent(props: { locationData: LocationData }) {
+  return <Location locationData={props.locationData} />;
+}
 
-function Spotlight() {
+function getSpotlightItems(
+  locationData: LocationData
+): Record<string, SpotlightBaseCardProps> {
+  return {
+    projects: {
+      title: 'Projects',
+      icon: '/img/spotlightIcons/workbot.png',
+      contentComponent: Projects,
+      bgColorClass: 'from-[#D4F4D4] to-[#C8E6C8]',
+      smallHeading: true,
+      ctaLabel: 'LinkedIn',
+      ctaLink: 'https://www.linkedin.com/in/shivekkhurana/',
+      ctaColorClass: 'text-[#3D6520]',
+      ctaArrow: 'out',
+    },
+    stateOfBeing: {
+      title: 'State of being',
+      contentComponent: StateOfBeingContent,
+      icon: '/img/spotlightIcons/orb.png',
+      bgColorClass: 'from-[#D9D3FF] to-[#C0B6FC]',
+      ctaColorClass: 'text-[#6157A1]',
+      ctaArrow: 'right',
+    },
+    location: {
+      title: 'Currently in',
+      contentComponent: () => <LocationContent locationData={locationData} />,
+      icon: '/img/spotlightIcons/globe.png',
+      bgColorClass: 'from-[#D3F4FF] to-[#A8E6FF]',
+      smallHeading: true,
+    },
+  };
+}
+
+function Spotlight(props: { locationData: LocationData }) {
+  const spotlightItems = getSpotlightItems(props.locationData);
   return (
     <>
       {Object.keys(spotlightItems).map((id: string) => {

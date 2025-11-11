@@ -3,12 +3,15 @@ import Seo from '@src/components/Seo';
 import HtmlLayout from '@src/layouts/Html.astro';
 import BodyLayout from '@src/layouts/Body.astro';
 import HeadLayout from '@src/layouts/Head.astro';
+import { fetchLocationData } from '@src/domain/location';
 
 import clsx from 'clsx';
 import Spotlight from '@src/components/Spotlight';
 import Timeline from '@src/components/Timeline';
 import About from '@src/components/About';
 import Nav from '@src/components/Nav';
+
+const locationData = await fetchLocationData();
 ---
 
 <HtmlLayout>
@@ -30,7 +33,7 @@ import Nav from '@src/components/Nav';
           <slot />
         </main>
         <aside class={clsx('w-full md:w-[320px] flex-shrink-0', 'md:pr-4')}>
-          <Spotlight />
+          <Spotlight locationData={locationData} />
         </aside>
       </div>
     </div>
