@@ -1,9 +1,12 @@
 import clsx from 'clsx';
-import type { HealthMetricData } from '@src/domain/healthkit.types';
+import type { HealthMetricData, SleepData } from '@src/domain/healthkit.types';
 import type { WorkoutStats } from '@src/domain/workouts';
+import type { LocationData } from '@src/domain/location.types';
 import config from '@src/config';
 import UnoTimeSeriesSnapshot from '@src/components/healthkit/UnoTimeSeriesSnapshot';
 import LinearProgress from '@src/components/healthkit/LinearProgress';
+import LocationPin from '@src/components/spotlight/LocationPin';
+import SleepCard from '@src/components/healthkit/SleepCard';
 
 export type UnoTimeSeriesMetricConfig = {
   title: string;
@@ -38,6 +41,8 @@ type SnapshotProps = {
   hrvData: HealthMetricData;
   bodyTempData: HealthMetricData;
   workoutStats?: WorkoutStats;
+  locationData?: LocationData;
+  lastSleepData: SleepData;
 };
 
 export default function Snapshot({
@@ -45,6 +50,8 @@ export default function Snapshot({
   hrvData,
   bodyTempData,
   workoutStats,
+  locationData,
+  lastSleepData,
 }: SnapshotProps) {
   // Calculate show-up rate for workouts
   const workoutShowUpRate =
@@ -57,6 +64,12 @@ export default function Snapshot({
 
   return (
     <div className={clsx('flex flex-row gap-1.5 items-center')}>
+      {locationData && (
+        <LocationPin
+          locationData={locationData}
+          className="w-24 h-24"
+        />
+      )}
       {workoutStats && workoutStats.latest && (
         <LinearProgress
           color={config.colors.healthkit.workouts}
@@ -90,6 +103,13 @@ export default function Snapshot({
         color={unoTimeSeriesMetrics.bodySurfaceTemp.color}
         className="w-24 h-24"
       />
+      {lastSleepData && (
+        <SleepCard
+          lastSleepData={lastSleepData}
+          color={config.colors.healthkit.sleep}
+          className="w-24 h-24"
+        />
+      )}
     </div>
   );
 }

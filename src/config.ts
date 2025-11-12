@@ -13,6 +13,7 @@ export default {
       restingHeartRate: '/vault/healthkit/restingHeartRate.json',
       hrv: '/vault/healthkit/hrv.json',
       bodySurfaceTemp: '/vault/healthkit/bodySurfaceTemp.json',
+      sleep: '/vault/healthkit/sleep.json',
     },
   },
   content: {
@@ -26,6 +27,7 @@ export default {
       bodySurfaceTemp: '#4ECDC4', // Turquoise
       bodySurfaceTempText: '#0D9488', // Darker teal for text readability
       workouts: '#A855F7', // Purple
+      sleep: '#6366F1', // Indigo
     },
   },
 };

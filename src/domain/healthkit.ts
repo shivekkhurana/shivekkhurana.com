@@ -5,6 +5,7 @@ import type {
   HealthMetricData,
   TimePeriod,
   ChartDataPoint,
+  SleepData,
 } from '@src/domain/healthkit.types';
 
 async function fetchHealthMetric(endpoint: string): Promise<HealthMetricData> {
@@ -24,13 +25,52 @@ export async function fetchBodySurfaceTemp(): Promise<HealthMetricData> {
   return fetchHealthMetric(config.vault.healthkit.bodySurfaceTemp);
 }
 
+export async function fetchSleep(): Promise<SleepData[]> {
+  const url = `${config.stateOfBeingPagesBase}${config.vault.healthkit.sleep}`;
+  const data = await fetch(url).then((res) => res.json());
+
+  return data.metrics;
+}
+
+export async function fetchLastSleep(): Promise<SleepData> {
+  const sleepData = await fetchSleep();
+  return sleepData[sleepData.length - 1];
+}
+
 /**
  * Parse HealthKit date string to Date object
  */
 export function parseHealthKitDate(dateString: string): Date {
-  // Format: "YYYY-MM-DD HH:mm:ss +TZ"
-  // We'll parse it as a date string, handling the timezone
-  return new Date(dateString);
+  // Format: "YYYY-MM-DD HH:mm:ss +TZ" or "YYYY-MM-DD HH:mm:ss +TZ:TZ"
+  // Convert to ISO 8601 format: "YYYY-MM-DDTHH:mm:ss+TZ:TZ"
+  let normalizedDate = dateString;
+
+  // Replace space between date and time with 'T' for ISO 8601
+  normalizedDate = normalizedDate.replace(/^(\d{4}-\d{2}-\d{2}) /, '$1T');
+
+  // If timezone is in format "+0530" (4 digits), convert to "+05:30"
+  const timezoneMatch = normalizedDate.match(/([+-])(\d{4})$/);
+  if (timezoneMatch) {
+    const sign = timezoneMatch[1];
+    const tz = timezoneMatch[2];
+    const hours = tz.substring(0, 2);
+    const minutes = tz.substring(2, 4);
+    normalizedDate = normalizedDate.replace(
+      /([+-])(\d{4})$/,
+      `${sign}${hours}:${minutes}`
+    );
+  }
+
+  const date = new Date(normalizedDate);
+
+  // If parsing failed, try without timezone
+  if (isNaN(date.getTime())) {
+    // Try parsing just the date part
+    const dateOnly = dateString.split(' ')[0];
+    return new Date(dateOnly);
+  }
+
+  return date;
 }
 
 /**
@@ -137,7 +177,15 @@ export function calculateAverage(data: HealthMetricData): number {
 /**
  * Format number for display
  */
-export function formatNumber(value: number, decimals?: number): string {
+export function formatNumber(
+  value: number | undefined | null,
+  decimals?: number
+): string {
+  // Handle undefined, null, or NaN values - must check first before any operations
+  if (value === undefined || value === null || isNaN(value)) {
+    return decimals !== undefined ? (0).toFixed(decimals) : '0';
+  }
+
   if (decimals !== undefined) {
     return value.toFixed(decimals);
   }
@@ -193,5 +241,44 @@ export function getDateRangeString(
  */
 export function formatDateShort(date: Date | string): string {
   const dateObj = typeof date === 'string' ? parseHealthKitDate(date) : date;
+
+  // Check if date is valid
+  if (isNaN(dateObj.getTime())) {
+    return '';
+  }
+
   return format(dateObj, 'd MMM');
+}
+
+/**
+ * Calculate sleep stage percentage
+ */
+export function calculateSleepStagePercentage(
+  stageHours: number | undefined | null,
+  totalSleep: number | undefined | null
+): number {
+  if (!totalSleep || totalSleep === 0 || !stageHours) return 0;
+  return (stageHours / totalSleep) * 100;
+}
+
+/**
+ * Format sleep hours for display (e.g., "8.25")
+ */
+export function formatSleepHours(hours: number | undefined | null): string {
+  return formatNumber(hours ?? 0, 2);
+}
+
+/**
+ * Get sleep stage percentages
+ */
+export function getSleepStagePercentages(sleepData: SleepData): {
+  rem: number;
+  deep: number;
+  core: number;
+} {
+  return {
+    rem: calculateSleepStagePercentage(sleepData.rem, sleepData.totalSleep),
+    deep: calculateSleepStagePercentage(sleepData.deep, sleepData.totalSleep),
+    core: calculateSleepStagePercentage(sleepData.core, sleepData.totalSleep),
+  };
 }

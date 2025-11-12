@@ -1,16 +1,26 @@
 import clsx from 'clsx';
-import type { HealthMetricData } from '@src/domain/healthkit.types';
+import type { HealthMetricData, SleepData } from '@src/domain/healthkit.types';
 import type { WorkoutStats } from '@src/domain/workouts';
-import Snapshot from './healthkit/Snapshot';
+import type { LocationData } from '@src/domain/location.types';
+import Snapshot from '@src/components/healthkit/Snapshot';
 
 type NavProps = {
-  rhrData?: HealthMetricData;
-  hrvData?: HealthMetricData;
-  bodyTempData?: HealthMetricData;
-  workoutStats?: WorkoutStats;
+  rhrData: HealthMetricData;
+  hrvData: HealthMetricData;
+  bodyTempData: HealthMetricData;
+  workoutStats: WorkoutStats;
+  locationData: LocationData;
+  lastSleepData: SleepData;
 };
 
-function Nav({ rhrData, hrvData, bodyTempData, workoutStats }: NavProps = {}) {
+function Nav({
+  rhrData,
+  hrvData,
+  bodyTempData,
+  workoutStats,
+  locationData,
+  lastSleepData,
+}: NavProps) {
   return (
     <nav
       className={clsx(
@@ -51,6 +61,8 @@ function Nav({ rhrData, hrvData, bodyTempData, workoutStats }: NavProps = {}) {
               hrvData={hrvData}
               bodyTempData={bodyTempData}
               workoutStats={workoutStats}
+              locationData={locationData}
+              lastSleepData={lastSleepData}
             />
           </div>
         )}

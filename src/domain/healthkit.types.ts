@@ -13,3 +13,19 @@ export type ChartDataPoint = {
   date: Date;
   value: number;
 };
+
+export type SleepData = {
+  inBedStart: string;
+  awake: number;
+  source: string;
+  sleepStart: string;
+  totalSleep: number;
+  sleepEnd: string;
+  date: string;
+  deep: number;
+  rem: number;
+  inBedEnd: string;
+  inBed: number;
+  core: number;
+  asleep: number;
+};

@@ -8,6 +8,7 @@ import {
   fetchRestingHeartRate,
   fetchHRV,
   fetchBodySurfaceTemp,
+  fetchLastSleep,
 } from '@src/domain/healthkit';
 import { fetchWorkoutStats } from '@src/domain/workouts';
 
@@ -22,6 +23,7 @@ const rhrData = await fetchRestingHeartRate();
 const hrvData = await fetchHRV();
 const bodyTempData = await fetchBodySurfaceTemp();
 const workoutStats = await fetchWorkoutStats();
+const lastSleepData = await fetchLastSleep();
 ---
 
 <HtmlLayout>
@@ -41,6 +43,8 @@ const workoutStats = await fetchWorkoutStats();
       hrvData={hrvData}
       bodyTempData={bodyTempData}
       workoutStats={workoutStats}
+      locationData={locationData}
+      lastSleepData={lastSleepData}
     />
 
     <div class={clsx('w-11/12 mx-auto lg:w-8/12 xl:w-6/12', '')}>
