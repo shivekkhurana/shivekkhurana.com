@@ -64,11 +64,18 @@ export function getLatestValue(data: HealthMetricData): HealthMetric | null {
 }
 
 /**
- * Get weekly data (last 7 days)
+ * Get weekly data (last 7 days from the latest data point)
  */
 export function getWeeklyData(data: HealthMetricData): ChartDataPoint[] {
-  const now = new Date();
-  const sevenDaysAgo = subDays(now, 7);
+  // Use the latest data point's date as the reference, not today
+  // This ensures the weekly view is relative to when data was last recorded
+  const latest = getLatestValue(data);
+  if (!latest) {
+    return [];
+  }
+
+  const latestDate = parseHealthKitDate(latest.date);
+  const sevenDaysAgo = subDays(latestDate, 7);
 
   return transformMetricsForChart(data).filter(
     (point) => point.date >= sevenDaysAgo

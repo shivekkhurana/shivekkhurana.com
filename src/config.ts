@@ -19,4 +19,13 @@ export default {
     source: './content',
     sink: './content/index.json',
   },
+  colors: {
+    healthkit: {
+      restingHeartRate: '#FF69B4', // Hot pink
+      hrv: '#FF6B6B', // Coral red
+      bodySurfaceTemp: '#4ECDC4', // Turquoise
+      bodySurfaceTempText: '#0D9488', // Darker teal for text readability
+      workouts: '#A855F7', // Purple
+    },
+  },
 };

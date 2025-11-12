@@ -4,6 +4,12 @@ import HtmlLayout from '@src/layouts/Html.astro';
 import BodyLayout from '@src/layouts/Body.astro';
 import HeadLayout from '@src/layouts/Head.astro';
 import { fetchLocationData } from '@src/domain/location';
+import {
+  fetchRestingHeartRate,
+  fetchHRV,
+  fetchBodySurfaceTemp,
+} from '@src/domain/healthkit';
+import { fetchWorkoutStats } from '@src/domain/workouts';
 
 import clsx from 'clsx';
 import Spotlight from '@src/components/Spotlight';
@@ -12,6 +18,10 @@ import About from '@src/components/About';
 import Nav from '@src/components/Nav';
 
 const locationData = await fetchLocationData();
+const rhrData = await fetchRestingHeartRate();
+const hrvData = await fetchHRV();
+const bodyTempData = await fetchBodySurfaceTemp();
+const workoutStats = await fetchWorkoutStats();
 ---
 
 <HtmlLayout>
@@ -26,8 +36,14 @@ const locationData = await fetchLocationData();
   </HeadLayout>
 
   <BodyLayout>
+    <Nav
+      rhrData={rhrData}
+      hrvData={hrvData}
+      bodyTempData={bodyTempData}
+      workoutStats={workoutStats}
+    />
+
     <div class={clsx('w-11/12 mx-auto lg:w-8/12 xl:w-6/12', '')}>
-      <Nav />
       <div class={clsx('flex flex-col md:flex-row', '')}>
         <main class={clsx('flex-grow', 'break-words', 'pr-4')}>
           <slot />
