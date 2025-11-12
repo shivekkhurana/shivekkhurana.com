@@ -102,10 +102,10 @@ export default function SleepCard({
         'pt-2 pb-2',
         // Appearance
         'rounded-lg overflow-hidden',
-        // Cursor
-        'cursor-pointer',
         // Gradient background
-        getGradientClasses(color)
+        getGradientClasses(color),
+        // Cursor (must be last to ensure it's applied)
+        'cursor-pointer'
       )}
     >
       {/* Top section: Label (left) and Total Hours (right) */}
@@ -164,7 +164,7 @@ export default function SleepCard({
 
         {/* Bar container */}
         <div
-          className={clsx('w-full h-8')}
+          className={clsx('w-full h-4')}
           style={{
             backgroundColor: barContainerColor,
             boxShadow:

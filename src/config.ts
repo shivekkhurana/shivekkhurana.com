@@ -27,7 +27,7 @@ export default {
       bodySurfaceTemp: '#4ECDC4', // Turquoise
       bodySurfaceTempText: '#0D9488', // Darker teal for text readability
       workouts: '#A855F7', // Purple
-      sleep: '#6366F1', // Indigo
+      sleep: '#10B981', // Green
     },
   },
 };

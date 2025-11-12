@@ -180,10 +180,10 @@ export default function UnoTimeSeriesSnapshot({
         'px-2 pt-2 pb-0',
         // Appearance
         'rounded-lg overflow-hidden',
-        // Cursor
-        'cursor-pointer',
         // Gradient background
-        getGradientClasses(color)
+        getGradientClasses(color),
+        // Cursor (must be last to ensure it's applied)
+        'cursor-pointer'
       )}
     >
       {/* Top section: Label (left) and Value (right) */}
