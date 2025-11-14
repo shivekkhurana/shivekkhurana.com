@@ -54,13 +54,7 @@ function BaseTimelineLog(props: PropsWithChildren<{ t: TimelineItem }>) {
           'group-hover:opacity-90'
         )}
       >
-        {
-          convertDateString(
-            t.type === 'Post' || t.type === 'MicroPost'
-              ? t.publishedOn!
-              : t.createdAt
-          ).split(',')[0]
-        }
+        {convertDateString(t.publishedOn!).split(',')[0]}
       </div>
       <div className="w-1/12">
         <img
@@ -94,13 +88,7 @@ function TimelineLogs(
       {timelineItems.map((t: TimelineItem) => {
         return (
           <BaseTimelineLog
-            key={
-              t.type === 'Post'
-                ? t.slug!
-                : t.type === 'MicroPost'
-                  ? t.publishedOn!
-                  : t.createdAt
-            }
+            key={t.type === 'Post' ? t.slug! : t.publishedOn!}
             t={t}
           >
             <ComputedComp t={t} />

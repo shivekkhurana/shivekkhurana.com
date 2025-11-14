@@ -29,7 +29,8 @@
     "shiki": "0.9.3",
     "tailwindcss": "^3.3.6",
     "update-browserslist-db": "latest",
-    "usehooks-ts": "^2.9.1"
+    "usehooks-ts": "^2.9.1",
+    "vaul": "^1.1.2"
   },
   "devDependencies": {
     "bun-types": "^1.0.18",

@@ -1,0 +1,49 @@
+/* MLMRoman Font Face Declarations */
+
+@font-face {
+  font-family: 'MLMRoman';
+  src: url('/fonts/MLMRoman12-Regular.D13Jik12.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MLMRoman';
+  src: url('/fonts/MLMRoman12-Italic.CZt6EMg7.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MLMRoman';
+  src: url('/fonts/MLMRoman12-Bold.DH6SWUJU.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Utility Classes for MLMRoman */
+
+.font-mlm-roman {
+  font-family: 'MLMRoman', serif;
+}
+
+.font-mlm-roman-regular {
+  font-family: 'MLMRoman', serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-mlm-roman-italic {
+  font-family: 'MLMRoman', serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.font-mlm-roman-bold {
+  font-family: 'MLMRoman', serif;
+  font-weight: 700;
+  font-style: normal;
+}

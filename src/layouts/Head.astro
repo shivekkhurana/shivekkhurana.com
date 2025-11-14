@@ -1,23 +1,53 @@
-<head>
+---
+import '@src/styles/fonts.css';
+---
 
+<head>
   <!-- boring stuff -->
   <meta charset="UTF-8" />
 
-  <link rel="icon" type="image/webp" href="/favicon.webp" />
-  <meta name="viewport" content="width=device-width" />
+  <link
+    rel="icon"
+    type="image/webp"
+    href="/favicon.webp"
+  />
+  <meta
+    name="viewport"
+    content="width=device-width"
+  />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  />
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <!-- https://pagespeedchecklist.com/asynchronous-google-fonts->
   <!-- connect to domain of font files -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  />
 
   <!-- optionally increase loading priority -->
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap">
+  <link
+    rel="preload"
+    as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+  />
 
   <!-- async CSS -->
-  <link rel="stylesheet" media="print" onload="this.onload=null;this.removeAttribute('media');" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap">
+  <link
+    rel="stylesheet"
+    media="print"
+    onload="this.onload=null;this.removeAttribute('media');"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+  />
 
   <!-- no-JS fallback -->
   <noscript>
@@ -26,7 +56,6 @@
       rel="stylesheet"
     />
   </noscript>
-
 
   <!-- Page specific SEO -->
   <slot />

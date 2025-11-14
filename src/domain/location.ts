@@ -82,7 +82,6 @@ function getTimeInCityAndOffset(cityData: CityData): string[] {
 
 /**
  * Get the last location entry and its timezone info
- * Similar to getLastTripAndEndCityTime from content.ts
  */
 function getLastLocationAndTime(locationData: LocationData): {
   location: LocationEntry;

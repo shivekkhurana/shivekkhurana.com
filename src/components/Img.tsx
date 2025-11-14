@@ -5,8 +5,8 @@ import img from '@src/utils/image';
 interface ImgProps {
   path: string;
   alt: string;
-  defaultWidth: 80 | 240 | 480 | 720 | 960 | 1440;
-  className: string;
+  defaultWidth?: 80 | 240 | 480 | 720 | 960 | 1440;
+  className?: string;
 }
 
 function Img({ path, alt, className, defaultWidth = 240 }: ImgProps) {
@@ -15,10 +15,16 @@ function Img({ path, alt, className, defaultWidth = 240 }: ImgProps) {
 
   return (
     <img
-      srcSet={widths.map((width) => {
-        return `${optimizedBase}/w-${width}.webp ${width}w`
-      }).join(',')}
-      src={`${optimizedBase}/w-${defaultWidth}.webp`} alt={alt} className={className} />
+      srcSet={widths
+        .map((width) => {
+          return `${optimizedBase}/w-${width}.webp ${width}w`;
+        })
+        .join(', ')}
+      src={`${optimizedBase}/w-${defaultWidth}.webp`}
+      alt={alt}
+      className={className}
+      loading="lazy"
+    />
   );
 }
 

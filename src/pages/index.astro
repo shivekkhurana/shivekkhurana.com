@@ -1,14 +1,40 @@
 ---
 import IndexBase from '@src/layouts/IndexBase.astro';
 
+import Hero from '@src/components/Hero';
+import Health from '@src/components/Health';
 import About from '@src/components/About';
 import Timeline from '@src/components/Timeline';
 import { getTimeline } from '@src/domain/content';
+import { fetchLocationData } from '@src/domain/location';
+import {
+  fetchRestingHeartRate,
+  fetchHRV,
+  fetchBodySurfaceTemp,
+  fetchLastSleep,
+} from '@src/domain/healthkit';
+import { fetchWorkoutStats } from '@src/domain/workouts';
 
 const timelineItems = getTimeline();
+const locationData = await fetchLocationData();
+const rhrData = await fetchRestingHeartRate();
+const hrvData = await fetchHRV();
+const bodyTempData = await fetchBodySurfaceTemp();
+const workoutStats = await fetchWorkoutStats();
+const lastSleepData = await fetchLastSleep();
 ---
 
 <IndexBase>
-  <About />
-  <Timeline timelineItems={timelineItems} />
+  <Hero client:load />
+  <Health
+    client:load
+    rhrData={rhrData}
+    hrvData={hrvData}
+    bodyTempData={bodyTempData}
+    workoutStats={workoutStats}
+    locationData={locationData}
+    lastSleepData={lastSleepData}
+  />
+  <!-- <About />
+  <Timeline timelineItems={timelineItems} /> -->
 </IndexBase>

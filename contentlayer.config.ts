@@ -1,5 +1,5 @@
-import { defineDocumentType, makeSource } from 'contentlayer/source-files'
-import { Marked } from 'marked'
+import { defineDocumentType, makeSource } from 'contentlayer/source-files';
+import { Marked } from 'marked';
 import { markedHighlight } from 'marked-highlight';
 import { getHighlighter } from 'shiki';
 
@@ -7,12 +7,11 @@ const marked = new Marked(
   markedHighlight({
     async: true,
     async highlight(code, lang, _info) {
-
-      const highlighter = await getHighlighter({ theme: 'monokai' })
-      return highlighter.codeToHtml(code, lang)
-    }
+      const highlighter = await getHighlighter({ theme: 'monokai' });
+      return highlighter.codeToHtml(code, lang);
+    },
   })
-)
+);
 
 const Tag = defineDocumentType(() => ({
   name: 'Tag',
@@ -65,21 +64,9 @@ const Post = defineDocumentType(() => ({
     parsedMd: {
       type: 'string',
       resolve: (doc) => {
-        return marked.parse(doc.body.raw)
-      }
-    }
-  }
-}));
-
-const Trip = defineDocumentType(() => ({
-  name: 'Trip',
-  filePathPattern: 'trips/*.md',
-  fields: {
-    createdAt: { type: 'date' },
-    startCity: { type: 'string' },
-    startCountry: { type: 'string' },
-    endCity: { type: 'string' },
-    endCountry: { type: 'string' },
+        return marked.parse(doc.body.raw);
+      },
+    },
   },
 }));
 
@@ -95,5 +82,8 @@ const MicroPost = defineDocumentType(() => ({
 }));
 
 export default makeSource({
-  contentDirPath: 'content', documentTypes: [Post, MicroPost, Trip, Tag, Author], disableImportAliasWarning: true, contentDirExclude: ["pages"],
-})
+  contentDirPath: 'content',
+  documentTypes: [Post, MicroPost, Tag, Author],
+  disableImportAliasWarning: true,
+  contentDirExclude: ['pages'],
+});

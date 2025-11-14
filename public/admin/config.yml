@@ -144,25 +144,6 @@ collections:
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
-  - name: 'trips'
-    label: 'Trips'
-    folder: 'content/trips'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{startCity}}-{{endCity}}'
-    summary: '{{startCity}} -> {{endCity}}'
-    fields:
-      - {
-          label: 'Created At',
-          name: 'createdAt',
-          widget: 'datetime',
-          default: 'now',
-        }
-
-      - { label: 'Start City', name: 'startCity', widget: 'string' }
-      - { label: 'Start Country', name: 'startCountry', widget: 'string' }
-      - { label: 'End City', name: 'endCity', widget: 'string' }
-      - { label: 'End Country', name: 'endCountry', widget: 'string' }
-
   - name: 'microPosts'
     label: 'Micro Posts'
     folder: 'content/microPosts'
