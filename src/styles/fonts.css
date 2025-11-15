@@ -47,3 +47,14 @@
   font-weight: 700;
   font-style: normal;
 }
+
+/* Text Selection Color */
+::selection {
+  background-color: #e5e5e5;
+  color: inherit;
+}
+
+::-moz-selection {
+  background-color: #e5e5e5;
+  color: inherit;
+}

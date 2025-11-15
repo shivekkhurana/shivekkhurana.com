@@ -14,6 +14,7 @@ type LinearProgressProps = {
   className?: string; // For dimensions
   icon?: ReactNode; // Optional icon to display in the top-right corner
   showUpRate?: string; // Optional show-up rate to display next to month (e.g., "75%")
+  totalBars?: number; // Number of bars to display (default: 12)
 };
 
 // Helper function to convert hex color to rgba with opacity
@@ -47,6 +48,7 @@ export default function LinearProgress({
   className,
   icon,
   showUpRate,
+  totalBars = 12,
 }: LinearProgressProps) {
   // Calculate percentage based on current value relative to target
   // Map current value from [lowestValue, targetValue] to [0, 100]
@@ -62,6 +64,9 @@ export default function LinearProgress({
   const baseBarColor = hexToRgba(color, 0.5);
   // Fill color uses the provided color
   const fillBarColor = color;
+
+  // Calculate filled bars proportionally (rounded down)
+  const filledBars = Math.floor((currentValue / targetValue) * totalBars);
 
   return (
     <div
@@ -116,29 +121,28 @@ export default function LinearProgress({
             </span>
           </div>
         </div>
-        {/* Bar container */}
+        {/* Discrete bars container */}
         <div
-          className={clsx('relative w-full h-8 overflow-hidden rounded-sm')}
+          className={clsx('w-full h-8 grid items-end')}
           style={{
-            boxShadow:
-              'inset 0 2px 4px rgba(0, 0, 0, 0.1), inset 0 1px 2px rgba(0, 0, 0, 0.06)',
+            gridTemplateColumns: `repeat(${totalBars}, 1fr)`,
+            gap: '0.125rem',
           }}
         >
-          {/* Base bar (background) - similar to missing data bar */}
-          <div
-            className={clsx('absolute inset-0 rounded-sm')}
-            style={{
-              backgroundColor: baseBarColor,
-            }}
-          />
-          {/* Fill bar (progress) - using the provided color */}
-          <div
-            className={clsx('absolute left-0 top-0 bottom-0 rounded-sm')}
-            style={{
-              width: `${Math.max(0, Math.min(100, percentage))}%`,
-              backgroundColor: fillBarColor,
-            }}
-          />
+          {Array.from({ length: totalBars }, (_, index) => {
+            const barIndex = index + 1;
+            const isFilled = barIndex <= filledBars;
+
+            return (
+              <div
+                key={`bar-${index}`}
+                style={{
+                  height: '100%',
+                  backgroundColor: isFilled ? fillBarColor : baseBarColor,
+                }}
+              />
+            );
+          })}
         </div>
       </div>
     </div>

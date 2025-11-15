@@ -76,20 +76,21 @@ type MobileNavDrawerProps = {
 function MobileNavDrawer({ links }: MobileNavDrawerProps) {
   return (
     <div className="md:hidden">
-      <Drawer.Root>
+      <Drawer.Root shouldScaleBackground={false}>
         <Drawer.Trigger asChild>
           <button
             className={clsx(
               'font-mlm-roman',
               'text-black',
               'hover:opacity-80',
+              'text-sm',
               'transition-opacity',
-              'text-xl',
-              'leading-none'
+              'leading-none',
+              'outline-none'
             )}
             aria-label="Open navigation menu"
           >
-            ⋯
+            &#8226;&#8226;
           </button>
         </Drawer.Trigger>
         <Drawer.Portal>
@@ -100,7 +101,7 @@ function MobileNavDrawer({ links }: MobileNavDrawerProps) {
             className={clsx(
               'bg-white',
               'flex flex-col',
-              'rounded-lg',
+              'rounded-t-2xl',
               'h-[28%]',
               'fixed bottom-0 left-0 right-0',
               'outline-none',
@@ -148,16 +149,18 @@ function NavV2({ links = navLinks }: NavV2Props) {
     <nav
       className={clsx(
         'sticky top-0 z-50',
+        'rounded-t-lg',
         'w-full',
         'backdrop-blur-md bg-white/70',
         'border-b border-black',
         'flex items-center justify-between',
-        'px-4 py-[1px]'
+        'px-2 py-[1px]'
       )}
     >
       <NavBrand />
-      <DesktopNavLinks links={links} />
-      <MobileNavDrawer links={links} />
+
+      {/* <DesktopNavLinks links={links} />
+      <MobileNavDrawer links={links} /> */}
     </nav>
   );
 }

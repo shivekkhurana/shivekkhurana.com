@@ -26,8 +26,7 @@ function MediaCard({
         // Shape
         'rounded',
         'p-1',
-        'border border-gray-300',
-        // Responsive width
+        'border border-gray-100',
         'w-20 sm:w-24 md:w-40 lg:w-56'
       )}
       style={
@@ -44,7 +43,8 @@ function MediaCard({
           // Shape
           'rounded-sm',
           'p-1',
-          'border border-gray-300'
+          'bg-white',
+          'border border-gray-200'
         )}
       >
         {type === 'video' ? (
@@ -56,6 +56,7 @@ function MediaCard({
               // Sizing - 768x1024 aspect ratio (3:4)
               'w-full',
               'aspect-[3/4]',
+              'shadow-sm',
               // Cropping
               'object-cover'
             )}
