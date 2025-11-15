@@ -9,6 +9,7 @@ import StructuredData from '@src/components/StructuredData';
 import HtmlLayout from '@src/layouts/Html.astro';
 import BodyLayout from '@src/layouts/Body.astro';
 import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
 
 export async function getStaticPaths() {
   const posts = getAllPosts();
@@ -51,5 +52,6 @@ const author = getAuthorBySlug(post.author);
       </div>
       <Post post={post} />
     </article>
+    <Footer />
   </BodyLayout>
 </HtmlLayout>

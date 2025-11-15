@@ -5,7 +5,7 @@ import Hero from '@src/components/Hero';
 import Health from '@src/components/Health';
 import About from '@src/components/About';
 import Timeline from '@src/components/Timeline';
-import { getTimeline } from '@src/domain/content';
+import { getTimelinePosts } from '@src/domain/content';
 import { fetchLocationData } from '@src/domain/location';
 import {
   fetchRestingHeartRate,
@@ -15,7 +15,7 @@ import {
 } from '@src/domain/healthkit';
 import { fetchWorkoutStats } from '@src/domain/workouts';
 
-const timelineItems = getTimeline();
+const timelineItems = getTimelinePosts();
 const locationData = await fetchLocationData();
 const rhrData = await fetchRestingHeartRate();
 const hrvData = await fetchHRV();

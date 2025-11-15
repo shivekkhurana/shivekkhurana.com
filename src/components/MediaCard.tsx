@@ -6,9 +6,18 @@ interface MediaCardProps {
   alt: string;
   title: string;
   type?: 'image' | 'video'; // Defaults to 'image'
+  loading?: 'lazy' | 'eager';
+  fetchPriority?: 'high' | 'low' | 'auto';
 }
 
-function MediaCard({ src, alt, title, type = 'image' }: MediaCardProps) {
+function MediaCard({
+  src,
+  alt,
+  title,
+  type = 'image',
+  loading,
+  fetchPriority,
+}: MediaCardProps) {
   return (
     <div
       className={clsx(
@@ -63,6 +72,8 @@ function MediaCard({ src, alt, title, type = 'image' }: MediaCardProps) {
               // Cropping
               'object-cover'
             )}
+            loading={loading}
+            fetchPriority={fetchPriority as 'high' | 'low' | 'auto'}
           />
         )}
       </div>

@@ -24,19 +24,47 @@ function Health({
   return (
     <div className={clsx('mb-16 font-mlm-roman')}>
       {/* Heading */}
-      <h2 className="font-bold text-xl md:text-2xl mb-6">Health</h2>
+      <h2 className="font-bold text-lg mb-6">Health</h2>
 
       {/* Content */}
-      <div className={clsx('')}>
-        <div className="space-y-1 text-base">
-          <p>Gym is my happy place. I train to gain muscle and flexibility.</p>
-          <p className="opacity-70">
-            Inspired by Bryan Johnson, I track my sleep, heart and workouts with
-            the goal of longevity.
+      <div className={clsx('opacity-80')}>
+        <div className="text-base">
+          <p>
+            I train for mental balance. Muscle gain, flexibility and joint
+            strength is a side effect.
           </p>
-          <p className="opacity-70">
-            I learnt working out with Nike Training Center, Edison and the ATG
-            Channel.
+          <p className="">
+            My fitness journey started as a football player. After school, I
+            pursued sports as a hobby, but trained with{' '}
+            <a
+              href="https://www.nike.com/in/ntc-app"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Nike Training Center
+            </a>
+            . After logging 22k minutes, 690 workouts, and unlocking every
+            trophy in the app, I moved to other modalities. My current workout
+            strategy comes from{' '}
+            <a
+              href="https://www.instagram.com/edisondudoit/"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Edison
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://www.atgonlinecoaching.com/"
+              className="underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ATG Coaching
+            </a>
+            .
           </p>
         </div>
 

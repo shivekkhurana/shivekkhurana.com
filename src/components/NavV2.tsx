@@ -25,16 +25,11 @@ function NavBrand() {
       <img
         src={omLogo.src}
         alt="Om"
-        className="h-4 w-auto"
+        className="h-[16px] w-[20.8px]"
       />
       <a
         href="/"
-        className={clsx(
-          'font-mlm-roman',
-          'text-black',
-          'hover:opacity-80',
-          'transition-opacity'
-        )}
+        className={clsx('font-mlm-roman', 'text-black')}
       >
         Shivek Khurana
       </a>
@@ -167,3 +162,4 @@ function NavV2({ links = navLinks }: NavV2Props) {
 
 export default NavV2;
 export type { NavLink };
+export { navLinks };

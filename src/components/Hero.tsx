@@ -42,14 +42,10 @@ function Hero() {
       <h1 className="font-bold text-2xl md:text-3xl mb-6">Shivek Khurana</h1>
 
       {/* Intro text */}
-      <div className="mb-8 space-y-2 text-lg">
+      <div className="mb-8 space-y-2 text-lg opacity-80">
         <p>
           I make things. Mostly software, but sometimes clothes, courses,
           videos, or essays.
-        </p>
-        <p className="opacity-70">
-          Recently shut down my company after 4 years, and building a new
-          product.
         </p>
       </div>
 
@@ -65,6 +61,8 @@ function Hero() {
               alt={shot.alt}
               title={shot.title}
               type={shot.type}
+              loading={index === 0 ? 'eager' : 'lazy'}
+              fetchPriority={index === 0 ? 'high' : undefined}
             />
           </div>
         ))}

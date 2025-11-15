@@ -106,17 +106,8 @@ function Timeline({
 }) {
   return (
     <section className="selection:bg-fuchsia-300 selection:text-fuchsia-900">
-      <h2 className="text-lg font-bold">Past Writings</h2>
-      <div className="text-sm opacity-60">
-        I used to blog here, but now I publish only on{' '}
-        <a
-          href="https://x.com/shivek_khurana"
-          className="underline"
-        >
-          x.com
-        </a>
-        .
-      </div>
+      <h2 className="text-lg font-bold font-mlm-roman">Writings</h2>
+      <div className="text-sm opacity-60"></div>
       {Object.keys(timelineItems)
         .sort((a: string, b: string) => parseInt(b) - parseInt(a))
         .map((year: string) => {
