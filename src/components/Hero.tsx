@@ -54,17 +54,19 @@ function Hero() {
       </div>
 
       {/* Media cards grid */}
-      <div className="flex flex-wrap gap-4 md:gap-6 justify-start items-start">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
         {shots.map((shot, index) => (
-          <MediaCard
+          <div
             key={index}
-            src={shot.src}
-            alt={shot.alt}
-            color={shot.color}
-            backgroundColor={shot.backgroundColor}
-            title={shot.title}
-            type={shot.type}
-          />
+            className=""
+          >
+            <MediaCard
+              src={shot.src}
+              alt={shot.alt}
+              title={shot.title}
+              type={shot.type}
+            />
+          </div>
         ))}
       </div>
     </div>

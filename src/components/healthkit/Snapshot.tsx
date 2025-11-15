@@ -63,7 +63,7 @@ export default function Snapshot({
       : undefined;
 
   return (
-    <div className={clsx('flex flex-row gap-1.5 items-center')}>
+    <div className={clsx('flex flex-row flex-wrap gap-1.5 items-center')}>
       {locationData && (
         <LocationPin
           locationData={locationData}

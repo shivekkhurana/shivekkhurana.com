@@ -4,42 +4,28 @@ import Img from '@src/components/Img';
 interface MediaCardProps {
   src: string;
   alt: string;
-  color: string; // rgba value for border (e.g., 'rgba(128, 128, 128, 1)')
-  backgroundColor: string; // rgba value for background with opacity (e.g., 'rgba(128, 128, 128, 0.15)')
   title: string;
   type?: 'image' | 'video'; // Defaults to 'image'
 }
 
-function MediaCard({
-  src,
-  alt,
-  color,
-  backgroundColor,
-  title,
-  type = 'image',
-}: MediaCardProps) {
+function MediaCard({ src, alt, title, type = 'image' }: MediaCardProps) {
   return (
     <div
       className={clsx(
         // Layout
-        'relative inline-block',
+        'flex flex-col',
         // Shape
         'rounded',
         'p-1',
         'border border-gray-100',
-        'w-20 sm:w-24 md:w-40 lg:w-56'
+        'aspect-[3/4]'
       )}
-      style={
-        {
-          // backgroundColor: backgroundColor,
-        }
-      }
     >
       {/* Media container */}
       <div
         className={clsx(
           // Layout
-          'relative overflow-hidden',
+          'overflow-hidden flex-1 min-h-0',
           // Shape
           'rounded-sm',
           'p-1',
@@ -53,9 +39,8 @@ function MediaCard({
             className={clsx(
               // Display
               'block',
-              // Sizing - 768x1024 aspect ratio (3:4)
-              'w-full',
-              'aspect-[3/4]',
+              // Sizing - fill container
+              'w-full h-full',
               'shadow-sm',
               // Cropping
               'object-cover'
@@ -73,10 +58,11 @@ function MediaCard({
             className={clsx(
               // Display
               'block',
-              // Sizing
-              'h-auto w-full'
+              // Sizing - fill container
+              'w-full h-full',
+              // Cropping
+              'object-cover'
             )}
-            defaultWidth={480}
           />
         )}
       </div>

@@ -128,7 +128,6 @@ function SpotlightBaseCard(props: SpotlightBaseCardProps) {
         <Img
           path={props.icon}
           alt={`${props.title} icon`}
-          defaultWidth={240}
           className={clsx(
             'mr-[-8%] sm:mr-[-6%] md:mr-[-24%] mb-[-48%]',
             'h-[48px] w-[48px] md:h-[96px] md:w-[96px]'
