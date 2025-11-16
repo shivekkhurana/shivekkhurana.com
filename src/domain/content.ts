@@ -3,8 +3,15 @@ import {
   allMicroPosts,
   allAuthors,
   allTags,
+  allProjects,
 } from '@contentlayer/generated';
-import type { Post, Author, Tag, MicroPost } from '@contentlayer/generated';
+import type {
+  Post,
+  Author,
+  Tag,
+  MicroPost,
+  Project,
+} from '@contentlayer/generated';
 
 function getAllPosts(): Post[] {
   // If there is no publishedOn, then it is a draft
@@ -13,6 +20,15 @@ function getAllPosts(): Post[] {
 
 function getAllMicroPosts(): MicroPost[] {
   return allMicroPosts;
+}
+
+function getAllProjects(): Project[] {
+  // Sort by startDay descending (most recent first)
+  return [...allProjects].sort((a: Project, b: Project) => {
+    const aTime = new Date(a.startDay!).getTime();
+    const bTime = new Date(b.startDay!).getTime();
+    return bTime - aTime;
+  });
 }
 
 function getAllAuthors(): Author[] {
@@ -76,5 +92,6 @@ export {
   getAuthorBySlug,
   getTimelinePosts,
   getTimelineMicroPosts,
+  getAllProjects,
 };
-export type { Post, Author, Tag };
+export type { Post, Author, Tag, Project };

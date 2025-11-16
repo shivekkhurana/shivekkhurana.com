@@ -105,9 +105,9 @@ function Timeline({
   timelineItems: Record<number, TimelineItem[]>;
 }) {
   return (
-    <section className="selection:bg-fuchsia-300 selection:text-fuchsia-900">
+    <section className="font-mlm-roman">
       <h2 className="text-lg font-bold font-mlm-roman">Writings</h2>
-      <div className="text-sm opacity-60"></div>
+      <div className="text-sm"></div>
       {Object.keys(timelineItems)
         .sort((a: string, b: string) => parseInt(b) - parseInt(a))
         .map((year: string) => {

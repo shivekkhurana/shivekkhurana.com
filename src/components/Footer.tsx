@@ -12,7 +12,13 @@ const socialLinks: SocialLink[] = [
   { label: 'X.com', href: 'https://x.com/shivek_khurana' },
   { label: 'LinkedIn', href: 'https://www.linkedin.com/in/shivekkhurana' },
   { label: 'Medium', href: 'https://medium.com/@shivekkhurana' },
+  { label: 'Substack', href: 'https://shivekkhurana.substack.com/' },
+  { label: 'SlideShare', href: 'https://www.slideshare.net/shivekkhurana' },
   { label: 'Reddit', href: 'https://www.reddit.com/user/shivekkhurana' },
+  {
+    label: 'YouTube',
+    href: 'https://youtube.com/@shivekkhurana?si=fyV-MrFjD0zRG-gA',
+  },
 ];
 
 type Repo = {
@@ -146,7 +152,7 @@ function IdentityBlock() {
       <div className={clsx('flex flex-col', 'gap-2', 'max-w-xs')}>
         <p className={clsx('font-mlm-roman', 'text-black', 'text-sm')}>
           © Shivek Khurana {currentYear} | Except where otherwise noted, all
-          content is licensed under CC BY-NC
+          content is licensed under CC BY-NC 4.0.
         </p>
       </div>
     </div>

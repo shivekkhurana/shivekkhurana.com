@@ -1,41 +1,10 @@
-import MediaCard from './MediaCard';
-
-const shots = [
-  {
-    src: '/img/hero/warsaw.jpeg',
-    alt: 'Shivek in Warsaw',
-    color: 'rgba(0, 0, 0, 1)', // beige/brown
-    backgroundColor: 'rgba(210, 180, 140, 0.8)',
-    title: 'Warsaw',
-    type: 'image' as const,
-  },
-  {
-    src: '/img/hero/porto.jpeg',
-    alt: 'Walking in Porto garden',
-    color: 'rgba(255, 255, 255, 1)',
-    backgroundColor: 'rgba(70, 70, 90, 0.8)',
-    title: 'Porto',
-    type: 'image' as const,
-  },
-  {
-    src: '/img/hero/dubai.jpeg',
-    alt: 'Dubai',
-    color: 'rgba(0, 0, 0, 1)', // warm orange/gold
-    backgroundColor: 'rgba(54, 58, 72, 0.8)',
-    title: 'Dubai',
-    type: 'image' as const,
-  },
-  {
-    src: '/video/clothing.mp4',
-    alt: 'Warsaw',
-    color: 'rgba(255, 255, 255, 1)', // red
-    backgroundColor: 'rgba(0, 1, 20, 0.8)',
-    title: 'Talk',
-    type: 'video' as const,
-  },
-];
+import { useState } from 'react';
+import clsx from 'clsx';
 
 function Hero() {
+  const [showProfilePhoto, setShowProfilePhoto] = useState(false);
+  const profilePhotoSrc = '/img/hero/profile-photo.png';
+
   return (
     <div className="mt-48 mb-24 font-mlm-roman">
       {/* Heading */}
@@ -49,23 +18,40 @@ function Hero() {
         </p>
       </div>
 
-      {/* Media cards grid */}
-      <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
-        {shots.map((shot, index) => (
-          <div
-            key={index}
-            className=""
-          >
-            <MediaCard
-              src={shot.src}
-              alt={shot.alt}
-              title={shot.title}
-              type={shot.type}
-              loading={index === 0 ? 'eager' : 'lazy'}
-              fetchPriority={index === 0 ? 'high' : undefined}
+      {/* Buttons */}
+      <div className="flex gap-4 items-start mt-4">
+        {/* My Story Button with hover photo */}
+        <div className="relative">
+          {showProfilePhoto && (
+            <img
+              src={profilePhotoSrc}
+              alt="Shivek Khurana"
+              className={clsx(
+                'w-12 h-auto',
+                'absolute bottom-full left-[16px]'
+              )}
             />
-          </div>
-        ))}
+          )}
+          <a
+            href="/my-story"
+            className={clsx('inline-block h-[30px] px-[10px]', 'border')}
+            onMouseEnter={() => setShowProfilePhoto(true)}
+            onMouseLeave={() => setShowProfilePhoto(false)}
+          >
+            Read my story
+          </a>
+        </div>
+
+        {/* Available for consultancy Button */}
+        <a
+          href="/services"
+          className={clsx(
+            'inline-block h-[30px] px-[10px]',
+            'border border-black/60'
+          )}
+        >
+          Consultancy
+        </a>
       </div>
     </div>
   );

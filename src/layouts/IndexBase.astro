@@ -55,6 +55,8 @@ const lastSleepData = await fetchLastSleep();
       vaul-drawer-wrapper
     >
       <slot />
+
+      <Spotlight locationData={locationData} />
     </main>
     <!-- <div class={clsx('w-11/12 mx-auto lg:w-8/12 xl:w-6/12', 'mt-16')}>
       <div class={clsx('flex flex-col md:flex-row', '')}>

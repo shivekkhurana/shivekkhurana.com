@@ -169,3 +169,41 @@ collections:
           display_fields: ['name'],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'projects'
+    label: 'Projects'
+    folder: 'content/projects'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    sortable_fields: ['startDay', 'title']
+    summary: '{{title}} - {{companyName}}'
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Company Name', name: 'companyName', widget: 'string' }
+      - { label: 'Company URL', name: 'companyUrl', widget: 'string' }
+      - {
+          label: 'Logo',
+          name: 'logo',
+          widget: 'image',
+          required: true,
+          media_folder: '/public/img/content/projects',
+          public_folder: '/img/content/projects',
+        }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - {
+          label: 'Start Day',
+          name: 'startDay',
+          widget: 'datetime',
+          required: true,
+          date_format: 'YYYY-MM-DD',
+          time_format: false,
+        }
+      - {
+          label: 'End Day',
+          name: 'endDay',
+          widget: 'datetime',
+          required: false,
+          date_format: 'YYYY-MM-DD',
+          time_format: false,
+        }
+      - { label: 'Slug', name: 'slug', widget: 'string' }

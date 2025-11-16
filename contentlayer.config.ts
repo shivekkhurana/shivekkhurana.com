@@ -81,9 +81,24 @@ const MicroPost = defineDocumentType(() => ({
   },
 }));
 
+const Project = defineDocumentType(() => ({
+  name: 'Project',
+  filePathPattern: 'projects/*.md',
+  fields: {
+    title: { type: 'string' },
+    companyName: { type: 'string' },
+    companyUrl: { type: 'string' },
+    logo: { type: 'string' },
+    description: { type: 'string' },
+    startDay: { type: 'date' },
+    endDay: { type: 'date', required: false },
+    slug: { type: 'string' },
+  },
+}));
+
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Post, MicroPost, Tag, Author],
+  documentTypes: [Post, MicroPost, Tag, Author, Project],
   disableImportAliasWarning: true,
   contentDirExclude: ['pages'],
 });

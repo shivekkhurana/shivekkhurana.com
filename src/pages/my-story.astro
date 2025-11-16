@@ -1,0 +1,76 @@
+---
+import clsx from 'clsx';
+import NavV2 from '@src/components/NavV2';
+import MediaCard from '@src/components/MediaCard';
+import Seo from '@src/components/Seo';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
+
+const shots = [
+  {
+    src: '/img/hero/warsaw.jpeg',
+    alt: 'Shivek in Warsaw',
+    title: 'Warsaw',
+    type: 'image' as const,
+  },
+  {
+    src: '/img/hero/porto.jpeg',
+    alt: 'Walking in Porto garden',
+    title: 'Porto',
+    type: 'image' as const,
+  },
+  {
+    src: '/img/hero/dubai.jpeg',
+    alt: 'Dubai',
+    title: 'Dubai',
+    type: 'image' as const,
+  },
+  {
+    src: '/video/clothing.mp4',
+    alt: 'Warsaw',
+    title: 'Talk',
+    type: 'video' as const,
+  },
+];
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <Seo
+      title="My Story"
+      subTitle="Moments from my journey"
+      heroImg="/img/og.png"
+      authorName="Shivek Khurana"
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <NavV2 client:load />
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}>
+      <div class="mt-48 mb-24 font-mlm-roman">
+        <!-- Heading -->
+        <h1 class="font-bold text-2xl md:text-3xl mb-6">My Story</h1>
+
+        <!-- Media cards grid -->
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+          {
+            shots.map((shot, index) => (
+              <MediaCard
+                client:load
+                src={shot.src}
+                alt={shot.alt}
+                title={shot.title}
+                type={shot.type}
+                loading={index === 0 ? 'eager' : 'lazy'}
+                fetchPriority={index === 0 ? 'high' : undefined}
+              />
+            ))
+          }
+        </div>
+      </div>
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>
