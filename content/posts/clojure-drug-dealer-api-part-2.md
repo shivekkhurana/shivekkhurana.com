@@ -31,7 +31,7 @@ In the [last part](https://shivekkhurana.com/blog/clojure-drug-dealer-part-1)  w
 
 I  carefully crafted a situation that had only one domain entity: The  drug. Each drug has a price and availability. Procurement is offline, so  we don’t care. Sale would just reduce the inventory size.
 
-![](https://miro.medium.com/max/1154/1*p8w7hkn6ls81fKCr7H8WFA.jpeg)
+![](/img/content/posts/1-p8w7hkn6ls81fkcr7h8wfa.jpeg)
 *The database we are trying to model*
 
 We will have 5 routes on the drug model.
@@ -42,7 +42,7 @@ We will have 5 routes on the drug model.
 - PUT /drugs/:id — Update a drug by id
 - DELETE /drugs/:id — Delete a drug by id
 
-![](https://miro.medium.com/max/128/1*kT1mZwyxUce_RQ4vfu3sCw.png?original)
+![](/img/content/posts/1-kt1mzwyxuce-rq4vfu3scw.png)
 *Source code available at [https://github.com/krimlabs/workshops](https://github.com/krimlabs/workshops) (branch [snapshot/dealer-api-part-2](https://github.com/krimlabs/workshops/tree/snapshot/dealer-api-part-2))*
 
 
@@ -75,7 +75,7 @@ We’ll also create a new namespace to hold this model. Let’s call it `dealer-
 $ touch src/dealer_api/drugs.clj
 ```
 
-![](https://miro.medium.com/max/229/1*s1-JdZSaisRvh7q6nnYOOw.png?original)
+![](/img/content/posts/1-s1-jdzsaisrvh7q6nnyoow.png)
 *Your directory structure after all files have been created*
 
 ## Create initial table structure
@@ -140,7 +140,7 @@ If you are a building a real application, you should look at solutions  like [Ae
 
 By  default, the logging package makes a lot of noise. We can shut it down  by using a logback config. I don’t understand much about how logback  works and I usually end up copying the default. It’s configured with  sensible defaults.
 
-![](https://miro.medium.com/max/4927/1*Mftko2jY23wvC_-njYsMLg.png)
+![](/img/content/posts/1-mftko2jy23wvc-njysmlg.png)
 
 Create a logback.xml file in `/resources/logback.xml` with the [following content](https://github.com/pedestal/pedestal/blob/master/service/dev/logback.xml):
 
@@ -221,7 +221,7 @@ The `:route-name` parameter lets you do fancy things like creating named routes.
 
 # Test your setup — Power to the REPL
 
-![](https://miro.medium.com/max/1175/1*QprlhMTV_Jw8eWfo2001_w.jpeg)
+![](/img/content/posts/1-qprlhmtv-jw8ewfo2001-w.jpeg)
 *An infinite REPL | Ouroboros — A mythical creature that represents infinity in Middle Eastern culture [[source](https://mythologian.net/ouroboros-symbol-of-infinity/)]*
 
 You  can go ahead, open a REPL, and start a server as we did in the last  post. And then go to the browser and check if the routes are working.But the REPL is more powerful. Most aspects of your codebase can be tested without opening the browser. **This is the one thing you should definitely take from this article.**
@@ -297,7 +297,7 @@ user=> (go)
 ```
 Now visit localhost:8890 and you should see the list of drugs being returned.
 
-![](https://miro.medium.com/max/1596/1*X1TZaQzReFaJVO9LuaoyrA.png?large)
+![](/img/content/posts/1-x1tzaqzrefajvo9luaoyra.png)
 *Our GET /drugs route is working !*
 
 # Part 2 — Conclusion

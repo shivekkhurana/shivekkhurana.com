@@ -52,7 +52,7 @@ Imagine a language that is not written like English prose, but expressed in term
 
 Imagine if we could somehow connect the source code to the runtime (compiled code), to the extent that we could pinpoint and execute a function `f` defined in source code right from the editor. This is what it would look like:
 
-![Executing inside Clojure Repl](https://s3.amazonaws.com/assets.fullstack.io/n/20201219081714648_repl-demo.gif?medium)
+![Executing inside Clojure Repl](/img/content/posts/20201219081714648-repl-demo.gif)
 *Figure 1: Executing functions in the REPL*
 
 In the GIF above, we have ClojureScript source code in a text editor, connected to a runtime (browser). We can execute functions as we write them. No refresh, no recompilation, no interpreter.
@@ -75,7 +75,7 @@ Consider a function that takes a Hash Map like `{:a "b" :c "d"}` and returns a q
 
 This code can be represented in the form of a tree as follows:
 
-![Clojure code is a tree](https://s3.amazonaws.com/assets.fullstack.io/n/20201219082406554_tree.svg)
+![Clojure code is a tree](/img/content/posts/20201219082406554-tree.svg)
 *Figure 2: Tree representation of LISP code*
 
 Because of the discrete data structure form, the compiler can easily create a one-to-one mapping of functions in source (CLJS) code to output in compiled (JS) code, and can also execute a selected part of the source in runtime.
@@ -84,7 +84,7 @@ Like in **Figure 1** above, the code `(+ 3 4)` is written in ClojureScript, comp
 
 The REPL is the hidden agent that facilitates this source to runtime bridge. It takes source code, executes instructions in runtime, and brings the results right back to the point of definition, ie. the editor:
 
-![Scope of Clojure's REPL](https://s3.amazonaws.com/assets.fullstack.io/n/20201219082703461_repl-scope.png)
+![Scope of Clojure's REPL](/img/content/posts/20201219082703461-repl-scope.png)
 *Figure 3: Scope of the REPL*
 
 1\. Your source code lives in your editor\
@@ -106,14 +106,14 @@ According to the official Clojure docs, [the REPL is a user interface to your pr
 
 Since the REPL can execute any source code, you can use it to check the methods a third party library exposes.
 
-![](https://s3.amazonaws.com/assets.fullstack.io/n/20201219170955642_lib-optimized.gif?medium)
+![](/img/content/posts/20201219170955642-lib-optimized.gif)
 *Figure 4: Inspecting methods exposed in the React package*
 
 ### Inspect state
 
 A large part of UI development involves interacting with state. The REPL can be used to read the data structure storing your state.
 
-![](https://s3.amazonaws.com/assets.fullstack.io/n/20201219171220458_state-optimized.gif?medium)
+![](/img/content/posts/20201219171220458-state-optimized.gif)
 *Figure 5: Inspecting app state in real-time*
 
 ### Fill forms
@@ -126,7 +126,7 @@ Form states are generally saved using one-way binding(like in React) or two-way 
 
 If you are building a multi-step process like checkout or signup, filling the initial steps might become tedious as your flow grows. You can define the steps in your source code, and execute it in the REPL. The UI will respond respectively.
 
-![Clojure REPL with React Native](https://s3.amazonaws.com/assets.fullstack.io/n/20201220073216472_My%20Movie-half.gif?medium)
+![Clojure REPL with React Native](/img/content/posts/20201220073216472-my-20movie-half.gif)
 *Figure 6: Simulating UI events on a React Native app*
 
 In the GIF above, we have a Status App (A free, libre, open-source | GitHub.com/status-im/status-react) messenger running on an Android device, and a REPL connected to it. We can simulate events in the REPL, essentially letting us develop complex flows, without even touching the device. If you are a mobile developer, imagine the time saved if you never needed to take your hands off the keyboard to interact with the app. And the feedback is fire 🔥.

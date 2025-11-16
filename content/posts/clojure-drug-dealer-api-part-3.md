@@ -20,7 +20,7 @@ author: shivekkhurana
 
 In [part 1](https://shivekkhurana.com/blog/clojure-drug-dealer-part-1) and [part 2](https://shivekkhurana.com/blog/clojure-drug-dealer-part-2) of the series, we walked through setting up a Clojure application from scratch. Part two ended with a working GET route. In this part, we’ll upgrade our developer experience, introduce REPL and implement the POST route.
 
-![](https://miro.medium.com/max/128/0*xoJ6PI84nnxxpT-k.png?original) 
+![](/img/content/posts/0-xoj6pi84nnxxpt-k.png) 
 *Source code available at [https://github.com/krimlabs/workshops](https://github.com/krimlabs/workshops) (branch [snapshot/dealer-api-part-3](https://github.com/krimlabs/workshops/tree/snapshot/dealer-api-part-3))*
 
 # Updating the editor workflow
@@ -45,7 +45,7 @@ clj -R:nREPL -m nrepl.cmdline
 
 You should see a REPL running as follows:
 
-![](https://miro.medium.com/max/910/1*u_TN5C7-OuYe8vrKCVrWmw.png?medium)
+![](/img/content/posts/1-u-tn5c7-ouye8vrkcvrwmw.png)
 
 It  might be hard to remember the command to start the REPL, so we can  create a bash script to start the nREPL for us. Create a file called `repl` and place it in the `bin` folder in the root of the directory:
 
@@ -84,7 +84,7 @@ VS Code users can use [this guide](https://spin.atomicobject.com/2017/06/22/cloj
 
 I  must tell you, that there is no going back after this point. If you  want, stop now. But what you are about to witness might just get to  addicted.Inline evaluation means executing a piece of code inside your editor.
 
-![](https://miro.medium.com/max/1028/1*jmhsR0JUfkDppTutdIydPQ.gif?medium)
+![](/img/content/posts/1-jmhsr0jufkdpptutdiydpq.gif)
 *Inline Evaluation Demo*
 
 By evaluating code inline, you can skip `(reset)` and just eval the updated form inline. You can also test the functions you are writing without leaving your editor.
@@ -153,7 +153,7 @@ The POST route consumes data sent using an API. It’s a good practice to valida
 ```
 We’ll not dive deeper in the world of spec in this post.
 
-![](https://miro.medium.com/max/1028/1*tlq2P9AvC26NwyGTpSyyiQ.gif?medium)
+![](/img/content/posts/1-tlq2p9avc26nwygtpsyyiq.gif)
 *Checking that spec works with inline eval*
 
 ## Write the handler

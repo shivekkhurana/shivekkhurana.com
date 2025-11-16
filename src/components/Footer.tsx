@@ -114,7 +114,13 @@ function NavigationColumn({ navLinks }: { navLinks: NavLink[] }) {
   return (
     <div>
       <h4
-        className={clsx('font-mlm-roman', 'text-black/60', 'text-sm', 'mb-4')}
+        className={clsx(
+          'font-mlm-roman',
+          'text-black/60',
+          'text-sm',
+          'mb-4',
+          'mt-12 md:mt-0'
+        )}
       >
         Navigation
       </h4>

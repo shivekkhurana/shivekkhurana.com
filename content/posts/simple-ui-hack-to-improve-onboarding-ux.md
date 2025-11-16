@@ -29,7 +29,7 @@ Bad UX increases on-boarding and support cost, directly affecting revenue. It al
 ### Upfront Presentation
 One solution was to have an upfront on-boarding using slides like interface. This seems to be the standard for mobile apps.
 
-![](https://miro.medium.com/max/2310/1*1kU47A701p09IGScHW2s_g.png)
+![](/img/content/posts/1-1ku47a701p09igschw2s-g.png)
 *Slack’s slide-based on-boarding UX*
 
 The problem with slides approach is the lack of context. You can convey only so much on the slides (how much the user retains is a different question).
@@ -40,7 +40,7 @@ It’s great for giving an overview of the product, but not very helpful in expl
 
 There was also a tooltip based solution that walks the user through specific steps. This option is more popular with web apps. There are many good javascript libraries to help you build these flows.
 
-![](https://miro.medium.com/max/1210/1*9GZ7n_tu5XuJ4yoT5NyUJQ.png)
+![](/img/content/posts/1-9gz7n-tu5xuj4yot5nyujq.png)
 *Tooltip based on-boarding demo for introjs.com/*
 
 As far as a tooltip based solution goes, **I found them annoying and almost always clicked “skip tutorial”**. Though big companies like Canva use tooltip based on-boarding. A product called [AppCues](http://appcues.com/) lets you design these tooltips without code, neat.
@@ -49,7 +49,7 @@ As far as a tooltip based solution goes, **I found them annoying and almost alwa
 
 There also exists a beacon style approach, where commonly misunderstood features are labeled with glowing beacons, which provide relevant information when (if) needed.
 
-![](https://miro.medium.com/max/513/1*gSI2YCu3p-dVWdGwPhqslg.png)
+![](/img/content/posts/1-gsi2ycu3p-dvwdgwphqslg.png)
 *Beacon Styled Context*
 
 This is the most unobtrusive way. Unlike tooltip that shoves a 17 step tutorial down your throat and vanishes when you actually need it, this **hotspot based approach provides info when you are ready**.
@@ -83,7 +83,7 @@ The goal of each state is to progress the user to the next state. When the user 
 
 The mockup below has just one call to action, the blue plus button that lets the user add a new contact. The graphics and the text both prime the user to take that action.
 
-![](https://miro.medium.com/max/1152/1*VK6RMIEemBMLG2kEMrmg1Q.png?large)
+![](/img/content/posts/1-vk6rmieembmlg2kemrmg1q.png)
 *State 1 — Prime the user to add contacts (illustration by undraw.co)*
 
 Once a contact has been added, we can start the second goal.
@@ -92,7 +92,7 @@ Once a contact has been added, we can start the second goal.
 
 The mockup below shows has a graphical primer to start a chat. It explicitly outlines the features available. Again, there is only one thing you can do now, i.e. send a message. You can also make a call in this UI, but both these actions serve the same purpose. They take your user to step 3.
 
-![](https://miro.medium.com/max/1152/1*TBYDdUW4Hr_D-nA3cwzr_Q.png?large)
+![](/img/content/posts/1-tbydduw4hr-d-na3cwzr-q.png)
 *State 2 — Contact added, prime to start a chat*
 
 
@@ -100,7 +100,7 @@ The mockup below shows has a graphical primer to start a chat. It explicitly out
 
 And finally, when your user has repeated the process a few times, her UI will start looking the way we originally intended.
 
-![](https://miro.medium.com/max/1152/1*a1Tpc-t8BBCU62Bx6ezsBA.png?large)
+![](/img/content/posts/1-a1tpc-t8bbcu62bx6ezsba.png)
 *State 3 — The user is successfully on boarded*
 
 ## Benefits of this approach
