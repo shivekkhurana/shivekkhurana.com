@@ -1,0 +1,43 @@
+---
+import clsx from 'clsx';
+import NavV2 from '@src/components/NavV2';
+import Seo from '@src/components/Seo';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
+import { getAllProjects } from '@src/domain/content';
+import ProjectItem from '@src/components/ProjectItem';
+import type { Project } from '@contentlayer/generated';
+
+const projects = getAllProjects();
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <Seo
+      title="Projects - Shivek Khurana"
+      subTitle="All projects"
+      authorName="Shivek Khurana"
+      heroImg="/img/og.png"
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <NavV2 client:load />
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}>
+      <section class="font-mlm-roman">
+        <h1 class="text-2xl font-bold font-mlm-roman mb-8">Projects</h1>
+        {
+          projects.map((project: Project) => (
+            <ProjectItem
+              project={project}
+              client:load
+            />
+          ))
+        }
+      </section>
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>

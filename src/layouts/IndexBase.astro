@@ -14,7 +14,6 @@ import { fetchWorkoutStats } from '@src/domain/workouts';
 
 import clsx from 'clsx';
 import Spotlight from '@src/components/Spotlight';
-import Timeline from '@src/components/Timeline';
 import About from '@src/components/About';
 import Nav from '@src/components/Nav';
 import NavV2 from '@src/components/NavV2';
@@ -40,33 +39,13 @@ const lastSleepData = await fetchLastSleep();
   </HeadLayout>
 
   <BodyLayout>
-    <!-- <Nav
-      rhrData={rhrData}
-      hrvData={hrvData}
-      bodyTempData={bodyTempData}
-      workoutStats={workoutStats}
-      locationData={locationData}
-      lastSleepData={lastSleepData}
-    /> -->
-
     <NavV2 client:load />
     <main
       class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}
       vaul-drawer-wrapper
     >
       <slot />
-
-      <Spotlight locationData={locationData} />
     </main>
-    <!-- <div class={clsx('w-11/12 mx-auto lg:w-8/12 xl:w-6/12', 'mt-16')}>
-      <div class={clsx('flex flex-col md:flex-row', '')}>
-        <main class={clsx('flex-grow', 'break-words', 'pr-4')}></main>
-        <aside class={clsx('w-full md:w-[320px] flex-shrink-0', 'md:pr-4')}>
-          <Spotlight locationData={locationData} />
-        </aside>
-      </div>
-    </div>
-  </BodyLayout> -->
     <Footer />
   </BodyLayout>
 </HtmlLayout>

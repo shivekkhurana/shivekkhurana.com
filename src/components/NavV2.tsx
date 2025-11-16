@@ -8,10 +8,11 @@ type NavLink = {
 };
 
 const navLinks: NavLink[] = [
-  { label: 'My story', href: '/' },
-  { label: 'Consultancy', href: '/services' },
+  { label: 'About', href: '/about' },
+  { label: 'Consultancy', href: '/consultancy' },
   { label: 'Blog', href: '/blog' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Projects', href: '/projects' },
+  // { label: 'Contact', href: '/contact' },
 ];
 
 type NavV2Props = {
@@ -27,11 +28,16 @@ type NavBrandProps = {
 function NavBrand({ isVisible }: NavBrandProps) {
   return (
     <div className={clsx('flex items-center', 'gap-2')}>
-      <img
-        src={omLogo.src}
-        alt="Om"
-        className="h-[16px] w-[20.8px]"
-      />
+      <a
+        href="/"
+        className=""
+      >
+        <img
+          src={omLogo.src}
+          alt="Om"
+          className="h-[16px] w-[20.8px]"
+        />
+      </a>
       <a
         href="/"
         className={clsx('font-mlm-roman', 'text-black')}

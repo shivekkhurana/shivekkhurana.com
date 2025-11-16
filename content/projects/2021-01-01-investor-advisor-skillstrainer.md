@@ -1,5 +1,5 @@
 ---
-title: Investor and Advisor at Skillstrainer
+title: Investor and Advisor
 companyName: Skillstrainer
 companyUrl: https://skillstrainer.in
 logo: /img/content/projects/st.png

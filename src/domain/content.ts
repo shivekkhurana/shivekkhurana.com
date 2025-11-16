@@ -1,25 +1,27 @@
 import {
   allPosts,
-  allMicroPosts,
   allAuthors,
   allTags,
   allProjects,
 } from '@contentlayer/generated';
-import type {
-  Post,
-  Author,
-  Tag,
-  MicroPost,
-  Project,
-} from '@contentlayer/generated';
+import type { Post, Author, Tag, Project } from '@contentlayer/generated';
 
 function getAllPosts(): Post[] {
   // If there is no publishedOn, then it is a draft
   return allPosts.filter((p: Post) => p.publishedOn);
 }
 
-function getAllMicroPosts(): MicroPost[] {
-  return allMicroPosts;
+function getSortedPosts(): Post[] {
+  // Sort by publishedOn descending (most recent first)
+  return [...getAllPosts()].sort((a: Post, b: Post) => {
+    const aTime = new Date(a.publishedOn!).getTime();
+    const bTime = new Date(b.publishedOn!).getTime();
+    return bTime - aTime;
+  });
+}
+
+function getTopPosts(limit: number): Post[] {
+  return getSortedPosts().slice(0, limit);
 }
 
 function getAllProjects(): Project[] {
@@ -35,51 +37,50 @@ function getAllAuthors(): Author[] {
   return allAuthors;
 }
 
-export type TimelineItem = Post | MicroPost;
-function groupAndSortByYear(objects: TimelineItem[]): {
-  [year: number]: TimelineItem[];
-} {
-  return (
-    objects
-      // Only include items that are published
-      .filter((obj: TimelineItem) => obj.publishedOn)
-      .reduce(
-        (groupedByYear, obj: TimelineItem) => {
-          const year: number = new Date(obj.publishedOn!).getFullYear();
-
-          // Use an object spread to create a new object (avoid mutating the original)
-          const updatedGrouped = {
-            ...groupedByYear,
-            [year]: [...(groupedByYear[year] || []), obj],
-          };
-
-          return {
-            ...groupedByYear,
-            [year]: updatedGrouped[year].sort(
-              (a: TimelineItem, b: TimelineItem) =>
-                new Date(b.publishedOn!).getTime() -
-                new Date(a.publishedOn!).getTime()
-            ),
-          };
-        },
-        {} as { [year: number]: any[] }
-      )
+function groupPostsByYear(posts: Post[]): Record<number, Post[]> {
+  return posts.reduce(
+    (groupedByYear, post) => {
+      const year: number = new Date(post.publishedOn!).getFullYear();
+      return {
+        ...groupedByYear,
+        [year]: [...(groupedByYear[year] || []), post],
+      };
+    },
+    {} as { [year: number]: Post[] }
   );
 }
 
-function getTimeline(): Record<number, TimelineItem[]> {
-  // order by created at and group by year
-  return groupAndSortByYear([...getAllPosts(), ...getAllMicroPosts()]);
+function getPostsGroupedByYear(): Record<number, Post[]> {
+  return groupPostsByYear(getSortedPosts());
 }
 
-function getTimelinePosts(): Record<number, TimelineItem[]> {
-  // order by created at and group by year
-  return groupAndSortByYear([...getAllPosts()]);
+function getTopPostsGroupedByYear(limit: number): Record<number, Post[]> {
+  return groupPostsByYear(getTopPosts(limit));
 }
 
-function getTimelineMicroPosts(): Record<number, TimelineItem[]> {
-  // order by created at and group by year
-  return groupAndSortByYear([...getAllMicroPosts()]);
+function getTopProjects(limit: number): Project[] {
+  return getAllProjects().slice(0, limit);
+}
+
+function groupProjectsByYear(projects: Project[]): Record<number, Project[]> {
+  return projects.reduce(
+    (groupedByYear, project) => {
+      const year: number = new Date(project.startDay!).getFullYear();
+      return {
+        ...groupedByYear,
+        [year]: [...(groupedByYear[year] || []), project],
+      };
+    },
+    {} as { [year: number]: Project[] }
+  );
+}
+
+function getProjectsGroupedByYear(): Record<number, Project[]> {
+  return groupProjectsByYear(getAllProjects());
+}
+
+function getTopProjectsGroupedByYear(limit: number): Record<number, Project[]> {
+  return groupProjectsByYear(getTopProjects(limit));
 }
 
 function getAuthorBySlug(slug: string): Author {
@@ -88,10 +89,14 @@ function getAuthorBySlug(slug: string): Author {
 
 export {
   getAllPosts,
-  getTimeline,
+  getSortedPosts,
+  getTopPosts,
+  getTopPostsGroupedByYear,
+  getPostsGroupedByYear,
   getAuthorBySlug,
-  getTimelinePosts,
-  getTimelineMicroPosts,
   getAllProjects,
+  getTopProjects,
+  getProjectsGroupedByYear,
+  getTopProjectsGroupedByYear,
 };
 export type { Post, Author, Tag, Project };

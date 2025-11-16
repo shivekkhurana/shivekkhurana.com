@@ -1,0 +1,111 @@
+---
+import clsx from 'clsx';
+import NavV2 from '@src/components/NavV2';
+import Seo from '@src/components/Seo';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <Seo
+      title="Consultancy - Shivek Khurana"
+      subTitle="Unlimited AI Automations for Crypto-First Businesses"
+      authorName="Shivek Khurana"
+      heroImg="/img/og.png"
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <NavV2 client:load />
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}>
+      <section class="font-mlm-roman">
+        <h1 class="text-2xl font-bold font-mlm-roman mb-8">Consultancy</h1>
+
+        <div class="space-y-6">
+          <h2 class="text-xl font-bold font-mlm-roman">
+            Unlimited AI Automations for Crypto-First Businesses
+          </h2>
+
+          <div class="space-y-1">
+            <p>
+              Manual data collection is killing your alpha. Connecting APIs to
+              Excel or Google Sheets is clunky.
+            </p>
+
+            <p>
+              AI tools like N8N and Copilot promise to fix your problems — but
+              what runs in their demo, dies in the wild.
+            </p>
+
+            <p>
+              That's where we come in: with bespoke tools that fit your process.
+            </p>
+
+            <p>
+              We understand crypto businesses. From staking protocols, to
+              multi-chain taxation, memecoins to alpha scattered across Telegram
+              and Discord.
+            </p>
+          </div>
+
+          <div class="mt-8">
+            <h3 class="text-lg font-bold font-mlm-roman mb-4">
+              Our clients include:
+            </h3>
+            <ul class="list-disc list-inside underline space-y-2">
+              <li>
+                <a
+                  href="https://collabcurrency.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-mlm-roman text-black hover:opacity-80 transition-opacity"
+                >
+                  Collab+Currency
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://status.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-mlm-roman text-black hover:opacity-80 transition-opacity"
+                >
+                  IFT Studios ($SNT)
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://steer.finance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="font-mlm-roman text-black hover:opacity-80 transition-opacity"
+                >
+                  Steer Protocol
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="mt-8">
+            <p>
+              Interested in working with us?<br />
+              <a
+                href="https://zcal.co/shivekkhurana/ai-discovery"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="font-mlm-roman underline text-[#00e] hover:opacity-80 transition-opacity"
+              >
+                Book a call with Shivek
+              </a>
+               .
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>

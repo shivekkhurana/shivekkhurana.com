@@ -13,7 +13,6 @@ import StateItem, {
   SpaceIcon,
   FireIcon,
 } from '@src/components/StateItem';
-import Projects from '@src/components/spotlight/Projects';
 import Location from '@src/components/spotlight/Location';
 
 import type { WorkoutStats } from '@src/domain/workouts';
@@ -245,17 +244,6 @@ function getSpotlightItems(
   locationData: LocationData
 ): Record<string, SpotlightBaseCardProps> {
   return {
-    projects: {
-      title: 'Projects',
-      icon: '/img/spotlightIcons/workbot.png',
-      contentComponent: Projects,
-      bgColorClass: 'from-[#D4F4D4] to-[#C8E6C8]',
-      smallHeading: true,
-      ctaLabel: 'LinkedIn',
-      ctaLink: 'https://www.linkedin.com/in/shivekkhurana/',
-      ctaColorClass: 'text-[#3D6520]',
-      ctaArrow: 'out',
-    },
     stateOfBeing: {
       title: 'State of being',
       contentComponent: StateOfBeingContent,

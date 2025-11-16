@@ -1,5 +1,5 @@
 ---
-title: Co-Founder / Engineering Lead
+title: Co-Founder
 companyName: Meta Blocks
 companyUrl: https://metablocks.world
 logo: /img/content/projects/mbk.png

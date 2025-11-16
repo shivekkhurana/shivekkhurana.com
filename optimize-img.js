@@ -13,6 +13,7 @@ const notEndsWith = (extension) =>
 const filterUnwantedExtensions = R.compose(
   notEndsWith('.svg'),
   notEndsWith('.gif'),
+  notEndsWith('.ico'),
   notEndsWith('.DS_Store')
 );
 
@@ -72,35 +73,41 @@ const filesToProcess = (imgFiles, processedImgFiles) => {
   );
 };
 
-const widthsToGenerate = [80, 240, 480, 720, 960, 1440];
+const widthsToGenerate = [32, 80, 240, 480, 720, 960, 1440];
 const widthsToBlur = [480, 960];
 
 const processFile = async (component) => {
-  // create the folder
-  await fs.mkdir(component.optimizedPath, { recursive: true });
+  const sourcePath = path.join(component.filePath, component.name);
+  try {
+    // create the folder
+    await fs.mkdir(component.optimizedPath, { recursive: true });
 
-  // convert image to webp format in highest quality
-  const inputSharp = sharp(path.join(component.filePath, component.name));
-  const ogWebpPath = path.join(component.optimizedPath, 'og.webp');
-  await inputSharp.toFile(ogWebpPath);
+    // convert image to webp format in highest quality
+    const inputSharp = sharp(sourcePath);
+    const ogWebpPath = path.join(component.optimizedPath, 'og.webp');
+    await inputSharp.toFile(ogWebpPath);
 
-  // convert og.webp to desired widths
-  const ogSharp = sharp(ogWebpPath);
-  await Promise.all(
-    R.map(async (width) => {
-      const widthPath = path.join(component.optimizedPath, `w-${width}.webp`);
-      await ogSharp.clone().resize({ width }).toFile(widthPath);
+    // convert og.webp to desired widths
+    const ogSharp = sharp(ogWebpPath);
+    await Promise.all(
+      R.map(async (width) => {
+        const widthPath = path.join(component.optimizedPath, `w-${width}.webp`);
+        await ogSharp.clone().resize({ width }).toFile(widthPath);
 
-      // blur if needed
-      if (R.includes(width, widthsToBlur)) {
-        await sharp(widthPath)
-          .blur(8)
-          .toFile(
-            path.join(component.optimizedPath, `w-${width}-blurred.webp`)
-          );
-      }
-    }, widthsToGenerate)
-  );
+        // blur if needed
+        if (R.includes(width, widthsToBlur)) {
+          await sharp(widthPath)
+            .blur(8)
+            .toFile(
+              path.join(component.optimizedPath, `w-${width}-blurred.webp`)
+            );
+        }
+      }, widthsToGenerate)
+    );
+  } catch (error) {
+    console.error(`❌ Error processing ${sourcePath}:`, error.message);
+    throw error;
+  }
 };
 
 async function main() {
@@ -109,11 +116,33 @@ async function main() {
   const processedImgFiles = await lsFiles(destDir);
   const unprocessedImgFiles = filesToProcess(imgFiles, processedImgFiles);
   console.log(`🪣 ${unprocessedImgFiles.length} images need to be processed`);
-  try {
-    await Promise.all(R.map(await processFile, unprocessedImgFiles));
-    console.log('✅ Images optimized successfully!');
-  } catch (e) {
-    console.error(e);
+
+  if (unprocessedImgFiles.length === 0) {
+    console.log('✅ All images are already optimized!');
+    return;
+  }
+
+  const results = await Promise.allSettled(
+    R.map(processFile, unprocessedImgFiles)
+  );
+
+  const successful = results.filter((r) => r.status === 'fulfilled').length;
+  const failed = results.filter((r) => r.status === 'rejected').length;
+
+  if (failed > 0) {
+    console.error(`\n⚠️  ${failed} image(s) failed to process`);
+    results.forEach((result, index) => {
+      if (result.status === 'rejected') {
+        const file = unprocessedImgFiles[index];
+        console.error(
+          `  - ${path.join(file.filePath, file.name)}: ${result.reason.message}`
+        );
+      }
+    });
+  }
+
+  if (successful > 0) {
+    console.log(`✅ Successfully optimized ${successful} image(s)!`);
   }
 }
 

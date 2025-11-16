@@ -4,8 +4,14 @@ import IndexBase from '@src/layouts/IndexBase.astro';
 import Hero from '@src/components/Hero';
 import Health from '@src/components/Health';
 import About from '@src/components/About';
-import Timeline from '@src/components/Timeline';
-import { getTimelinePosts } from '@src/domain/content';
+import Blog from '@src/components/Blog';
+import Projects from '@src/components/Projects';
+import {
+  getTopPostsGroupedByYear,
+  getTopProjects,
+  getAllPosts,
+  getAllProjects,
+} from '@src/domain/content';
 import { fetchLocationData } from '@src/domain/location';
 import {
   fetchRestingHeartRate,
@@ -15,7 +21,10 @@ import {
 } from '@src/domain/healthkit';
 import { fetchWorkoutStats } from '@src/domain/workouts';
 
-const timelineItems = getTimelinePosts();
+const topPostsByYear = getTopPostsGroupedByYear(5);
+const topProjects = getTopProjects(3);
+const totalPosts = getAllPosts().length;
+const totalProjects = getAllProjects().length;
 const locationData = await fetchLocationData();
 const rhrData = await fetchRestingHeartRate();
 const hrvData = await fetchHRV();
@@ -36,5 +45,12 @@ const lastSleepData = await fetchLastSleep();
     lastSleepData={lastSleepData}
   />
   <!-- <About /> -->
-  <Timeline timelineItems={timelineItems} />
+  <Blog
+    postsByYear={topPostsByYear}
+    totalPosts={totalPosts}
+  />
+  <Projects
+    projects={topProjects}
+    totalProjects={totalProjects}
+  />
 </IndexBase>

@@ -1,7 +1,7 @@
 ---
 import clsx from 'clsx';
 
-import Nav from '@src/components/Nav';
+import NavV2 from '@src/components/NavV2';
 import Post from '@src/components/Post';
 import { getAllPosts, getAuthorBySlug } from '@src/domain/content';
 import Seo from '@src/components/Seo';
@@ -46,10 +46,8 @@ const author = getAuthorBySlug(post.author);
   </HeadLayout>
 
   <BodyLayout>
+    <NavV2 client:load />
     <article>
-      <div class={clsx('w-11/12 mx-auto lg:w-8/12 xl:w-6/12', '')}>
-        <Nav />
-      </div>
       <Post post={post} />
     </article>
     <Footer />

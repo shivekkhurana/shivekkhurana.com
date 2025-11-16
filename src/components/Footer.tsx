@@ -180,8 +180,7 @@ function Footer({ navLinks = defaultNavLinks }: FooterProps) {
           <IdentityBlock />
           <SocialsColumn />
           <SourceColumn />
-          {/* 
-          <NavigationColumn navLinks={navLinks} /> */}
+          <NavigationColumn navLinks={navLinks} />
         </div>
       </div>
     </footer>

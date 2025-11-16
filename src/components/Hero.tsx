@@ -20,31 +20,28 @@ function Hero() {
 
       {/* Buttons */}
       <div className="flex gap-4 items-start mt-4">
-        {/* My Story Button with hover photo */}
+        {/* About Button with hover photo */}
         <div className="relative">
           {showProfilePhoto && (
             <img
               src={profilePhotoSrc}
               alt="Shivek Khurana"
-              className={clsx(
-                'w-12 h-auto',
-                'absolute bottom-full left-[16px]'
-              )}
+              className={clsx('w-12 h-auto', 'absolute bottom-full left-[8px]')}
             />
           )}
           <a
-            href="/my-story"
+            href="/about"
             className={clsx('inline-block h-[30px] px-[10px]', 'border')}
             onMouseEnter={() => setShowProfilePhoto(true)}
             onMouseLeave={() => setShowProfilePhoto(false)}
           >
-            Read my story
+            About
           </a>
         </div>
 
         {/* Available for consultancy Button */}
         <a
-          href="/services"
+          href="/consultancy"
           className={clsx(
             'inline-block h-[30px] px-[10px]',
             'border border-black/60'

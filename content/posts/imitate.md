@@ -1,14 +1,14 @@
 ---
+publishedOn: 2018-05-12
 title: Imitate
 subTitle: Uncovering parts of the universe hidden from you
 canonicalUrl: https://medium.com/@shivekkhurana/imitate-21478b27377f
-publishedOn: 2018-05-12
-heroImg: https://source.unsplash.com/0GBxtiFvzXE
+heroImg: /img/content/posts/imitate.png
+slug: imitate
 tags:
   - personal-growth
   - life-lessons
 author: shivekkhurana
-slug: imitate
 ---
 **🥤JUICE of the story**
 
