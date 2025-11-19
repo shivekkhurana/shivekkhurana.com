@@ -39,11 +39,8 @@ const lastSleepData = await fetchLastSleep();
   </HeadLayout>
 
   <BodyLayout>
-    <NavV2 client:load />
-    <main
-      class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}
-      vaul-drawer-wrapper
-    >
+    <NavV2 client:idle />
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}>
       <slot />
     </main>
     <Footer />

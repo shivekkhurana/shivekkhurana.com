@@ -59,12 +59,7 @@ function ProjectItem({ project }: ProjectItemProps) {
           )}
         </div>
         {dateRange && (
-          <div className={clsx('text-xs opacity-60', 'mb-2')}>{dateRange}</div>
-        )}
-        {description && (
-          <p className={clsx('text-sm opacity-80', 'leading-5')}>
-            {description}
-          </p>
+          <div className={clsx('text-xs opacity-60')}>{dateRange}</div>
         )}
         {companyUrl && (
           <a
@@ -72,7 +67,6 @@ function ProjectItem({ project }: ProjectItemProps) {
             target="_blank"
             rel="noopener noreferrer"
             className={clsx(
-              'mt-2',
               'text-sm underline underline-offset-4 decoration-gray-200 hover:decoration-pink-500 transition-colors'
             )}
           >

@@ -1,13 +1,14 @@
-import React from 'react'
-import {
-  getAuthorBySlug,
-} from '@src/domain/content';
+import React from 'react';
+import { getAuthorBySlug } from '@src/domain/content';
 import Markdown from '@src/components/Markdown';
 import { convertDateString } from '@src/utils/time';
-import type { Post as PostContentType, Author as AuthorContentType } from '@contentlayer/generated'
+import type {
+  Post as PostContentType,
+  Author as AuthorContentType,
+} from '@contentlayer/generated';
 
 import image from '@src/utils/image';
-import str from '@src/utils/string'
+import str from '@src/utils/string';
 
 const shareUrls = {
   twitter: (link = '', message = '') =>
@@ -56,7 +57,13 @@ function Share({ title, url }: { title: string; url: string }) {
 
 const AuthorImage = ({ profilePicture, name }: AuthorContentType) => {
   const optimizedPaths = image.getOptimizedPaths(profilePicture);
-  return <img src={optimizedPaths.w80} className="rounded-full w-[48px] h-[48px]" alt={name} />;
+  return (
+    <img
+      src={optimizedPaths.w80}
+      className="rounded-full w-[48px] h-[48px]"
+      alt={name}
+    />
+  );
 };
 
 const Author = ({
@@ -89,22 +96,26 @@ interface PostProps {
 }
 
 function parse(url: string): string {
-  if (url.includes("medium.com")) return "Medium";
-  else if (url.includes("newline.co")) return "Newline";
+  if (url.includes('medium.com')) return 'Medium';
+  else if (url.includes('newline.co')) return 'Newline';
+  else if (url.includes('linkedin.com')) return 'LinkedIn';
+  else if (url.includes('x.com')) return 'X';
   else return url;
-};
-
+}
 
 function CanonicalRef({ canonicalUrl }) {
   return (
     <div className="mt-3 bg-black/10 p-2 rounded">
-      This blog was originally published on{" "}
-      <a href={canonicalUrl} className="underline">
+      This blog was originally published on{' '}
+      <a
+        href={canonicalUrl}
+        className="underline"
+      >
         {str.capitalise(parse(canonicalUrl))}.
       </a>
     </div>
   );
-};
+}
 
 function Post({ post }: PostProps) {
   const {
@@ -119,7 +130,7 @@ function Post({ post }: PostProps) {
     contents,
   } = post;
   return (
-    <div className='pb-12'>
+    <div className="pb-12">
       <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
         <h1 className="text-3xl md:text-2xl lg:text-4xl font-bold mt-5 mb-2">
           {title}
@@ -129,13 +140,19 @@ function Post({ post }: PostProps) {
             {subTitle}
           </h2>
         )}
-        <Author slug={author} publishedOn={publishedOn} />
+        <Author
+          slug={author}
+          publishedOn={publishedOn}
+        />
         {/* <Share title={title} url={`https://krimlabs.com/blog/${slug}`} /> */}
       </div>
 
       {heroImg && (
         <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
-          <img src={heroImg} className="rounded-md" />
+          <img
+            src={heroImg}
+            className="rounded-md"
+          />
         </div>
       )}
 
@@ -154,7 +171,7 @@ function Post({ post }: PostProps) {
         </div>
         {/* {relatedPosts.length > 0 && <Related relatedPosts={relatedPosts} />} */}
       </div>
-    </div >
+    </div>
   );
 }
 

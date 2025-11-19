@@ -34,9 +34,8 @@ const lastSleepData = await fetchLastSleep();
 ---
 
 <IndexBase>
-  <Hero client:load />
+  <Hero client:idle />
   <Health
-    client:load
     rhrData={rhrData}
     hrvData={hrvData}
     bodyTempData={bodyTempData}
