@@ -1,5 +1,6 @@
 ---
-import '@src/styles/fonts.css';
+// Inline critical CSS instead of importing to avoid render-blocking
+import fontsCss from '@src/styles/fonts.css?raw';
 ---
 
 <head>
@@ -15,6 +16,9 @@ import '@src/styles/fonts.css';
     name="viewport"
     content="width=device-width"
   />
+
+  <!-- Inline critical CSS to avoid render-blocking -->
+  <style is:inline>{fontsCss}</style>
 
   <link
     rel="preconnect"
