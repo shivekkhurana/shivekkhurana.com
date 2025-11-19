@@ -1,8 +1,6 @@
-import { useState } from 'react';
 import clsx from 'clsx';
 
 function Hero() {
-  const [showProfilePhoto, setShowProfilePhoto] = useState(false);
   const profilePhotoSrc = '/img/hero/profile-photo.png';
 
   return (
@@ -21,19 +19,21 @@ function Hero() {
       {/* Buttons */}
       <div className="flex gap-4 items-start mt-4">
         {/* About Button with hover photo */}
-        <div className="relative">
-          {showProfilePhoto && (
-            <img
-              src={profilePhotoSrc}
-              alt="Shivek Khurana"
-              className={clsx('w-12 h-auto', 'absolute bottom-full left-[8px]')}
-            />
-          )}
+        <div className="relative group">
+          <img
+            src={profilePhotoSrc}
+            alt="Shivek Khurana"
+            className={clsx(
+              'w-12 h-auto',
+              'absolute bottom-full left-[8px]',
+              'opacity-0 group-hover:opacity-100',
+              'transition-opacity duration-0',
+              'pointer-events-none'
+            )}
+          />
           <a
             href="/about"
             className={clsx('inline-block h-[30px] px-[10px]', 'border')}
-            onMouseEnter={() => setShowProfilePhoto(true)}
-            onMouseLeave={() => setShowProfilePhoto(false)}
           >
             About
           </a>
