@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import clsx from 'clsx';
 import type { PropsWithChildren } from 'react';
 import convert from 'htmr';
 
-import type { Post } from '@contentlayer/generated'
+import type { Post } from '@contentlayer/generated';
 import '@src/components/markdown.css';
 
 const transform = {
@@ -25,16 +25,15 @@ const transform = {
     );
   },
   h1: ({ children }: PropsWithChildren) => (
-    <h1 className={
-      clsx(
+    <h1
+      className={clsx(
         'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-2xl',
         'mt-6 mb-3',
         'font-bold'
-      )
-    }
+      )}
     >
       {children}
-    </h1 >
+    </h1>
   ),
   h2: ({ children }: PropsWithChildren) => (
     <h2
@@ -65,7 +64,9 @@ const transform = {
   ol: ({ children }: PropsWithChildren) => (
     <ol className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">{children}</ol>
   ),
-  li: ({ children }: PropsWithChildren) => <li className="list-inside list-disc">{children}</li>,
+  li: ({ children }: PropsWithChildren) => (
+    <li className="list-inside list-disc">{children}</li>
+  ),
   blockquote: ({ children }: PropsWithChildren) => (
     <blockquote className="font-serif italic text-xl">{children}</blockquote>
   ),
@@ -74,12 +75,15 @@ const transform = {
       // Handle specific case
     }
     return (
-      <a href={href} target="_blank">
+      <a
+        href={href}
+        target="_blank"
+      >
         {children}
       </a>
     );
   },
-  img: ({ src, alt }: { src: string, alt: string }) => {
+  img: ({ src, alt }: { src: string; alt: string }) => {
     const srcParts = src.split('?');
     const size = srcParts[1];
     return (
@@ -96,17 +100,20 @@ const transform = {
     );
   },
   em: ({ children }: PropsWithChildren) => {
-    return <em className='mt-2 mb-4 text-sm opacity-60'>{children}</em>
-  }
+    return <em className="mt-2 mb-4 text-sm opacity-60">{children}</em>;
+  },
+  table: ({ children }: PropsWithChildren) => (
+    <div className="mx-auto w-4/5 overflow-x-auto my-6">
+      <table className="min-w-full">{children}</table>
+    </div>
+  ),
 };
 
 function Markdown(props: PropsWithChildren<{ post: Post }>) {
-  const html = props.post.parsedMd
+  const html = props.post.parsedMd;
   return (
-    <div className="markdown break-words">
-      {convert(html, { transform })}
-    </div>
+    <div className="markdown break-words">{convert(html, { transform })}</div>
   );
-};
+}
 
 export default Markdown;
