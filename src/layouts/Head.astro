@@ -1,6 +1,12 @@
 ---
 // Inline critical CSS instead of importing to avoid render-blocking
-import fontsCss from '@src/styles/fonts.css?raw';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const fontsCss = readFileSync(
+  join(process.cwd(), 'src', 'styles', 'fonts.css'),
+  'utf-8'
+);
 ---
 
 <head>
@@ -17,8 +23,31 @@ import fontsCss from '@src/styles/fonts.css?raw';
     content="width=device-width"
   />
 
+  <!-- Preload MLMRoman font files -->
+  <link
+    rel="preload"
+    href="/fonts/MLMRoman12-Regular.D13Jik12.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="/fonts/MLMRoman12-Italic.CZt6EMg7.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="/fonts/MLMRoman12-Bold.DH6SWUJU.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+
   <!-- Inline critical CSS to avoid render-blocking -->
-  <style is:inline>{fontsCss}</style>
+  <style is:inline set:html={fontsCss}></style>
 
   <link
     rel="preconnect"

@@ -30,7 +30,7 @@ QBO does ingestion, categorisation, matching. Albeit many people hate it online 
 
 There is also a suit of tools aimed at agency management. Like Double and monday.
 
-Process documentation also seems to be a recurring pain. I saw one youtuber using google docs. Jason on Firms [suggested to use Guiide](https://www.youtube.com/watch?v=acfvmTqp-uE) and one comment on the video praised [GUiide](https://www.guidde.com/)
+Process documentation also seems to be a recurring pain. I saw one youtuber using google docs. Jason on Firms [suggested to use Guidde](https://www.youtube.com/watch?v=acfvmTqp-uE) and one comment on the video praised [Guidde](https://www.guidde.com/)
 
 ## Accounts Payable Automation
 
