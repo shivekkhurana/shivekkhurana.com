@@ -12,7 +12,7 @@ author: shivekkhurana
 
 ## The Accounting Firm Landscape
 
-Most business owners don't care much about accouting. That's true from my personal experience too.
+Most business owners don't care much about accounting. That's true from my personal experience too.
 
 They hire an accounting firm that keeps their books fresh. These firms care only about accounting.
 
@@ -24,13 +24,13 @@ I saw many firms on Youtube managing 50 clients or more. They make rules for eac
 
 Quickbooks is the undisputed champion.
 
-QBO does ingestion, categorisation, matching. Albeit many people hate it online and call it inaccurate. It says it learns from your work, but in reality it doesn't seem too. The UI is also a common complaint. Slow and laggy.
+QBO does ingestion, categorisation, matching. Although many people hate it online and call it inaccurate. It says it learns from your work, but in reality it doesn't seem to. The UI is also a common complaint. Slow and laggy.
 
 ## Agency Management Tools
 
-There is also a suit of tools aimed at agency management. Like Double and monday.
+There is also a suite of tools aimed at agency management. Like Double and monday.
 
-Process documentation also seems to be a recurring pain. I saw one youtuber using google docs. Jason on Firms [suggested to use Guidde](https://www.youtube.com/watch?v=acfvmTqp-uE) and one comment on the video praised [Guidde](https://www.guidde.com/)
+Process documentation also seems to be a recurring pain. I saw one YouTuber using Google Docs. Jason on Firms [suggested to use Guidde](https://www.youtube.com/watch?v=acfvmTqp-uE) and one comment on the video praised [Guidde](https://www.guidde.com/)
 
 ## Accounts Payable Automation
 
@@ -38,29 +38,29 @@ There is a power tool called [MakersHub](https://makershub.ai/) that automates a
 
 ## General Ledger Competitors
 
-There are tools like Puzzle.io and Digit.com that are going directly after Quickbooks with their own General Ledger.
+There are tools like Puzzle.io and Digits.com that are going directly after Quickbooks with their own General Ledger.
 
 There are three YC companies that also seem to be building their GL: [Truewind](https://www.truewind.ai/), [Minerva](https://www.tryminerva.ai/) and [Tabula](https://tabula.de/)
 
-The comapnies that builds GL tends to target companies, not agencies.
+The companies that build GL tend to target companies, not agencies.
 
 There is also [Kick](https://www.kick.co/) that has individuals on their testimonials page.
 
-Although QBO is the undisputed king, AI GL tools are popping up and and claiming territory [DualEntry](https://dualentry.com/) and [Light](https://light.inc/). QBO seems to be the common man's bookeeping tool.
+Although QBO is the undisputed king, AI GL tools are popping up and claiming territory like [DualEntry](https://dualentry.com/) and [Light](https://light.inc/). QBO seems to be the common man's bookkeeping tool.
 
 ## AI-Powered Analysis and Advisory
 
-A hard thing that Accountants do is spot anomalies. If expenses shoot up, or income dips or is on a down trend. Then suggest mitigations. [Xbert](https://www.xbert.io/) helps you write prompts on your data to do this on autopilot.
+A hard thing that accountants do is spot anomalies. If expenses shoot up, or income dips or is on a down trend. Then suggest mitigations. [Xbert](https://www.xbert.io/) helps you write prompts on your data to do this on autopilot.
 
-Accountants give "advice" to clients after reading their books. It's the perspective that numbers give you. [Aider](https://www.aider.ai/) is acompanu that does this on autopilot.
+Accountants give "advice" to clients after reading their books. It's the perspective that numbers give you. [Aider](https://www.aider.ai/) is a company that does this on autopilot.
 
 ## Spreadsheet Automation
 
-Excel and google sheets always stay in the background. It's like a calculator for tabular data, so codegen with appscript and python is something advanced and curious accountants partake in.
+Excel and Google Sheets always stay in the background. It's like a calculator for tabular data, so codegen with AppScript and Python is something advanced and curious accountants partake in.
 
 ## Community and Where Accountants Gather
 
-Accoutnants hang out on Facebook groups. There are many women led bookeeping firms. They also seem to have a comunity on Youtube and reddit: [r/Accounting](https://www.reddit.com/r/Accounting/), [r/Bookkeeping](https://www.reddit.com/r/Bookkeeping/) [r/smallbusiness](https://www.reddit.com/r/smallbusiness/) [r/pf_tools](https://www.reddit.com/r/pf_tools/)
+Accountants hang out on Facebook groups. There are many women-led (Bookeeping moms group) bookkeeping firms. They also seem to have a community on YouTube and Reddit: [r/Accounting](https://www.reddit.com/r/Accounting/), [r/Bookkeeping](https://www.reddit.com/r/Bookkeeping/) [r/smallbusiness](https://www.reddit.com/r/smallbusiness/) [r/pf_tools](https://www.reddit.com/r/pf_tools/)
 
 ## Summary Table of Accounting Tools
 
@@ -82,5 +82,5 @@ Accoutnants hang out on Facebook groups. There are many women led bookeeping fir
 
 ## Conclusion
 
-Accounting and LLMs are a great fit. But accountants resist change. Also, accoutancy needs a GL UI. Agents need to be able to talk to the GL.
+Accounting and LLMs are a great fit. But accountants resist change. Also, accountancy needs a GL UI. Agents need to be able to talk to the GL.
 There is space to build here. Research more.
