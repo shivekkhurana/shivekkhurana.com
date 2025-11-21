@@ -158,7 +158,7 @@ function IdentityBlock() {
       <div className={clsx('flex flex-col', 'gap-2', 'max-w-xs')}>
         <p className={clsx('font-mlm-roman', 'text-black', 'text-sm')}>
           © Shivek Khurana {currentYear} | Except where otherwise noted, all
-          content is licensed under CC BY-NC 4.0.
+          content is licensed under CC BY-SA 4.0.
         </p>
       </div>
     </div>
