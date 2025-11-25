@@ -65,7 +65,9 @@ const transform = {
     <ol className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">{children}</ol>
   ),
   li: ({ children }: PropsWithChildren) => (
-    <li className="list-inside list-disc">{children}</li>
+    <li className="list-outside list-disc ml-6 mb-2 text-lg leading-relaxed">
+      {children}
+    </li>
   ),
   blockquote: ({ children }: PropsWithChildren) => (
     <blockquote className="font-serif italic text-xl">{children}</blockquote>
@@ -103,7 +105,7 @@ const transform = {
     return <em className="mt-2 mb-4 text-sm opacity-60">{children}</em>;
   },
   table: ({ children }: PropsWithChildren) => (
-    <div className="mx-auto w-4/5 overflow-x-auto my-6">
+    <div className="mx-auto w-full md:w-4/5 overflow-x-auto my-6">
       <table className="min-w-full">{children}</table>
     </div>
   ),

@@ -103,7 +103,7 @@ function parse(url: string): string {
   else return url;
 }
 
-function CanonicalRef({ canonicalUrl }) {
+function CanonicalRef({ canonicalUrl }: { canonicalUrl: string }) {
   return (
     <div className="mt-3 bg-black/10 p-2 rounded">
       This blog was originally published on{' '}
