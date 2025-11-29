@@ -1,5 +1,5 @@
 ---
-title: Founder
+title: Aspiring founder
 companyName: Zeroarity
 companyUrl: https://github.com/shivekkhurana/zeroarity
 logo: /img/content/projects/placeholder.png

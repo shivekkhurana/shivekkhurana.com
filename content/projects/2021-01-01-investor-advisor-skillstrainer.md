@@ -1,5 +1,5 @@
 ---
-title: Investor and Advisor
+title: Seed (priced) Investor and Advisor
 companyName: Skillstrainer
 companyUrl: https://skillstrainer.in
 logo: /img/content/projects/st.png
