@@ -3,7 +3,7 @@ slug: vg-acquisition-corp
 name: VG Acquisition Corp
 website: ''
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: SPAC (Special Purpose Acquisition Company) backed by Richard Branson's Virgin Group

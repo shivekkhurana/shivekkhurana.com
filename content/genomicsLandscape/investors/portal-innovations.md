@@ -3,7 +3,7 @@ slug: portal-innovations
 name: Portal Innovations
 website: https://www.portalinnovations.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital and incubator focused on life sciences and biotech companies.

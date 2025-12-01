@@ -3,7 +3,7 @@ slug: vertex-pharmaceuticals
 name: Vertex Pharmaceuticals
 website: https://www.vrtx.com
 location: ''
-type: corporate-venture
+fundType: corporate-venture
 stages: []
 typicalInvestmentRange: ''
 description: Biotechnology company with strategic partnerships and investments in gene editing companies

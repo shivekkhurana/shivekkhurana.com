@@ -3,7 +3,7 @@ slug: valiance-asset-management
 name: Valiance Asset Management
 website: https://valiance-am.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Investment firm. Participated in Exact Sciences funding round (June 20, 2023). Limited public portfolio information.

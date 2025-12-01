@@ -4,7 +4,7 @@ name: Nebula Genomics
 website: 'https://www.nebula.org'
 location: ''
 categories: ['genomics-sequencing', 'consumer-health-app']
-founded: 2018
+founded: "2018"
 description: Whole-genome sequencing services company with emphasis on privacy-preserving analysis of genomic datasets. Co-founded by geneticist George Church.
 logo: ''
 lastResearched: 2025-01-27

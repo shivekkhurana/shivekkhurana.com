@@ -3,7 +3,7 @@ slug: first-round-capital
 name: First Round Capital
 website: https://firstround.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Early-stage venture capital firm

@@ -3,7 +3,7 @@ slug: 7wireventures
 name: 7wireVentures
 website: https://www.7wireventures.com
 location: ''
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Healthcare-focused venture capital firm

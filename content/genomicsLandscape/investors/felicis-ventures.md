@@ -3,7 +3,7 @@ slug: felicis-ventures
 name: Felicis Ventures
 website: https://www.felicis.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Early-stage venture capital firm

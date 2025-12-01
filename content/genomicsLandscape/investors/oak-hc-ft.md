@@ -3,7 +3,7 @@ slug: oak-hc-ft
 name: Oak HC/FT
 website: https://www.oakhcft.com
 location: ''
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Healthcare and financial technology focused venture capital firm

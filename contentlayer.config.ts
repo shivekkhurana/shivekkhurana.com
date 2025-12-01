@@ -85,15 +85,15 @@ const Project = defineDocumentType(() => ({
   },
 }));
 
-const Investor = defineDocumentType(() => ({
-  name: 'Investor',
+const GenomicsInvestor = defineDocumentType(() => ({
+  name: 'GenomicsInvestor',
   filePathPattern: 'genomicsLandscape/investors/*.md',
   fields: {
     slug: { type: 'string' },
     name: { type: 'string' },
     website: { type: 'string', required: false },
     location: { type: 'string', required: false },
-    type: { type: 'string', required: false },
+    fundType: { type: 'string', required: false },
     stages: { type: 'list', of: { type: 'string' }, required: false },
     typicalInvestmentRange: { type: 'string', required: false },
     description: { type: 'string', required: false },
@@ -109,8 +109,8 @@ const Investor = defineDocumentType(() => ({
   },
 }));
 
-const Company = defineDocumentType(() => ({
-  name: 'Company',
+const GenomicsCompany = defineDocumentType(() => ({
+  name: 'GenomicsCompany',
   filePathPattern: 'genomicsLandscape/companies/*.md',
   fields: {
     slug: { type: 'string' },
@@ -135,7 +135,14 @@ const Company = defineDocumentType(() => ({
 
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Post, Tag, Author, Project, Investor, Company],
+  documentTypes: [
+    Post,
+    Tag,
+    Author,
+    Project,
+    GenomicsInvestor,
+    GenomicsCompany,
+  ],
   disableImportAliasWarning: true,
   contentDirExclude: ['pages'],
 });

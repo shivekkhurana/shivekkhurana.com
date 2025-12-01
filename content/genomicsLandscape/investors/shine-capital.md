@@ -3,7 +3,7 @@ slug: shine-capital
 name: Shine Capital
 website: https://www.shinecapital.com
 location: US
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm focusing on innovative technologies and early-stage investments.

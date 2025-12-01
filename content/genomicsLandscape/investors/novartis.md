@@ -3,7 +3,7 @@ slug: novartis
 name: Novartis
 website: https://www.novartis.com
 location: ''
-type: corporate-venture
+fundType: corporate-venture
 stages: []
 typicalInvestmentRange: ''
 description: Pharmaceutical company with strategic investments and partnerships

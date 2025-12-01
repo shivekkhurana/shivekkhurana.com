@@ -3,7 +3,7 @@ slug: sugati-ventures
 name: Sugati Ventures (UAE-active)
 website: https://sugativentures.com
 location: UAE
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: UAE-based venture capital firm active in Tech Bio, Deep Tech, and Health investments.

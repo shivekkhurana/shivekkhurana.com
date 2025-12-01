@@ -3,7 +3,7 @@ slug: tpg-biotech
 name: TPG Biotech
 website: https://www.tpg.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Biotechnology-focused investment arm of TPG, investing in life sciences and healthcare companies.

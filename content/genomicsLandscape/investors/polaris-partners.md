@@ -3,7 +3,7 @@ slug: polaris-partners
 name: Polaris Partners
 website: https://www.polarispartners.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm active in healthcare and biotechnology sectors, with offices in Boston, New York, and San Francisco.

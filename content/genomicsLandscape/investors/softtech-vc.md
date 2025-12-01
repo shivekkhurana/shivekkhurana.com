@@ -3,7 +3,7 @@ slug: softtech-vc
 name: SoftTech VC
 website: https://www.softtechvc.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Early-stage venture capital firm

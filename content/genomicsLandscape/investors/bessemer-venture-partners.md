@@ -3,7 +3,7 @@ slug: bessemer-venture-partners
 name: Bessemer Venture Partners
 website: https://www.bvp.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm with dedicated healthcare practice focusing on healthcare SaaS and digital therapeutics.

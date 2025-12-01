@@ -3,7 +3,7 @@ slug: sutter-hill
 name: Sutter Hill Ventures
 website: https://www.sutterhillventures.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm

@@ -3,7 +3,7 @@ slug: indaco-venture-partners
 name: Indaco Venture Partners
 website: https://www.indacosgr.com
 location: Europe
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Italian venture capital firm investing in high-tech startups, including those in the health sector.

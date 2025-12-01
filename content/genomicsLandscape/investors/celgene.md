@@ -3,7 +3,7 @@ slug: celgene
 name: Celgene
 website: ''
 location: ''
-type: corporate-venture
+fundType: corporate-venture
 stages: []
 typicalInvestmentRange: ''
 description: Pharmaceutical company (acquired by Bristol Myers Squibb in 2019) with strategic investments

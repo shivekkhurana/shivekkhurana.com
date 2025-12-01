@@ -3,7 +3,7 @@ slug: sofinnova-partners
 name: Sofinnova Partners
 website: https://sofinnovapartners.com
 location: Europe
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Leading European venture capital firm specializing in life sciences investments.

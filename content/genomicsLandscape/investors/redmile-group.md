@@ -3,7 +3,7 @@ slug: redmile-group
 name: Redmile Group
 website: https://www.redmilegroup.com
 location: ''
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Healthcare-focused investment firm

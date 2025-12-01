@@ -3,7 +3,7 @@ slug: 5am-ventures
 name: 5AM Ventures
 website: https://www.5amventures.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm specializing in early-stage life sciences companies, focusing on precision medicine, biological engineering, and novel therapeutic platforms.

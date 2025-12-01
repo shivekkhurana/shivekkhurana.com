@@ -3,7 +3,7 @@ slug: vitadao
 name: VitaDAO
 website: https://www.vitadao.com
 location: ''
-type: dao
+fundType: dao
 stages: ['seed', 'series-a']
 typicalInvestmentRange: ''
 description: Decentralized autonomous organization (DAO) dedicated to funding and advancing early-stage longevity research. Community-owned platform connecting scientists with funding for projects aimed at extending human healthspan.

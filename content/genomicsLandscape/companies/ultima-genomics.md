@@ -4,7 +4,7 @@ name: Ultima Genomics
 website: 'https://www.ultimagenomics.com'
 location: Fremont, California, USA
 categories: ['genomics-sequencing', 'biotech']
-founded: 2016
+founded: "2016"
 description: Gene sequencing startup aiming to reduce the cost of sequencing a human genome to $100. Develops high-throughput genomic sequencing technologies.
 logo: ''
 lastResearched: 2025-01-27

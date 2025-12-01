@@ -3,7 +3,7 @@ slug: altimeter-capital
 name: Altimeter Capital
 website: https://www.altimetercapital.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Growth equity investment firm

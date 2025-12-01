@@ -4,7 +4,7 @@ name: 10x Genomics
 website: https://www.10xgenomics.com
 location: Pleasanton, California, USA
 categories: ['genomics-sequencing', 'biotech', 'diagnostics']
-founded: 2012
+founded: "2012"
 description: Designs and manufactures gene sequencing technology used in scientific research. Advanced genomic analysis tools.
 logo: ''
 lastResearched: 2025-01-27

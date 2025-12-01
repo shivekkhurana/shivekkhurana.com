@@ -14,6 +14,13 @@ lastResearched: 2025-01-27
 
 Personal genomics and biotechnology company known for its direct-to-consumer genetic testing services. One of the most well-known consumer genomics companies.
 
+## Team
+
+- **Anne Wojcicki** - Co-founder, Former CEO
+  - LinkedIn: [linkedin.com/in/anne-wojcicki](https://www.linkedin.com/in/anne-wojcicki/)
+- **Linda Avey** - Co-founder
+- **Joe Selsavage** - Interim CEO (as of March 2025)
+
 ## Additional Research Findings
 
 - Direct-to-consumer genetic testing

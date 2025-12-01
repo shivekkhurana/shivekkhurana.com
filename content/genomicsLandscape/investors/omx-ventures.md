@@ -3,7 +3,7 @@ slug: omx-ventures
 name: OMX Ventures
 website: https://omx.vc
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm investing in early-stage life science companies. HIGH FIT for genomics landscape.

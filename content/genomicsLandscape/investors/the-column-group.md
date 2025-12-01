@@ -3,7 +3,7 @@ slug: the-column-group
 name: The Column Group
 website: https://www.thecolumngroup.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm focused on biotechnology and life sciences companies.

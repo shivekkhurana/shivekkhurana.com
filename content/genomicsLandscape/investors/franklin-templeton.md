@@ -3,7 +3,7 @@ slug: franklin-templeton
 name: Franklin Templeton Investments
 website: https://www.franklintempleton.com
 location: ''
-type: ''
+fundType: ''
 stages: []
 typicalInvestmentRange: ''
 description: Investment management firm. Participated in Tempus funding rounds.

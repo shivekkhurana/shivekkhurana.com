@@ -3,7 +3,7 @@ slug: mubadala-capital
 name: Mubadala Capital
 website: https://www.mubadalacapital.com
 location: UAE
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Investment arm of Mubadala Investment Company. Participated in $290 million funding round for Metsera (April 2024).

@@ -3,7 +3,7 @@ slug: dragoneer-investment-group
 name: Dragoneer Investment Group
 website: https://www.dragoneer.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Growth equity investment firm

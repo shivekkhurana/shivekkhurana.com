@@ -3,7 +3,7 @@ slug: general-atlantic
 name: General Atlantic
 website: https://www.generalatlantic.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Global growth equity firm

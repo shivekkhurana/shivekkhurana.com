@@ -3,7 +3,7 @@ slug: dfj-growth
 name: DFJ Growth
 website: https://www.dfjgrowth.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Growth-stage venture capital firm

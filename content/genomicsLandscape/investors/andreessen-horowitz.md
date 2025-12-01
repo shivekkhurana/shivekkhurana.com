@@ -3,7 +3,7 @@ slug: andreessen-horowitz
 name: Andreessen Horowitz
 website: https://a16z.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
 typicalInvestmentRange: ''
 description: Venture capital firm investing in technology companies across various sectors, including healthcare and genomics.

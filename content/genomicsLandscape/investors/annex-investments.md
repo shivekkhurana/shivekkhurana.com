@@ -3,7 +3,7 @@ slug: annex-investments
 name: Annex Investments
 website: https://annexinvestments.com
 location: UAE
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Investment firm based in UAE, focusing on diverse sectors, including Tech Bio, Deep Tech, and Health.

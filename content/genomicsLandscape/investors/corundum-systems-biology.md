@@ -3,7 +3,7 @@ slug: corundum-systems-biology
 name: Corundum Systems Biology
 website: https://www.corundumsystemsbiology.com
 location: Japan
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Japanese investment firm focusing on Tech Bio, Deep Tech, and Health sectors. Systems biology focus.

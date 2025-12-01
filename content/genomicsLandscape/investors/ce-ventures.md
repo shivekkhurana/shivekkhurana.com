@@ -3,7 +3,7 @@ slug: ce-ventures
 name: CE-Ventures (Crescent Enterprises)
 website: https://www.crescententerprises.com/what-we-do/ce-ventures
 location: Sharjah, UAE
-type: biotech-focused
+fundType: biotech-focused
 stages: ["seed", "series-a", "series-b", "series-c", "series-d", "growth", "late-stage"]
 typicalInvestmentRange: ""
 description: Corporate venture capital platform of Crescent Enterprises, investing in early- to late-stage high-growth companies and venture funds globally. Focus on tech-enabled solutions in US, MENA, India, and Southeast Asia.

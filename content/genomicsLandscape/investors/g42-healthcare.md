@@ -3,7 +3,7 @@ slug: g42-healthcare
 name: G42 Healthcare (within G42)
 website: https://www.g42.ai
 location: UAE
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Healthcare division within G42, enabler of the Emirate Genome program. Focus on AI and healthcare technology.

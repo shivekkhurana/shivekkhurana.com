@@ -3,7 +3,7 @@ slug: linden-lake-venture-capital
 name: Linden Lake Venture Capital
 website: https://www.lindenlakeventurecapital.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm investing in early-stage technology companies, including those in the health sector.

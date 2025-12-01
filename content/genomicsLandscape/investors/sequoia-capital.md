@@ -3,7 +3,7 @@ slug: sequoia-capital
 name: Sequoia Capital
 website: https://www.sequoiacap.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
 typicalInvestmentRange: ''
 description: American venture capital firm headquartered in Menlo Park, California, investing across various technology sectors, including healthcare and biotechnology.

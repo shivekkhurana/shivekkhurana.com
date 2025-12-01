@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import type { EnrichedInvestment } from '../data/enricher';
+import type { EnrichedInvestment } from '@src/genomics/types';
 
 interface InvestmentListProps {
   investments: EnrichedInvestment[];
@@ -47,11 +47,11 @@ function InvestmentList({ investments, type }: InvestmentListProps) {
             >
               <div>
                 <a
-                  href={`#${type === 'investor' ? 'company' : 'investor'}-${
-                    entity.slug
-                  }`}
+                  href={`/genomics-landscape/${
+                    type === 'investor' ? 'companies' : 'investors'
+                  }/${entity.slug}`}
                   className={clsx(
-                    'text-sm font-medium text-blue-600',
+                    'text-sm font-medium text-black',
                     'hover:underline'
                   )}
                 >

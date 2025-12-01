@@ -3,7 +3,7 @@ slug: versant-ventures
 name: Versant Ventures
 website: https://www.versantventures.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm supporting both new venture creation and external investments in biotechnology and life sciences.

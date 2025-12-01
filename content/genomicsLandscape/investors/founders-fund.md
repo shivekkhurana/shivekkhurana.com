@@ -3,7 +3,7 @@ slug: founders-fund
 name: Founders Fund
 website: https://foundersfund.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm

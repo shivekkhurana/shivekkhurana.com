@@ -3,7 +3,7 @@ slug: nea
 name: NEA (New Enterprise Associates)
 website: https://www.nea.com/portfolio?category=digital-health
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: ["seed", "series-a", "series-b", "series-c", "growth"]
 typicalInvestmentRange: ''
 description: Global venture capital firm investing in technology and healthcare companies. Seed investor in Tempus.

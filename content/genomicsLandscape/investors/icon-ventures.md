@@ -3,7 +3,7 @@ slug: icon-ventures
 name: Icon Ventures
 website: https://www.iconventures.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm

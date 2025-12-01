@@ -4,7 +4,7 @@ name: Suki
 website: 'https://www.suki.ai'
 location: ''
 categories: ['healthcare-platform', 'ai-drug-discovery']
-founded: 2017
+founded: "2017"
 description: Healthcare startup developing AI voice assistants aimed at reducing administrative workloads for healthcare providers.
 logo: ''
 lastResearched: 2025-01-27

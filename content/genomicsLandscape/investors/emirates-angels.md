@@ -3,7 +3,7 @@ slug: emirates-angels
 name: Emirates Angels
 website: https://www.emiratesangels.org/
 location: UAE
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Angel investment network supporting startups in various sectors, including Tech Bio, Deep Tech, and Health.

@@ -3,7 +3,7 @@ slug: communitascapital
 name: Communitas Capital
 website: https://communitascapital.com/
 location: US
-type: b2b-saas
+fundType: b2b-saas
 stages: []
 typicalInvestmentRange: ''
 description: B2B SaaS focused venture capital firm. Participating in Pheno.ai.

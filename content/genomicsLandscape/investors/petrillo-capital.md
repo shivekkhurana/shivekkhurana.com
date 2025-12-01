@@ -3,7 +3,7 @@ slug: petrillo-capital
 name: Petrillo Capital
 website: https://petrillocapital.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Investment firm listed as investor. Website redirects to landing page with minimal information. Limited public details available.

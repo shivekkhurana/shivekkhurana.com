@@ -3,7 +3,7 @@ slug: revolution-growth
 name: Revolution Growth
 website: https://revolution.com/companies/
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: ["seed", "growth"]
 typicalInvestmentRange: ''
 description: Venture capital firm investing in growth-stage companies across various sectors, including health. Seed investor in Tempus.

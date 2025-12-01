@@ -3,7 +3,7 @@ slug: salica
 name: Salica Investments
 website: https://salicainvestments.com/
 location: UAE
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: UAE-based investment firm focusing on Tech Bio, Deep Tech, and Health sectors. Formerly known as Hambro Perks, established in 2013. Focuses on growth investments.

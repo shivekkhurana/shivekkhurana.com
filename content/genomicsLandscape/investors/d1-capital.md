@@ -3,7 +3,7 @@ slug: d1-capital
 name: D1 Capital
 website: https://www.d1cap.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Investment firm

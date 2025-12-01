@@ -3,7 +3,7 @@ slug: angelini-ventures
 name: Angelini Ventures
 website: https://www.angeliniventures.com
 location: Europe
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital arm of Angelini Industries, focusing on investments in the health and wellness sectors.

@@ -4,7 +4,7 @@ name: DNAnexus
 website: https://www.dnanexus.com
 location: Mountain View, California, USA
 categories: ['genomics-sequencing', 'healthcare-platform', 'ai-drug-discovery']
-founded: 2009
+founded: "2009"
 description: Provides a cloud-based data analysis and management platform for DNA sequence data.
 logo: ''
 lastResearched: 2025-01-27

@@ -3,7 +3,7 @@ slug: beco-capital
 name: Beco Capital
 website: https://becocapital.com/portfolio/
 location: UAE
-type: b2b-saas
+fundType: b2b-saas
 stages: []
 typicalInvestmentRange: ''
 description: B2B SaaS focused investment firm based in UAE.

@@ -3,7 +3,7 @@ slug: spur-capital-partners
 name: Spur Capital Partners
 website: https://spurcapital.com
 location: US
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Private equity fund-of-funds. Ranked #3 on HEC-Dow Jones Performance Ranking (2022). Signatory of UNPRI. Listed as investor in Exact Sciences.

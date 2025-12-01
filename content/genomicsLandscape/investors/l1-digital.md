@@ -3,7 +3,7 @@ slug: l1-digital
 name: L1 Digital
 website: https://www.l1digital.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Investment group specializing in digital assets and blockchain technologies.

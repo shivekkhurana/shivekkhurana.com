@@ -3,10 +3,10 @@ slug: oxford-science-enterprises
 name: Oxford Science Enterprises
 website: https://oxfordscienceenterprises.com
 location: Europe
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
-description: Commercializes Oxford University research. Invested in Base Genomics (acquired by Exact Sciences in 2020). Focus: Deep Tech, Life Science, HealthTech.
+description: 'Commercializes Oxford University research. Invested in Base Genomics (acquired by Exact Sciences in 2020). Focus: Deep Tech, Life Science, HealthTech.'
 lastResearched: 2025-01-27
 ---
 
@@ -37,4 +37,3 @@ Oxford Science Enterprises commercializes Oxford University research, focusing o
 - University research commercialization focus
 - Strong connection to Oxford University
 - Deep tech and life sciences focus
-

@@ -3,7 +3,7 @@ slug: warburg-pincus
 name: Warburg Pincus
 website: https://www.warburgpincus.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Global private equity firm

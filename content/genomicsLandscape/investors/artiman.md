@@ -3,7 +3,7 @@ slug: artiman
 name: Artiman
 website: https://www.artiman.com/
 location: India
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm investing in early-stage technology and life science companies. Backer of Cellworks.

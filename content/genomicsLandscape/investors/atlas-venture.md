@@ -3,7 +3,7 @@ slug: atlas-venture
 name: Atlas Venture
 website: https://www.atlasventure.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b']
 typicalInvestmentRange: ''
 description: Venture capital firm focused on early-stage biotechnology and life sciences companies.

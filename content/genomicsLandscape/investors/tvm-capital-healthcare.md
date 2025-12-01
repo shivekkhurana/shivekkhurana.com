@@ -3,7 +3,7 @@ slug: tvm-capital-healthcare
 name: TVM Capital Healthcare
 website: https://tvmcapitalhealthcare.com
 location: UAE
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Private equity and growth capital firm specializing in healthcare investments in emerging markets, including the Middle East.

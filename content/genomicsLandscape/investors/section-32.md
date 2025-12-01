@@ -3,7 +3,7 @@ slug: section-32
 name: Section 32
 website: https://section32.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm focused on computational genomics and genetic engineering.

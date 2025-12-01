@@ -3,7 +3,7 @@ slug: playground-global
 name: Playground Global
 website: https://www.playground.global
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm focused on deep technology

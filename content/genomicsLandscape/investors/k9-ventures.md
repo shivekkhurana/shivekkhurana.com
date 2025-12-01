@@ -3,7 +3,7 @@ slug: k9-ventures
 name: K9 Ventures
 website: https://www.k9ventures.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Early-stage venture capital firm

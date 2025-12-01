@@ -3,7 +3,7 @@ slug: deerfield-management
 name: Deerfield Management
 website: https://www.deerfield.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Investment firm dedicated to advancing healthcare through investment, information, and philanthropy. Invests across all stages from seed to post-IPO.

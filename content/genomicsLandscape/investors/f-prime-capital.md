@@ -3,7 +3,7 @@ slug: f-prime-capital
 name: F-Prime Capital
 website: https://www.fprimecapital.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm investing in healthcare and technology companies, with a focus on biotechnology and life sciences.

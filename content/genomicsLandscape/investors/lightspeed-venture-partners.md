@@ -3,7 +3,7 @@ slug: lightspeed-venture-partners
 name: Lightspeed Venture Partners
 website: https://lsvp.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Multi-stage venture capital firm

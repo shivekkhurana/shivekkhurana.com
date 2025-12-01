@@ -3,7 +3,7 @@ slug: silver-lake
 name: Silver Lake
 website: https://www.silverlake.com/portfolio/
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Global technology investment firm with investments in healthcare technology companies. Early backers of Google's Verily.

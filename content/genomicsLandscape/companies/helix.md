@@ -4,7 +4,7 @@ name: Helix
 website: https://www.helix.com
 location: San Mateo, California, USA
 categories: ['genomics-sequencing', 'consumer-health-app']
-founded: 2015
+founded: "2015"
 description: Population genomics company offering personal genomics services and operating a marketplace for genomic applications.
 logo: ''
 lastResearched: 2025-01-27

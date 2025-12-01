@@ -1,0 +1,46 @@
+---
+import clsx from 'clsx';
+
+interface Props {
+  activeTab: 'investors' | 'companies';
+  investorCount: number;
+  companyCount: number;
+}
+
+const { activeTab, investorCount, companyCount } = Astro.props;
+---
+
+<div class={clsx('border-b border-gray-200', 'mb-8')}>
+  <div class={clsx('flex gap-4')}>
+    <a
+      href="/genomics-landscape/investors"
+      class={clsx(
+        'px-4 py-2',
+        'font-medium',
+        'border-b-2',
+        'transition-colors',
+        'no-underline',
+        activeTab === 'investors'
+          ? 'border-black text-black'
+          : 'border-transparent text-gray-600 hover:text-gray-900'
+      )}
+    >
+      Investors <span class="opacity-70">({investorCount})</span>
+    </a>
+    <a
+      href="/genomics-landscape/companies"
+      class={clsx(
+        'px-4 py-2',
+        'font-medium',
+        'border-b-2',
+        'transition-colors',
+        'no-underline',
+        activeTab === 'companies'
+          ? 'border-black text-black'
+          : 'border-transparent text-gray-600 hover:text-gray-900'
+      )}
+    >
+      Companies <span class="opacity-70">({companyCount})</span>
+    </a>
+  </div>
+</div>

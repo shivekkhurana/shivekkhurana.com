@@ -3,7 +3,7 @@ slug: alexandria-venture-investments
 name: Alexandria Venture Investments
 website: https://www.alexandriavc.com
 location: US
-type: corporate-venture
+fundType: corporate-venture
 stages: []
 typicalInvestmentRange: ''
 description: Strategic venture capital arm of Alexandria Real Estate Equities, investing in life science companies.

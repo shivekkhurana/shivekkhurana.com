@@ -3,7 +3,7 @@ slug: google-ventures
 name: Google Ventures (GV)
 website: https://www.gv.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c']
 typicalInvestmentRange: ''
 description: Venture capital arm of Alphabet (Google), investing in technology and healthcare companies, including genomics and life sciences.

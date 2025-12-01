@@ -3,7 +3,7 @@ slug: entree-capital
 name: Entree Capital
 website: https://entreecap.com/
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Global venture capital firm investing in early-stage companies across various sectors, including health.

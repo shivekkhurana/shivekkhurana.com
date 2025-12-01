@@ -3,7 +3,7 @@ slug: amoon
 name: aMoon
 website: https://www.amoon.com
 location: ''
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Israeli healthcare and life sciences venture fund

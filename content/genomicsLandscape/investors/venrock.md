@@ -3,7 +3,7 @@ slug: venrock
 name: Venrock
 website: https://www.venrock.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm combining deep scientific understanding with commercial insight, investing in breakthrough therapeutic platforms and medical devices.

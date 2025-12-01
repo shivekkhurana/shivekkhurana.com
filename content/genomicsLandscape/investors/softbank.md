@@ -3,7 +3,7 @@ slug: softbank
 name: SoftBank
 website: https://group.softbank
 location: US
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Global technology investment firm. Participated in $290 million funding round for Metsera (April 2024).

@@ -3,7 +3,7 @@ slug: march-capital
 name: March Capital
 website: https://www.marchcp.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm

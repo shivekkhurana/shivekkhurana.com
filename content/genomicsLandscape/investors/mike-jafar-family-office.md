@@ -3,7 +3,7 @@ slug: mike-jafar-family-office
 name: Mike Jafar Family Office
 website: https://www.mikejafar.com
 location: ""
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Family office that seems to be active but has limited online presence.

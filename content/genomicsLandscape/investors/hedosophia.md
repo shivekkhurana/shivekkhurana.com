@@ -3,7 +3,7 @@ slug: hedosophia
 name: Hedosophia
 website: https://www.hedosophia.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Growth equity investment firm

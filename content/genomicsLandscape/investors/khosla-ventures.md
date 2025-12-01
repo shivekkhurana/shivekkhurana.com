@@ -3,7 +3,7 @@ slug: khosla-ventures
 name: Khosla Ventures
 website: https://www.khoslaventures.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b']
 typicalInvestmentRange: ''
 description: Venture capital firm investing in early-stage companies across various sectors, including genomics and biotechnology.

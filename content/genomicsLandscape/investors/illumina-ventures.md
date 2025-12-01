@@ -3,7 +3,7 @@ slug: illumina-ventures
 name: Illumina Ventures
 website: https://www.illuminaventures.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm investing in early-stage companies in the genomics and precision health sectors.

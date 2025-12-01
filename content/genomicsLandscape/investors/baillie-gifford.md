@@ -3,7 +3,7 @@ slug: baillie-gifford
 name: Baillie Gifford
 website: https://www.bailliegifford.com
 location: ''
-type: ''
+fundType: ''
 stages: []
 typicalInvestmentRange: ''
 description: Investment management firm. Participated in multiple funding rounds for Tempus AI including Series E and Series F.

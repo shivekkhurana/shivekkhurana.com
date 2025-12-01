@@ -3,7 +3,7 @@ slug: third-rock-ventures
 name: Third Rock Ventures
 website: https://www.thirdrockventures.com/
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm focused on building life sciences companies from the ground up.
@@ -33,4 +33,3 @@ Third Rock Ventures is a venture capital firm focused on building life sciences 
 - Company-building approach
 - Life sciences focus
 - Hands-on venture capital
-

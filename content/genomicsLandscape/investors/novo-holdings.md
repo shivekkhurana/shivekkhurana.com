@@ -3,7 +3,7 @@ slug: novo-holdings
 name: Novo Holdings
 website: https://www.novoholdings.dk
 location: ''
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Holding and investment company of the Novo Nordisk Foundation. Invests in life sciences and biotechnology companies.

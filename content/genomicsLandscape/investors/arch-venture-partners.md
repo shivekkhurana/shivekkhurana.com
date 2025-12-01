@@ -3,7 +3,7 @@ slug: arch-venture-partners
 name: ARCH Venture Partners
 website: https://www.archventure.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
 typicalInvestmentRange: ''
 description: Leading venture capital firm investing in life sciences, physical sciences, and advanced technology companies. Early-stage focus with company-building approach.

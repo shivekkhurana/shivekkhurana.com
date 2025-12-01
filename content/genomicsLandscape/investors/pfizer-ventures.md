@@ -3,7 +3,7 @@ slug: pfizer-ventures
 name: Pfizer Ventures
 website: https://www.pfizer.com/science/innovation/pfizer-ventures
 location: US
-type: corporate-venture
+fundType: corporate-venture
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital arm of Pfizer, investing in biotechnology and healthcare companies. First pharmaceutical company to invest in a DAO (VitaDAO).

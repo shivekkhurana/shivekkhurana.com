@@ -3,7 +3,7 @@ slug: tmc-texas-medical-center
 name: TMC (Texas Medical Center Venture Fund)
 website: https://www.bcm.edu/texas-medical-center-venture-fund
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture fund associated with Texas Medical Center, investing in healthcare and life sciences companies.

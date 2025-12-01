@@ -3,7 +3,7 @@ slug: dst-global
 name: DST Global
 website: https://dst-global.com/
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Investment firm with focus on internet and technology companies, including those in the health sector. Backed Foundation Medicine.

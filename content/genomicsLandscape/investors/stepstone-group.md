@@ -3,7 +3,7 @@ slug: stepstone-group
 name: StepStone Group
 website: https://www.stepstoneglobal.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Private markets investment firm

@@ -1,24 +1,19 @@
-import React from "react";
+import React from 'react';
 import type { PropsWithChildren } from 'react';
 
-function ArticleStructuredData(props: PropsWithChildren<{
-  title: string,
-  subTitle?: string,
-  heroImg: string,
-  publishedOn: string,
-  url: string,
-  authorName: string,
-  tags: string,
-}>) {
-  const {
-    title,
-    subTitle,
-    heroImg,
-    publishedOn,
-    url,
-    authorName,
-    tags,
-  } = props
+function ArticleStructuredData(
+  props: PropsWithChildren<{
+    title: string;
+    subTitle?: string;
+    heroImg: string;
+    publishedOn: string;
+    url: string;
+    authorName: string;
+    tags: string;
+  }>
+) {
+  const { title, subTitle, heroImg, publishedOn, url, authorName, tags } =
+    props;
 
   const sd = `
   {
@@ -32,12 +27,13 @@ function ArticleStructuredData(props: PropsWithChildren<{
     "url": "${url}",
     "datePublished": "${publishedOn}",
     "description": "${subTitle || ''}",
-  }`
+  }`;
 
   return (
-    <script type="application/ld+json"
+    <script
+      type="application/ld+json"
       dangerouslySetInnerHTML={{
-        __html: sd
+        __html: sd,
       }}
     />
   );

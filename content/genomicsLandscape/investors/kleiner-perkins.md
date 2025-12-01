@@ -3,7 +3,7 @@ slug: kleiner-perkins
 name: Kleiner Perkins
 website: https://www.kleinerperkins.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm with longstanding history of investing in transformative healthcare and technology companies. Focus on life sciences and digital health innovations.

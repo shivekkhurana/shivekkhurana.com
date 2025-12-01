@@ -3,7 +3,7 @@ slug: apollo-health-ventures
 name: Apollo Health Ventures
 website: https://www.apollohealthventures.com
 location: ''
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Leading longevity-focused venture capital fund. Partnered with VitaDAO and Molecule AG to build the longevity biotech and Web3 ecosystem.

@@ -4,7 +4,7 @@ name: Matrix Biosciences
 website: 'https://www.matrixbiosciences.com'
 location: ''
 categories: ['therapeutics', 'biotech', 'longevity-research']
-founded: 2023
+founded: "2023"
 description: Biotech startup launched by VitaDAO in collaboration with Dr. Vera Gorbunova from University of Rochester's Aging Research Center. Focuses on developing treatments for cancer and aging-related disorders.
 logo: ''
 lastResearched: 2025-01-27

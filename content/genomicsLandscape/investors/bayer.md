@@ -3,7 +3,7 @@ slug: bayer
 name: Bayer
 website: https://www.bayer.com
 location: ''
-type: corporate-venture
+fundType: corporate-venture
 stages: []
 typicalInvestmentRange: ''
 description: Pharmaceutical and biotechnology company with strategic investments

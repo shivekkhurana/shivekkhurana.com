@@ -3,7 +3,7 @@ slug: foresite-capital
 name: Foresite Capital
 website: https://foresitecapital.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Healthcare investment firm focused on precision medicine and genomic therapeutics.

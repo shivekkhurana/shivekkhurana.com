@@ -3,7 +3,7 @@ slug: alloy-ventures
 name: Alloy Ventures
 website: https://www.alloyventures.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Early-stage venture capital firm

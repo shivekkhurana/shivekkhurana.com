@@ -3,7 +3,7 @@ slug: mayfield
 name: Mayfield
 website: https://www.mayfield.com
 location: ''
-type: generic
+fundType: generic
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm

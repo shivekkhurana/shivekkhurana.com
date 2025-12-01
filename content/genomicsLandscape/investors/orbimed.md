@@ -3,7 +3,7 @@ slug: orbimed
 name: OrbiMed
 website: https://www.orbimed.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Healthcare investment firm investing in healthcare companies across the life cycle, from venture capital to public equity.

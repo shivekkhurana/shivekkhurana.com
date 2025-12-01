@@ -3,7 +3,7 @@ slug: general-catalyst
 name: General Catalyst
 website: https://www.generalcatalyst.com
 location: US
-type: healthcare-focused
+fundType: healthcare-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm focusing on digital health transformation, investing in companies that leverage technology to address healthcare challenges.

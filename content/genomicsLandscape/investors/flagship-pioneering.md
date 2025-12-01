@@ -3,7 +3,7 @@ slug: flagship-pioneering
 name: Flagship Pioneering
 website: https://www.flagshippioneering.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c']
 typicalInvestmentRange: ''
 description: Life sciences venture capital company specializing in biotechnology, life sciences, health, and sustainability. Known for company creation and building.

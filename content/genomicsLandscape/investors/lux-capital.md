@@ -3,7 +3,7 @@ slug: lux-capital
 name: Lux Capital
 website: https://www.luxcapital.com
 location: US
-type: biotech-focused
+fundType: biotech-focused
 stages: []
 typicalInvestmentRange: ''
 description: Venture capital firm investing in emerging science and technology ventures, including biotechnology and life sciences.
