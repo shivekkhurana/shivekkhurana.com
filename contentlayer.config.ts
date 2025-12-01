@@ -85,9 +85,57 @@ const Project = defineDocumentType(() => ({
   },
 }));
 
+const Investor = defineDocumentType(() => ({
+  name: 'Investor',
+  filePathPattern: 'genomicsLandscape/investors/*.md',
+  fields: {
+    slug: { type: 'string' },
+    name: { type: 'string' },
+    website: { type: 'string', required: false },
+    location: { type: 'string', required: false },
+    type: { type: 'string', required: false },
+    stages: { type: 'list', of: { type: 'string' }, required: false },
+    typicalInvestmentRange: { type: 'string', required: false },
+    description: { type: 'string', required: false },
+    lastResearched: { type: 'date', required: false },
+  },
+  computedFields: {
+    parsedMd: {
+      type: 'string',
+      resolve: (doc) => {
+        return marked.parse(doc.body.raw);
+      },
+    },
+  },
+}));
+
+const Company = defineDocumentType(() => ({
+  name: 'Company',
+  filePathPattern: 'genomicsLandscape/companies/*.md',
+  fields: {
+    slug: { type: 'string' },
+    name: { type: 'string' },
+    website: { type: 'string', required: false },
+    location: { type: 'string', required: false },
+    categories: { type: 'list', of: { type: 'string' }, required: false },
+    founded: { type: 'string', required: false },
+    description: { type: 'string', required: false },
+    logo: { type: 'string', required: false },
+    lastResearched: { type: 'date', required: false },
+  },
+  computedFields: {
+    parsedMd: {
+      type: 'string',
+      resolve: (doc) => {
+        return marked.parse(doc.body.raw);
+      },
+    },
+  },
+}));
+
 export default makeSource({
   contentDirPath: 'content',
-  documentTypes: [Post, Tag, Author, Project],
+  documentTypes: [Post, Tag, Author, Project, Investor, Company],
   disableImportAliasWarning: true,
   contentDirExclude: ['pages'],
 });
