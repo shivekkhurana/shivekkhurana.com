@@ -25,6 +25,19 @@ function CompanyDetail({ company, investors }: CompanyDetailProps) {
       <div className={clsx('mb-6', 'pb-6', 'border-b border-gray-200')}>
         <h1 className={clsx('text-3xl font-bold', 'mb-4')}>{company.name}</h1>
 
+        {/* Description */}
+        {company.description && (
+          <p
+            className={clsx(
+              'text-base leading-relaxed',
+              'mb-4',
+              'text-gray-700'
+            )}
+          >
+            {company.description}
+          </p>
+        )}
+
         {/* Key Info Grid */}
         <div className={clsx('grid grid-cols-1 md:grid-cols-2 gap-4', 'mb-4')}>
           {company.website && (
@@ -100,39 +113,24 @@ function CompanyDetail({ company, investors }: CompanyDetailProps) {
               </div>
             </div>
           )}
-        </div>
-
-        {/* Description */}
-        {company.description && (
-          <p
-            className={clsx(
-              'text-base leading-relaxed',
-              'mb-4',
-              'text-gray-700'
-            )}
-          >
-            {company.description}
-          </p>
-        )}
-
-        {/* Tags Section */}
-        {company.categories && company.categories.length > 0 && (
-          <div className={clsx('flex flex-wrap gap-2', 'items-center')}>
-            {company.categories.map((category: string) => (
-              <span
-                key={category}
+          {company.categories && company.categories.length > 0 && (
+            <div>
+              <div
                 className={clsx(
-                  'px-3 py-1',
-                  'bg-green-50 text-green-700',
-                  'rounded-full',
-                  'text-xs font-medium'
+                  'text-xs',
+                  'opacity-50',
+                  'mb-1',
+                  'uppercase tracking-wide'
                 )}
               >
-                {category}
-              </span>
-            ))}
-          </div>
-        )}
+                Categories
+              </div>
+              <div className={clsx('text-sm')}>
+                {company.categories.join(', ')}
+              </div>
+            </div>
+          )}
+        </div>
       </div>
 
       {company.parsedMd && (

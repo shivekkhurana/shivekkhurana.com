@@ -10,7 +10,7 @@ function Projects({
   totalProjects: number;
 }) {
   return (
-    <section className="font-mlm-roman mt-16">
+    <section className="font-mlm-roman mt-16 mb-24">
       <h2 className="text-lg font-bold font-mlm-roman mb-4">Projects</h2>
       <div className="text-sm"></div>
       {projects.map((project) => {

@@ -214,7 +214,6 @@ function NavV2({ links = navLinks, showBrandOnScroll = true }: NavV2Props) {
     <nav
       className={clsx(
         'sticky top-0 z-50',
-        'rounded-t-lg',
         'w-full',
         'backdrop-blur-md bg-white/70',
         'border-b border-black',

@@ -21,6 +21,11 @@ const socialLinks: SocialLink[] = [
   },
 ];
 
+const otherLinks: { label: string; href: string }[] = [
+  { label: 'Tinycanva', href: '/tinycanva' },
+  { label: 'Genomics Landscape', href: '/genomics-landscape' },
+];
+
 type Repo = {
   name: string;
   url: string;
@@ -165,6 +170,21 @@ function IdentityBlock() {
   );
 }
 
+function OtherLinksColumn() {
+  return (
+    <div className="font-mlm-roman">
+      <h4 className={clsx('text-black/60', 'text-sm', 'mb-4')}>Addendum</h4>
+      <ul className={clsx('flex flex-col', 'gap-2')}>
+        {otherLinks.map((link) => (
+          <li key={link.href}>
+            <a href={link.href}>{link.label}</a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 type FooterProps = {
   navLinks?: NavLink[];
   repoUrl?: string;
@@ -173,13 +193,7 @@ type FooterProps = {
 function Footer({ navLinks = defaultNavLinks }: FooterProps) {
   return (
     <footer
-      className={clsx(
-        'w-full',
-        'bg-white',
-        'border-t border-black',
-        'mt-24',
-        'py-8'
-      )}
+      className={clsx('w-full', 'bg-white', 'border-t border-black', 'py-8')}
     >
       <div className={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12')}>
         <div className={clsx('flex flex-col md:flex-row', 'md:gap-12')}>
@@ -187,6 +201,7 @@ function Footer({ navLinks = defaultNavLinks }: FooterProps) {
           <SocialsColumn />
           <SourceColumn />
           <NavigationColumn navLinks={navLinks} />
+          <OtherLinksColumn />
         </div>
       </div>
     </footer>

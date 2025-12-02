@@ -1,0 +1,29 @@
+---
+import NavV2 from '@src/components/NavV2';
+import Seo from '@src/components/Seo';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
+import { Tinycanva as TinycanvaComponent } from '@src/tinycanva/components/Tinycanva';
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <Seo
+      title="Tinycanva - Clojure for React developers"
+      subTitle="A course on building a web-based graphics editor with Clojure."
+      tags="clojure,course,react,clojure app,tinycanva course"
+      authorName="Shivek Khurana"
+      heroImg="/img/og.png"
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <NavV2 client:load />
+    <main class="bg-black m-1">
+      <TinycanvaComponent client:load />
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>

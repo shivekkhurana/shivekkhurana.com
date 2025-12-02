@@ -24,6 +24,19 @@ function InvestorDetail({ investor }: InvestorDetailProps) {
       <div className={clsx('mb-6', 'pb-6', 'border-b border-gray-200')}>
         <h1 className={clsx('text-3xl font-bold', 'mb-4')}>{investor.name}</h1>
 
+        {/* Description */}
+        {investor.description && (
+          <p
+            className={clsx(
+              'text-base leading-relaxed',
+              'mb-4',
+              'text-gray-700'
+            )}
+          >
+            {investor.description}
+          </p>
+        )}
+
         {/* Key Info Grid */}
         <div className={clsx('grid grid-cols-1 md:grid-cols-2 gap-4', 'mb-4')}>
           {investor.website && (
@@ -133,51 +146,37 @@ function InvestorDetail({ investor }: InvestorDetailProps) {
               </div>
             </div>
           )}
-        </div>
-
-        {/* Description */}
-        {investor.description && (
-          <p
-            className={clsx(
-              'text-base leading-relaxed',
-              'mb-4',
-              'text-gray-700'
-            )}
-          >
-            {investor.description}
-          </p>
-        )}
-
-        {/* Tags Section */}
-        <div className={clsx('flex flex-wrap gap-2', 'items-center')}>
           {investor.fundType && (
-            <span
-              className={clsx(
-                'px-3 py-1',
-                'bg-gray-100 text-gray-800',
-                'rounded-full',
-                'text-xs font-medium'
-              )}
-            >
-              {investor.fundType}
-            </span>
+            <div>
+              <div
+                className={clsx(
+                  'text-xs',
+                  'opacity-50',
+                  'mb-1',
+                  'uppercase tracking-wide'
+                )}
+              >
+                Focus
+              </div>
+              <div className={clsx('text-sm')}>{investor.fundType}</div>
+            </div>
           )}
           {investor.stages && investor.stages.length > 0 && (
-            <>
-              {investor.stages.map((stage: string) => (
-                <span
-                  key={stage}
-                  className={clsx(
-                    'px-3 py-1',
-                    'bg-blue-50 text-blue-700',
-                    'rounded-full',
-                    'text-xs font-medium'
-                  )}
-                >
-                  {stage}
-                </span>
-              ))}
-            </>
+            <div>
+              <div
+                className={clsx(
+                  'text-xs',
+                  'opacity-50',
+                  'mb-1',
+                  'uppercase tracking-wide'
+                )}
+              >
+                Fund Stages
+              </div>
+              <div className={clsx('text-sm')}>
+                {investor.stages.join(', ')}
+              </div>
+            </div>
           )}
         </div>
       </div>
