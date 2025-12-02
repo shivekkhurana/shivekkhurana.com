@@ -20,14 +20,14 @@ Warburg Pincus invests in growth-oriented companies across sectors with a focus 
 
 ### Partners / Managing Directors (Healthcare Focus)
 
-- **Chip Kaye** - Co-CEO - https://www.linkedin.com/in/chipkaye/
-- **Jeff Perlman** - Managing Director, Healthcare - https://www.linkedin.com/in/jeffperlman/
-- **Chris Paull** - Managing Director, Healthcare - https://www.linkedin.com/in/chrispaull/
-- **Frank Wei, MD** - Managing Director, Healthcare - https://www.linkedin.com/in/frankwei/
+- **Chip Kaye** - Co-CEO
+- **Jeff Perlman** - Managing Director, Healthcare
+- **Chris Paull** - Managing Director, Healthcare
+- **Frank Wei, MD** - Managing Director, Healthcare
 
 ### Other Key Team Members
 
-- **Ved Pandya** - Managing Director - https://www.linkedin.com/in/vedpandya/
+- **Ved Pandya** - Managing Director
 - **Healthcare team** across US, Europe, and Asia offices
 
 ## Focus Areas
@@ -66,5 +66,6 @@ Warburg Pincus invests in growth-oriented companies across sectors with a focus 
 ## Sources
 
 - Warburg Pincus website: https://www.warburgpincus.com
+- https://www.warburgpincus.com/people
 - SEC filings
 - Crunchbase: https://www.crunchbase.com/organization/warburg-pincus

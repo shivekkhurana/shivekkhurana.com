@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $500M+
 aum: $25B+
 founded: 2000
 description: General Catalyst is a venture capital firm that invests in powerful, positive change through technology and healthcare. They have made a major commitment to transforming healthcare through their Health Assurance initiative and HATCo (Health Assurance Transformation Company), acquiring health systems to drive innovation.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ General Catalyst believes in "health assurance" over health insurance - proactiv
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Hemant Taneja** - CEO & Managing Director - https://www.linkedin.com/in/hemanttaneja/
-- **Holly Maloney** - Managing Director, Healthcare - https://www.linkedin.com/in/hollybmaloney/
-- **Ken Chenault** - Chairman & Managing Director - https://www.linkedin.com/in/kenchenault/
+- **Hemant Taneja** - CEO & Managing Director
+- **Holly Maloney** - Managing Director, Healthcare
+- **Ken Chenault** - Chairman & Managing Director
 
 ### Other Key Team Members
 
-- **Kyle Doherty** - Managing Director, Healthcare - https://www.linkedin.com/in/kyledoherty1/
-- **Chris Bischoff** - Vice President, Healthcare - https://www.linkedin.com/in/chrisbischoff/
+- **Kyle Doherty** - Managing Director, Healthcare
+- **Chris Bischoff** - Vice President, Healthcare
 
 ## Focus Areas
 
@@ -48,6 +48,7 @@ General Catalyst believes in "health assurance" over health insurance - proactiv
 ## Sources
 
 - https://www.generalcatalyst.com
+- https://www.generalcatalyst.com/team
 - https://www.healthassurance.com
 - PitchBook
 - TechCrunch

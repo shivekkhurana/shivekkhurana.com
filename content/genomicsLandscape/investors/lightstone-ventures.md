@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $30M
 aum: $700M+
 founded: 2012
 description: Lightstone Ventures is a transatlantic life sciences venture capital firm with offices in Boston and London. They focus on therapeutics and medical devices, investing in companies with strong science and clear paths to clinical development.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Lightstone Ventures partners with exceptional entrepreneurs building transformat
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Jason Lettmann** - Managing Partner - https://www.linkedin.com/in/jasonlettmann/
-- **Michael Ross, MD, PhD** - Managing Partner - https://www.linkedin.com/in/michaelrossmd/
-- **Jean-François Formela, MD** - Partner - https://www.linkedin.com/in/jeanfrancoisformela/
+- **Jason Lettmann** - Managing Partner
+- **Michael Ross, MD, PhD** - Managing Partner
+- **Jean-François Formela, MD** - Partner
 
 ### Other Key Team Members
 
-- **John Freund, MD, MBA** - Partner - https://www.linkedin.com/in/johnfreundmd/
+- **John Freund, MD, MBA** - Partner
 
 ## Focus Areas
 
@@ -45,5 +45,6 @@ Lightstone Ventures partners with exceptional entrepreneurs building transformat
 ## Sources
 
 - https://lightstonevc.com
+- https://lightstonevc.com/team
 - PitchBook
 - Atlas Venture (predecessor)

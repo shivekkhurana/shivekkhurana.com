@@ -20,14 +20,14 @@ TPG Biotech invests in leading biotechnology and healthcare companies with diffe
 
 ### Partners / Managing Directors
 
-- **Jim Coulter** - Co-Founder & Executive Chairman, TPG - https://www.linkedin.com/in/jimcoulter/
-- **Jon Winkelried** - CEO, TPG - https://www.linkedin.com/in/jonwinkelried/
-- **Todd Sisitsky** - President, TPG - https://www.linkedin.com/in/todsisitsky/
+- **Jim Coulter** - Co-Founder & Executive Chairman, TPG
+- **Jon Winkelried** - CEO, TPG
+- **Todd Sisitsky** - President, TPG
 
 ### Healthcare/Biotech Team
 
-- **Ravi Sarin** - Partner, Healthcare - https://www.linkedin.com/in/ravisarin/
-- **Matthew Hobart** - Partner, Healthcare - https://www.linkedin.com/in/matthewhobart/
+- **Ravi Sarin** - Partner, Healthcare
+- **Matthew Hobart** - Partner, Healthcare
 
 ## Focus Areas
 
@@ -56,5 +56,6 @@ TPG Biotech invests in leading biotechnology and healthcare companies with diffe
 ## Sources
 
 - TPG website: https://www.tpg.com/platforms/healthcare/
+- https://www.tpg.com/people
 - SEC filings
 - Crunchbase: https://www.crunchbase.com/organization/tpg-capital

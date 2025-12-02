@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $30M
 aum: $1B+
 founded: 1996
 description: Life sciences venture capital firm with a strong track record of building successful biotechnology companies. Known for hands-on company building and deep scientific expertise in therapeutics and healthcare.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -18,16 +18,15 @@ Alta Partners focuses on life sciences companies with breakthrough therapeutic p
 
 ## Team
 
-### Partners / Managing Directors (Health & Bio Focus)
+### Managing Directors
 
-- **Daniel Janney** - Managing Partner - https://www.linkedin.com/in/danjanney/
-- **Robert More, PhD** - Partner - https://www.linkedin.com/in/robert-more-phd-1a7b4a1/
-- **Guy Nohra** - Co-Founder & Partner - https://www.linkedin.com/in/guy-nohra-5983931/
-- **Faraz Ali** - Partner - https://www.linkedin.com/in/farazali/
+- **Dan Janney** - Managing Director
+- **Pete Hudson, M.D.** - Managing Director
+- **Bob More** - Managing Director
 
 ### Other Key Team Members
 
-- **Jean George** - Co-Founder & Partner
+- **Larry Randall** - Chief Financial Officer
 
 ## Focus Areas
 
@@ -49,6 +48,6 @@ Alta Partners focuses on life sciences companies with breakthrough therapeutic p
 ## Sources
 
 - https://www.altapartners.com
+- https://www.altapartners.com/leadership
 - https://www.crunchbase.com/organization/alta-partners
 - https://pitchbook.com/profiles/alta-partners
-

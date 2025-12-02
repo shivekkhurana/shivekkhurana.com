@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $75M
 aum: $1.5B+
 founded: 2000
 description: Life sciences venture capital firm focused on building breakthrough biotechnology companies. Known for deep scientific expertise and company-building approach, with strong track record in therapeutics and platform technologies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Apple Tree Partners invests in biotechnology companies with transformative thera
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Seth Harrison, MD** - Managing Partner - https://www.linkedin.com/in/seth-harrison-md-8b44a01/
-- **David Kabakoff, PhD** - Partner - https://www.linkedin.com/in/david-kabakoff-phd-6b7a4a1/
-- **Vikram Sinha, PhD** - Partner - https://www.linkedin.com/in/vikramsinha/
+- **Seth Harrison, MD** - Managing Partner
+- **David Kabakoff, PhD** - Partner
+- **Vikram Sinha, PhD** - Partner
 
 ### Other Key Team Members
 
-- **Niall O'Donnell, PhD** - Partner - https://www.linkedin.com/in/niall-o-donnell-phd-4bb7301/
+- **Niall O'Donnell, PhD** - Partner
 
 ## Focus Areas
 
@@ -48,6 +48,7 @@ Apple Tree Partners invests in biotechnology companies with transformative thera
 ## Sources
 
 - https://www.appletreepartners.com
+- https://www.appletreepartners.com/team
 - https://www.crunchbase.com/organization/apple-tree-partners
 - https://pitchbook.com/profiles/apple-tree-partners
 

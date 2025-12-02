@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $10M
 aum: $150M+
 founded: 2015
 description: Early-stage venture capital firm investing in B2B SaaS and technology companies. Makes selective investments in healthcare technology and life sciences data companies, including AI-driven platforms for life sciences research.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Communitas Capital invests in early-stage B2B technology companies with a focus 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Andy Palmer** - General Partner - https://www.linkedin.com/in/andypalmer/
-- **Peter Levine** - Venture Partner - https://www.linkedin.com/in/peter-levine-0b99032/
+- **Andy Palmer** - General Partner
+- **Peter Levine** - Venture Partner
 
 ### Other Key Team Members
 
@@ -48,6 +48,7 @@ Communitas Capital invests in early-stage B2B technology companies with a focus 
 ## Sources
 
 - https://communitascapital.com
+- https://communitascapital.com/team
 - https://www.crunchbase.com/organization/communitas-capital
 - https://pitchbook.com/profiles/communitas-capital
 

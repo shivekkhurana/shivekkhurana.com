@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $20M
 aum: $200M+
 founded: 2019
 description: LifeX Ventures is a life sciences venture capital firm based in Boston, focused on early-stage investments in therapeutics and platform technologies. They invest in companies developing novel approaches to drug discovery and disease treatment.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -40,5 +40,6 @@ LifeX Ventures invests in innovative life sciences companies with transformative
 ## Sources
 
 - https://www.lifex.vc
+- https://www.lifex.vc/team
 - PitchBook
 - Boston biotech news

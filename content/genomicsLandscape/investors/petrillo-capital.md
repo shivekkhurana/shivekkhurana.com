@@ -8,7 +8,7 @@ stages: ['series-a', 'series-b', 'growth']
 typicalInvestmentRange: $5M - $25M
 aum: Undisclosed
 description: Petrillo Capital is a private investment firm with limited public information available. They have participated in healthcare and technology company funding rounds as a co-investor alongside other venture capital and growth equity firms.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -41,5 +41,6 @@ Limited public information available about investment strategy. Petrillo Capital
 ## Sources
 
 - https://petrillocapital.com
+- https://petrillocapital.com/team
 - SEC filings (where applicable)
 - PitchBook (limited data)

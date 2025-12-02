@@ -20,9 +20,9 @@ Ysios Capital invests in innovative life sciences companies with breakthrough po
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Joël Jean-Mairet, PhD** - Managing Partner & Co-Founder - https://www.linkedin.com/in/joeljeanmairet/
-- **Julia Salaverría** - Managing Partner & Co-Founder - https://www.linkedin.com/in/juliasalaverria/
-- **Karen Wagner** - Partner - https://www.linkedin.com/in/karenwagnerysios/
+- **Joël Jean-Mairet, PhD** - Managing Partner & Co-Founder
+- **Julia Salaverría** - Managing Partner & Co-Founder
+- **Karen Wagner** - Partner
 
 ### Other Key Team Members
 
@@ -64,6 +64,7 @@ Ysios Capital invests in innovative life sciences companies with breakthrough po
 ## Sources
 
 - https://ysioscapital.com
+- https://ysioscapital.com/team
 - https://www.crunchbase.com/organization/ysios-capital
 - https://pitchbook.com/profiles/ysios-capital
 - Spanish Venture Capital Association (ASCRI)

@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $3B+
 founded: 1973
 description: One of the oldest life sciences venture capital firms in the world, with a transatlantic presence investing across therapeutics, diagnostics, and life science tools. Over 50 years of experience in life sciences investing.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ Abingworth invests globally in life science companies developing breakthrough th
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Joe Anderson, PhD** - Managing Partner - https://www.linkedin.com/in/joe-anderson-68a7271/
-- **Kurt von Emster** - Managing Partner - https://www.linkedin.com/in/kurt-von-emster-09a6924/
-- **Tim Haines** - Managing Partner - https://www.linkedin.com/in/tim-haines-2833b41/
-- **Stephen Bunting** - Partner - https://www.linkedin.com/in/stephen-bunting-a86b1b4/
+- **Joe Anderson, PhD** - Managing Partner
+- **Kurt von Emster** - Managing Partner
+- **Tim Haines** - Managing Partner
+- **Stephen Bunting** - Partner
 
 ### Other Key Team Members
 
-- **Genghis Lloyd-Harris** - Partner - https://www.linkedin.com/in/genghis-lloyd-harris-a1b8861/
+- **Genghis Lloyd-Harris** - Partner
 
 ## Focus Areas
 
@@ -49,6 +49,7 @@ Abingworth invests globally in life science companies developing breakthrough th
 ## Sources
 
 - https://www.abingworth.com
+- https://www.abingworth.com/team
 - https://www.crunchbase.com/organization/abingworth
 - https://pitchbook.com/profiles/abingworth
 

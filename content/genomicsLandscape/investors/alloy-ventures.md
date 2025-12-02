@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $15M
 aum: $500M+
 founded: 1998
 description: Early-stage venture capital firm investing in technology and life sciences companies. Based in Palo Alto, focuses on disruptive technologies with potential for significant market impact.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Alloy Ventures invests in early-stage companies developing disruptive technologi
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Craig Taylor** - Managing Director - https://www.linkedin.com/in/craigtaylor/
-- **Doug Kelly** - Managing Director - https://www.linkedin.com/in/dougkelly/
+- **Craig Taylor** - Managing Director
+- **Doug Kelly** - Managing Director
 
 ### Other Key Team Members
 
@@ -44,6 +44,7 @@ Alloy Ventures invests in early-stage companies developing disruptive technologi
 ## Sources
 
 - https://www.alloyventures.com
+- https://www.alloyventures.com/team
 - https://www.crunchbase.com/organization/alloy-ventures
 - https://pitchbook.com/profiles/alloy-ventures
 

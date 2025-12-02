@@ -9,7 +9,7 @@ typicalInvestmentRange: $100K - $250M+
 aum: $8B+
 founded: 2009
 description: GV (formerly Google Ventures) is the venture capital arm of Alphabet Inc. With a dedicated life sciences practice, GV invests in transformative healthcare and life sciences companies, bringing deep technical expertise and operational support from Google's ecosystem to portfolio companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ GV invests in founders who are building transformative companies in life science
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Krishna Yeshwant, MD** - General Partner, Life Sciences - https://www.linkedin.com/in/krishnayeshwant/
-- **Cathy Friedman** - Partner, Life Sciences - https://www.linkedin.com/in/cathyfriedman/
-- **David Scheinberg** - Partner, Life Sciences - https://www.linkedin.com/in/davidscheinberg/
+- **Krishna Yeshwant, MD** - General Partner, Life Sciences
+- **Cathy Friedman** - Partner, Life Sciences
+- **David Scheinberg** - Partner, Life Sciences
 
 ### Other Key Team Members
 
-- **David Krane** - CEO & Managing Partner - https://www.linkedin.com/in/davidkrane/
-- **Tom Hulme** - General Partner - https://www.linkedin.com/in/tomhulme/
+- **David Krane** - CEO & Managing Partner
+- **Tom Hulme** - General Partner
 
 ## Focus Areas
 
@@ -49,6 +49,7 @@ GV invests in founders who are building transformative companies in life science
 ## Sources
 
 - https://www.gv.com
+- https://www.gv.com/team
 - Crunchbase
 - PitchBook
 - Company announcements

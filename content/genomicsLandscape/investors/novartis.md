@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $30M
 aum: $800M+
 founded: 1996
 description: Novartis Venture Fund is the corporate venture capital arm of Novartis, one of the world's largest pharmaceutical companies. They invest in innovative biotech and healthcare technology companies, with particular focus on areas aligned with Novartis's therapeutic interests and strategic priorities.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Novartis Venture Fund invests in breakthrough therapeutics and healthcare techno
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Birgit Tauber, PhD** - Managing Director - https://www.linkedin.com/in/birgittauber/
-- **Anja König, PhD** - Partner - https://www.linkedin.com/in/anjakoenig/
+- **Birgit Tauber, PhD** - Managing Director
+- **Anja König, PhD** - Partner
 
 ### Other Key Team Members
 
@@ -46,5 +46,6 @@ Novartis Venture Fund invests in breakthrough therapeutics and healthcare techno
 ## Sources
 
 - https://www.nvfund.com
+- https://www.nvfund.com/team
 - Novartis annual reports
 - PitchBook

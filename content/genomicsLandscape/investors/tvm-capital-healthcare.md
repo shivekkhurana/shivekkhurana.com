@@ -20,9 +20,9 @@ TVM Capital Healthcare invests in healthcare companies that serve the growing mi
 
 ### Partners / Managing Directors
 
-- **Helmut Schühsler** - Founder & Chairman - https://www.linkedin.com/in/helmutschuhsler/
-- **Andreas Stroehlein** - Managing Partner - https://www.linkedin.com/in/andreasstroehlein/
-- **Dr. David Harland** - Managing Partner - https://www.linkedin.com/in/davidharland/
+- **Helmut Schühsler** - Founder & Chairman
+- **Andreas Stroehlein** - Managing Partner
+- **Dr. David Harland** - Managing Partner
 
 ### Other Key Team Members
 
@@ -61,5 +61,6 @@ TVM Capital Healthcare invests in healthcare companies that serve the growing mi
 ## Sources
 
 - TVM Capital Healthcare website: https://tvmcapitalhealthcare.com
+- https://tvmcapitalhealthcare.com/team
 - Crunchbase: https://www.crunchbase.com/organization/tvm-capital-healthcare
 - Healthcare Private Equity & M&A publications

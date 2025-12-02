@@ -9,7 +9,7 @@ typicalInvestmentRange: $25M - $150M
 aum: $3B+
 founded: 2011
 description: Leading life sciences and healthcare investment firm focused on growth-stage investments. Known for significant positions in genomics and precision medicine companies. Long-term, thesis-driven investor in transformative healthcare.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ Casdin Capital focuses on growth-stage investments in life sciences and healthca
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Eli Casdin** - Founder & Chief Investment Officer - https://www.linkedin.com/in/elicasdin/
-- **Aaron Schwartz** - Managing Director - https://www.linkedin.com/in/aaronschwartz1/
-- **Caroline Popper, PhD** - Managing Director - https://www.linkedin.com/in/caroline-popper/
+- **Eli Casdin** - Founder & Chief Investment Officer
+- **Aaron Schwartz** - Managing Director
+- **Caroline Popper, PhD** - Managing Director
 
 ### Other Key Team Members
 
@@ -48,6 +48,7 @@ Casdin Capital focuses on growth-stage investments in life sciences and healthca
 ## Sources
 
 - https://casdincapital.com
+- https://casdincapital.com/team
 - https://www.crunchbase.com/organization/casdin-capital
 - https://pitchbook.com/profiles/casdin-capital
 - SEC 13F filings

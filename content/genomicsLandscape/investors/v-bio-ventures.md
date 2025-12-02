@@ -20,13 +20,13 @@ V-Bio Ventures invests in European life sciences companies developing breakthrou
 
 ### Partners / Managing Directors
 
-- **Jan Van de Winkel, PhD** - Partner - https://www.linkedin.com/in/janvandewinkel/
-- **Danny Crabbe** - Partner - https://www.linkedin.com/in/dannycrabbe/
-- **Marc Borms** - Partner - https://www.linkedin.com/in/marcborms/
+- **Jan Van de Winkel, PhD** - Partner
+- **Danny Crabbe** - Partner
+- **Marc Borms** - Partner
 
 ### Other Key Team Members
 
-- **Sophie Heck** - Investment Director - https://www.linkedin.com/in/sophieheck/
+- **Sophie Heck** - Investment Director
 - **Scientific Advisory Board** with expertise across therapeutics areas
 
 ## Focus Areas
@@ -57,5 +57,6 @@ V-Bio Ventures invests in European life sciences companies developing breakthrou
 ## Sources
 
 - V-Bio Ventures website: https://v-bio.ventures
+- https://v-bio.ventures/team
 - Crunchbase: https://www.crunchbase.com/organization/v-bio-ventures
 - Flanders Investment & Trade

@@ -9,7 +9,7 @@ typicalInvestmentRange: $20M - $150M
 aum: $4.5B+
 founded: 2014
 description: Oak HC/FT is a growth equity firm focused exclusively on healthcare and financial services technology. They partner with exceptional entrepreneurs building transformative companies in healthcare IT, fintech, and healthcare services.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ Oak HC/FT invests in growth-stage companies transforming healthcare and financia
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Annie Lamont** - Co-Founder & Managing Partner - https://www.linkedin.com/in/annielamont/
-- **Andrew Adams** - Managing Partner - https://www.linkedin.com/in/andrewadamsoakhcft/
-- **Patricia Kemp** - General Partner - https://www.linkedin.com/in/patriciakemp/
+- **Annie Lamont** - Co-Founder & Managing Partner
+- **Andrew Adams** - Managing Partner
+- **Patricia Kemp** - General Partner
 
 ### Other Key Team Members
 
-- **Allen Miller** - General Partner - https://www.linkedin.com/in/allenmiller/
-- **Nancy Brown** - Operating Partner - https://www.linkedin.com/in/nancybrown/
+- **Allen Miller** - General Partner
+- **Nancy Brown** - Operating Partner
 
 ## Focus Areas
 
@@ -50,5 +50,6 @@ Oak HC/FT invests in growth-stage companies transforming healthcare and financia
 ## Sources
 
 - https://www.oakhcft.com
+- https://www.oakhcft.com/team
 - PitchBook
 - TechCrunch

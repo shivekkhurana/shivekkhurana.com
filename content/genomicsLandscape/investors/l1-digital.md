@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $10M
 aum: $100M+
 founded: 2018
 description: L1 Digital is a Swiss investment firm specializing in digital assets and blockchain technologies. They invest in decentralized organizations and Web3 projects, including those applying blockchain to healthcare and longevity research through DAOs like VitaDAO.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -43,5 +43,6 @@ L1 Digital invests in digital assets and blockchain-based projects that are buil
 ## Sources
 
 - https://www.l1digital.com
+- https://www.l1digital.com/team
 - VitaDAO announcements
 - CoinDesk

@@ -20,8 +20,8 @@ VG Acquisition Corp was formed to identify and merge with a high-growth company 
 
 ### Sponsors & Board
 
-- **Richard Branson** - Founder, Virgin Group - https://www.linkedin.com/in/richardbranson/
-- **Chamath Palihapitiya** - Founder, Social Capital - https://www.linkedin.com/in/chamath/
+- **Richard Branson** - Founder, Virgin Group
+- **Chamath Palihapitiya** - Founder, Social Capital
 - **Evan Lovell** - Chief Investment Officer, Virgin Group
 
 ## SPAC Details

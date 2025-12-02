@@ -20,10 +20,10 @@ RiverVest invests in innovative life sciences companies developing breakthrough 
 
 ### Partners / Managing Directors
 
-- **Jay Schmelter** - Managing Director - https://www.linkedin.com/in/jay-schmelter/
-- **Niall Phelan** - Managing Director - https://www.linkedin.com/in/niallphelan/
-- **Tom Melzer** - Venture Partner - https://www.linkedin.com/in/tom-melzer/
-- **John McKearn, PhD** - Venture Partner - https://www.linkedin.com/in/john-mckearn/
+- **Jay Schmelter** - Managing Director
+- **Niall Phelan** - Managing Director
+- **Tom Melzer** - Venture Partner
+- **John McKearn, PhD** - Venture Partner
 
 ## Focus Areas
 
@@ -43,5 +43,6 @@ RiverVest invests in innovative life sciences companies developing breakthrough 
 ## Sources
 
 - RiverVest website: https://www.rivervest.com
+- https://www.rivervest.com/team
 - Crunchbase: https://www.crunchbase.com/organization/rivervest-venture-partners
 - PitchBook profile

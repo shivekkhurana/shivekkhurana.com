@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $5M
 aum: $50M+
 founded: 2015
 description: Linden Lake Venture Capital is an early-stage venture capital firm investing in technology companies across sectors including healthcare. They focus on seed and Series A investments in founders building innovative solutions with significant market potential.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -38,5 +38,6 @@ Linden Lake invests in early-stage technology companies with strong founders and
 ## Sources
 
 - https://www.lindenlakevc.com
+- https://www.lindenlakevc.com/team
 - https://www.lindenlakevc.com/new-page-3
 - Crunchbase

@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $100M
 aum: $20B+
 founded: 1911
 description: One of the oldest and most established venture capital firms in the world, with a dedicated healthcare practice. Invests across cloud, consumer, and healthcare, with particular focus on healthcare SaaS and digital health.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ Bessemer's healthcare practice focuses on technology-enabled healthcare companie
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Steve Kraus** - Partner, Healthcare - https://www.linkedin.com/in/stevekraus/
-- **Morgan Cheatham** - Partner, Healthcare - https://www.linkedin.com/in/morgan-cheatham/
-- **Tess Hatch** - Partner - https://www.linkedin.com/in/tesshatch/
+- **Steve Kraus** - Partner, Healthcare
+- **Morgan Cheatham** - Partner, Healthcare
+- **Tess Hatch** - Partner
 
 ### Other Key Team Members
 
-- **Byron Deeter** - Partner - https://www.linkedin.com/in/bdeeter/
-- **Alex Ferrara** - Partner - https://www.linkedin.com/in/alexferrara/
+- **Byron Deeter** - Partner
+- **Alex Ferrara** - Partner
 
 ## Focus Areas
 
@@ -49,6 +49,7 @@ Bessemer's healthcare practice focuses on technology-enabled healthcare companie
 ## Sources
 
 - https://www.bvp.com
+- https://www.bvp.com/team
 - https://www.bvp.com/health
 - https://www.crunchbase.com/organization/bessemer-venture-partners
 - https://pitchbook.com/profiles/bessemer-venture-partners

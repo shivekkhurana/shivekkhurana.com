@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $1B+ (Leaps by Bayer fund)
 founded: 2015
 description: Strategic venture arm of Bayer AG, a global pharmaceutical and life sciences company. Leaps by Bayer invests in breakthrough technologies that could solve some of humanity's biggest health challenges.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Leaps by Bayer invests in companies developing breakthrough solutions in health 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Juergen Eckhardt, MD** - Head of Leaps by Bayer - https://www.linkedin.com/in/juergeneckhardt/
-- **Dirk Haussecker, PhD** - Partner - https://www.linkedin.com/in/dirkhaussecker/
+- **Juergen Eckhardt, MD** - Head of Leaps by Bayer
+- **Dirk Haussecker, PhD** - Partner
 
 ### Other Key Team Members
 
@@ -53,5 +53,6 @@ Leaps by Bayer invests in companies developing breakthrough solutions in health 
 ## Sources
 
 - https://leaps.bayer.com
+- https://leaps.bayer.com/team
 - https://www.bayer.com/en/pharma/research-and-development
 - https://www.crunchbase.com/organization/bayer

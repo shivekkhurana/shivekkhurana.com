@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $200M
 aum: $10B+
 founded: 1994
 description: Leading healthcare investment firm dedicated to advancing healthcare through investment, information, and philanthropy. Invests across the full lifecycle of healthcare companies from seed to post-IPO, with deep expertise in drug development.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,10 +20,10 @@ Deerfield invests across the healthcare ecosystem, from early-stage therapeutics
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **James Flynn, MD, PhD** - Managing Partner - https://www.linkedin.com/in/james-flynn-md-phd-0a2b0a1/
-- **Jonathan Leff** - Managing Partner - https://www.linkedin.com/in/jonathanleff/
-- **William Slattery** - Managing Partner - https://www.linkedin.com/in/williamslattery/
-- **David Clark, PhD** - Partner - https://www.linkedin.com/in/davidclark/
+- **James Flynn, MD, PhD** - Managing Partner
+- **Jonathan Leff** - Managing Partner
+- **William Slattery** - Managing Partner
+- **David Clark, PhD** - Partner
 
 ### Other Key Team Members
 
@@ -48,6 +48,7 @@ Deerfield invests across the healthcare ecosystem, from early-stage therapeutics
 ## Sources
 
 - https://www.deerfield.com
+- https://www.deerfield.com/team
 - https://www.crunchbase.com/organization/deerfield-management
 - https://pitchbook.com/profiles/deerfield-management
 - SEC filings

@@ -20,12 +20,12 @@ Salica focuses on growth-stage investments in technology and healthcare companie
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Dominic Sherlock** - Managing Partner - https://www.linkedin.com/in/dominicsherlock/
-- **Sonny Mayugba** - Partner - https://www.linkedin.com/in/sonnymayugba/
+- **Dominic Sherlock** - Managing Partner
+- **Sonny Mayugba** - Partner
 
 ### Other Key Team Members
 
-- **Rupert Hambro** - Chairman - https://www.linkedin.com/in/ruperthambro/
+- **Rupert Hambro** - Chairman
 
 ## Focus Areas
 

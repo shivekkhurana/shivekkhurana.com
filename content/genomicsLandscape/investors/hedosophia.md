@@ -9,7 +9,7 @@ typicalInvestmentRange: $50M - $500M+
 aum: $3B+
 founded: 2012
 description: Hedosophia is a global investment firm founded by Ian Osborne that focuses on technology and technology-enabled companies. They are known for taking companies public through SPACs (Social Capital Hedosophia) and making growth-stage investments in transformative businesses, including healthcare AI.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,7 +20,7 @@ Hedosophia invests in growth-stage technology companies that are transforming th
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Ian Osborne** - Founder & CEO - https://www.linkedin.com/in/ianosborne/
+- **Ian Osborne** - Founder & CEO
 
 ### Other Key Team Members
 
@@ -44,6 +44,7 @@ Hedosophia invests in growth-stage technology companies that are transforming th
 ## Sources
 
 - https://www.hedosophia.com
+- https://www.hedosophia.com/team
 - SEC filings
 - PitchBook
 - TechCrunch

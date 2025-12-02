@@ -20,15 +20,15 @@ Sequoia partners with exceptional founders building enduring companies across al
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Roelof Botha** - Partner (Global Managing Partner) - https://www.linkedin.com/in/roelofbotha/
-- **Luciana Lixandru** - Partner - https://www.linkedin.com/in/lucianalixandru/
-- **Jess Lee** - Partner - https://www.linkedin.com/in/jesslee/
-- **Ravi Gupta** - Partner - https://www.linkedin.com/in/ravigupta/
+- **Roelof Botha** - Partner (Global Managing Partner)
+- **Luciana Lixandru** - Partner
+- **Jess Lee** - Partner
+- **Ravi Gupta** - Partner
 
 ### Other Key Team Members
 
-- **Andrew Reed** - Partner - https://www.linkedin.com/in/andrew-reed/
-- **Konstantine Buhler** - Partner - https://www.linkedin.com/in/konstantinebuhler/
+- **Andrew Reed** - Partner
+- **Konstantine Buhler** - Partner
 
 ## Focus Areas
 
@@ -57,5 +57,6 @@ Sequoia partners with exceptional founders building enduring companies across al
 ## Sources
 
 - Sequoia Capital website: https://www.sequoiacap.com
+- https://www.sequoiacap.com/people
 - Crunchbase: https://www.crunchbase.com/organization/sequoia-capital
 - Forbes, TechCrunch coverage

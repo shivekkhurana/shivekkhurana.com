@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $100M+
 aum: $18B+
 founded: 2000
 description: Lightspeed Venture Partners is a global venture capital firm with a strong track record across enterprise, consumer, and healthcare sectors. They invest across all stages and have dedicated teams focused on healthcare and life sciences opportunities globally.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Lightspeed partners with exceptional founders at every stage, from inception to 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Ling Wong** - Partner (Healthcare) - https://www.linkedin.com/in/lingwong/
-- **Michael Miao** - Partner - https://www.linkedin.com/in/michaelmiao/
-- **Gaurav Gupta** - Partner - https://www.linkedin.com/in/gaurav-gupta/
+- **Ling Wong** - Partner (Healthcare)
+- **Michael Miao** - Partner
+- **Gaurav Gupta** - Partner
 
 ### Other Key Team Members
 
-- **Ravi Mhatre** - Partner - https://www.linkedin.com/in/ravimhatre/
+- **Ravi Mhatre** - Partner
 - **Global investment team across US, Europe, India, and Asia**
 
 ## Focus Areas
@@ -54,5 +54,6 @@ Lightspeed partners with exceptional founders at every stage, from inception to 
 ## Sources
 
 - https://lsvp.com
+- https://lsvp.com/team
 - PitchBook
 - Crunchbase

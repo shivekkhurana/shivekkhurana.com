@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €30M
 aum: €300M+
 founded: 2020
 description: Corporate venture capital arm of Angelini Industries, a major European pharmaceutical and consumer health conglomerate. Invests globally in health and wellness sectors with strategic focus on pharma innovation.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Angelini Ventures invests in companies developing innovative solutions in health
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Alessandro Paganelli** - CEO - https://www.linkedin.com/in/alessandropaganelli/
-- **Cristiano Bernasconi** - Investment Director - https://www.linkedin.com/in/cristiano-bernasconi-b1b08b1/
+- **Alessandro Paganelli** - CEO
+- **Cristiano Bernasconi** - Investment Director
 
 ### Other Key Team Members
 
@@ -45,6 +45,7 @@ Angelini Ventures invests in companies developing innovative solutions in health
 ## Sources
 
 - https://www.angeliniventures.com
+- https://www.angeliniventures.com/team
 - https://www.angeliniindustries.com
 - https://www.crunchbase.com/organization/angelini-ventures
 

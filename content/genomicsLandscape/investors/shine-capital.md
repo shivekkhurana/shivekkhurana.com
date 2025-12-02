@@ -20,11 +20,11 @@ Shine Capital invests in early-stage companies led by exceptional founders who a
 
 ### Partners / Managing Directors
 
-- **Caitlin Strandberg** - General Partner - https://www.linkedin.com/in/caitlinstrandberg/
+- **Caitlin Strandberg** - General Partner
 
 ### Other Key Team Members
 
-- **Quentin Brien** - Principal - https://www.linkedin.com/in/quentinbrien/
+- **Quentin Brien** - Principal
 
 ## Focus Areas
 

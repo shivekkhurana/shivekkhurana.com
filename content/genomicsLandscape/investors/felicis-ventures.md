@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $30M
 aum: $4B+
 founded: 2006
 description: Early-stage venture capital firm founded by Aydin Senkut (former Google employee), investing in transformative technology companies. Known for early investments in iconic companies including Shopify, Twitch, and Notion.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Felicis Ventures backs exceptional founders building category-defining technolog
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Aydin Senkut** - Founder & Managing Partner - https://www.linkedin.com/in/asenkut/
-- **Niki Pezeshki** - Partner - https://www.linkedin.com/in/nikipezeshki/
-- **Wesley Chan** - General Partner - https://www.linkedin.com/in/wesleychan/
+- **Aydin Senkut** - Founder & Managing Partner
+- **Niki Pezeshki** - Partner
+- **Wesley Chan** - General Partner
 
 ### Other Key Team Members
 
-- **Victoria Treyger** - Partner - https://www.linkedin.com/in/victoriatreyger/
+- **Victoria Treyger** - Partner
 
 ## Focus Areas
 
@@ -47,5 +47,6 @@ Felicis Ventures backs exceptional founders building category-defining technolog
 ## Sources
 
 - https://www.felicis.com
+- https://www.felicis.com/team
 - https://www.crunchbase.com/organization/felicis-ventures
 - https://pitchbook.com/profiles/felicis-ventures

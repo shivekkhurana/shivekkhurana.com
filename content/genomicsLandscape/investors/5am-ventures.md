@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $30M
 aum: $1.5B+
 founded: 2002
 description: Early-stage life sciences venture capital firm specializing in precision medicine, biological engineering, and novel therapeutic platforms. Known for company-building approach with deep scientific expertise.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,15 @@ lastResearched: 2025-12-02
 
 ### Partners / Managing Directors
 
-- **Scott Rocklage, PhD** - Managing Partner - https://www.linkedin.com/in/scott-rocklage-phd-36a4a84/
-- **Andy Schwab** - Managing Partner - https://www.linkedin.com/in/andyschwab/
-- **Kush Parmar, MD, PhD** - Managing Partner - https://www.linkedin.com/in/kushparmar/
-- **David Allison** - Managing Partner - https://www.linkedin.com/in/davidjallison/
-
-### Other Key Team Members
-
-- **Daphne Zohar** - Venture Partner - https://www.linkedin.com/in/daphnezohar/
+- **Kush M Parmar, MD, PhD** - Managing Partner
+- **Andy J. Schwab** - Managing Partner
+- **Michael Calore** - Partner, Head of Investor Relations
+- **John Kelly** - Partner, Chief Financial Officer & Chief Operating Officer
+- **Deborah Palestrant, PhD** - Partner, Executive Chair, 4:59 Initiative
+- **Paul A. Stone, JD** - Partner, Chief Legal Officer
+- **Anna Yaeger** - Partner, Head of Public Equities
+- **Scott M. Rocklage, PhD** - Founding Partner
+- **John D. Diekman, PhD** - Founding Partner
 
 ## Focus Areas
 
@@ -49,6 +50,6 @@ lastResearched: 2025-12-02
 ## Sources
 
 - https://www.5amventures.com
+- https://www.5amventures.com/team
 - https://www.crunchbase.com/organization/5am-ventures
 - https://pitchbook.com/profiles/5am-ventures
-

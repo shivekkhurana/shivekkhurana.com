@@ -20,13 +20,13 @@ StepStone provides institutional investors with access to private markets throug
 
 ### Partners / Managing Directors (Health Focus)
 
-- **Scott Hart** - CEO - https://www.linkedin.com/in/scotthart/
-- **Monte Brem** - Senior Managing Director - https://www.linkedin.com/in/montebrem/
-- **Jason Ment** - Partner - https://www.linkedin.com/in/jasonment/
+- **Scott Hart** - CEO
+- **Monte Brem** - Senior Managing Director
+- **Jason Ment** - Partner
 
 ### Other Key Team Members
 
-- **Johnny Randel** - Managing Director - https://www.linkedin.com/in/johnnyrandel/
+- **Johnny Randel** - Managing Director
 - **Various sector specialists across healthcare and life sciences**
 
 ## Focus Areas
@@ -53,5 +53,6 @@ StepStone provides institutional investors with access to private markets throug
 ## Sources
 
 - StepStone Group website: https://www.stepstonegroup.com
+- https://www.stepstonegroup.com/people
 - SEC filings (NASDAQ: STEP)
 - Crunchbase: https://www.crunchbase.com/organization/stepstone-group

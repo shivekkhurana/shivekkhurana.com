@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €50M
 aum: €1.2B+
 founded: 2001
 description: Gilde Healthcare is a leading European venture capital and growth equity firm focused exclusively on healthcare. They invest in therapeutics, medtech, and digital health companies, with a strong presence in the European healthcare innovation ecosystem.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ Gilde Healthcare focuses on healthcare companies with differentiated technology 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Pieter van der Meer, PhD** - Managing Partner - https://www.linkedin.com/in/pietervandermeer/
-- **Geert Duyck** - Partner - https://www.linkedin.com/in/geertduyck/
-- **Johan Körver** - Partner - https://www.linkedin.com/in/johankorver/
-- **Rolf Sobel** - Partner - https://www.linkedin.com/in/rolfsobel/
+- **Pieter van der Meer, PhD** - Managing Partner
+- **Geert Duyck** - Partner
+- **Johan Körver** - Partner
+- **Rolf Sobel** - Partner
 
 ### Other Key Team Members
 
-- **Jasper Bos** - Partner - https://www.linkedin.com/in/jasperbos/
+- **Jasper Bos** - Partner
 
 ## Focus Areas
 
@@ -47,5 +47,6 @@ Gilde Healthcare focuses on healthcare companies with differentiated technology 
 ## Sources
 
 - https://gildehealthcare.com
+- https://gildehealthcare.com/team
 - PitchBook
 - Company press releases

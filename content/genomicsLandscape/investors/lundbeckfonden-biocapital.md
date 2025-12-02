@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €50M
 aum: €700M+
 founded: 2009
 description: Lundbeckfonden BioCapital is the venture capital arm of the Lundbeck Foundation, one of Denmark's largest commercial foundations. They specialize in life sciences investments with particular expertise in neuroscience, reflecting the foundation's heritage from Lundbeck pharmaceuticals.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Lundbeckfonden BioCapital invests in innovative life sciences companies with a p
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Peter Harkjaer** - Managing Director - https://www.linkedin.com/in/peterharkjaer/
-- **Christian Elling, PhD** - Investment Director - https://www.linkedin.com/in/christianelling/
+- **Peter Harkjaer** - Managing Director
+- **Christian Elling, PhD** - Investment Director
 
 ### Other Key Team Members
 
@@ -45,5 +45,6 @@ Lundbeckfonden BioCapital invests in innovative life sciences companies with a p
 ## Sources
 
 - https://www.lundbeckfonden.com/en/biocapital
+- https://www.lundbeckfonden.com/en/biocapital/team
 - Lundbeck Foundation annual reports
 - PitchBook

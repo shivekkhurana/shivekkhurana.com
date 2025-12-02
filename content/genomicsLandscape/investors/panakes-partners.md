@@ -9,7 +9,7 @@ typicalInvestmentRange: €2M - €20M
 aum: €300M+
 founded: 2016
 description: Panakes Partners is an Italian life sciences venture capital firm specializing in medical technology and healthcare investments. They focus on medtech, digital health, and therapeutics companies, with particular expertise in the European healthcare innovation ecosystem.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Panakes Partners invests in innovative healthcare companies with differentiated 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Fabio Mondini de Focatiis** - Managing Partner - https://www.linkedin.com/in/fabiomondini/
-- **Marco Morgese** - Partner - https://www.linkedin.com/in/marcomorgese/
+- **Fabio Mondini de Focatiis** - Managing Partner
+- **Marco Morgese** - Partner
 
 ### Other Key Team Members
 
@@ -45,5 +45,6 @@ Panakes Partners invests in innovative healthcare companies with differentiated 
 ## Sources
 
 - https://www.panakes.it
+- https://www.panakes.it/team
 - PitchBook
 - Italian venture capital news

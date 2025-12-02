@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €50M
 aum: €2B+
 founded: 1996
 description: HealthCap is one of the largest and most experienced European life sciences venture capital firms. Founded in Stockholm, they have a track record spanning nearly three decades of investing in innovative biotech and medtech companies across Europe and globally.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,15 +20,15 @@ HealthCap invests in life sciences companies developing innovative therapeutics 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Björn Odlander, MD, PhD** - Founding Partner - https://www.linkedin.com/in/bjornodlander/
-- **Peder Fredrikson, MD, PhD** - Founding Partner - https://www.linkedin.com/in/pederfredrikson/
-- **Johan Kördel, PhD** - Partner - https://www.linkedin.com/in/johankordel/
-- **Staffan Lindstrand** - Partner - https://www.linkedin.com/in/staffanlindstrand/
+- **Björn Odlander, MD, PhD** - Founding Partner
+- **Peder Fredrikson, MD, PhD** - Founding Partner
+- **Johan Kördel, PhD** - Partner
+- **Staffan Lindstrand** - Partner
 
 ### Other Key Team Members
 
-- **Eugen Steiner, MD, PhD** - Partner - https://www.linkedin.com/in/eugensteiner/
-- **Jacob Gunterberg** - Partner - https://www.linkedin.com/in/jacobgunterberg/
+- **Eugen Steiner, MD, PhD** - Partner
+- **Jacob Gunterberg** - Partner
 
 ## Focus Areas
 
@@ -49,5 +49,6 @@ HealthCap invests in life sciences companies developing innovative therapeutics 
 ## Sources
 
 - https://www.healthcap.eu
+- https://www.healthcap.eu/team
 - PitchBook
 - Nordic life sciences news

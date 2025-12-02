@@ -9,7 +9,7 @@ typicalInvestmentRange: $100M - $1B+
 aum: $84B+
 founded: 1980
 description: General Atlantic is a leading global growth equity firm providing capital and strategic support for growth companies. Their healthcare practice invests in life sciences, healthcare services, and healthcare technology companies at the growth stage, with a focus on transformative businesses.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ General Atlantic focuses on growth-stage investments in healthcare companies tha
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Robbert Vorhoff** - Managing Director, Healthcare - https://www.linkedin.com/in/robbert-vorhoff/
-- **Anton Levy** - Co-President & Managing Director - https://www.linkedin.com/in/antonlevy/
-- **Martín Escobari** - Co-President & Managing Director - https://www.linkedin.com/in/martinescobari/
+- **Robbert Vorhoff** - Managing Director, Healthcare
+- **Anton Levy** - Co-President & Managing Director
+- **Martín Escobari** - Co-President & Managing Director
 
 ### Other Key Team Members
 
-- **Jeff Klinger** - Vice President, Healthcare - https://www.linkedin.com/in/jeffklinger/
+- **Jeff Klinger** - Vice President, Healthcare
 
 ## Focus Areas
 
@@ -46,5 +46,6 @@ General Atlantic focuses on growth-stage investments in healthcare companies tha
 ## Sources
 
 - https://www.generalatlantic.com
+- https://www.generalatlantic.com/team
 - PitchBook
 - Crunchbase

@@ -20,15 +20,15 @@ SV Health Investors backs exceptional entrepreneurs building transformative heal
 
 ### Partners / Managing Directors
 
-- **Kate Bingham, DBE** - Managing Partner - https://www.linkedin.com/in/katebingham/ (led UK COVID-19 Vaccine Taskforce)
-- **Houman Ashrafian, MD, PhD** - Managing Partner - https://www.linkedin.com/in/houmanashrafian/
-- **Michael Ross, MD, PhD** - Managing Partner - https://www.linkedin.com/in/michaelross/
-- **Jean-Marc Guyot** - Partner - https://www.linkedin.com/in/jeanmarcguyot/
+- **Kate Bingham, DBE** - Managing Partner (led UK COVID-19 Vaccine Taskforce)
+- **Houman Ashrafian, MD, PhD** - Managing Partner
+- **Michael Ross, MD, PhD** - Managing Partner
+- **Jean-Marc Guyot** - Partner
 
 ### Other Key Team Members
 
-- **Cormac Sheridan** - Partner - https://www.linkedin.com/in/cormacsheridan/
-- **Adrian Rawcliffe** - Partner - https://www.linkedin.com/in/adrianrawcliffe/
+- **Cormac Sheridan** - Partner
+- **Adrian Rawcliffe** - Partner
 
 ## Focus Areas
 
@@ -59,5 +59,6 @@ SV Health Investors backs exceptional entrepreneurs building transformative heal
 ## Sources
 
 - SV Health Investors website: https://www.svhealthinvestors.com
+- https://www.svhealthinvestors.com/team
 - Crunchbase: https://www.crunchbase.com/organization/sv-health-investors
 - BioCentury, Fierce Biotech coverage

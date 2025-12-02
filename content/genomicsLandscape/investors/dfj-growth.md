@@ -9,7 +9,7 @@ typicalInvestmentRange: $25M - $150M
 aum: $1B+
 founded: 2008
 description: Growth-stage venture capital firm affiliated with the Draper network. Focuses on expansion-stage investments in technology and healthcare companies that have proven product-market fit and are scaling rapidly.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ DFJ Growth invests in growth-stage companies that have established product-marke
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Randy Glein** - Partner - https://www.linkedin.com/in/randyglein/
-- **Barry Schuler** - Partner - https://www.linkedin.com/in/barryschuler/
+- **Randy Glein** - Partner
+- **Barry Schuler** - Partner
 
 ### Other Key Team Members
 
@@ -44,6 +44,7 @@ DFJ Growth invests in growth-stage companies that have established product-marke
 ## Sources
 
 - https://www.dfjgrowth.com
+- https://www.dfjgrowth.com/team
 - https://www.crunchbase.com/organization/dfj-growth
 - https://pitchbook.com/profiles/dfj-growth
 

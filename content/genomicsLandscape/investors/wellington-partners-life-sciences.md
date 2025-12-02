@@ -20,9 +20,9 @@ Wellington Partners invests in European life sciences companies with breakthroug
 
 ### Partners / Managing Directors
 
-- **Rolf Dienst** - Managing Partner - https://www.linkedin.com/in/rolfdienst/
-- **Regina Hodits, PhD** - General Partner, Life Sciences - https://www.linkedin.com/in/reginahodits/
-- **Christian Greiser, PhD** - General Partner - https://www.linkedin.com/in/christiangreiser/
+- **Rolf Dienst** - Managing Partner
+- **Regina Hodits, PhD** - General Partner, Life Sciences
+- **Christian Greiser, PhD** - General Partner
 
 ### Other Key Team Members
 
@@ -58,5 +58,6 @@ Wellington Partners invests in European life sciences companies with breakthroug
 ## Sources
 
 - Wellington Partners website: https://www.wellington-partners.com
+- https://www.wellington-partners.com/team
 - Crunchbase: https://www.crunchbase.com/organization/wellington-partners
 - German Biotech Association

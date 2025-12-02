@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $200M+
 aum: $18B+
 founded: 1989
 description: OrbiMed is one of the world's largest healthcare-dedicated investment firms. They invest across the full spectrum of healthcare, from early-stage venture capital to public equities and credit, with deep expertise in biopharmaceuticals, medical devices, and healthcare services.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,11 +20,11 @@ OrbiMed invests in companies across the healthcare spectrum, from drug discovery
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Sven Hoppe, MD, PhD** - Managing Partner - https://www.linkedin.com/in/svenhoppe/
-- **Carl Gordon, PhD, CFA** - Managing Partner - https://www.linkedin.com/in/carlgordonphd/
-- **Jonathan Silverstein** - Managing Partner - https://www.linkedin.com/in/jonathansilverstein/
-- **Carter Neild** - Managing Partner - https://www.linkedin.com/in/carterneild/
-- **Geoffrey Hsu** - Managing Partner - https://www.linkedin.com/in/geoffreyhsu/
+- **Sven Hoppe, MD, PhD** - Managing Partner
+- **Carl Gordon, PhD, CFA** - Managing Partner
+- **Jonathan Silverstein** - Managing Partner
+- **Carter Neild** - Managing Partner
+- **Geoffrey Hsu** - Managing Partner
 
 ### Other Key Team Members
 
@@ -56,5 +56,6 @@ OrbiMed invests in companies across the healthcare spectrum, from drug discovery
 ## Sources
 
 - https://www.orbimed.com
+- https://www.orbimed.com/team
 - PitchBook
 - SEC filings

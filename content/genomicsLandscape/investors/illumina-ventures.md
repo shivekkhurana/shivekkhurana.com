@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $20M
 aum: $330M+
 founded: 2016
 description: Illumina Ventures is an independent venture fund focused on investing in early-stage genomics and precision health companies. While operationally independent from Illumina, Inc., the fund leverages deep genomics expertise and the broader Illumina ecosystem to support portfolio companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Illumina Ventures invests in companies at the cutting edge of genomics and preci
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Nick Naclerio** - Founding Partner - https://www.linkedin.com/in/nicknaclerio/
-- **Julie Grant** - Partner - https://www.linkedin.com/in/juliegrant/
-- **Mostafa Ronaghi, PhD** - Founding Partner - https://www.linkedin.com/in/mostafa-ronaghi/
+- **Nick Naclerio** - Founding Partner
+- **Julie Grant** - Partner
+- **Mostafa Ronaghi, PhD** - Founding Partner
 
 ### Other Key Team Members
 
-- **Michelle Cai** - Principal - https://www.linkedin.com/in/michellecai/
+- **Michelle Cai** - Principal
 
 ## Focus Areas
 
@@ -49,6 +49,7 @@ Illumina Ventures invests in companies at the cutting edge of genomics and preci
 ## Sources
 
 - https://www.illuminaventures.com
+- https://www.illuminaventures.com/team
 - https://www.illuminaventures.com/portfolio/
 - PitchBook
 - Crunchbase

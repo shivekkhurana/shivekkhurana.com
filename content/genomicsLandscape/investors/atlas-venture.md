@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $2B+
 founded: 1980
 description: Premier early-stage biotech venture capital firm focused on company creation. One of the most experienced biotech VCs with over 40 years of track record, known for building companies from scientific ideas to clinical success.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,12 +20,12 @@ Atlas Venture focuses exclusively on biotechnology company creation, working wit
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Bruce Booth, PhD** - Partner - https://www.linkedin.com/in/bruceabooth/
-- **Kevin Bitterman, PhD** - Partner - https://www.linkedin.com/in/kevinbitterman/
-- **Jean-François Formela, MD** - Partner - https://www.linkedin.com/in/jfformela/
-- **Michael Gladstone** - Partner - https://www.linkedin.com/in/michaelgladstone/
-- **David Grayzel, MD** - Partner - https://www.linkedin.com/in/davidgrayzel/
-- **Jason Rhodes, PhD** - Partner - https://www.linkedin.com/in/jasonrhodes/
+- **Bruce Booth, PhD** - Partner
+- **Kevin Bitterman, PhD** - Partner
+- **Jean-François Formela, MD** - Partner
+- **Michael Gladstone** - Partner
+- **David Grayzel, MD** - Partner
+- **Jason Rhodes, PhD** - Partner
 
 ### Other Key Team Members
 
@@ -52,6 +52,7 @@ Atlas Venture focuses exclusively on biotechnology company creation, working wit
 ## Sources
 
 - https://www.atlasventure.com
+- https://www.atlasventure.com/team
 - https://lifescivc.com (Bruce Booth's blog)
 - https://www.crunchbase.com/organization/atlas-venture
 - https://pitchbook.com/profiles/atlas-venture

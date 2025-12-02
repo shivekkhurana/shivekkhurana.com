@@ -20,13 +20,13 @@ Sanofi Ventures invests in cutting-edge biotechnology companies developing novel
 
 ### Partners / Managing Directors
 
-- **Rainer Boehm, MD** - Global Head of Sanofi Ventures - https://www.linkedin.com/in/rainer-boehm-md/
-- **Laurent Choppe** - Managing Director - https://www.linkedin.com/in/laurentchoppe/
-- **Milind Kamkolkar** - Managing Director - https://www.linkedin.com/in/milindkamkolkar/
+- **Rainer Boehm, MD** - Global Head of Sanofi Ventures
+- **Laurent Choppe** - Managing Director
+- **Milind Kamkolkar** - Managing Director
 
 ### Other Key Team Members
 
-- **Olivier Blum** - Investment Director - https://www.linkedin.com/in/olivierblum/
+- **Olivier Blum** - Investment Director
 
 ## Focus Areas
 

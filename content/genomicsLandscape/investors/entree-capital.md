@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $15M
 aum: $800M+
 founded: 2010
 description: Global early-stage venture capital firm with roots in Israel, investing in technology companies across consumer, enterprise, fintech, and healthcare. Known for backing exceptional founders with global ambitions.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ Entree Capital invests in early-stage technology companies globally, with partic
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Aviad Eyal** - Co-Founder & Managing Partner - https://www.linkedin.com/in/aviadeyal/
-- **Adi Peled** - Partner - https://www.linkedin.com/in/adipeled/
-- **Eyal Malinger** - General Partner - https://www.linkedin.com/in/eyalmalinger/
+- **Aviad Eyal** - Co-Founder & Managing Partner
+- **Adi Peled** - Partner
+- **Eyal Malinger** - General Partner
 
 ### Other Key Team Members
 
@@ -46,6 +46,7 @@ Entree Capital invests in early-stage technology companies globally, with partic
 ## Sources
 
 - https://entreecap.com
+- https://entreecap.com/team
 - https://www.crunchbase.com/organization/entree-capital
 - https://pitchbook.com/profiles/entree-capital
 

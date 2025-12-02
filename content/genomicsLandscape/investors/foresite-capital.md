@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $100M
 aum: $5B+
 founded: 2011
 description: Healthcare investment firm founded by Jim Tananbaum (GreenLight Biosciences, Theravance founder), focused on precision medicine, genomics, and transformative healthcare companies. Deep expertise across therapeutics, diagnostics, and healthcare services.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,10 +20,10 @@ Foresite Capital invests across the healthcare spectrum with a focus on precisio
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Jim Tananbaum, MD** - Founder & CEO - https://www.linkedin.com/in/jim-tananbaum-md-mba-5621781/
-- **Dennis Ryan** - Managing Director - https://www.linkedin.com/in/dennis-ryan-4651b51/
-- **Michael Rome** - Managing Director - https://www.linkedin.com/in/michael-rome-8b48931/
-- **Matt Portnoy** - Managing Director - https://www.linkedin.com/in/matthew-portnoy-7b52b51/
+- **Jim Tananbaum, MD** - Founder & CEO
+- **Dennis Ryan** - Managing Director
+- **Michael Rome** - Managing Director
+- **Matt Portnoy** - Managing Director
 
 ### Other Key Team Members
 
@@ -49,6 +49,7 @@ Foresite Capital invests across the healthcare spectrum with a focus on precisio
 ## Sources
 
 - https://foresitecapital.com
+- https://foresitecapital.com/team
 - https://www.crunchbase.com/organization/foresite-capital
 - https://pitchbook.com/profiles/foresite-capital
 

@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $100M
 aum: $1.3B+
 founded: 2016
 description: Israeli healthcare and life sciences venture fund co-founded by Marius Nacht (Check Point co-founder). One of the largest healthcare funds in Israel, investing globally in transformative healthcare companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ aMoon invests in transformative healthcare and life sciences companies globally,
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Marius Nacht** - Co-Founder & Chairman - https://www.linkedin.com/in/marius-nacht-3a7b0a/
-- **Yair Schindel, MD** - Co-Founder & Managing Partner - https://www.linkedin.com/in/yair-schindel-md-3284aa3/
-- **Zohar Yinon** - Partner - https://www.linkedin.com/in/zohar-yinon-3578a51/
+- **Marius Nacht** - Co-Founder & Chairman
+- **Yair Schindel, MD** - Co-Founder & Managing Partner
+- **Zohar Yinon** - Partner
 
 ### Other Key Team Members
 
-- **Orit Hashay** - Partner - https://www.linkedin.com/in/orit-hashay-2762152/
+- **Orit Hashay** - Partner
 
 ## Focus Areas
 
@@ -47,6 +47,7 @@ aMoon invests in transformative healthcare and life sciences companies globally,
 ## Sources
 
 - https://www.amoon.com
+- https://www.amoon.com/team
 - https://www.crunchbase.com/organization/amoon
 - https://pitchbook.com/profiles/amoon-fund
 

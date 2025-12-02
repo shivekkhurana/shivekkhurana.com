@@ -20,14 +20,14 @@ The Column Group invests in breakthrough biotechnology companies developing nove
 
 ### Partners / Managing Directors
 
-- **David Goeddel, PhD** - Founder & Managing Partner - https://www.linkedin.com/in/davidgoeddel/ (former Genentech CSO)
-- **Peter Svennilson** - Managing Partner - https://www.linkedin.com/in/petersvennilson/
-- **Tim Kutzkey** - Managing Partner - https://www.linkedin.com/in/timkutzkey/
+- **David Goeddel, PhD** - Founder & Managing Partner (former Genentech CSO)
+- **Peter Svennilson** - Managing Partner
+- **Tim Kutzkey** - Managing Partner
 
 ### Other Key Team Members
 
-- **Gary Lyons** - Partner - https://www.linkedin.com/in/garylyons/
-- **Brent Ahrens** - General Partner - https://www.linkedin.com/in/brentahrens/
+- **Gary Lyons** - Partner
+- **Brent Ahrens** - General Partner
 
 ## Focus Areas
 
@@ -58,5 +58,6 @@ The Column Group invests in breakthrough biotechnology companies developing nove
 ## Sources
 
 - The Column Group website: https://www.thecolumngroup.com
+- https://www.thecolumngroup.com/team
 - Crunchbase: https://www.crunchbase.com/organization/the-column-group
 - BioCentury, Fierce Biotech coverage

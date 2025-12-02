@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $100M (historical)
 aum: N/A (acquired)
 founded: 1986
 description: Celgene was a major biopharmaceutical company with active corporate venture investments. Acquired by Bristol Myers Squibb in 2019 for $74B. Historical investments in genomics, cell therapy, and oncology continue under BMS umbrella.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,12 +20,12 @@ Celgene's venture arm made strategic investments in companies developing innovat
 
 ### Historical Partners / Managing Directors (Health & Bio Focus)
 
-- **Mark Alles** - Former CEO - https://www.linkedin.com/in/markalles/
+- **Mark Alles** - Former CEO
 - **Scott Smith** - Former EVP
 
 ### Bristol Myers Squibb Leadership
 
-- **Chris Boerner, PhD** - CEO, BMS - https://www.linkedin.com/in/chris-boerner-phd-1a9b3a1/
+- **Chris Boerner, PhD** - CEO, BMS
 
 ## Focus Areas
 
@@ -45,5 +45,6 @@ Celgene's venture arm made strategic investments in companies developing innovat
 ## Sources
 
 - https://www.bms.com
+- https://www.bms.com/team
 - https://www.crunchbase.com/organization/celgene
 - SEC filings and acquisition announcements

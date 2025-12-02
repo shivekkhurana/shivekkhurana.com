@@ -9,7 +9,7 @@ typicalInvestmentRange: $50M - $500M
 aum: $50B+
 founded: 2009
 description: Global investment firm founded by Yuri Milner, known for early investments in Facebook, Twitter, and Alibaba. Invests in high-growth technology companies globally, with selective healthcare and life sciences investments.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,10 +20,10 @@ DST Global invests in high-growth technology and internet companies globally, ta
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Yuri Milner** - Founder - https://www.linkedin.com/in/yurimilner/
-- **Rahul Mehta** - Managing Partner - https://www.linkedin.com/in/rahulmehta/
-- **Saurabh Gupta** - Managing Partner - https://www.linkedin.com/in/saurabhgupta/
-- **John Lindfors** - Managing Partner - https://www.linkedin.com/in/johnlindfors/
+- **Yuri Milner** - Founder
+- **Rahul Mehta** - Managing Partner
+- **Saurabh Gupta** - Managing Partner
+- **John Lindfors** - Managing Partner
 
 ### Other Key Team Members
 
@@ -52,6 +52,7 @@ DST Global invests in high-growth technology and internet companies globally, ta
 ## Sources
 
 - https://dst-global.com
+- https://dst-global.com/team
 - https://www.crunchbase.com/organization/dst-global
 - SEC filings
 

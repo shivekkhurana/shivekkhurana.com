@@ -9,7 +9,7 @@ typicalInvestmentRange: $250K - $3M
 aum: $60M+
 founded: 2002
 description: Philadelphia region's biotech seed fund, focused on early-stage life sciences companies. Provides seed and early Series A funding to startups in the greater Philadelphia area, supporting the region's life sciences ecosystem.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,7 +20,7 @@ BioAdvance provides seed funding to early-stage life sciences companies in the P
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Barbara Schilberg** - President & CEO - https://www.linkedin.com/in/barbaraschilberg/
+- **Barbara Schilberg** - President & CEO
 
 ### Other Key Team Members
 
@@ -44,6 +44,7 @@ BioAdvance provides seed funding to early-stage life sciences companies in the P
 ## Sources
 
 - https://www.bioadvance.com
+- https://www.bioadvance.com/team
 - https://www.crunchbase.com/organization/bioadvance
 - Philadelphia life sciences ecosystem reports
 

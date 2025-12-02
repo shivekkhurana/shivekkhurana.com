@@ -9,7 +9,7 @@ typicalInvestmentRange: ¥100M - ¥1B
 aum: ¥50B+
 founded: 2010
 description: Japanese investment firm specializing in systems biology and life sciences. Focus on computational approaches to drug discovery and therapeutics development, bridging Japanese innovation with global markets.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -45,6 +45,7 @@ Corundum Systems Biology invests in companies applying systems biology and compu
 ## Sources
 
 - https://www.csb.co.jp
+- https://www.csb.co.jp/team
 - https://www.csb.co.jp/partner
 - Japanese life sciences investment reports
 

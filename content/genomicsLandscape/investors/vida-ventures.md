@@ -20,13 +20,13 @@ Vida Ventures backs exceptional science and entrepreneurs building transformativ
 
 ### Partners / Managing Directors
 
-- **Arie Belldegrun, MD, FACS** - Co-Founder & Senior Managing Director - https://www.linkedin.com/in/ariebelldegrun/ (Kite Pharma founder, UCLA professor)
-- **Arjun Goyal, MD, MPhil** - Managing Director - https://www.linkedin.com/in/arjungoyal/
-- **Helen Kim, PhD** - Managing Director - https://www.linkedin.com/in/helenkim/
+- **Arie Belldegrun, MD, FACS** - Co-Founder & Senior Managing Director (Kite Pharma founder, UCLA professor)
+- **Arjun Goyal, MD, MPhil** - Managing Director
+- **Helen Kim, PhD** - Managing Director
 
 ### Other Key Team Members
 
-- **Rebecka Belldegrun, MD** - Partner - https://www.linkedin.com/in/rebeckabelldegrun/
+- **Rebecka Belldegrun, MD** - Partner
 - **David Chang, MD, PhD** - Senior Advisor
 
 ## Focus Areas
@@ -57,5 +57,6 @@ Vida Ventures backs exceptional science and entrepreneurs building transformativ
 ## Sources
 
 - Vida Ventures website: https://vidaventures.com
+- https://vidaventures.com/team
 - Crunchbase: https://www.crunchbase.com/organization/vida-ventures
 - Forbes, BioCentury coverage

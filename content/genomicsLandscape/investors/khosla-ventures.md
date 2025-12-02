@@ -9,7 +9,7 @@ typicalInvestmentRange: $100K - $100M+
 aum: $15B+
 founded: 2004
 description: Khosla Ventures is a venture capital firm founded by Sun Microsystems co-founder Vinod Khosla. They invest in bold technology companies across sectors including healthcare, with a focus on transformative innovations in genomics, AI-powered healthcare, and novel therapeutics.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ Khosla Ventures backs entrepreneurs working on breakthrough technologies that ca
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Vinod Khosla** - Founder - https://www.linkedin.com/in/vinod-khosla/
-- **Alex Morgan, MD, PhD** - Partner (Healthcare) - https://www.linkedin.com/in/alex-morgan-md-phd/
-- **Samir Kaul** - Partner - https://www.linkedin.com/in/samirkaul/
+- **Vinod Khosla** - Founder
+- **Alex Morgan, MD, PhD** - Partner (Healthcare)
+- **Samir Kaul** - Partner
 
 ### Other Key Team Members
 
-- **Keith Rabois** - General Partner - https://www.linkedin.com/in/keith-rabois/
-- **Sven Strohband** - Partner - https://www.linkedin.com/in/svenstrohband/
+- **Keith Rabois** - General Partner
+- **Sven Strohband** - Partner
 
 ## Focus Areas
 
@@ -55,5 +55,6 @@ Khosla Ventures backs entrepreneurs working on breakthrough technologies that ca
 ## Sources
 
 - https://www.khoslaventures.com
+- https://www.khoslaventures.com/team
 - Crunchbase
 - PitchBook

@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $100M+
 aum: $1B+
 founded: 2014
 description: March Capital is a growth-stage venture capital firm investing in transformative technology companies across sectors including healthcare AI and digital health. They partner with founders building category-defining companies with significant market opportunities.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ March Capital invests in growth-stage technology companies that are transforming
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Gregory Milken** - Co-Founder & Managing Partner - https://www.linkedin.com/in/gregorymilken/
-- **Sumant Mandal** - Managing Partner - https://www.linkedin.com/in/sumantmandal/
-- **Jamie Montgomery** - Co-Founder & Managing Partner - https://www.linkedin.com/in/jamiemontgomery/
+- **Gregory Milken** - Co-Founder & Managing Partner
+- **Sumant Mandal** - Managing Partner
+- **Jamie Montgomery** - Co-Founder & Managing Partner
 
 ### Other Key Team Members
 
-- **Komal Jalan** - Partner - https://www.linkedin.com/in/komaljalan/
+- **Komal Jalan** - Partner
 
 ## Focus Areas
 
@@ -46,5 +46,6 @@ March Capital invests in growth-stage technology companies that are transforming
 ## Sources
 
 - https://www.marchcp.com
+- https://www.marchcp.com/team
 - PitchBook
 - TechCrunch

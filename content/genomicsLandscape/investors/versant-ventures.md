@@ -20,15 +20,15 @@ Versant combines company creation with traditional venture investing. Their Ince
 
 ### Partners / Managing Directors
 
-- **Brad Bolzon, PhD** - Managing Director - https://www.linkedin.com/in/bradbolzon/
-- **Clare Ozawa** - Managing Director - https://www.linkedin.com/in/clareozawa/
-- **Tom Woiwode, PhD** - Managing Director - https://www.linkedin.com/in/tomwoiwode/
-- **Alex Mayweg, PhD** - Managing Director - https://www.linkedin.com/in/alexmayweg/
-- **Jerel Davis, PhD** - Managing Director - https://www.linkedin.com/in/jereldavis/
+- **Brad Bolzon, PhD** - Managing Director
+- **Clare Ozawa** - Managing Director
+- **Tom Woiwode, PhD** - Managing Director
+- **Alex Mayweg, PhD** - Managing Director
+- **Jerel Davis, PhD** - Managing Director
 
 ### Other Key Team Members
 
-- **Carlo Rizzuto, PhD** - Managing Director - https://www.linkedin.com/in/carlorizzuto/
+- **Carlo Rizzuto, PhD** - Managing Director
 - **William Link, PhD** - Founding Managing Director
 
 ## Focus Areas
@@ -67,5 +67,6 @@ Versant combines company creation with traditional venture investing. Their Ince
 ## Sources
 
 - Versant Ventures website: https://www.versantventures.com
+- https://www.versantventures.com/team
 - Crunchbase: https://www.crunchbase.com/organization/versant-ventures
 - BioCentury, Fierce Biotech coverage

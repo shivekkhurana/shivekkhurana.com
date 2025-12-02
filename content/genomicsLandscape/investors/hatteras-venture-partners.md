@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $15M
 aum: $500M+
 founded: 2001
 description: Hatteras Venture Partners is an early-stage life sciences venture capital firm based in Research Triangle Park, North Carolina. They invest in therapeutics and medical devices companies, leveraging the strong research ecosystem of the Research Triangle region.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Hatteras focuses on seed and early-stage investments in life sciences companies,
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **John Crumpler** - Co-Founder & Managing Director - https://www.linkedin.com/in/johncrumpler/
-- **John Darsee, MD** - Managing Director - https://www.linkedin.com/in/johndarsee/
-- **Bob Ingram** - Partner - https://www.linkedin.com/in/bobingram/
+- **John Crumpler** - Co-Founder & Managing Director
+- **John Darsee, MD** - Managing Director
+- **Bob Ingram** - Partner
 
 ### Other Key Team Members
 
-- **Chris Caplice** - Principal - https://www.linkedin.com/in/chriscaplice/
+- **Chris Caplice** - Principal
 
 ## Focus Areas
 
@@ -46,5 +46,6 @@ Hatteras focuses on seed and early-stage investments in life sciences companies,
 ## Sources
 
 - https://www.hatterasvp.com
+- https://www.hatterasvp.com/team
 - PitchBook
 - North Carolina Biotechnology Center

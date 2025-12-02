@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $100M+
 aum: $5B+
 founded: 2000
 description: Lux Capital is a venture capital firm focused on emerging science and technology ventures. They specialize in deep tech and life sciences, backing companies that are turning science fiction into fact, including breakthrough biotechnology, drug discovery, and healthcare technology.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,15 +20,15 @@ Lux Capital invests in companies that are harnessing scientific breakthroughs to
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Josh Wolfe** - Co-Founder & Managing Partner - https://www.linkedin.com/in/joshwolfe/
-- **Zavain Dar** - Partner - https://www.linkedin.com/in/zavaindar/
-- **Deena Shakir** - Partner - https://www.linkedin.com/in/deenashakir/
-- **Shahin Farshchi, PhD** - Partner - https://www.linkedin.com/in/shahinfarshchi/
+- **Josh Wolfe** - Co-Founder & Managing Partner
+- **Zavain Dar** - Partner
+- **Deena Shakir** - Partner
+- **Shahin Farshchi, PhD** - Partner
 
 ### Other Key Team Members
 
-- **Peter Hébert** - Co-Founder & Managing Partner - https://www.linkedin.com/in/peterhebert/
-- **Bilal Zuberi** - Partner - https://www.linkedin.com/in/bilalzuberi/
+- **Peter Hébert** - Co-Founder & Managing Partner
+- **Bilal Zuberi** - Partner
 
 ## Focus Areas
 
@@ -55,5 +55,6 @@ Lux Capital invests in companies that are harnessing scientific breakthroughs to
 ## Sources
 
 - https://www.luxcapital.com
+- https://www.luxcapital.com/team
 - PitchBook
 - Crunchbase

@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €30M
 aum: €1B+ (BioDiscovery funds)
 founded: 2001
 description: European life sciences venture capital firm (formerly Edmond de Rothschild Investment Partners). BioDiscovery fund invests in innovative biotechnology and healthcare companies across Europe.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Andera Partners' BioDiscovery funds invest in European life sciences companies d
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Olivier Litzka** - Managing Partner, BioDiscovery - https://www.linkedin.com/in/olivier-litzka-60a6a11/
-- **Christophe Pottier** - Partner, BioDiscovery - https://www.linkedin.com/in/christophe-pottier-57917b1/
-- **Raphael Wisniewski** - Partner, BioDiscovery - https://www.linkedin.com/in/raphael-wisniewski-8639a61/
+- **Olivier Litzka** - Managing Partner, BioDiscovery
+- **Christophe Pottier** - Partner, BioDiscovery
+- **Raphael Wisniewski** - Partner, BioDiscovery
 
 ### Other Key Team Members
 
-- **Bruno Beurrier** - CEO, Andera Partners - https://www.linkedin.com/in/bbeurrier/
+- **Bruno Beurrier** - CEO, Andera Partners
 
 ## Focus Areas
 
@@ -47,6 +47,7 @@ Andera Partners' BioDiscovery funds invest in European life sciences companies d
 ## Sources
 
 - https://www.anderapartners.com
+- https://www.anderapartners.com/team
 - https://www.crunchbase.com/organization/andera-partners
 - https://pitchbook.com/profiles/andera-partners
 

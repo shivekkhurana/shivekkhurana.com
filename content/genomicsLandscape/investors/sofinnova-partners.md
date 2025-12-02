@@ -20,14 +20,14 @@ Sofinnova Partners invests in innovative life sciences companies across Europe a
 
 ### Partners / Managing Directors
 
-- **Antoine Papiernik** - Managing Partner - https://www.linkedin.com/in/antoinepapiernik/
-- **Graziano Seghezzi** - Managing Partner - https://www.linkedin.com/in/grazianoseghezzi/
-- **Maha Katabi, PhD** - General Partner - https://www.linkedin.com/in/mahakatabi/
-- **Joanna Horobin, MB ChB** - Partner - https://www.linkedin.com/in/joannahorobin/
+- **Antoine Papiernik** - Managing Partner
+- **Graziano Seghezzi** - Managing Partner
+- **Maha Katabi, PhD** - General Partner
+- **Joanna Horobin, MB ChB** - Partner
 
 ### Other Key Team Members
 
-- **Michael Krel** - Partner - https://www.linkedin.com/in/michaelkrel/
+- **Michael Krel** - Partner
 - **Rafaèle Tordjman, MD, PhD** - Founder of Jeito Capital (former Sofinnova Partner)
 
 ## Focus Areas
@@ -61,5 +61,6 @@ Sofinnova Partners invests in innovative life sciences companies across Europe a
 ## Sources
 
 - Sofinnova Partners website: https://sofinnovapartners.com
+- https://sofinnovapartners.com/team
 - Crunchbase: https://www.crunchbase.com/organization/sofinnova-partners
 - European Venture Capital Association

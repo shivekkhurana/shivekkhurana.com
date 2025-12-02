@@ -9,7 +9,7 @@ typicalInvestmentRange: $50K - $500K
 aum: N/A (angel network)
 founded: 2014
 description: Leading angel investment network in the UAE, connecting high-net-worth individuals with promising startups across various sectors including healthcare and biotechnology. Part of the growing MENA startup ecosystem.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -44,6 +44,7 @@ Emirates Angels provides angel funding to early-stage startups in the MENA regio
 ## Sources
 
 - https://www.emiratesangels.org
+- https://www.emiratesangels.org/team
 - MENA startup ecosystem reports
 - Regional venture capital coverage
 

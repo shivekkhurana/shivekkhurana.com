@@ -20,13 +20,13 @@ Seroba invests in European life sciences companies with differentiated technolog
 
 ### Partners / Managing Directors
 
-- **Charles Fortune** - Managing Partner - https://www.linkedin.com/in/charles-fortune/
-- **Shane Cahalane** - Managing Partner - https://www.linkedin.com/in/shanecahalane/
-- **Fergal Naughton** - Partner - https://www.linkedin.com/in/fergalnaughton/
+- **Charles Fortune** - Managing Partner
+- **Shane Cahalane** - Managing Partner
+- **Fergal Naughton** - Partner
 
 ### Other Key Team Members
 
-- **Daniel Gallagher** - Investment Director - https://www.linkedin.com/in/danielgallagher/
+- **Daniel Gallagher** - Investment Director
 
 ## Focus Areas
 
@@ -54,5 +54,6 @@ Seroba invests in European life sciences companies with differentiated technolog
 ## Sources
 
 - Seroba Life Sciences website: https://www.seroba-lifesciences.com
+- https://www.seroba-lifesciences.com/team
 - Crunchbase: https://www.crunchbase.com/organization/seroba-life-sciences
 - Irish Venture Capital Association

@@ -9,7 +9,7 @@ typicalInvestmentRange: $50M - $500M
 aum: $15B+
 founded: 2008
 description: Technology-focused investment firm founded by Brad Gerstner, managing both public and private capital. Known for growth-stage investments in transformative technology companies and SPAC transactions including the 23andMe merger.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,12 +20,12 @@ Altimeter Capital invests in transformative technology companies at growth stage
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Brad Gerstner** - Founder & CEO - https://www.linkedin.com/in/bradgerstner/
-- **Jamin Ball** - Partner - https://www.linkedin.com/in/jaminball/
+- **Brad Gerstner** - Founder & CEO
+- **Jamin Ball** - Partner
 
 ### Other Key Team Members
 
-- **Ram Parameswaran** - Partner - https://www.linkedin.com/in/ramparameswaran/
+- **Ram Parameswaran** - Partner
 
 ## Focus Areas
 
@@ -46,6 +46,7 @@ Altimeter Capital invests in transformative technology companies at growth stage
 ## Sources
 
 - https://www.altimetercapital.com
+- https://www.altimetercapital.com/team
 - https://www.crunchbase.com/organization/altimeter-capital-management
 - SEC Filings
 

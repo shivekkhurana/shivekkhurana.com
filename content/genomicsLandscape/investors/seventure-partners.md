@@ -20,14 +20,14 @@ Seventure invests in innovative life sciences companies across Europe and global
 
 ### Partners / Managing Directors
 
-- **Isabelle de Crémoux** - CEO & Managing Partner - https://www.linkedin.com/in/isabelledecremoux/
-- **Laurent Bénard** - Partner - https://www.linkedin.com/in/laurentbenard/
-- **Marc Julien** - Partner - https://www.linkedin.com/in/marcjulien/
+- **Isabelle de Crémoux** - CEO & Managing Partner
+- **Laurent Bénard** - Partner
+- **Marc Julien** - Partner
 
 ### Other Key Team Members
 
-- **Nicolas Houba, PhD** - Partner - https://www.linkedin.com/in/nicolashouba/
-- **Stéphane Grégoire** - Partner - https://www.linkedin.com/in/stephanegregoire/
+- **Nicolas Houba, PhD** - Partner
+- **Stéphane Grégoire** - Partner
 
 ## Focus Areas
 
@@ -56,5 +56,6 @@ Seventure invests in innovative life sciences companies across Europe and global
 ## Sources
 
 - Seventure Partners website: https://www.seventure.fr
+- https://www.seventure.fr/en/team
 - Crunchbase: https://www.crunchbase.com/organization/seventure-partners
 - France Biotech

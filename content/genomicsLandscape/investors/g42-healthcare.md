@@ -9,7 +9,7 @@ typicalInvestmentRange: $50M - $500M+
 aum: $10B+ (parent G42)
 founded: 2018
 description: G42 Healthcare is the healthcare division of G42, an Abu Dhabi-based AI and cloud computing company. The division focuses on leveraging AI to transform healthcare, with particular emphasis on genomics through initiatives like the Emirati Genome Program and partnerships with major sequencing companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ G42 Healthcare invests in and builds AI-powered healthcare solutions, with a par
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Peng Xiao** - Group CEO, G42 - https://www.linkedin.com/in/peng-xiao/
-- **Ashish Koshy** - CEO, G42 Healthcare - https://www.linkedin.com/in/ashishkoshy/
-- **Dr. Fahed Al Marzooqi** - Medical Director - https://www.linkedin.com/in/dr-fahed-al-marzooqi/
+- **Peng Xiao** - Group CEO, G42
+- **Ashish Koshy** - CEO, G42 Healthcare
+- **Dr. Fahed Al Marzooqi** - Medical Director
 
 ## Focus Areas
 
@@ -42,5 +42,6 @@ G42 Healthcare invests in and builds AI-powered healthcare solutions, with a par
 ## Sources
 
 - https://www.g42.ai
+- https://www.g42.ai/team
 - https://www.g42healthcare.ai
 - Company press releases

@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $500M+
 aum: $11B+
 founded: 2005
 description: Founders Fund is a San Francisco-based venture capital firm founded by Peter Thiel, Ken Howery, and Luke Nosek (PayPal co-founders). Known for making bold, contrarian investments in transformative technology companies, they have backed some of the most successful companies of the past two decades including SpaceX, Palantir, and Airbnb. Their healthcare investments focus on breakthrough technologies in genomics, longevity, and drug discovery.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,16 +20,16 @@ Founders Fund invests in companies building transformative technologies that oth
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Peter Thiel** - Co-Founder & Partner - https://www.linkedin.com/in/peterthiel/
-- **Brian Singerman** - Partner - https://www.linkedin.com/in/brian-singerman-5a96ab/
-- **Napoleon Ta** - Partner - https://www.linkedin.com/in/napoleonta/
-- **Trae Stephens** - Partner - https://www.linkedin.com/in/traestephens/
+- **Peter Thiel** - Co-Founder & Partner
+- **Brian Singerman** - Partner
+- **Napoleon Ta** - Partner
+- **Trae Stephens** - Partner
 
 ### Other Key Team Members
 
-- **Keith Rabois** - Former Partner (now at Khosla Ventures) - https://www.linkedin.com/in/keith-rabois/
-- **Cyan Banister** - Partner - https://www.linkedin.com/in/cyanbanister/
-- **Lauren Gross** - Partner - https://www.linkedin.com/in/laurengross1/
+- **Keith Rabois** - Former Partner (now at Khosla Ventures)
+- **Cyan Banister** - Partner
+- **Lauren Gross** - Partner
 
 ## Focus Areas
 
@@ -60,6 +60,7 @@ Founders Fund invests in companies building transformative technologies that oth
 ## Sources
 
 - https://foundersfund.com
+- https://foundersfund.com/team
 - https://www.crunchbase.com/organization/founders-fund
 - https://pitchbook.com/profiles/founders-fund
 - SEC filings

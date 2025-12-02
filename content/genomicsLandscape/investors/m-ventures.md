@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €50M
 aum: €400M+
 founded: 2009
 description: M Ventures is the strategic corporate venture capital arm of Merck KGaA, Darmstadt, Germany. They invest in transformative life sciences companies with a focus on areas aligned with Merck's strategic interests, including healthcare, life science tools, and electronics.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ M Ventures invests in innovative companies at the forefront of scientific discov
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Andy Sandford** - Managing Director - https://www.linkedin.com/in/andysandford/
-- **Hendrik Liebers** - Partner - https://www.linkedin.com/in/hendrikliebers/
-- **Matthias Kromayer** - Partner - https://www.linkedin.com/in/matthiaskromayer/
+- **Andy Sandford** - Managing Director
+- **Hendrik Liebers** - Partner
+- **Matthias Kromayer** - Partner
 
 ### Other Key Team Members
 
@@ -47,5 +47,6 @@ M Ventures invests in innovative companies at the forefront of scientific discov
 ## Sources
 
 - https://www.m-ventures.com
+- https://www.m-ventures.com/team
 - Merck KGaA annual reports
 - PitchBook

@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $500M+
 aum: $150B+
 founded: 1999
 description: Novo Holdings is the holding and investment company of the Novo Nordisk Foundation, one of the world's largest philanthropic foundations. They are among the largest life sciences investors globally, investing across venture, growth equity, principal investments, and public equities in healthcare.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Novo Holdings invests in life sciences companies with breakthrough potential acr
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Kasim Kutay** - CEO - https://www.linkedin.com/in/kasimkutay/
-- **Søren Møller** - Managing Partner, Novo Seeds - https://www.linkedin.com/in/sorenmoller/
-- **Lars Kongsbak** - Senior Partner - https://www.linkedin.com/in/larskongsbak/
+- **Kasim Kutay** - CEO
+- **Søren Møller** - Managing Partner, Novo Seeds
+- **Lars Kongsbak** - Senior Partner
 
 ### Other Key Team Members
 
-- **Christian Kjølhede Møller** - Investment Partner - https://www.linkedin.com/in/christiankjoelhedemoeller/
+- **Christian Kjølhede Møller** - Investment Partner
 - **Large global investment team across stages**
 
 ## Focus Areas
@@ -58,5 +58,6 @@ Novo Holdings invests in life sciences companies with breakthrough potential acr
 ## Sources
 
 - https://www.novoholdings.dk
+- https://www.novoholdings.dk/team
 - Novo Nordisk Foundation annual reports
 - PitchBook

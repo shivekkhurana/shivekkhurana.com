@@ -9,7 +9,7 @@ typicalInvestmentRange: £1M - £50M
 aum: £900M+
 founded: 2015
 description: Oxford Science Enterprises (OSE) is the investment arm of Oxford University, focused on commercializing breakthrough research from one of the world's leading research universities. They invest in deep tech, life sciences, and healthtech companies with origins in Oxford's research ecosystem.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ Oxford Science Enterprises backs companies built on transformative science from 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Chris Sherwell** - Partner - https://www.linkedin.com/in/chrissherwell/
-- **Paul Lee** - Partner - https://www.linkedin.com/in/paullee/
-- **Heather Roxborough** - Partner - https://www.linkedin.com/in/heatherroxborough/
+- **Chris Sherwell** - Partner
+- **Paul Lee** - Partner
+- **Heather Roxborough** - Partner
 
 ### Other Key Team Members
 
@@ -52,5 +52,6 @@ Oxford Science Enterprises backs companies built on transformative science from 
 ## Sources
 
 - https://oxfordscienceenterprises.com
+- https://oxfordscienceenterprises.com/team
 - Oxford University news
 - PitchBook

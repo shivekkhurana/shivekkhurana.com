@@ -9,7 +9,7 @@ typicalInvestmentRange: €1M - €10M
 aum: €300M+
 founded: 2018
 description: Indaco Venture Partners is an Italian venture capital firm investing in high-tech startups across various sectors including life sciences and healthcare. They support Italian and European entrepreneurs building innovative technology companies with global ambitions.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Indaco focuses on early-stage investments in Italian and European technology com
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Davide Turco** - Founding Partner & CEO - https://www.linkedin.com/in/davideturco/
-- **Enrico Resmini** - Partner - https://www.linkedin.com/in/enricoresmini/
+- **Davide Turco** - Founding Partner & CEO
+- **Enrico Resmini** - Partner
 
 ### Other Key Team Members
 
@@ -44,5 +44,6 @@ Indaco focuses on early-stage investments in Italian and European technology com
 ## Sources
 
 - https://www.indacosgr.com
+- https://www.indacosgr.com/team
 - https://www.indacosgr.com/portfolio/
 - PitchBook

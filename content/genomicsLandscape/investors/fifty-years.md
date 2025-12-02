@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $5M
 aum: $200M+
 founded: 2016
 description: Early-stage venture capital firm focused on backing founders working on the most important problems facing humanity, with particular focus on biotechnology, climate, and deep tech. Mission-driven investing approach.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Fifty Years invests in early-stage companies tackling the world's most pressing 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Seth Bannon** - Co-Founder & Partner - https://www.linkedin.com/in/sethbannon/
-- **Ela Madej** - Co-Founder & Partner - https://www.linkedin.com/in/elamadej/
+- **Seth Bannon** - Co-Founder & Partner
+- **Ela Madej** - Co-Founder & Partner
 
 ### Other Key Team Members
 
@@ -45,6 +45,7 @@ Fifty Years invests in early-stage companies tackling the world's most pressing 
 ## Sources
 
 - https://www.fiftyyears.com
+- https://www.fiftyyears.com/team
 - https://www.crunchbase.com/organization/fifty-years
 - https://pitchbook.com/profiles/fifty-years
 

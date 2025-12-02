@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $500M+
 founded: 2008
 description: Life sciences investment firm focused on innovative biotechnology and healthcare companies. Invests across therapeutic, diagnostic, and healthcare technology sectors with emphasis on platform technologies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -44,6 +44,7 @@ BioMark Capital invests in life sciences companies developing innovative therape
 ## Sources
 
 - https://www.biomarkcapital.com
+- https://www.biomarkcapital.com/team
 - https://www.crunchbase.com/organization/biomark-capital
 - https://pitchbook.com/profiles/biomark-capital
 

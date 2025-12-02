@@ -20,15 +20,15 @@ Silver Lake invests in leading technology and technology-enabled companies acros
 
 ### Partners / Managing Directors (Health & Tech Focus)
 
-- **Egon Durban** - Co-CEO - https://www.linkedin.com/in/egondurban/
-- **Greg Mondre** - Co-CEO - https://www.linkedin.com/in/gregmondre/
-- **Mike Bingle** - Managing Director - https://www.linkedin.com/in/mikebingle/
-- **Ken Hao** - Managing Director - https://www.linkedin.com/in/ken-hao/
+- **Egon Durban** - Co-CEO
+- **Greg Mondre** - Co-CEO
+- **Mike Bingle** - Managing Director
+- **Ken Hao** - Managing Director
 
 ### Other Key Team Members
 
-- **Lee Wittlinger** - Managing Director - https://www.linkedin.com/in/leewittlinger/
-- **Adam Trunk** - Managing Director - https://www.linkedin.com/in/adamtrunk/
+- **Lee Wittlinger** - Managing Director
+- **Adam Trunk** - Managing Director
 
 ## Focus Areas
 
@@ -55,5 +55,6 @@ Silver Lake invests in leading technology and technology-enabled companies acros
 ## Sources
 
 - Silver Lake website: https://www.silverlake.com
+- https://www.silverlake.com/team
 - Crunchbase: https://www.crunchbase.com/organization/silver-lake-partners
 - Bloomberg, WSJ coverage

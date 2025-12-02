@@ -20,10 +20,10 @@ venBio invests in innovative biotechnology companies with differentiated science
 
 ### Partners / Managing Directors
 
-- **Corey Goodman, PhD** - Founder & Managing Partner - https://www.linkedin.com/in/coreygoodman/ (former UC Berkeley professor, Renovis founder)
-- **Robert Adelman, MD** - Managing Partner - https://www.linkedin.com/in/robertadelman/ (former Alteon Pharma CEO)
-- **Aaron Royston, MD** - General Partner - https://www.linkedin.com/in/aaronroyston/
-- **Jenny Barnett** - General Partner - https://www.linkedin.com/in/jennybarnett/
+- **Corey Goodman, PhD** - Founder & Managing Partner (former UC Berkeley professor, Renovis founder)
+- **Robert Adelman, MD** - Managing Partner (former Alteon Pharma CEO)
+- **Aaron Royston, MD** - General Partner
+- **Jenny Barnett** - General Partner
 
 ### Other Key Team Members
 
@@ -58,5 +58,6 @@ venBio invests in innovative biotechnology companies with differentiated science
 ## Sources
 
 - venBio Partners website: https://www.venbio.com
+- https://www.venbio.com/team
 - Crunchbase: https://www.crunchbase.com/organization/venbio-partners
 - BioCentury, Fierce Biotech coverage

@@ -8,7 +8,7 @@ stages: ['series-a', 'series-b', 'growth']
 typicalInvestmentRange: $1M - $10M
 aum: Undisclosed
 description: Mike Jafar Family Office is a private family office that has participated in healthcare and technology investments. Limited public information is available about their investment activities and portfolio.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis

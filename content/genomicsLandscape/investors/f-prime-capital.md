@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $3B+
 founded: 1969
 description: Venture capital firm affiliated with Fidelity Investments, with dedicated healthcare and technology practices. One of the longest-standing life sciences investors with deep expertise in therapeutics, diagnostics, and healthcare technology.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ F-Prime Capital invests at the intersection of healthcare and technology, backin
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **David Schenkein, MD** - General Partner, Healthcare - https://www.linkedin.com/in/david-schenkein-md-b7b3a71/
-- **Chen Yu** - General Partner, Healthcare - https://www.linkedin.com/in/chen-yu-1b1b631/
-- **Stacie Weninger, PhD** - General Partner, Healthcare - https://www.linkedin.com/in/stacieweninger/
-- **John Lin, MD** - General Partner, Healthcare - https://www.linkedin.com/in/john-lin-md-2a1b5b1/
+- **David Schenkein, MD** - General Partner, Healthcare
+- **Chen Yu** - General Partner, Healthcare
+- **Stacie Weninger, PhD** - General Partner, Healthcare
+- **John Lin, MD** - General Partner, Healthcare
 
 ### Other Key Team Members
 
-- **Todd Dagres** - General Partner, Technology - https://www.linkedin.com/in/todddagres/
+- **Todd Dagres** - General Partner, Technology
 
 ## Focus Areas
 
@@ -49,6 +49,7 @@ F-Prime Capital invests at the intersection of healthcare and technology, backin
 ## Sources
 
 - https://www.fprimecapital.com
+- https://www.fprimecapital.com/team
 - https://www.crunchbase.com/organization/f-prime-capital
 - https://pitchbook.com/profiles/f-prime-capital
 

@@ -9,7 +9,7 @@ typicalInvestmentRange: $25M - $200M
 aum: $5B+
 founded: 2016
 description: Dedicated life sciences fund within Bain Capital, one of the world's leading private investment firms. Combines deep scientific expertise with operational support and access to Bain Capital's global resources.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,10 +20,10 @@ Bain Capital Life Sciences invests across the spectrum of life sciences, from th
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Adam Koppel, MD, PhD** - Managing Director - https://www.linkedin.com/in/adamkoppel/
-- **Jeffrey Schwartz** - Managing Director - https://www.linkedin.com/in/jeffrey-schwartz-4a00061/
-- **Andrew Hack, MD, PhD** - Partner - https://www.linkedin.com/in/andrewhack/
-- **Sheryl Katz, MD** - Partner - https://www.linkedin.com/in/sheryl-katz-md-mba-0a32851/
+- **Adam Koppel, MD, PhD** - Managing Director
+- **Jeffrey Schwartz** - Managing Director
+- **Andrew Hack, MD, PhD** - Partner
+- **Sheryl Katz, MD** - Partner
 
 ### Other Key Team Members
 
@@ -50,6 +50,7 @@ Bain Capital Life Sciences invests across the spectrum of life sciences, from th
 ## Sources
 
 - https://www.baincapitallifesciences.com
+- https://www.baincapitallifesciences.com/team
 - https://www.crunchbase.com/organization/bain-capital-life-sciences
 - https://pitchbook.com/profiles/bain-capital-life-sciences
 

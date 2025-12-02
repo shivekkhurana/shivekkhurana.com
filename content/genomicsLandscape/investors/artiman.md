@@ -9,7 +9,7 @@ typicalInvestmentRange: $2M - $15M
 aum: $500M+
 founded: 2005
 description: Early-stage venture capital firm with presence in Silicon Valley and India. Invests in technology and life sciences companies, with focus on transformative innovations and cross-border opportunities.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,12 +20,12 @@ Artiman Ventures invests in early-stage technology and life sciences companies w
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Yatin Mundkur** - Co-Founder & Managing Director - https://www.linkedin.com/in/yatinmundkur/
-- **Shashi Bhagnari** - Managing Director - https://www.linkedin.com/in/shashibhagnari/
+- **Yatin Mundkur** - Co-Founder & Managing Director
+- **Shashi Bhagnari** - Managing Director
 
 ### Other Key Team Members
 
-- **Kishore Swaminathan** - Partner - https://www.linkedin.com/in/kishoreswaminathan/
+- **Kishore Swaminathan** - Partner
 
 ## Focus Areas
 
@@ -48,6 +48,7 @@ Artiman Ventures invests in early-stage technology and life sciences companies w
 ## Sources
 
 - https://www.artiman.com
+- https://www.artiman.com/team
 - https://www.crunchbase.com/organization/artiman-ventures
 - https://pitchbook.com/profiles/artiman-ventures
 

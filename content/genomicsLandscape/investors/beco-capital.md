@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $10M
 aum: $150M+
 founded: 2012
 description: Leading early-stage venture capital firm in the MENA region. While primarily focused on technology and B2B SaaS, has made selective investments in healthcare and healthtech companies serving regional markets.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ BECO Capital invests in technology companies building solutions for the MENA reg
 
 ### Partners / Managing Directors
 
-- **Dany Farha** - Co-Founder & CEO - https://www.linkedin.com/in/danyfarha/
-- **Amir Farha** - Co-Founder & Managing Partner - https://www.linkedin.com/in/amirfarha/
-- **Yousef Hammad** - Partner - https://www.linkedin.com/in/yousefhammad/
+- **Dany Farha** - Co-Founder & CEO
+- **Amir Farha** - Co-Founder & Managing Partner
+- **Yousef Hammad** - Partner
 
 ### Other Key Team Members
 
@@ -45,6 +45,7 @@ BECO Capital invests in technology companies building solutions for the MENA reg
 ## Sources
 
 - https://becocapital.com
+- https://becocapital.com/team
 - https://www.crunchbase.com/organization/beco-capital
 - Regional venture capital reports
 

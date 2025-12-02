@@ -20,14 +20,14 @@ SoftBank Vision Fund invests in transformative technology companies that can ach
 
 ### Partners / Managing Directors (Health Focus)
 
-- **Masayoshi Son** - Founder & CEO, SoftBank Group - https://www.linkedin.com/in/masayoshi-son/
-- **Rajeev Misra** - Former CEO, SoftBank Vision Fund - https://www.linkedin.com/in/rajeevmisra/
-- **Deep Nishar** - Senior Managing Partner - https://www.linkedin.com/in/deepnishar/
+- **Masayoshi Son** - Founder & CEO, SoftBank Group
+- **Rajeev Misra** - Former CEO, SoftBank Vision Fund
+- **Deep Nishar** - Senior Managing Partner
 
 ### Other Key Team Members
 
-- **Munish Varma** - Managing Partner - https://www.linkedin.com/in/munishvarma/
-- **Yanni Pipilis** - Managing Partner - https://www.linkedin.com/in/yannipipilis/
+- **Munish Varma** - Managing Partner
+- **Yanni Pipilis** - Managing Partner
 
 ## Focus Areas
 

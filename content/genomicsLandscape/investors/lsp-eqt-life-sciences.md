@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €100M+
 aum: €3B+
 founded: 1989
 description: EQT Life Sciences (formerly Life Sciences Partners/LSP) is one of Europe's leading life sciences venture capital firms. Now part of EQT Group, they invest across the full life cycle of healthcare companies, from early-stage biotech to growth-stage therapeutics and medical technology.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ EQT Life Sciences invests in innovative healthcare companies with transformative
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Martijn Kleijwegt** - Partner - https://www.linkedin.com/in/martijnkleijwegt/
-- **Joachim Rothe** - Partner - https://www.linkedin.com/in/joachimrothe/
-- **René Kuijten** - Partner - https://www.linkedin.com/in/renekuijten/
+- **Martijn Kleijwegt** - Partner
+- **Joachim Rothe** - Partner
+- **René Kuijten** - Partner
 
 ### Other Key Team Members
 
@@ -47,5 +47,6 @@ EQT Life Sciences invests in innovative healthcare companies with transformative
 ## Sources
 
 - https://www.eqtgroup.com/our-businesses/eqt-life-sciences
+- https://www.eqtgroup.com/our-businesses/eqt-life-sciences/team
 - PitchBook
 - EQT Group investor reports

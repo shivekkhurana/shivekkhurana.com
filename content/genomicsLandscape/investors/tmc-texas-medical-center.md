@@ -20,8 +20,8 @@ TMC Venture Fund invests in early-stage healthcare companies that can benefit fr
 
 ### Partners / Managing Directors
 
-- **William McKeon** - President & CEO, TMC - https://www.linkedin.com/in/williammckeon/
-- **Emily Reiser** - Managing Director, TMC Venture Fund - https://www.linkedin.com/in/emilyreiser/
+- **William McKeon** - President & CEO, TMC
+- **Emily Reiser** - Managing Director, TMC Venture Fund
 
 ### Other Key Team Members
 

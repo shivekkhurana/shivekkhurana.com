@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $1.8B+
 founded: 2006
 description: Strategic venture capital arm of Alexandria Real Estate Equities (NYSE - ARE), the leading life science real estate company. Invests in life science companies, often current or prospective tenants of Alexandria's innovation campuses.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Alexandria Venture Investments provides strategic capital to life science compan
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Joel S. Marcus** - Executive Chairman & Founder - https://www.linkedin.com/in/joel-marcus-62b5691/
-- **Peter Moglia** - Co-CEO & CIO - https://www.linkedin.com/in/peter-moglia-75b3a21/
-- **Aaron Jacobson** - Managing Director, Venture Investments - https://www.linkedin.com/in/aaronjacobson/
+- **Joel S. Marcus** - Executive Chairman & Founder
+- **Peter Moglia** - Co-CEO & CIO
+- **Aaron Jacobson** - Managing Director, Venture Investments
 
 ### Other Key Team Members
 
-- **Dean Shigenaga** - President - https://www.linkedin.com/in/dean-shigenaga-8a08051/
+- **Dean Shigenaga** - President
 
 ## Focus Areas
 
@@ -48,5 +48,6 @@ Alexandria Venture Investments provides strategic capital to life science compan
 ## Sources
 
 - https://www.are.com/venture-investments.html
+- https://www.are.com/people.html
 - https://www.crunchbase.com/organization/alexandria-venture-investments
 - Alexandria Real Estate Equities SEC Filings

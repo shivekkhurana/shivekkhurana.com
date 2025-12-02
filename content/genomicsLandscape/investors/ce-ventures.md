@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $500M+
 founded: 2017
 description: Corporate venture capital platform of Crescent Enterprises, investing in early- to late-stage high-growth companies and venture funds globally. Focus on tech-enabled solutions across US, MENA, India, and Southeast Asia with significant biotech exposure.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ CE-Ventures maintains a versatile, thesis-driven approach investing across consu
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Tushar Singhvi** - Deputy CEO & Head of CE-Ventures - https://www.linkedin.com/in/tusharsinghvi/
-- **Badr Jafar** - CEO, Crescent Enterprises - https://www.linkedin.com/in/badrjafar/
+- **Tushar Singhvi** - Deputy CEO & Head of CE-Ventures
+- **Badr Jafar** - CEO, Crescent Enterprises
 
 ### Other Key Team Members
 
@@ -52,6 +52,7 @@ CE-Ventures maintains a versatile, thesis-driven approach investing across consu
 ## Sources
 
 - https://www.crescententerprises.com/what-we-do/ce-ventures
+- https://www.crescententerprises.com/what-we-do/ce-ventures/team
 - https://www.crunchbase.com/organization/ce-ventures
 - Company press releases
 

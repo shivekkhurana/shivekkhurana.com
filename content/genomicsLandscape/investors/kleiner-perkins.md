@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $100M+
 aum: $6B+
 founded: 1972
 description: Kleiner Perkins is one of Silicon Valley's most legendary venture capital firms, with over 50 years of history backing transformative companies. Their healthcare practice has been a pioneer in life sciences investing, backing some of the most successful healthcare companies in history.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ Kleiner Perkins invests in breakthrough technology companies across sectors. The
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Beth Seidenberg, MD** - Senior Advisor (former Partner) - https://www.linkedin.com/in/bethseidenberg/
-- **Wen Hsieh** - Partner - https://www.linkedin.com/in/wenhsieh/
-- **Mamoon Hamid** - Partner - https://www.linkedin.com/in/mamoonhamid/
+- **Beth Seidenberg, MD** - Senior Advisor (former Partner)
+- **Wen Hsieh** - Partner
+- **Mamoon Hamid** - Partner
 
 ### Other Key Team Members
 
-- **John Doerr** - Chairman - https://www.linkedin.com/in/johndoerr/
-- **Ilya Fushman** - Partner - https://www.linkedin.com/in/ilyafushman/
+- **John Doerr** - Chairman
+- **Ilya Fushman** - Partner
 
 ## Focus Areas
 
@@ -51,6 +51,7 @@ Kleiner Perkins invests in breakthrough technology companies across sectors. The
 ## Sources
 
 - https://www.kleinerperkins.com
+- https://www.kleinerperkins.com/team
 - PitchBook
 - Crunchbase
 - SEC filings

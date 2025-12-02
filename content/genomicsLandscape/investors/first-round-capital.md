@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $3M
 aum: $2B+
 founded: 2004
 description: Premier seed-stage venture capital firm known for backing iconic companies at inception. Pioneered community-driven venture capital with extensive founder resources. Selective healthcare technology investments.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,10 +20,10 @@ First Round Capital focuses exclusively on seed-stage investments, typically bei
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Josh Kopelman** - Founder & Partner - https://www.linkedin.com/in/jkopelman/
-- **Bill Trenchard** - Partner - https://www.linkedin.com/in/billtrenchard/
-- **Phin Barnes** - Partner - https://www.linkedin.com/in/phinbarnes/
-- **Todd Jackson** - Partner - https://www.linkedin.com/in/toddjackson/
+- **Josh Kopelman** - Founder & Partner
+- **Bill Trenchard** - Partner
+- **Phin Barnes** - Partner
+- **Todd Jackson** - Partner
 
 ### Other Key Team Members
 
@@ -48,6 +48,7 @@ First Round Capital focuses exclusively on seed-stage investments, typically bei
 ## Sources
 
 - https://firstround.com
+- https://firstround.com/team
 - https://www.crunchbase.com/organization/first-round-capital
 - https://pitchbook.com/profiles/first-round-capital
 

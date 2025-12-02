@@ -20,13 +20,13 @@ Sunstone invests in European life sciences companies with breakthrough science a
 
 ### Partners / Managing Directors
 
-- **Søren Møller** - Managing Partner - https://www.linkedin.com/in/sørenmoller/
-- **Christian Elling, PhD** - Partner - https://www.linkedin.com/in/christianelling/
-- **Nikolaj Høyer-Hansen, PhD** - Partner - https://www.linkedin.com/in/nikolajhoyerhansen/
+- **Søren Møller** - Managing Partner
+- **Christian Elling, PhD** - Partner
+- **Nikolaj Høyer-Hansen, PhD** - Partner
 
 ### Other Key Team Members
 
-- **Steen Lomholt-Thomsen** - Partner - https://www.linkedin.com/in/steenlomholtthomsen/
+- **Steen Lomholt-Thomsen** - Partner
 - **Scientific Advisory Board** - Leading life sciences experts
 
 ## Focus Areas
@@ -58,5 +58,6 @@ Sunstone invests in European life sciences companies with breakthrough science a
 ## Sources
 
 - Sunstone Life Science Ventures website: https://sunstone.eu
+- https://sunstone.eu/team
 - Crunchbase: https://www.crunchbase.com/organization/sunstone-life-science-ventures
 - Nordic life sciences ecosystem reports

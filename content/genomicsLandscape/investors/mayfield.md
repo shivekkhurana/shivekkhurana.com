@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $50M
 aum: $3B+
 founded: 1969
 description: Mayfield is one of Silicon Valley's oldest and most established venture capital firms, with over 50 years of history. They invest across technology sectors including healthcare and life sciences, backing founders building transformative companies from the earliest stages.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ Mayfield partners with exceptional founders at the earliest stages of company bu
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Navin Chaddha** - Managing Partner - https://www.linkedin.com/in/navinchaddha/
-- **Tim Chang** - Partner - https://www.linkedin.com/in/timchang/
-- **Rajeev Batra** - Partner - https://www.linkedin.com/in/rajeevbatra/
+- **Navin Chaddha** - Managing Partner
+- **Tim Chang** - Partner
+- **Rajeev Batra** - Partner
 
 ### Other Key Team Members
 
@@ -51,5 +51,6 @@ Mayfield partners with exceptional founders at the earliest stages of company bu
 ## Sources
 
 - https://www.mayfield.com
+- https://www.mayfield.com/team
 - PitchBook
 - Crunchbase

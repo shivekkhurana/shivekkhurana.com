@@ -20,8 +20,8 @@ Spur Capital invests in premier venture capital and growth equity fund managers 
 
 ### Partners / Managing Directors
 
-- **Alan Feld** - Managing Partner - https://www.linkedin.com/in/alanfeld/
-- **Peter Parker** - Partner - https://www.linkedin.com/in/peterparker/
+- **Alan Feld** - Managing Partner
+- **Peter Parker** - Partner
 
 ### Other Key Team Members
 

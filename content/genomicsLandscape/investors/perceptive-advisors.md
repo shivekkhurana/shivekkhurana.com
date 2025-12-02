@@ -9,7 +9,7 @@ typicalInvestmentRange: $25M - $200M+
 aum: $10B+
 founded: 1999
 description: Perceptive Advisors is one of the largest dedicated healthcare investment managers in the world. They invest across the full capital structure, from venture to public equities and credit, with deep expertise in biopharmaceuticals and a strong track record of backing successful therapeutics companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ Perceptive Advisors invests in innovative healthcare companies across all stages
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Joseph Edelman** - Founder & CEO - https://www.linkedin.com/in/josephedelman/
-- **James Flynn, MD, PhD** - Managing Partner - https://www.linkedin.com/in/jamesflynnmd/
-- **Adam Stone** - Partner - https://www.linkedin.com/in/adamstone/
+- **Joseph Edelman** - Founder & CEO
+- **James Flynn, MD, PhD** - Managing Partner
+- **Adam Stone** - Partner
 
 ### Other Key Team Members
 
@@ -54,5 +54,6 @@ Perceptive Advisors invests in innovative healthcare companies across all stages
 ## Sources
 
 - https://www.perceptivelife.com
+- https://www.perceptivelife.com/team
 - SEC 13F filings
 - PitchBook

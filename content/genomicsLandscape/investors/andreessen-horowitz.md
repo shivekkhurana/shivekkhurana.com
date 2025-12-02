@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $500M
 aum: $35B+
 founded: 2009
 description: Leading technology venture capital firm with dedicated Bio+Health fund. Known for company-building platform approach and large-scale investments across software, crypto, and life sciences.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,15 +20,15 @@ Andreessen Horowitz Bio+Health invests in companies at the intersection of biolo
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Vijay Pande, PhD** - General Partner, Bio+Health - https://www.linkedin.com/in/vijay-pande-5b32a61/
-- **Jorge Conde** - General Partner, Bio+Health - https://www.linkedin.com/in/jorgeconde/
-- **Julie Yoo** - General Partner, Bio+Health - https://www.linkedin.com/in/juliekyoo/
-- **Vineeta Agarwala, MD, PhD** - General Partner, Bio+Health - https://www.linkedin.com/in/vineetaagarwala/
+- **Vijay Pande, PhD** - General Partner, Bio+Health
+- **Jorge Conde** - General Partner, Bio+Health
+- **Julie Yoo** - General Partner, Bio+Health
+- **Vineeta Agarwala, MD, PhD** - General Partner, Bio+Health
 
 ### Other Key Team Members
 
-- **Marc Andreessen** - Co-Founder & General Partner - https://www.linkedin.com/in/mandreessen/
-- **Ben Horowitz** - Co-Founder & General Partner - https://www.linkedin.com/in/benhorowitz/
+- **Marc Andreessen** - Co-Founder & General Partner
+- **Ben Horowitz** - Co-Founder & General Partner
 
 ## Focus Areas
 
@@ -50,6 +50,7 @@ Andreessen Horowitz Bio+Health invests in companies at the intersection of biolo
 ## Sources
 
 - https://a16z.com/bio-health/
+- https://a16z.com/team/
 - https://www.crunchbase.com/organization/andreessen-horowitz
 - https://pitchbook.com/profiles/andreessen-horowitz
 

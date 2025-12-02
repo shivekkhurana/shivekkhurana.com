@@ -20,13 +20,13 @@ Section 32 invests in companies leveraging technology to transform healthcare an
 
 ### Partners / Managing Directors
 
-- **Bill Maris** - Founder & Managing Partner - https://www.linkedin.com/in/billmaris/
-- **David Weisman** - Partner - https://www.linkedin.com/in/david-weisman/
-- **Samir Kaul** - Venture Partner - https://www.linkedin.com/in/samirkaul/
+- **Bill Maris** - Founder & Managing Partner
+- **David Weisman** - Partner
+- **Samir Kaul** - Venture Partner
 
 ### Other Key Team Members
 
-- **Alex Formoso** - Principal - https://www.linkedin.com/in/alexformoso/
+- **Alex Formoso** - Principal
 
 ## Focus Areas
 

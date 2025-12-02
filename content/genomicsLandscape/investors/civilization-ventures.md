@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $15M
 aum: $200M+
 founded: 2017
 description: Investment firm focused on genomics, synthetic biology, and computational biology. Backs companies at the intersection of biology and technology that can have transformative impact on human health and sustainability.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,7 +20,7 @@ Civilization Ventures focuses on companies leveraging advances in genomics, synt
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Omid Farokhzad, MD** - Co-Founder & Partner - https://www.linkedin.com/in/omid-farokhzad-md-5594614/
+- **Omid Farokhzad, MD** - Co-Founder & Partner
 - Investment team with deep life sciences expertise
 
 ### Other Key Team Members
@@ -45,6 +45,7 @@ Civilization Ventures focuses on companies leveraging advances in genomics, synt
 ## Sources
 
 - https://www.civilizationventures.com
+- https://www.civilizationventures.com/team
 - https://www.crunchbase.com/organization/civilization-ventures
 - https://pitchbook.com/profiles/civilization-ventures
 

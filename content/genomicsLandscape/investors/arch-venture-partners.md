@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $100M
 aum: $7B+
 founded: 1986
 description: One of the most prolific and successful life sciences venture capital firms, known for company creation and backing transformative scientific innovations. Legendary track record including Illumina, Grail, Unity Biotechnology, and numerous breakthrough companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,15 +20,15 @@ ARCH Venture Partners invests at the intersection of technology and life science
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Robert Nelsen** - Co-Founder & Managing Director - https://www.linkedin.com/in/robert-nelsen-04b5b61/
-- **Keith Crandell** - Co-Founder & Managing Director - https://www.linkedin.com/in/keith-crandell-aa93b21/
-- **Kristina Burow** - Managing Director - https://www.linkedin.com/in/kristinaburow/
-- **Clinton Bybee** - Managing Director - https://www.linkedin.com/in/clintonbybee/
+- **Robert Nelsen** - Co-Founder & Managing Director
+- **Keith Crandell** - Co-Founder & Managing Director
+- **Kristina Burow** - Managing Director
+- **Clinton Bybee** - Managing Director
 
 ### Other Key Team Members
 
-- **Steve Gillis, PhD** - Managing Director - https://www.linkedin.com/in/steve-gillis-phd-6b28a01/
-- **Bob Tabb** - Managing Director - https://www.linkedin.com/in/bobtabb/
+- **Steve Gillis, PhD** - Managing Director
+- **Bob Tabb** - Managing Director
 
 ## Focus Areas
 
@@ -52,6 +52,7 @@ ARCH Venture Partners invests at the intersection of technology and life science
 ## Sources
 
 - https://www.archventure.com
+- https://www.archventure.com/team
 - https://www.crunchbase.com/organization/arch-venture-partners
 - https://pitchbook.com/profiles/arch-venture-partners
 

@@ -20,7 +20,7 @@ Vertex pursues strategic investments and partnerships that complement and expand
 
 ### Executive Leadership
 
-- **Reshma Kewalramani, MD** - CEO & President - https://www.linkedin.com/in/reshmakewalramani/
+- **Reshma Kewalramani, MD** - CEO & President
 - **Stuart Arbuckle** - EVP & Chief Commercial Officer
 - **David Altshuler, MD, PhD** - EVP, Global Research & Chief Scientific Officer
 
@@ -57,5 +57,6 @@ Vertex pursues strategic investments and partnerships that complement and expand
 ## Sources
 
 - Vertex Pharmaceuticals website: https://www.vrtx.com
+- https://www.vrtx.com/about/leadership
 - SEC filings (NASDAQ: VRTX)
 - Company press releases and investor presentations

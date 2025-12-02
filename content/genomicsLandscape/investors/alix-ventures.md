@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $5M
 aum: $150M+
 founded: 2016
 description: Early-stage life sciences venture capital firm focused on seed and Series A investments in innovative biotechnology companies. Specializes in company formation and early-stage company building.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,7 +20,7 @@ Alix Ventures focuses on the earliest stages of company formation in life scienc
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Christoph Westphal, MD, PhD** - Managing Partner - https://www.linkedin.com/in/christoph-westphal-md-phd-92a8591/
+- **Christoph Westphal, MD, PhD** - Managing Partner
 - **Noubar Afeyan, PhD** - Venture Partner
 
 ### Other Key Team Members
@@ -44,6 +44,7 @@ Alix Ventures focuses on the earliest stages of company formation in life scienc
 ## Sources
 
 - https://www.alix.vc
+- https://www.alix.vc/team
 - https://www.crunchbase.com/organization/alix-ventures
 - https://pitchbook.com/profiles/alix-ventures
 

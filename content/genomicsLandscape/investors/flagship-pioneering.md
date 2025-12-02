@@ -9,7 +9,7 @@ typicalInvestmentRange: $25M - $200M
 aum: $18B+
 founded: 1999
 description: Premier life sciences venture capital and company creation firm. Known for creating companies from scratch, including Moderna (mRNA vaccines). Unique "Pioneering" model conceives, creates, resources, and builds transformative companies internally.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,15 +20,15 @@ Flagship Pioneering conceives and creates companies based on breakthrough scient
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Noubar Afeyan, PhD** - Co-Founder & CEO - https://www.linkedin.com/in/noubarafeyan/
-- **Stephen Berenson** - Managing Partner - https://www.linkedin.com/in/stephen-berenson-35a5b51/
-- **Doug Cole, MD** - Managing Partner - https://www.linkedin.com/in/douglascolemd/
-- **David Epstein** - Executive Partner - https://www.linkedin.com/in/david-epstein-5b44a81/
-- **Robert Langer, ScD** - Executive Partner - https://www.linkedin.com/in/robert-langer-28a77a1/
+- **Noubar Afeyan, PhD** - Co-Founder & CEO
+- **Stephen Berenson** - Managing Partner
+- **Doug Cole, MD** - Managing Partner
+- **David Epstein** - Executive Partner
+- **Robert Langer, ScD** - Executive Partner
 
 ### Other Key Team Members
 
-- **Jason Pontin** - General Partner - https://www.linkedin.com/in/jasonpontin/
+- **Jason Pontin** - General Partner
 
 ## Focus Areas
 
@@ -51,6 +51,7 @@ Flagship Pioneering conceives and creates companies based on breakthrough scient
 ## Sources
 
 - https://www.flagshippioneering.com
+- https://www.flagshippioneering.com/team
 - https://www.crunchbase.com/organization/flagship-pioneering
 - https://pitchbook.com/profiles/flagship-pioneering
 

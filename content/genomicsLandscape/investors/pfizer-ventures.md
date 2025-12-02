@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $600M+
 founded: 2004
 description: Pfizer Ventures is the corporate venture capital arm of Pfizer, one of the world's largest pharmaceutical companies. They invest in innovative biotechnology and healthcare companies, with a focus on areas aligned with Pfizer's therapeutic interests and emerging modalities including the first pharma company to invest in a DAO.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Pfizer Ventures invests in transformative healthcare companies at the forefront 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Barbara Dalton, PhD** - Senior Vice President, Venture Investments - https://www.linkedin.com/in/barbaradalton/
-- **Eddie Sullivan** - Vice President, Venture Investments - https://www.linkedin.com/in/eddiesullivan/
+- **Barbara Dalton, PhD** - Senior Vice President, Venture Investments
+- **Eddie Sullivan** - Vice President, Venture Investments
 
 ### Other Key Team Members
 
@@ -51,5 +51,6 @@ Pfizer Ventures invests in transformative healthcare companies at the forefront 
 ## Sources
 
 - https://www.pfizer.com/science/innovation/pfizer-ventures
+- https://www.pfizer.com/science/innovation/pfizer-ventures/team
 - Pfizer annual reports
 - PitchBook

@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $450M+
 founded: 2018
 description: MPM BioImpact is a life sciences venture fund focused on therapeutics investments. Part of the broader MPM Capital platform, they specialize in innovative biotechnology companies with potential for significant patient impact and commercial success.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ MPM BioImpact invests in innovative therapeutics companies that can make a meani
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Ansbert Gadicke, MD** - Co-Founder & Managing Partner - https://www.linkedin.com/in/ansbertgadicke/
-- **Todd Foley** - Managing Partner - https://www.linkedin.com/in/toddfoley/
-- **Luke Evnin, PhD** - Founding Partner (MPM Capital) - https://www.linkedin.com/in/lukeevnin/
+- **Ansbert Gadicke, MD** - Co-Founder & Managing Partner
+- **Todd Foley** - Managing Partner
+- **Luke Evnin, PhD** - Founding Partner (MPM Capital)
 
 ### Other Key Team Members
 
@@ -45,5 +45,6 @@ MPM BioImpact invests in innovative therapeutics companies that can make a meani
 ## Sources
 
 - https://www.mpmbioimpact.com
+- https://www.mpmbioimpact.com/team
 - MPM Capital website
 - PitchBook

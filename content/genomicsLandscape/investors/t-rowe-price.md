@@ -21,7 +21,7 @@ T. Rowe Price's growth equity strategy focuses on identifying high-quality compa
 ### Partners / Portfolio Managers (Health Focus)
 
 - **Henry Ellenbogen** - Former Chief Investment Officer (now at Durable Capital)
-- **Alan Tu** - Portfolio Manager, Healthcare - https://www.linkedin.com/in/alantu/
+- **Alan Tu** - Portfolio Manager, Healthcare
 - **Taymour Tamaddon** - Portfolio Manager, Healthcare
 
 ### Other Key Team Members

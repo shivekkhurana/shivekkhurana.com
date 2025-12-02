@@ -9,7 +9,7 @@ typicalInvestmentRange: €2M - €20M
 aum: €500M+
 founded: 2009
 description: Kurma Partners is a leading European life sciences venture capital firm based in Paris. They specialize in therapeutics and digital health investments, with particular expertise in oncology, rare diseases, and platform technologies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ Kurma Partners invests in innovative life sciences companies with strong science
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Rémi Droller** - Managing Partner - https://www.linkedin.com/in/remidroller/
-- **Vanessa Malier** - Partner - https://www.linkedin.com/in/vanessamalier/
-- **Thierry Laugel** - Partner - https://www.linkedin.com/in/thierrylaugel/
+- **Rémi Droller** - Managing Partner
+- **Vanessa Malier** - Partner
+- **Thierry Laugel** - Partner
 
 ### Other Key Team Members
 
@@ -45,5 +45,6 @@ Kurma Partners invests in innovative life sciences companies with strong science
 ## Sources
 
 - https://www.kurmapartners.com
+- https://www.kurmapartners.com/team
 - PitchBook
 - France Biotech

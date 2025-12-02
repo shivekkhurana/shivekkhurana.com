@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $75M
 aum: $1.5B+
 founded: 2005
 description: Life sciences-focused investment firm with expertise in biotechnology and pharmaceutical investments. Known for deep scientific due diligence and hands-on approach to portfolio company development. Part of Tavistock Group.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Boxer Capital invests in biotechnology and pharmaceutical companies across all s
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Aaron Davis** - Managing Partner - https://www.linkedin.com/in/aarondavisboxer/
-- **Joe McCracken, PhD** - Partner - https://www.linkedin.com/in/joe-mccracken-phd-48b3671/
+- **Aaron Davis** - Managing Partner
+- **Joe McCracken, PhD** - Partner
 
 ### Other Key Team Members
 
@@ -45,6 +45,7 @@ Boxer Capital invests in biotechnology and pharmaceutical companies across all s
 ## Sources
 
 - https://www.boxercap.com
+- https://www.boxercap.com/team
 - https://www.crunchbase.com/organization/boxer-capital
 - https://pitchbook.com/profiles/boxer-capital
 

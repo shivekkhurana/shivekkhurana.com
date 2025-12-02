@@ -20,16 +20,16 @@ Third Rock specializes in creating and building life sciences companies from the
 
 ### Partners / Managing Directors
 
-- **Mark Levin** - Partner & Co-Founder - https://www.linkedin.com/in/marklevin/
-- **Kevin Starr** - Partner & Co-Founder - https://www.linkedin.com/in/kevinstarr/
-- **Robert Tepper, MD** - Partner & Co-Founder - https://www.linkedin.com/in/roberttepper/
-- **Alexis Borisy** - Partner - https://www.linkedin.com/in/alexisborisy/
-- **Neil Exter** - Partner - https://www.linkedin.com/in/neilexter/
+- **Mark Levin** - Partner & Co-Founder
+- **Kevin Starr** - Partner & Co-Founder
+- **Robert Tepper, MD** - Partner & Co-Founder
+- **Alexis Borisy** - Partner
+- **Neil Exter** - Partner
 
 ### Other Key Team Members
 
-- **Lou Tartaglia, PhD** - Venture Partner - https://www.linkedin.com/in/loutartaglia/
-- **Cary Pfeffer, MD** - Partner - https://www.linkedin.com/in/carypfeffer/
+- **Lou Tartaglia, PhD** - Venture Partner
+- **Cary Pfeffer, MD** - Partner
 
 ## Focus Areas
 
@@ -62,5 +62,6 @@ Third Rock specializes in creating and building life sciences companies from the
 ## Sources
 
 - Third Rock Ventures website: https://www.thirdrockventures.com
+- https://www.thirdrockventures.com/team
 - Crunchbase: https://www.crunchbase.com/organization/third-rock-ventures
 - Forbes, BioCentury coverage

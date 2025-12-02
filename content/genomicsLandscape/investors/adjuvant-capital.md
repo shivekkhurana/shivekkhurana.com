@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $30M
 aum: $300M
 founded: 2017
 description: Global health impact investment fund focused on vaccines, infectious diseases, and global health challenges. Founded in partnership with CEPI, the Wellcome Trust, and other global health organizations.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,13 +20,13 @@ Adjuvant Capital invests in companies developing innovative solutions for global
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Andrew Farnum** - Managing Partner - https://www.linkedin.com/in/andrewfarnum/
-- **Carolyn Regan** - Partner - https://www.linkedin.com/in/carolynregan/
-- **Ralf Clemens, MD, PhD** - Venture Partner - https://www.linkedin.com/in/ralfclemens/
+- **Andrew Farnum** - Managing Partner
+- **Carolyn Regan** - Partner
+- **Ralf Clemens, MD, PhD** - Venture Partner
 
 ### Other Key Team Members
 
-- **Dirk Haussecker, PhD** - Principal - https://www.linkedin.com/in/dirkhaussecker/
+- **Dirk Haussecker, PhD** - Principal
 
 ## Focus Areas
 
@@ -46,6 +46,7 @@ Adjuvant Capital invests in companies developing innovative solutions for global
 ## Sources
 
 - https://adjuvantcapital.com
+- https://adjuvantcapital.com/team
 - https://www.crunchbase.com/organization/adjuvant-capital
 - https://cepi.net (partner organization)
 

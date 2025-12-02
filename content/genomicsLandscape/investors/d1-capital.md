@@ -9,7 +9,7 @@ typicalInvestmentRange: $50M - $500M
 aum: $20B+
 founded: 2018
 description: Investment firm founded by Dan Sundheim (former Viking Global Investors CIO), managing both public and private equity. Known for concentrated positions in high-growth technology and healthcare companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,7 +20,7 @@ D1 Capital Partners takes concentrated positions in exceptional companies across
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Dan Sundheim** - Founder & Chief Investment Officer - https://www.linkedin.com/in/dansundheim/
+- **Dan Sundheim** - Founder & Chief Investment Officer
 
 ### Other Key Team Members
 
@@ -49,6 +49,7 @@ D1 Capital Partners takes concentrated positions in exceptional companies across
 ## Sources
 
 - https://www.d1cap.com
+- https://www.d1cap.com/team
 - SEC 13F filings
 - Private placement reports
 

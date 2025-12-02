@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $50M
 aum: $1B+
 founded: 2013
 description: Healthcare-focused venture capital firm investing in digital health and healthcare technology companies. Founded by healthcare industry veterans Glen Tullman and Lee Shapiro, known for transformative healthcare technology investments.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,14 +20,14 @@ lastResearched: 2025-12-02
 
 ### Partners / Managing Directors (Health Focus)
 
-- **Glen Tullman** - Co-Founder & Managing Partner - https://www.linkedin.com/in/glentullman/
-- **Lee Shapiro** - Co-Founder & Managing Partner - https://www.linkedin.com/in/leemshapiro/
-- **Alyssa Jaffee** - Partner - https://www.linkedin.com/in/alyssajaffee/
+- **Glen Tullman** - Co-Founder & Managing Partner
+- **Lee Shapiro** - Co-Founder & Managing Partner
+- **Alyssa Jaffee** - Partner
 
 ### Other Key Team Members
 
-- **Michael Yang** - Partner - https://www.linkedin.com/in/michaeldyang/
-- **Vince Kim** - Principal - https://www.linkedin.com/in/vincekim/
+- **Michael Yang** - Partner
+- **Vince Kim** - Principal
 
 ## Focus Areas
 
@@ -48,6 +48,7 @@ lastResearched: 2025-12-02
 ## Sources
 
 - https://www.7wireventures.com
+- https://www.7wireventures.com/team
 - https://www.crunchbase.com/organization/7wireventures
 - https://pitchbook.com/profiles/7wireventures
 

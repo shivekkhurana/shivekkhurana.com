@@ -9,7 +9,7 @@ typicalInvestmentRange: $50M - $500M+
 aum: $284B+ (Mubadala Investment Company)
 founded: 2002
 description: Mubadala Capital is the investment arm of Mubadala Investment Company, one of the world's largest sovereign wealth funds. They make strategic investments across sectors including healthcare and life sciences, focusing on growth-stage opportunities with significant scale potential.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,7 +20,7 @@ Mubadala Capital makes strategic investments in companies that align with UAE's 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Khaldoon Al Mubarak** - CEO, Mubadala - https://www.linkedin.com/in/khaldoonalmubarak/
+- **Khaldoon Al Mubarak** - CEO, Mubadala
 - **Investment team spans sectors including healthcare**
 
 ## Focus Areas
@@ -41,5 +41,6 @@ Mubadala Capital makes strategic investments in companies that align with UAE's 
 ## Sources
 
 - https://www.mubadala.com
+- https://www.mubadala.com/team
 - Mubadala annual reports
 - PitchBook

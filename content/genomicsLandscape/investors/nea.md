@@ -9,7 +9,7 @@ typicalInvestmentRange: $1M - $200M+
 aum: $25B+
 founded: 1977
 description: NEA is one of the world's largest and most active venture capital firms, with over 45 years of history. Their healthcare practice is one of the most established in the industry, backing transformative companies across therapeutics, healthcare IT, and medical devices.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,15 +20,15 @@ NEA invests in technology and healthcare companies at all stages of growth. Thei
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Scott Sandell** - Managing General Partner - https://www.linkedin.com/in/scottsandell/
-- **Carmen Chang** - General Partner (Healthcare) - https://www.linkedin.com/in/carmenchang/
-- **Ed Mathers** - Partner (Healthcare) - https://www.linkedin.com/in/edmathers/
-- **Forest Baskett** - General Partner - https://www.linkedin.com/in/forestbaskett/
+- **Scott Sandell** - Managing General Partner
+- **Carmen Chang** - General Partner (Healthcare)
+- **Ed Mathers** - Partner (Healthcare)
+- **Forest Baskett** - General Partner
 
 ### Other Key Team Members
 
-- **Ali Behbahani, MD** - General Partner - https://www.linkedin.com/in/alibehbahani/
-- **Mohamad Makhzoumi** - General Partner - https://www.linkedin.com/in/mohamadmakhzoumi/
+- **Ali Behbahani, MD** - General Partner
+- **Mohamad Makhzoumi** - General Partner
 
 ## Focus Areas
 
@@ -49,6 +49,7 @@ NEA invests in technology and healthcare companies at all stages of growth. Thei
 ## Sources
 
 - https://www.nea.com
+- https://www.nea.com/team
 - https://www.nea.com/portfolio?category=digital-health
 - PitchBook
 - SEC filings

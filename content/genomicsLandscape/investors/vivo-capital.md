@@ -20,10 +20,10 @@ Vivo Capital invests in innovative healthcare companies with differentiated tech
 
 ### Partners / Managing Directors
 
-- **Edgar Engleman, MD** - Co-Founder & Managing Partner - https://www.linkedin.com/in/edgarengleman/ (Stanford professor)
-- **Frank Kung, MD, PhD** - Co-Founder & Managing Partner - https://www.linkedin.com/in/frankkung/
-- **Shan Fu, PhD** - Managing Partner - https://www.linkedin.com/in/shanfu/
-- **Albert Cha, MD, PhD** - Managing Partner - https://www.linkedin.com/in/albertcha/
+- **Edgar Engleman, MD** - Co-Founder & Managing Partner (Stanford professor)
+- **Frank Kung, MD, PhD** - Co-Founder & Managing Partner
+- **Shan Fu, PhD** - Managing Partner
+- **Albert Cha, MD, PhD** - Managing Partner
 
 ### Other Key Team Members
 
@@ -67,5 +67,6 @@ Vivo Capital invests in innovative healthcare companies with differentiated tech
 ## Sources
 
 - Vivo Capital website: https://vivocapital.com
+- https://vivocapital.com/team
 - Crunchbase: https://www.crunchbase.com/organization/vivo-capital
 - BioCentury, Fierce Biotech coverage

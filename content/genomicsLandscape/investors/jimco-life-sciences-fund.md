@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $100M+
 aum: $500M+ (Life Sciences Fund)
 founded: 2020
 description: JIMCO Life Sciences Fund is a specialized investment vehicle under Jubail Island Investment Company, focused on life sciences and biotechnology investments globally. Based in Abu Dhabi, they invest in innovative healthcare and biotech companies as part of the UAE's strategy to build a knowledge-based economy.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -41,5 +41,6 @@ JIMCO Life Sciences Fund invests in innovative life sciences companies globally,
 ## Sources
 
 - https://jimco.com/en/funds/life-sciences
+- https://jimco.com/en/funds/life-sciences/team
 - Company press releases
 - PitchBook

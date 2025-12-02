@@ -9,7 +9,7 @@ typicalInvestmentRange: $10M - $100M
 aum: $1.5B+
 founded: 2003
 description: Icon Ventures is a Silicon Valley venture capital firm that invests in growth-stage technology companies. They focus on enterprise software, fintech, and healthcare technology, with particular interest in companies disrupting large markets through technology innovation.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,9 +20,9 @@ Icon Ventures invests in growth-stage companies that are using technology to tra
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Joe Horowitz** - Managing General Partner - https://www.linkedin.com/in/joehorowitz/
-- **Michael Tyrrell** - General Partner - https://www.linkedin.com/in/michaeltyrrell/
-- **John Marshall** - General Partner - https://www.linkedin.com/in/johnmarshall/
+- **Joe Horowitz** - Managing General Partner
+- **Michael Tyrrell** - General Partner
+- **John Marshall** - General Partner
 
 ### Other Key Team Members
 
@@ -47,5 +47,6 @@ Icon Ventures invests in growth-stage companies that are using technology to tra
 ## Sources
 
 - https://www.iconventures.com
+- https://www.iconventures.com/team
 - PitchBook
 - Crunchbase

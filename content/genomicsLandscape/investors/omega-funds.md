@@ -9,7 +9,7 @@ typicalInvestmentRange: $5M - $75M
 aum: $1.5B+
 founded: 2004
 description: Omega Funds is a leading transatlantic life sciences investment firm with offices in Boston and London. They specialize in therapeutics investments, with deep expertise in oncology, immunology, and rare diseases, and a strong track record of backing successful biotech companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,10 +20,10 @@ Omega Funds invests in innovative therapeutics companies with differentiated sci
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Claudio Nessi** - Managing Partner - https://www.linkedin.com/in/claudionessi/
-- **Otello Stampacchia, PhD** - Managing Partner - https://www.linkedin.com/in/otellostampacchia/
-- **Claude Nicaise, MD** - Managing Partner - https://www.linkedin.com/in/claudenicaise/
-- **Anne-Mari Paster** - Partner - https://www.linkedin.com/in/annemaripaster/
+- **Claudio Nessi** - Managing Partner
+- **Otello Stampacchia, PhD** - Managing Partner
+- **Claude Nicaise, MD** - Managing Partner
+- **Anne-Mari Paster** - Partner
 
 ### Other Key Team Members
 
@@ -47,5 +47,6 @@ Omega Funds invests in innovative therapeutics companies with differentiated sci
 ## Sources
 
 - https://www.omegafunds.com
+- https://www.omegafunds.com/team
 - PitchBook
 - Company announcements

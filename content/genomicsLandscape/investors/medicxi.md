@@ -9,7 +9,7 @@ typicalInvestmentRange: €5M - €50M
 aum: €800M+
 founded: 2016
 description: Medicxi is a leading European life sciences venture capital firm founded by former partners of Index Ventures. They specialize in therapeutics investments, focusing on companies with innovative science and strong potential for clinical and commercial success.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,10 +20,10 @@ Medicxi invests in innovative therapeutics companies with transformative potenti
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Francesco De Rubertis, PhD** - Partner - https://www.linkedin.com/in/francescoderubertis/
-- **Kevin Johnson** - Partner - https://www.linkedin.com/in/kevinjohnson/
-- **David Grainger, PhD** - Partner - https://www.linkedin.com/in/davidgrainger/
-- **Michèle Ollier** - Partner - https://www.linkedin.com/in/micheleollier/
+- **Francesco De Rubertis, PhD** - Partner
+- **Kevin Johnson** - Partner
+- **David Grainger, PhD** - Partner
+- **Michèle Ollier** - Partner
 
 ### Other Key Team Members
 
@@ -47,5 +47,6 @@ Medicxi invests in innovative therapeutics companies with transformative potenti
 ## Sources
 
 - https://www.medicxi.com
+- https://www.medicxi.com/team
 - PitchBook
 - European biotech news

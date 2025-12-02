@@ -20,15 +20,15 @@ SR One invests in innovative life sciences companies developing transformative t
 
 ### Partners / Managing Directors
 
-- **Simeon George, MD** - CEO & Managing Partner - https://www.linkedin.com/in/simeongeorge/
-- **Rajeev Dadoo, PhD** - Managing Partner - https://www.linkedin.com/in/rajeevdadoo/
-- **Matthew Foy, PhD** - Partner - https://www.linkedin.com/in/matthewfoy/
-- **Stephen Bloch, PhD** - Partner - https://www.linkedin.com/in/stephenbloch/
+- **Simeon George, MD** - CEO & Managing Partner
+- **Rajeev Dadoo, PhD** - Managing Partner
+- **Matthew Foy, PhD** - Partner
+- **Stephen Bloch, PhD** - Partner
 
 ### Other Key Team Members
 
-- **Christiana Stamoulis, PhD** - Partner - https://www.linkedin.com/in/christianastamoulis/
-- **Daniel Grau** - Principal - https://www.linkedin.com/in/danielgrau/
+- **Christiana Stamoulis, PhD** - Partner
+- **Daniel Grau** - Principal
 
 ## Focus Areas
 
@@ -58,5 +58,6 @@ SR One invests in innovative life sciences companies developing transformative t
 ## Sources
 
 - SR One website: https://www.srone.com
+- https://www.srone.com/team
 - Crunchbase: https://www.crunchbase.com/organization/sr-one
 - BioCentury, Fierce Biotech coverage

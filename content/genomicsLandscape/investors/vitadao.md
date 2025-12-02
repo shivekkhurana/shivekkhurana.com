@@ -20,8 +20,8 @@ VitaDAO funds early-stage longevity research that traditional funding sources of
 
 ### Core Contributors & Stewards
 
-- **Tyler Golato** - Co-Founder - https://www.linkedin.com/in/tylergolato/
-- **Tim Peterson, PhD** - Scientific Lead - https://www.linkedin.com/in/timpetersonphd/
+- **Tyler Golato** - Co-Founder
+- **Tim Peterson, PhD** - Scientific Lead
 - **Laurence Ion** - Operations Lead
 - **Catthu** - Token-holder Representative
 

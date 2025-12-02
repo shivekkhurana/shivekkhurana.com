@@ -9,7 +9,7 @@ typicalInvestmentRange: £1M - £10M
 aum: £500M+
 founded: 2009
 description: UK-based venture capital firm with dedicated healthcare and life sciences investment focus. Part of the broader Albion Capital Group, investing in innovative UK life sciences companies from early stage through growth.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,12 +20,12 @@ AlbionVC Healthcare invests in UK-based life sciences and healthcare companies w
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Ed Sherwood** - Partner, Healthcare - https://www.linkedin.com/in/edsherwood/
-- **Christoph Sherwood** - Investment Director - https://www.linkedin.com/in/christophsherwood/
+- **Ed Sherwood** - Partner, Healthcare
+- **Christoph Sherwood** - Investment Director
 
 ### Other Key Team Members
 
-- **Will Fraser-Allen** - Managing Partner - https://www.linkedin.com/in/will-fraser-allen-42b3b39/
+- **Will Fraser-Allen** - Managing Partner
 
 ## Focus Areas
 
@@ -44,6 +44,6 @@ AlbionVC Healthcare invests in UK-based life sciences and healthcare companies w
 ## Sources
 
 - https://www.albion.vc
+- https://www.albion.vc/team
 - https://www.crunchbase.com/organization/albion-vc
 - https://pitchbook.com/profiles/albionvc
-

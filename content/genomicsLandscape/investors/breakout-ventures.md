@@ -9,7 +9,7 @@ typicalInvestmentRange: $500K - $10M
 aum: $200M+
 founded: 2016
 description: Deep science-focused venture capital firm investing in breakthrough scientific innovations. Originally spun out from the Thiel Foundation's Breakout Labs program, which provides grants to early-stage science companies.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,8 +20,8 @@ Breakout Ventures invests in early-stage companies commercializing breakthrough 
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Lindy Fishburne** - Co-Founder & Managing Partner - https://www.linkedin.com/in/lindyfishburne/
-- **Julia Moore** - Co-Founder & Managing Partner - https://www.linkedin.com/in/juliahmoore/
+- **Lindy Fishburne** - Co-Founder & Managing Partner
+- **Julia Moore** - Co-Founder & Managing Partner
 
 ### Other Key Team Members
 
@@ -45,6 +45,7 @@ Breakout Ventures invests in early-stage companies commercializing breakthrough 
 ## Sources
 
 - https://www.breakout.vc
+- https://www.breakout.vc/team
 - https://breakoutlabs.org (related program)
 - https://www.crunchbase.com/organization/breakout-ventures
 

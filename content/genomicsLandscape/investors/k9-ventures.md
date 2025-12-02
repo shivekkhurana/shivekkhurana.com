@@ -9,7 +9,7 @@ typicalInvestmentRange: $100K - $500K
 aum: $50M+
 founded: 2009
 description: K9 Ventures is a seed-stage venture capital firm founded by Manu Kumar. They focus on very early-stage investments in technology companies, including healthcare and life sciences technology. Known for being one of the first investors in many successful startups.
-lastResearched: 2025-12-02
+lastResearched: 2025-01-27
 ---
 
 ## Investment Thesis
@@ -20,7 +20,7 @@ K9 Ventures invests at the earliest stages of company formation, often as the fi
 
 ### Partners / Managing Directors (Health & Bio Focus)
 
-- **Manu Kumar, PhD** - Founder & Chief Firestarter - https://www.linkedin.com/in/manukumar/
+- **Manu Kumar, PhD** - Founder & Chief Firestarter
 
 ## Focus Areas
 
@@ -40,5 +40,6 @@ K9 Ventures invests at the earliest stages of company formation, often as the fi
 ## Sources
 
 - https://www.k9ventures.com
+- https://www.k9ventures.com/team
 - Crunchbase
 - PitchBook

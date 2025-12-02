@@ -20,9 +20,9 @@ SoftTech VC invests in exceptional founders building transformative technology c
 
 ### Partners / Managing Directors
 
-- **Jeff Clavier** - Founder & Managing Partner - https://www.linkedin.com/in/jclavier/
-- **Stephanie Palmeri** - Partner - https://www.linkedin.com/in/stephaniepalmeri/
-- **Andy McLoughlin** - Partner - https://www.linkedin.com/in/andymcloughlin/
+- **Jeff Clavier** - Founder & Managing Partner
+- **Stephanie Palmeri** - Partner
+- **Andy McLoughlin** - Partner
 
 ### Other Key Team Members
 

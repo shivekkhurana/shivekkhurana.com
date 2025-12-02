@@ -20,14 +20,14 @@ Sutter Hill Ventures partners with exceptional entrepreneurs building transforma
 
 ### Partners / Managing Directors
 
-- **Mike Speiser** - Managing Director - https://www.linkedin.com/in/mikespeiser/
-- **Sam Pullara** - Managing Director - https://www.linkedin.com/in/sampullara/
-- **Stefan Dyckerhoff** - Managing Director - https://www.linkedin.com/in/stefandyckerhoff/
-- **Jishnu Bhattacharjee** - Managing Director - https://www.linkedin.com/in/jishnubhattacharjee/
+- **Mike Speiser** - Managing Director
+- **Sam Pullara** - Managing Director
+- **Stefan Dyckerhoff** - Managing Director
+- **Jishnu Bhattacharjee** - Managing Director
 
 ### Other Key Team Members
 
-- **Tench Coxe** - Managing Director - https://www.linkedin.com/in/tenchcoxe/
+- **Tench Coxe** - Managing Director
 - **Dave Strohm** - Managing Director Emeritus
 
 ## Focus Areas
@@ -56,5 +56,6 @@ Sutter Hill Ventures partners with exceptional entrepreneurs building transforma
 ## Sources
 
 - Sutter Hill Ventures website: https://www.sutterhillventures.com
+- https://www.sutterhillventures.com/team
 - Crunchbase: https://www.crunchbase.com/organization/sutter-hill-ventures
 - Forbes, TechCrunch coverage

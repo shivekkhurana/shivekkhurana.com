@@ -20,15 +20,15 @@ Venrock invests in transformative healthcare companies with strong scientific fo
 
 ### Partners / Managing Directors (Healthcare Focus)
 
-- **Bryan Roberts, PhD** - Partner - https://www.linkedin.com/in/bryanroberts/ (healthcare lead)
-- **Camille Samuels** - Partner - https://www.linkedin.com/in/camillesamuels/
-- **Bob Kocher, MD** - Partner - https://www.linkedin.com/in/bobkocher/ (former Obama healthcare advisor)
-- **Ravi Viswanathan** - Partner - https://www.linkedin.com/in/raviviswanathan/
+- **Bryan Roberts, PhD** - Partner (healthcare lead)
+- **Camille Samuels** - Partner
+- **Bob Kocher, MD** - Partner (former Obama healthcare advisor)
+- **Ravi Viswanathan** - Partner
 
 ### Other Key Team Members
 
-- **Austin Byers** - Partner - https://www.linkedin.com/in/austinbyers/
-- **Racquel Bracken** - Partner - https://www.linkedin.com/in/racquelbracken/
+- **Austin Byers** - Partner
+- **Racquel Bracken** - Partner
 
 ## Focus Areas
 
@@ -58,5 +58,6 @@ Venrock invests in transformative healthcare companies with strong scientific fo
 ## Sources
 
 - Venrock website: https://www.venrock.com
+- https://www.venrock.com/team
 - Crunchbase: https://www.crunchbase.com/organization/venrock
 - Forbes Midas List, TechCrunch coverage
