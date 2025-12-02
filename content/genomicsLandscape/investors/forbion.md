@@ -20,6 +20,13 @@ Forbion is a biotechnology-focused investment firm investing in innovative biote
 - European focus
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Geert-Jan Mulder** - Managing Partner
+- **Sander Slootweg** - Managing Partner
+- **Martijn Kleijwegt** - Managing Partner
+- **Roel Bulthuis** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

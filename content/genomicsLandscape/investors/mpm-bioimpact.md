@@ -20,6 +20,11 @@ MPM BioImpact is a biotech-focused investment firm investing in innovative biote
 - Multi-stage investment approach
 - Focus on innovative biotech companies
 
+### Partners & Team
+
+- **Ansbert Gadicke, MD** - Co-Founder & Managing Partner
+- **Todd Foley** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

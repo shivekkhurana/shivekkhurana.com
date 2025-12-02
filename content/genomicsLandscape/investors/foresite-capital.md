@@ -20,6 +20,13 @@ Foresite Capital is a healthcare investment firm focused on precision medicine a
 - Healthcare investment firm
 - Strong genomics portfolio
 
+### Partners & Team
+
+- **Jim Tananbaum, MD** - Founder & CEO
+- **Dennis Ryan** - Managing Director
+- **Michael Rome** - Managing Director
+- **Matt Portnoy** - Managing Director
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,12 @@ Sofinnova Partners is a leading European venture capital firm specializing in li
 - Leading European life sciences VC
 - Therapeutics, medical devices, digital health focus
 
+### Partners & Team
+
+- **James Healy, MD, PhD** - Managing Partner
+- **Michael Powell, PhD** - Managing Partner
+- **Denise Pollard-Knight, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

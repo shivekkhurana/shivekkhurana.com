@@ -20,6 +20,13 @@ Medicxi is a biotech-focused investment firm investing in innovative biotechnolo
 - European focus
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Francesco De Rubertis, PhD** - Partner
+- **Kevin Johnson** - Partner
+- **David Grainger, PhD** - Partner
+- **Michèle Ollier** - Partner
+
 ## Focus Areas
 
 - Tech Bio

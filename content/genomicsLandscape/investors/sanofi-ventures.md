@@ -20,6 +20,11 @@ Sanofi Ventures is the venture capital arm of Sanofi, investing in biotechnology
 - Biotechnology and healthcare focus
 - Strategic investments in innovative therapeutics
 
+### Partners & Team
+
+- **Laurent Choppe** - Head of Sanofi Ventures
+- **James Flynn, MD, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

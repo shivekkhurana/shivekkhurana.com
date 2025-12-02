@@ -21,6 +21,11 @@ Pfizer Ventures is the venture capital arm of Pfizer, investing in biotechnology
 - Corporate venture capital arm of Pfizer
 - Biotechnology and healthcare focus
 
+### Partners & Team
+
+- **Barbara Dalton, PhD** - Senior Vice President, Venture Investments
+- **Eddie Sullivan** - Vice President, Venture Investments
+
 ## Focus Areas
 
 - Tech Bio

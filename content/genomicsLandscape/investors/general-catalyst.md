@@ -20,6 +20,12 @@ General Catalyst focuses on digital health transformation, investing in companie
 - Healthcare technology investments
 - Strong healthcare portfolio
 
+### Partners & Team
+
+- **Hemant Taneja** - CEO & Managing Director
+- **Ken Chenault** - Chairman & Managing Director
+- **Holly Maloney** - Managing Director (Healthcare)
+
 ## Focus Areas
 
 - Tech Bio

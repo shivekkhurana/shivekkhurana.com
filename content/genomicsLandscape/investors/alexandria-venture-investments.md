@@ -21,6 +21,11 @@ Alexandria Venture Investments is the strategic venture capital arm of Alexandri
 - Strategic venture capital arm
 - Life science focus
 
+### Partners & Team
+
+- **Joel Marcus** - Executive Chairman & Founder
+- **Aaron Jacobson** - Managing Director
+
 ## Focus Areas
 
 - Tech Bio

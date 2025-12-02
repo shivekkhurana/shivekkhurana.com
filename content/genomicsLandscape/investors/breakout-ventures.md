@@ -20,6 +20,11 @@ Breakout Ventures is a deep science-focused investment firm investing in breakth
 - Early-stage investment approach
 - Focus on breakthrough innovations
 
+### Partners & Team
+
+- **Lindy Fishburne** - Co-Founder & Managing Partner
+- **Julia Moore** - Co-Founder & Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

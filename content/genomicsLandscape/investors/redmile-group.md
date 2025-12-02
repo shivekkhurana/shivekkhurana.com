@@ -19,6 +19,11 @@ Redmile Group is a healthcare-focused investment firm that invests in biotechnol
 - Healthcare-focused investment firm
 - Biotechnology and life sciences focus
 
+### Partners & Team
+
+- **Jeremy Green** - Founder & Managing Partner
+- **Mark Lampert** - Managing Partner
+
 ## Focus Areas
 
 - Healthcare

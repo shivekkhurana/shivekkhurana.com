@@ -21,6 +21,11 @@ Casdin Capital is a life sciences and healthcare venture capital firm focused on
 - Series D and later stages (not seed stage)
 - Life sciences specialization
 
+### Partners & Team
+
+- **Eli Casdin** - Founder & Chief Investment Officer
+- **Aaron Schwartz** - Managing Director
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,12 @@ Google Ventures (GV) is the venture capital arm of Alphabet, investing in techno
 - Technology and healthcare focus
 - Genomics and life sciences investments
 
+### Partners & Team
+
+- **Krishna Yeshwant, MD** - General Partner (Life Sciences)
+- **David Krane** - Managing Partner
+- **Tom Hulme** - General Partner
+
 ## Focus Areas
 
 - Tech Bio

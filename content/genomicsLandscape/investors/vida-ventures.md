@@ -20,6 +20,12 @@ Vida Ventures is a biotech-focused investment firm investing in innovative biote
 - Multi-stage investment approach
 - Focus on innovative biotech companies
 
+### Partners & Team
+
+- **Arie Belldegrun, MD** - Co-Founder & Senior Managing Director
+- **Arjun Goyal, MD, MPhil** - Managing Director
+- **Helen Kim, PhD** - Managing Director
+
 ## Focus Areas
 
 - Tech Bio

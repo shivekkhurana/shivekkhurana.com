@@ -20,6 +20,13 @@ ARCH Venture Partners is a leading venture capital firm that invests in early-st
 - Early-stage focus with company-building approach
 - Life sciences and biotechnology specialization
 
+### Partners & Team
+
+- **Robert Nelsen** - Co-Founder & Managing Director
+- **Keith Crandell** - Co-Founder & Managing Director
+- **Clinton Bybee** - Managing Director
+- **Kristina Burow** - Managing Director
+
 ## Focus Areas
 
 - Tech Bio

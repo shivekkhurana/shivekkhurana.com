@@ -20,6 +20,12 @@ Lux Capital is a venture capital firm investing in emerging science and technolo
 - Emerging science and technology focus
 - Biotechnology and life sciences specialization
 
+### Partners & Team
+
+- **Josh Wolfe** - Co-Founder & Managing Partner
+- **Zavain Dar** - Partner
+- **Deena Shakir** - Partner
+
 ## Focus Areas
 
 - Tech Bio

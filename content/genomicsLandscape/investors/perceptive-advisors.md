@@ -20,6 +20,11 @@ Perceptive Advisors is a life sciences investment firm focused on investing in i
 - Multi-stage investment approach
 - Focus on innovative companies
 
+### Partners & Team
+
+- **Joseph Edelman** - Founder & CEO
+- **James Flynn, MD, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

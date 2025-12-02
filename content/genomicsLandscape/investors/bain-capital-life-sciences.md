@@ -20,6 +20,11 @@ Bain Capital Life Sciences is the life sciences investment arm of Bain Capital, 
 - Part of Bain Capital
 - Multi-stage investments
 
+### Partners & Team
+
+- **Adam Koppel, MD, PhD** - Managing Director
+- **Jeffrey Schwartz** - Managing Director
+
 ## Focus Areas
 
 - Tech Bio

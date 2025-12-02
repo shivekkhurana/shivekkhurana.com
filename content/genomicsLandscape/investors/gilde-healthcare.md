@@ -20,6 +20,12 @@ Gilde Healthcare is a healthcare and medtech investment firm investing in innova
 - European focus
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Pieter van der Meer, PhD** - Partner
+- **Geert Duyck** - Partner
+- **Johan Körver** - Partner
+
 ## Focus Areas
 
 - Tech Bio

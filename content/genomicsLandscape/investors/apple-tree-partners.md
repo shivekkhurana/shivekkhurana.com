@@ -20,6 +20,11 @@ Apple Tree Partners is a biotech-focused investment firm investing in innovative
 - Multi-stage investment approach
 - Focus on innovative biotech companies
 
+### Partners & Team
+
+- **Seth Harrison, MD** - Managing Partner
+- **David Kabakoff, PhD** - Partner
+
 ## Focus Areas
 
 - Tech Bio

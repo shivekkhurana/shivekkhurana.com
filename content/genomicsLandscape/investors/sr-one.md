@@ -20,6 +20,12 @@ SR One is a biotech-focused investment firm with presence in both US and UK mark
 - Transatlantic presence (US/UK)
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Simeon George, MD** - CEO & Managing Partner
+- **Rajeev Dadoo, PhD** - Managing Partner
+- **Matthew Foy, PhD** - Partner
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,14 @@ OrbiMed is a healthcare investment firm that invests in healthcare companies acr
 - Full lifecycle healthcare investing
 - Healthcare specialization
 
+### Partners & Team
+
+- **Sven Hoppe, MD, PhD** - Managing Partner
+- **Carter Neild** - Managing Partner
+- **Jonathan Silverstein** - Managing Partner
+- **Geoffrey Hsu** - Managing Partner
+- **Carl Gordon, PhD, CFA** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

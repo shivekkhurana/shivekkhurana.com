@@ -20,6 +20,11 @@ SV Health Investors is a healthcare and life sciences investment firm with prese
 - Transatlantic presence (US/UK)
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Kate Bingham, DBE** - Managing Partner
+- **Michael Ross, MD, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

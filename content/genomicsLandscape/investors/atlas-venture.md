@@ -20,6 +20,15 @@ Atlas Venture is a venture capital firm focused on early-stage biotechnology and
 - Life sciences specialization
 - Company creation approach
 
+### Partners & Team
+
+- **Kevin Bitterman** - Partner
+- **Bruce Booth** - Partner
+- **Jean-Francois Formela** - Partner
+- **Michael Gladstone** - Partner
+- **David Grayzel** - Partner
+- **Jason Rhodes** - Partner
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,14 @@ Third Rock Ventures is a venture capital firm focused on building life sciences 
 - Focus on building life sciences companies
 - Company creation approach
 
+### Partners & Team
+
+- **Mark J. Levin** - Partner
+- **Kevin P. Starr** - Partner
+- **Robert I. Tepper** - Partner
+- **Alexis Borisy** - Partner
+- **Neil Exter** - Partner
+
 ## Focus Areas
 
 - Tech Bio

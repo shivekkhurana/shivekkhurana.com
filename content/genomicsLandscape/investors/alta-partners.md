@@ -20,6 +20,12 @@ Alta Partners is a biotech-focused investment firm investing in innovative biote
 - Multi-stage investment approach
 - Focus on innovative biotech companies
 
+### Partners & Team
+
+- **Daniel Janney** - Managing Partner
+- **Robert More, PhD** - Partner
+- **Guy Nohra** - Co-Founder & Partner
+
 ## Focus Areas
 
 - Tech Bio

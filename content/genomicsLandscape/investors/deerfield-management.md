@@ -20,6 +20,12 @@ Deerfield Management is dedicated to advancing healthcare through investment, in
 - Seed to post-IPO focus
 - Healthcare specialization
 
+### Partners & Team
+
+- **James Flynn, MD, PhD** - Managing Partner
+- **Jonathan Leff** - Managing Partner
+- **William Slattery** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

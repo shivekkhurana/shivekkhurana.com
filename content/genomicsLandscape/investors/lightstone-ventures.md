@@ -20,6 +20,11 @@ Lightstone Ventures is an investment firm focused on medtech and biotech, with p
 - Transatlantic presence (US/EU)
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Jason Lettmann** - Managing Partner
+- **Michael Ross, MD, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

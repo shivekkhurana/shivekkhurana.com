@@ -20,6 +20,11 @@ Vivo Capital is a healthcare-focused investment firm with presence in both US an
 - Transpacific presence (US/Asia)
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Edgar Engleman, MD** - Managing Partner
+- **Frank Kung, MD, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

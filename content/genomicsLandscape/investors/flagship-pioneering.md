@@ -20,6 +20,14 @@ Flagship Pioneering is a life sciences venture capital company that specializes 
 - Life sciences and biotechnology specialization
 - Strong track record in biotech
 
+### Partners & Team
+
+- **Noubar Afeyan** - Co-Founder & CEO
+- **Stephen Berenson** - Managing Partner
+- **Doug Cole** - Managing Partner
+- **David Epstein** - Executive Partner
+- **Robert Langer** - Executive Partner
+
 ## Focus Areas
 
 - Tech Bio

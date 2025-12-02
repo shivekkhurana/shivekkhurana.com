@@ -20,6 +20,11 @@ HealthCap is a biotech-focused investment firm investing in innovative biotechno
 - European focus
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Björn Odlander, MD, PhD** - Founding Partner
+- **Peder Fredrikson, MD, PhD** - Founding Partner
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,14 @@ Polaris Partners is a venture capital firm active in healthcare and biotechnolog
 - Multi-office presence (Boston, New York, San Francisco)
 - Life sciences specialization
 
+### Partners & Team
+
+- **Amy Schulman** - Managing Partner
+- **Brian Chee** - Managing Partner
+- **Terry McGuire** - Founding Partner
+- **Jon Flint** - Founding Partner
+- **Steve Arnold** - Founding Partner
+
 ## Focus Areas
 
 - Tech Bio

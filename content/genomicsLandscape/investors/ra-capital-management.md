@@ -20,6 +20,10 @@ RA Capital Management is an investment firm focused on biotech and therapeutics,
 - Multi-stage investment approach
 - Strong track record in life sciences
 
+### Partners & Team
+
+- **Peter Kolchinsky, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

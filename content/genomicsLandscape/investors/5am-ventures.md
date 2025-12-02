@@ -20,6 +20,13 @@ lastResearched: 2025-01-27
 - Precision medicine specialization
 - Biological engineering and therapeutic platforms
 
+### Partners & Team
+
+- **Scott Rocklage, PhD** - Managing Partner
+- **Andy Schwab** - Managing Partner
+- **Kush Parmar, MD, PhD** - Managing Partner
+- **David Allison** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,12 @@ NEA is a global venture capital firm with a focus on technology and healthcare i
 - Focus on digital health category
 - Global venture capital firm
 
+### Partners & Team
+
+- **Scott Sandell** - Managing General Partner
+- **Forest Baskett** - General Partner
+- **Carmen Chang** - General Partner (Healthcare)
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,11 @@ Omega Funds is a biotech-focused investment firm with presence in both US and EU
 - Transatlantic presence (US/EU)
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Claude Nicaise, MD** - Managing Partner
+- **Otello Stampacchia, PhD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

@@ -20,6 +20,13 @@ Versant Ventures supports both new venture creation and external investments in 
 - New venture creation and external investments
 - Internal discovery engines
 
+### Partners & Team
+
+- **Brad Bolzon** - Managing Director
+- **Clare Ozawa** - Managing Director
+- **Tom Woiwode** - Managing Director
+- **Alex Mayweg** - Managing Director
+
 ## Focus Areas
 
 - Tech Bio

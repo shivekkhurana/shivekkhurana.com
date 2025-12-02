@@ -20,6 +20,11 @@ venBio Partners is a biotech-focused investment firm investing in innovative bio
 - Multi-stage investment approach
 - Focus on innovative biotech companies
 
+### Partners & Team
+
+- **Corey Goodman, PhD** - Managing Partner
+- **Robert Adelman, MD** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

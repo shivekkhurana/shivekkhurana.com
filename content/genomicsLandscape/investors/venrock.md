@@ -20,6 +20,13 @@ Venrock combines deep scientific understanding with commercial insight, investin
 - Scientific and commercial focus
 - Therapeutic platforms and medical devices
 
+### Partners & Team
+
+- **Bryan Roberts, PhD** - Partner
+- **Camille Samuels** - Partner
+- **Bob Kocher, MD** - Partner
+- **Ravi Viswanathan** - Partner
+
 ## Focus Areas
 
 - Tech Bio

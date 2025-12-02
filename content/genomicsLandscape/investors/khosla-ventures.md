@@ -20,6 +20,12 @@ Khosla Ventures invests in early-stage companies across technology, healthcare, 
 - Early-stage focus
 - Multi-sector approach including genomics
 
+### Partners & Team
+
+- **Vinod Khosla** - Founder
+- **Alex Morgan, MD, PhD** - Partner (Healthcare)
+- **Samir Kaul** - Partner
+
 ## Focus Areas
 
 - Tech Bio

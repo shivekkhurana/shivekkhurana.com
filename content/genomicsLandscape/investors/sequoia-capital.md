@@ -20,6 +20,12 @@ Sequoia Capital is a venture capital firm investing across various technology se
 - Healthcare and biotechnology investments
 - Multi-stage approach
 
+### Partners & Team
+
+- **Stephanie Zhan** - Partner (Healthcare)
+- **Luciana Lixandru** - Partner
+- **Ravi Gupta** - Partner
+
 ## Focus Areas
 
 - Tech Bio

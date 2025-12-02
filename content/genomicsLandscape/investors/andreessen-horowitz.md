@@ -20,6 +20,14 @@ Andreessen Horowitz (a16z) is a venture capital firm investing in technology com
 - Technology and healthcare focus
 - Multi-stage investments
 
+### Partners & Team
+
+- **Marc Andreessen** - Co-Founder & General Partner
+- **Ben Horowitz** - Co-Founder & General Partner
+- **Vijay Pande, PhD** - General Partner (Bio/Healthcare)
+- **Jorge Conde** - General Partner (Bio/Healthcare)
+- **Julie Yoo** - General Partner (Bio/Healthcare)
+
 ## Focus Areas
 
 - Tech Bio

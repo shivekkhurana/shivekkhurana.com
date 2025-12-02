@@ -20,6 +20,11 @@ Abingworth is a biotech and life sciences investment firm with presence in both 
 - Transatlantic presence (UK/US)
 - Multi-stage investment approach
 
+### Partners & Team
+
+- **Joe Anderson, PhD** - Managing Partner
+- **Kurt von Emster** - Managing Partner
+
 ## Focus Areas
 
 - Tech Bio

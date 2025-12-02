@@ -2,9 +2,9 @@
 slug: 23andme
 name: 23andMe
 website: https://www.23andme.com
-location: ''
+location: 'Sunnyvale, California, USA'
 categories: ['genomics-sequencing', 'consumer-health-app', 'diagnostics']
-founded: ''
+founded: '2006'
 description: Personal genomics and biotechnology company known for its direct-to-consumer genetic testing services.
 logo: ''
 lastResearched: 2025-01-27
@@ -23,7 +23,14 @@ Personal genomics and biotechnology company known for its direct-to-consumer gen
 
 ## Additional Research Findings
 
-- Direct-to-consumer genetic testing
+- Direct-to-consumer genetic testing pioneer
 - Personal genomics focus
 - Consumer health applications
 - Genetic ancestry and health reports
+- Publicly traded (Nasdaq: ME) via SPAC in 2021
+- Over 14 million customers
+
+## Sources
+
+- [23andMe Official Website](https://www.23andme.com)
+- [Anne Wojcicki LinkedIn](https://www.linkedin.com/in/anne-wojcicki/)

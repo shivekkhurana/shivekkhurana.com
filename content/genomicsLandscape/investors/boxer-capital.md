@@ -20,6 +20,11 @@ Boxer Capital is a biotech-focused investment firm investing in innovative biote
 - Multi-stage investment approach
 - Focus on innovative biotech companies
 
+### Partners & Team
+
+- **Aaron Davis** - Managing Partner
+- **Joe McCracken, PhD** - Partner
+
 ## Focus Areas
 
 - Tech Bio
