@@ -1,36 +1,46 @@
 ---
 slug: g42-healthcare
-name: G42 Healthcare (within G42)
+name: G42 Healthcare
 website: https://www.g42.ai
-location: UAE
-fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Healthcare division within G42, enabler of the Emirate Genome program. Focus on AI and healthcare technology.
-lastResearched: 2025-01-27
+location: Abu Dhabi, UAE
+fundType: cvc
+stages: ['series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $50M - $500M+
+aum: $10B+ (parent G42)
+founded: 2018
+description: G42 Healthcare is the healthcare division of G42, an Abu Dhabi-based AI and cloud computing company. The division focuses on leveraging AI to transform healthcare, with particular emphasis on genomics through initiatives like the Emirati Genome Program and partnerships with major sequencing companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-G42 Healthcare is the healthcare division within G42, focusing on AI and healthcare technology, including the Emirate Genome program.
+G42 Healthcare invests in and builds AI-powered healthcare solutions, with a particular focus on population genomics, precision medicine, and healthcare AI infrastructure. They operate the Emirati Genome Program and have partnered with leading genomics companies globally.
 
-## Notes
+## Team
 
-- Enabler of Emirate Genome program
-- Part of G42 (AI and cloud computing company)
-- Healthcare technology focus
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Peng Xiao** - Group CEO, G42 - https://www.linkedin.com/in/peng-xiao/
+- **Ashish Koshy** - CEO, G42 Healthcare - https://www.linkedin.com/in/ashishkoshy/
+- **Dr. Fahed Al Marzooqi** - Medical Director - https://www.linkedin.com/in/dr-fahed-al-marzooqi/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- AI in Healthcare
-- Genomics
+- Population genomics
+- AI in healthcare
+- Precision medicine
+- Healthcare infrastructure
+- Digital health
+- Genomic data platforms
 
-## Additional Research Findings
+## Notable Partnerships & Investments
 
-- Part of G42 group
-- Emirate Genome program enabler
-- AI and healthcare technology focus
+- **Emirati Genome Program** - National genomics initiative
+- **Illumina** - Strategic partnership for sequencing
+- **BGI Group** - Genomics partnerships
 
+## Sources
+
+- https://www.g42.ai
+- https://www.g42healthcare.ai
+- Company press releases

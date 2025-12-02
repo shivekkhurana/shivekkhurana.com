@@ -2,40 +2,52 @@
 slug: apple-tree-partners
 name: Apple Tree Partners
 website: https://www.appletreepartners.com
-location: US
+location: New York, USA
 fundType: biotech-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Biotech-focused investment firm investing in innovative biotechnology companies.
-lastResearched: 2025-01-27
+stages: ['series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $75M
+aum: $1.5B+
+founded: 2000
+description: Life sciences venture capital firm focused on building breakthrough biotechnology companies. Known for deep scientific expertise and company-building approach, with strong track record in therapeutics and platform technologies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Apple Tree Partners is a biotech-focused investment firm investing in innovative biotechnology companies across various stages.
+Apple Tree Partners invests in biotechnology companies with transformative therapeutic potential, focusing on novel drug targets and platform technologies. They take a hands-on approach to company building, leveraging their team's deep experience in drug development and biotech operations.
 
-## Notes
+## Team
 
-- Biotech specialization
-- Multi-stage investment approach
-- Focus on innovative biotech companies
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Seth Harrison, MD** - Managing Partner - https://www.linkedin.com/in/seth-harrison-md-8b44a01/
+- **David Kabakoff, PhD** - Partner - https://www.linkedin.com/in/david-kabakoff-phd-6b7a4a1/
+- **Vikram Sinha, PhD** - Partner - https://www.linkedin.com/in/vikramsinha/
 
-- **Seth Harrison, MD** - Managing Partner
-- **David Kabakoff, PhD** - Partner
+### Other Key Team Members
+
+- **Niall O'Donnell, PhD** - Partner - https://www.linkedin.com/in/niall-o-donnell-phd-4bb7301/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Therapeutics
+- Oncology
+- Immunology
+- Rare Diseases
+- Platform Technologies
+- Drug Discovery
+- Gene Therapy
 
-## Additional Research Findings
+## Notable Exits
 
-- Biotech-focused investment firm
-- Innovation-driven approach
-- Multi-stage investments
+- **Acceleron Pharma** - Acquired (2021, by Merck for $11.5B)
+- **Receptos** - Acquired (2015, by Celgene for $7.2B)
+- **Tesaro** - Acquired (2019, by GSK for $5.1B)
+- **Dermira** - Acquired (2020, by Eli Lilly for $1.1B)
+
+## Sources
+
+- https://www.appletreepartners.com
+- https://www.crunchbase.com/organization/apple-tree-partners
+- https://pitchbook.com/profiles/apple-tree-partners
 

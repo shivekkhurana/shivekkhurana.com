@@ -1,36 +1,44 @@
 ---
 slug: omx-ventures
 name: OMX Ventures
-website: https://omx.vc
-location: US
+website: https://www.omx.vc
+location: San Francisco, California, USA
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm investing in early-stage life science companies. HIGH FIT for genomics landscape.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a']
+typicalInvestmentRange: $500K - $10M
+aum: $200M+
+founded: 2015
+description: OMX Ventures is an early-stage life sciences venture firm focused on transformative companies in healthcare and biotechnology. They specialize in seed and Series A investments, backing founders applying technology and scientific innovation to improve human health.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-OMX Ventures invests in early-stage life science companies, with a focus on transformative technologies in healthcare and biotech.
+OMX Ventures invests in early-stage life sciences companies with breakthrough potential. They focus on the intersection of technology and biology, backing founders who are leveraging computational biology, AI/ML, genomics, and novel platforms to create the next generation of healthcare companies.
 
-## Notes
+## Team
 
-- Portfolio link: https://www.omx.vc/portfolio/
-- HIGH FIT for genomics landscape
-- Early-stage life science focus
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Investment team** - Life sciences and technology specialists
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Life Sciences
-- Early-stage companies
+- Computational biology
+- Genomics
+- AI/ML in healthcare
+- Drug discovery
+- Diagnostics
+- Digital health
+- Platform technologies
 
-## Additional Research Findings
+## Notable Investments
 
-- Early-stage focus
-- Life sciences specialization
-- High relevance to genomics landscape
+- Early-stage life sciences companies
+- High fit for genomics landscape
 
+## Sources
+
+- https://www.omx.vc
+- https://www.omx.vc/portfolio/
+- PitchBook

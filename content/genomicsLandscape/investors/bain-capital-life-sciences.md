@@ -2,41 +2,54 @@
 slug: bain-capital-life-sciences
 name: Bain Capital Life Sciences
 website: https://www.baincapitallifesciences.com
-location: US
+location: Boston, USA
 fundType: biotech-focused
 stages: ['series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Life sciences investment arm of Bain Capital, focused on biotech and pharma investments.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $25M - $200M
+aum: $5B+
+founded: 2016
+description: Dedicated life sciences fund within Bain Capital, one of the world's leading private investment firms. Combines deep scientific expertise with operational support and access to Bain Capital's global resources.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Bain Capital Life Sciences is the life sciences investment arm of Bain Capital, focused on biotech and pharma investments across various stages.
+Bain Capital Life Sciences invests across the spectrum of life sciences, from therapeutics to diagnostics, devices, and services. They focus on companies with transformative potential, providing not just capital but operational expertise, strategic guidance, and access to Bain Capital's global network and resources.
 
-## Notes
+## Team
 
-- Biotech and pharma focus
-- Part of Bain Capital
-- Multi-stage investments
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Adam Koppel, MD, PhD** - Managing Director - https://www.linkedin.com/in/adamkoppel/
+- **Jeffrey Schwartz** - Managing Director - https://www.linkedin.com/in/jeffrey-schwartz-4a00061/
+- **Andrew Hack, MD, PhD** - Partner - https://www.linkedin.com/in/andrewhack/
+- **Sheryl Katz, MD** - Partner - https://www.linkedin.com/in/sheryl-katz-md-mba-0a32851/
 
-- **Adam Koppel, MD, PhD** - Managing Director
-- **Jeffrey Schwartz** - Managing Director
+### Other Key Team Members
+
+- **Joshua Bekenstein** - Bain Capital Co-Chairman
+- **John Connaughton** - Bain Capital Co-Chairman
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Pharmaceuticals
-- Life Sciences
+- Therapeutics
+- Oncology
+- Rare Diseases
+- Medical Devices
+- Diagnostics
+- Healthcare Services
+- Biopharma Services
 
-## Additional Research Findings
+## Notable Exits
 
-- Life sciences specialization
-- Strong biotech and pharma portfolio
-- Multi-stage approach
+- **Cerevel Therapeutics** - IPO (2020, NASDAQ: CERE)
+- **Springworks Therapeutics** - IPO (2019, NASDAQ: SWTX)
+- **EQRx** - Continues growth in oncology
+- **Neumora Therapeutics** - IPO (2023, NASDAQ: NMRA)
+
+## Sources
+
+- https://www.baincapitallifesciences.com
+- https://www.crunchbase.com/organization/bain-capital-life-sciences
+- https://pitchbook.com/profiles/bain-capital-life-sciences
 

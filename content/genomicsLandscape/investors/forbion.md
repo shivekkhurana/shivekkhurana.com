@@ -2,41 +2,53 @@
 slug: forbion
 name: Forbion
 website: https://forbion.com
-location: EU
-fundType: biotechnology-focused
+location: Naarden, Netherlands
+fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Biotechnology-focused investment firm investing in innovative biotechnology companies in Europe.
-lastResearched: 2025-01-27
+typicalInvestmentRange: €5M - €50M
+aum: €3B+
+founded: 2006
+description: Leading European life sciences venture capital firm focused on therapeutics. One of the most active biotech investors in Europe with deep scientific expertise and strong track record of building successful companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Forbion is a biotechnology-focused investment firm investing in innovative biotechnology companies in Europe across various stages.
+Forbion invests in innovative life sciences companies primarily in Europe and the US, focusing on therapeutics with differentiated approaches and strong clinical potential. They take an active role in company building, providing strategic guidance and leveraging their extensive network in the pharmaceutical industry.
 
-## Notes
+## Team
 
-- Biotechnology specialization
-- European focus
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Geert-Jan Mulder** - Managing Partner - https://www.linkedin.com/in/geertjan-mulder-1b44a01/
+- **Sander Slootweg** - Managing Partner - https://www.linkedin.com/in/sanderslootweg/
+- **Martijn Kleijwegt** - Managing Partner - https://www.linkedin.com/in/martijnkleijwegt/
+- **Roel Bulthuis** - Managing Partner - https://www.linkedin.com/in/roelbulthuis/
 
-- **Geert-Jan Mulder** - Managing Partner
-- **Sander Slootweg** - Managing Partner
-- **Martijn Kleijwegt** - Managing Partner
-- **Roel Bulthuis** - Managing Partner
+### Other Key Team Members
+
+- **Holger Reithinger, PhD** - Partner - https://www.linkedin.com/in/holger-reithinger-phd-9b64b51/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Therapeutics
+- Oncology
+- Rare Diseases
+- Immunology
+- Neuroscience
+- Gene & Cell Therapy
+- European Life Sciences
 
-## Additional Research Findings
+## Notable Exits
 
-- Biotechnology-focused investment firm
-- European market focus
-- Multi-stage investments
+- **Kite Pharma** - Acquired (2017, by Gilead for $11.9B)
+- **Merus** - IPO (2016, NASDAQ: MRUS)
+- **ProQR Therapeutics** - IPO (2014, NASDAQ: PRQR)
+- **argenx** - IPO (2017, NASDAQ: ARGX)
+
+## Sources
+
+- https://forbion.com
+- https://www.crunchbase.com/organization/forbion
+- https://pitchbook.com/profiles/forbion
+

@@ -2,34 +2,44 @@
 slug: jimco-life-sciences-fund
 name: JIMCO Life Sciences Fund
 website: https://jimco.com/en/funds/life-sciences
-location: UAE
-fundType: life-sciences-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Life sciences and biotech investment fund based in UAE, investing in innovative life sciences companies.
-lastResearched: 2025-01-27
+location: Abu Dhabi, UAE
+fundType: biotech-focused
+stages: ['series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $100M+
+aum: $500M+ (Life Sciences Fund)
+founded: 2020
+description: JIMCO Life Sciences Fund is a specialized investment vehicle under Jubail Island Investment Company, focused on life sciences and biotechnology investments globally. Based in Abu Dhabi, they invest in innovative healthcare and biotech companies as part of the UAE's strategy to build a knowledge-based economy.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-JIMCO Life Sciences Fund is a life sciences and biotech investment fund based in UAE, investing in innovative life sciences companies across various stages.
+JIMCO Life Sciences Fund invests in innovative life sciences companies globally, with a focus on therapeutics, diagnostics, and healthcare technology. They seek companies with strong science, experienced management, and potential to address significant unmet medical needs.
 
-## Notes
+## Team
 
-- Life sciences and biotech focus
-- UAE-based
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **JIMCO Investment Team** - Life Sciences specialists
+- Based in Abu Dhabi with global investment mandate
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Life Sciences
+- Therapeutics (oncology, immunology)
 - Biotechnology
+- Medical devices
+- Diagnostics
+- Healthcare technology
+- Drug development
+- Life sciences infrastructure
 
-## Additional Research Findings
+## Notable Investments
 
-- Life sciences and biotech-focused investment fund
-- UAE market focus
-- Multi-stage investments
+- Global life sciences and biotechnology companies
+- Partnership with leading healthcare investors
+
+## Sources
+
+- https://jimco.com/en/funds/life-sciences
+- Company press releases
+- PitchBook

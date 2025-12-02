@@ -2,34 +2,49 @@
 slug: angelini-ventures
 name: Angelini Ventures
 website: https://www.angeliniventures.com
-location: Europe
-fundType: healthcare-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital arm of Angelini Industries, focusing on investments in the health and wellness sectors.
-lastResearched: 2025-01-27
+location: Rome, Italy
+fundType: cvc
+stages: ['seed', 'series-a', 'series-b', 'series-c']
+typicalInvestmentRange: €5M - €30M
+aum: €300M+
+founded: 2020
+description: Corporate venture capital arm of Angelini Industries, a major European pharmaceutical and consumer health conglomerate. Invests globally in health and wellness sectors with strategic focus on pharma innovation.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Angelini Ventures is the venture capital arm of Angelini Industries, focusing on investments in the health and wellness sectors.
+Angelini Ventures invests in companies developing innovative solutions in health and wellness, with focus areas aligned to Angelini Industries' strategic interests in pharmaceuticals, consumer health, and healthcare technology. They provide both capital and strategic partnership opportunities with their parent company.
 
-## Notes
+## Team
 
-- Portfolio link: https://www.angeliniventures.com/portfolio/
-- Corporate venture capital arm
-- Health and wellness focus
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Alessandro Paganelli** - CEO - https://www.linkedin.com/in/alessandropaganelli/
+- **Cristiano Bernasconi** - Investment Director - https://www.linkedin.com/in/cristiano-bernasconi-b1b08b1/
+
+### Other Key Team Members
+
+- Investment team with pharma industry expertise
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Health and Wellness
+- Pharmaceuticals
+- Consumer Health
+- Digital Health
+- Medical Devices
+- Mental Health
+- Women's Health
+- Wellness Technology
 
-## Additional Research Findings
+## Notable Exits
 
-- Corporate venture capital
-- Part of Angelini Industries
-- Health and wellness specialization
+- Portfolio companies in development and growth stage
+- Strategic partnerships with Angelini Industries portfolio
+
+## Sources
+
+- https://www.angeliniventures.com
+- https://www.angeliniindustries.com
+- https://www.crunchbase.com/organization/angelini-ventures
 

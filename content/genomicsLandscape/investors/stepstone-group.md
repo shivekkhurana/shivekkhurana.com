@@ -1,31 +1,57 @@
 ---
 slug: stepstone-group
 name: StepStone Group
-website: https://www.stepstoneglobal.com
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Private markets investment firm
-lastResearched: 2025-12-01
+website: https://www.stepstonegroup.com
+location: New York, New York, USA
+fundType: pe
+stages: ['growth']
+typicalInvestmentRange: $25M - $250M
+aum: $160B+
+founded: 2007
+description: StepStone Group is a global private markets investment firm providing customized investment solutions to institutional investors. They invest across private equity, infrastructure, private debt, and real estate, with significant exposure to healthcare and life sciences through both fund investments and co-investments.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-StepStone Group is a private markets investment firm that provides access to private equity, venture capital, and other alternative investments.
+StepStone provides institutional investors with access to private markets through fund investments, co-investments, and secondaries. In healthcare, they focus on high-growth companies in healthcare services, healthcare technology, and life sciences. They seek opportunities with strong management teams and clear paths to value creation.
 
-## Notes
+## Team
 
-- Private markets investment firm
-- Venture capital and private equity focus
+### Partners / Managing Directors (Health Focus)
+
+- **Scott Hart** - CEO - https://www.linkedin.com/in/scotthart/
+- **Monte Brem** - Senior Managing Director - https://www.linkedin.com/in/montebrem/
+- **Jason Ment** - Partner - https://www.linkedin.com/in/jasonment/
+
+### Other Key Team Members
+
+- **Johnny Randel** - Managing Director - https://www.linkedin.com/in/johnnyrandel/
+- **Various sector specialists across healthcare and life sciences**
 
 ## Focus Areas
 
-- Private equity
-- Venture capital
-- Alternative investments
+- Healthcare Services
+- Healthcare Technology
+- Digital Health
+- Life Sciences
+- Private Equity Funds
+- Venture Capital Funds
+- Co-investments
 
-## Additional Research Findings
+## Notable Portfolio Companies (Healthcare)
 
-- Investor in Maven Clinic ($125 million funding round, October 2024)
+- **Maven Clinic** - Women's & family health ($125M funding round, October 2024)
+- Various healthcare companies through fund and co-investment exposure
 
+## Recognition
+
+- Publicly traded (NASDAQ: STEP)
+- Top-tier institutional private markets manager
+- Global presence with offices in 20+ countries
+
+## Sources
+
+- StepStone Group website: https://www.stepstonegroup.com
+- SEC filings (NASDAQ: STEP)
+- Crunchbase: https://www.crunchbase.com/organization/stepstone-group

@@ -55,7 +55,7 @@ Major open source projects:
 
 | Name                                                           | Description                                                        | Language   | License    | Sync Engine | Client Bindings | Stars  | Open Issues | Closed Issues |
 | -------------------------------------------------------------- | ------------------------------------------------------------------ | ---------- | ---------- | ----------- | --------------- | ------ | ----------- | ------------- |
-| [Convex](https://github.com/get-convex/convex-backend)         | Apache 2, but uses a custom data format                            | Rust       | Apache 2.0 | Yes         | Yes             | 8,265  | 98          | 85            |
+| [Convex](https://github.com/get-convex/convex-backend)         | FSL, uses a custom data format                                     | Rust       | FSL        | Yes         | Yes             | 8,265  | 98          | 85            |
 | [Electric SQL](https://github.com/electric-sql/electric)       | Postgres plus Sync Engine                                          | Elixir     | Apache 2.0 | Yes         | Yes             | 9,489  | 165         | 725           |
 | [PowerSync](https://github.com/powersync-ja/powersync-service) | Runs on any SQL database                                           | TypeScript | FSL        | Yes         | Yes             | 257    | 20          | 24            |
 | [Jazz](https://github.com/garden-co/jazz)                      | Custom DB                                                          | TypeScript | Apache 2.0 | Yes         | Yes             | 2,218  | 273         | 1,033         |

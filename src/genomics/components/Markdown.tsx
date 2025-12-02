@@ -30,7 +30,7 @@ function Markdown({ content, transforms = {}, className }: MarkdownProps) {
     h2: ({ children, ...props }: PropsWithChildren<any>) => (
       <h2
         {...props}
-        className={clsx('text-xl font-bold mb-3 mt-5', props.className)}
+        className={clsx('text-lg font-bold mb-3 mt-5', props.className)}
       >
         {children}
       </h2>
@@ -38,7 +38,7 @@ function Markdown({ content, transforms = {}, className }: MarkdownProps) {
     h3: ({ children, ...props }: PropsWithChildren<any>) => (
       <h3
         {...props}
-        className={clsx('text-lg font-bold mb-2 mt-4', props.className)}
+        className={clsx('text-base font-bold mb-2 mt-4', props.className)}
       >
         {children}
       </h3>
@@ -46,7 +46,7 @@ function Markdown({ content, transforms = {}, className }: MarkdownProps) {
     h4: ({ children, ...props }: PropsWithChildren<any>) => (
       <h4
         {...props}
-        className={clsx('text-base font-semibold mb-2 mt-3', props.className)}
+        className={clsx('text-sm font-semibold mb-2 mt-3', props.className)}
       >
         {children}
       </h4>
@@ -54,18 +54,10 @@ function Markdown({ content, transforms = {}, className }: MarkdownProps) {
     h5: ({ children, ...props }: PropsWithChildren<any>) => (
       <h5
         {...props}
-        className={clsx('text-sm font-semibold mb-1 mt-2', props.className)}
+        className={clsx('text-xs font-semibold mb-1 mt-2', props.className)}
       >
         {children}
       </h5>
-    ),
-    h6: ({ children, ...props }: PropsWithChildren<any>) => (
-      <h6
-        {...props}
-        className={clsx('text-sm font-medium mb-1 mt-2', props.className)}
-      >
-        {children}
-      </h6>
     ),
     p: ({ children, ...props }: PropsWithChildren<any>) => (
       <p

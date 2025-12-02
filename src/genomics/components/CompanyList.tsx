@@ -1,8 +1,7 @@
-import React, { type PropsWithChildren } from 'react';
 import clsx from 'clsx';
 import type { EnrichedCompany } from '@src/genomics/types';
 
-interface CompanyListProps extends PropsWithChildren {
+interface CompanyListProps {
   companies: EnrichedCompany[];
 }
 
@@ -24,7 +23,7 @@ function CompanyList({ companies }: CompanyListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -35,7 +34,7 @@ function CompanyList({ companies }: CompanyListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -46,7 +45,7 @@ function CompanyList({ companies }: CompanyListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -57,7 +56,7 @@ function CompanyList({ companies }: CompanyListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -80,16 +79,36 @@ function CompanyList({ companies }: CompanyListProps) {
                 'cursor-pointer'
               )}
             >
-              <td className={clsx('py-3', 'px-4')}>
-                <span className={clsx('font-medium')}>{company.name}</span>
+              <td className={clsx('py-3', 'px-0 sm:px-4')}>
+                <a
+                  href={`/genomics-landscape/companies/${company.slug}`}
+                  className={clsx('font-medium', 'hover:underline')}
+                  onClick={(e) => e.stopPropagation()}
+                >
+                  {company.name}
+                </a>
               </td>
-              <td className={clsx('py-3', 'px-4', 'text-sm', 'opacity-70')}>
+              <td
+                className={clsx(
+                  'py-3',
+                  'px-0 sm:px-4',
+                  'text-sm',
+                  'opacity-70'
+                )}
+              >
                 {company.location || '-'}
               </td>
-              <td className={clsx('py-3', 'px-4', 'text-sm', 'opacity-70')}>
+              <td
+                className={clsx(
+                  'py-3',
+                  'px-0 sm:px-4',
+                  'text-sm',
+                  'opacity-70'
+                )}
+              >
                 {company.founded || '-'}
               </td>
-              <td className={clsx('py-3', 'px-4')}>
+              <td className={clsx('py-3', 'px-0 sm:px-4')}>
                 {company.categories && company.categories.length > 0 ? (
                   <div className={clsx('flex flex-wrap gap-1')}>
                     {company.categories.slice(0, 2).map((category: string) => (

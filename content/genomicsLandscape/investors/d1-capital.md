@@ -1,30 +1,54 @@
 ---
 slug: d1-capital
-name: D1 Capital
+name: D1 Capital Partners
 website: https://www.d1cap.com
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Investment firm
-lastResearched: 2025-12-01
+location: New York, USA
+fundType: generalist
+stages: ['series-c', 'growth']
+typicalInvestmentRange: $50M - $500M
+aum: $20B+
+founded: 2018
+description: Investment firm founded by Dan Sundheim (former Viking Global Investors CIO), managing both public and private equity. Known for concentrated positions in high-growth technology and healthcare companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-D1 Capital is an investment firm that invests in both public and private companies.
+D1 Capital Partners takes concentrated positions in exceptional companies across public and private markets, with significant exposure to technology and healthcare. They focus on companies with durable competitive advantages and long runways for growth, including genomics and life science tools companies.
 
-## Notes
+## Team
 
-- Investment firm
-- Public and private investments
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Dan Sundheim** - Founder & Chief Investment Officer - https://www.linkedin.com/in/dansundheim/
+
+### Other Key Team Members
+
+- Investment team with hedge fund and private equity background
 
 ## Focus Areas
 
-- Growth investments
 - Technology
 - Healthcare
+- Genomics
+- Consumer
+- Public Equities
+- Growth Equity
+- Life Science Tools
 
-## Additional Research Findings
+## Notable Exits
 
-- Investor in Ultima Genomics ($600M funding round, June 2022)
+- Long-term holder with focus on growth
+- Public and private market positions
+
+## Portfolio Companies (Healthcare/Biotech)
+
+- Ultima Genomics ($600M funding round, 2022)
+- Significant positions in public biotech companies
+
+## Sources
+
+- https://www.d1cap.com
+- SEC 13F filings
+- Private placement reports
+

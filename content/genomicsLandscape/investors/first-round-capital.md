@@ -2,30 +2,52 @@
 slug: first-round-capital
 name: First Round Capital
 website: https://firstround.com
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Early-stage venture capital firm
-lastResearched: 2025-12-01
+location: San Francisco, USA / New York, USA
+fundType: generalist
+stages: ['seed']
+typicalInvestmentRange: $500K - $3M
+aum: $2B+
+founded: 2004
+description: Premier seed-stage venture capital firm known for backing iconic companies at inception. Pioneered community-driven venture capital with extensive founder resources. Selective healthcare technology investments.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-First Round Capital is an early-stage venture capital firm that invests in technology and healthcare companies.
+First Round Capital focuses exclusively on seed-stage investments, typically being the first institutional investor in companies. While primarily technology-focused, they back healthcare technology companies that use software to transform healthcare delivery. Known for their community approach and extensive founder resources.
 
-## Notes
+## Team
 
-- Early-stage focus
-- Technology and healthcare investments
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Josh Kopelman** - Founder & Partner - https://www.linkedin.com/in/jkopelman/
+- **Bill Trenchard** - Partner - https://www.linkedin.com/in/billtrenchard/
+- **Phin Barnes** - Partner - https://www.linkedin.com/in/phinbarnes/
+- **Todd Jackson** - Partner - https://www.linkedin.com/in/toddjackson/
+
+### Other Key Team Members
+
+- Platform team supporting portfolio companies
 
 ## Focus Areas
 
-- Seed stage
-- Series A
-- Technology
-- Healthcare
+- Enterprise Software
+- Consumer Technology
+- Healthcare Technology
+- Fintech
+- Developer Tools
+- Marketplace
 
-## Additional Research Findings
+## Notable Exits
 
-- Investor in DNAnexus ($15 million Series A, October 2011)
+- **Uber** - IPO (2019, NYSE: UBER)
+- **Square** - IPO (2015, NYSE: SQ)
+- **Notion** - Continued growth
+- **DNAnexus** - $15M Series A (2011) participant
+
+## Sources
+
+- https://firstround.com
+- https://www.crunchbase.com/organization/first-round-capital
+- https://pitchbook.com/profiles/first-round-capital
+

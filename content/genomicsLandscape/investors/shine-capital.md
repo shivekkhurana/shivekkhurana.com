@@ -2,38 +2,49 @@
 slug: shine-capital
 name: Shine Capital
 website: https://www.shinecapital.com
-location: US
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm focusing on innovative technologies and early-stage investments.
-lastResearched: 2025-01-27
+location: New York, New York, USA
+fundType: generalist
+stages: ['seed', 'series-a']
+typicalInvestmentRange: $1M - $10M
+aum: $150M+
+founded: 2019
+description: Shine Capital is an early-stage venture capital firm investing in technology companies across various sectors including healthcare, fintech, and consumer. The firm focuses on backing exceptional founders building transformative companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Shine Capital is a venture capital firm focusing on innovative technologies and early-stage investments across various sectors.
+Shine Capital invests in early-stage companies led by exceptional founders who are building businesses that can transform industries. They take a founder-first approach, providing not just capital but also strategic support and access to their network of entrepreneurs and executives.
 
-## Notes
+## Team
 
-- Participated in $4.1 million fundraising round for VitaDAO (January 2023)
-- Innovative technologies focus
-- Early-stage investments
+### Partners / Managing Directors
+
+- **Caitlin Strandberg** - General Partner - https://www.linkedin.com/in/caitlinstrandberg/
+
+### Other Key Team Members
+
+- **Quentin Brien** - Principal - https://www.linkedin.com/in/quentinbrien/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Technology
-- Innovation
+- Healthcare Technology
+- Fintech
+- Consumer Technology
+- Enterprise Software
+- Web3 & Decentralized Science
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Portfolio Companies (Healthcare/Biotech)
 
-- VitaDAO (longevity research DAO)
+- **VitaDAO** - Decentralized science funding for longevity research
+- Various healthcare technology startups
 
-## Additional Research Findings
+## Notable Exits
 
-- Early-stage focus
-- Innovative technologies
-- Multi-sector approach
+- Portfolio companies are primarily early-stage with exits in progress
+
+## Sources
+
+- Shine Capital website: https://www.shinecapital.com
+- Crunchbase: https://www.crunchbase.com/organization/shine-capital
+- AngelList profile

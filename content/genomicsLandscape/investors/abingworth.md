@@ -2,40 +2,53 @@
 slug: abingworth
 name: Abingworth
 website: https://www.abingworth.com
-location: UK/US
+location: London, UK / Boston, USA
 fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Biotech and life sciences investment firm with presence in both UK and US markets.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $5M - $50M
+aum: $3B+
+founded: 1973
+description: One of the oldest life sciences venture capital firms in the world, with a transatlantic presence investing across therapeutics, diagnostics, and life science tools. Over 50 years of experience in life sciences investing.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Abingworth is a biotech and life sciences investment firm with presence in both UK and US markets, investing across various stages in life sciences companies.
+Abingworth invests globally in life science companies developing breakthrough therapeutic, diagnostic, and medtech innovations. With over 50 years of experience, they focus on companies with strong science and potential for significant clinical and commercial impact. Their transatlantic team brings deep sector expertise and operational experience.
 
-## Notes
+## Team
 
-- Biotech and life sciences focus
-- Transatlantic presence (UK/US)
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Joe Anderson, PhD** - Managing Partner - https://www.linkedin.com/in/joe-anderson-68a7271/
+- **Kurt von Emster** - Managing Partner - https://www.linkedin.com/in/kurt-von-emster-09a6924/
+- **Tim Haines** - Managing Partner - https://www.linkedin.com/in/tim-haines-2833b41/
+- **Stephen Bunting** - Partner - https://www.linkedin.com/in/stephen-bunting-a86b1b4/
 
-- **Joe Anderson, PhD** - Managing Partner
-- **Kurt von Emster** - Managing Partner
+### Other Key Team Members
+
+- **Genghis Lloyd-Harris** - Partner - https://www.linkedin.com/in/genghis-lloyd-harris-a1b8861/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Therapeutics
+- Oncology
+- Rare Diseases
+- Diagnostics
+- Medical Devices
+- Life Science Tools
+- Gene & Cell Therapy
 
-## Additional Research Findings
+## Notable Exits
 
-- Life sciences specialization
-- Strong transatlantic presence
-- Multi-stage investments
+- **Horizon Therapeutics** - Acquired (2023, by Amgen for $27.8B)
+- **Epizyme** - Acquired (2022, by Ipsen for $1.45B)
+- **Ablynx** - Acquired (2018, by Sanofi for €3.9B)
+- **Kite Pharma** - Acquired (2017, by Gilead for $11.9B)
+
+## Sources
+
+- https://www.abingworth.com
+- https://www.crunchbase.com/organization/abingworth
+- https://pitchbook.com/profiles/abingworth
 

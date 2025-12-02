@@ -1,46 +1,58 @@
 ---
 slug: sanofi-ventures
 name: Sanofi Ventures
-website: https://www.sanofi.com/en/about-us/innovation/sanofi-ventures
-location: US
-fundType: corporate-venture
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital arm of Sanofi, investing in biotechnology and healthcare companies.
-lastResearched: 2025-01-27
+website: https://www.sanofi.com/en/partnering/sanofi-ventures
+location: Cambridge, Massachusetts, USA
+fundType: cvc
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $5M - $50M
+aum: $700M+
+founded: 2018
+description: Sanofi Ventures is the strategic venture capital arm of Sanofi, one of the world's largest pharmaceutical companies. The fund invests in innovative biotechnology and healthcare companies across therapeutic areas, with a focus on breakthrough science that could transform patient outcomes.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Sanofi Ventures is the venture capital arm of Sanofi, investing in biotechnology and healthcare companies.
+Sanofi Ventures invests in cutting-edge biotechnology companies developing novel therapeutics across immunology, oncology, rare diseases, and vaccines. The fund provides strategic value beyond capital, offering portfolio companies access to Sanofi's global resources, scientific expertise, and commercial capabilities.
 
-## Notes
+## Team
 
-- Corporate venture capital arm of Sanofi
-- Biotechnology and healthcare focus
-- Strategic investments in innovative therapeutics
+### Partners / Managing Directors
 
-### Partners & Team
+- **Rainer Boehm, MD** - Global Head of Sanofi Ventures - https://www.linkedin.com/in/rainer-boehm-md/
+- **Laurent Choppe** - Managing Director - https://www.linkedin.com/in/laurentchoppe/
+- **Milind Kamkolkar** - Managing Director - https://www.linkedin.com/in/milindkamkolkar/
 
-- **Laurent Choppe** - Head of Sanofi Ventures
-- **James Flynn, MD, PhD** - Managing Partner
+### Other Key Team Members
+
+- **Olivier Blum** - Investment Director - https://www.linkedin.com/in/olivierblum/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Healthcare
-- Therapeutics
+- Immunology
+- Oncology
+- Rare Diseases
+- Vaccines
+- Neurology
+- Gene Therapy
+- Cell Therapy
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Portfolio Companies
 
-- Mirador Therapeutics (precision medicines for immune-related diseases)
+- **Mirador Therapeutics** - Precision medicines for immune-related diseases
+- **Kymera Therapeutics** - Targeted protein degradation (IPO 2020)
+- **Generation Bio** - Non-viral gene therapy
+- **Passage Bio** - Gene therapies for CNS disorders
 
-## Additional Research Findings
+## Notable Exits
 
-- Corporate venture capital
-- Part of Sanofi
-- Biotechnology specialization
-- Strategic investment focus
+- **Kymera Therapeutics** - IPO (2020, NASDAQ: KYMR)
+- **Passage Bio** - IPO (2020, NASDAQ: PASG)
+- **Chinook Therapeutics** - Acquired (2023, acquired by Novartis for $3.2B)
+
+## Sources
+
+- Sanofi Ventures: https://www.sanofi.com/en/partnering/sanofi-ventures
+- Crunchbase: https://www.crunchbase.com/organization/sanofi-ventures
+- PitchBook profile

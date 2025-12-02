@@ -2,31 +2,54 @@
 slug: mayfield
 name: Mayfield
 website: https://www.mayfield.com
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm
-lastResearched: 2025-12-01
+location: Menlo Park, California, USA
+fundType: generalist
+stages: ['seed', 'series-a', 'series-b', 'series-c']
+typicalInvestmentRange: $1M - $50M
+aum: $3B+
+founded: 1969
+description: Mayfield is one of Silicon Valley's oldest and most established venture capital firms, with over 50 years of history. They invest across technology sectors including healthcare and life sciences, backing founders building transformative companies from the earliest stages.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Mayfield is a venture capital firm that invests in technology and healthcare companies across various stages.
+Mayfield partners with exceptional founders at the earliest stages of company building. In healthcare, they focus on companies applying technology to transform healthcare delivery, improve patient outcomes, and enable new modalities of care.
 
-## Notes
+## Team
 
-- Multi-stage venture capital firm
-- Technology and healthcare focus
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Navin Chaddha** - Managing Partner - https://www.linkedin.com/in/navinchaddha/
+- **Tim Chang** - Partner - https://www.linkedin.com/in/timchang/
+- **Rajeev Batra** - Partner - https://www.linkedin.com/in/rajeevbatra/
+
+### Other Key Team Members
+
+- **Investment team with decades of venture experience**
 
 ## Focus Areas
 
-- Early stage
-- Growth stage
-- Technology
-- Healthcare
+- Enterprise technology
+- Consumer technology
+- Healthcare technology
+- Digital health
+- AI/ML applications
+- Infrastructure
 
-## Additional Research Findings
+## Notable Exits
 
-- Potential investor in Helix ($200 million funding round, 2018)
+- **Compaq** - Acquired by HP (2002, $25B)
+- **Genentech** - Early investor (acquired by Roche)
+- **SolarCity** - Acquired by Tesla (2016)
 
+## Notable Healthcare Investments
+
+- **Helix** - Potential investor ($200M round, 2018, population genomics)
+- Multiple healthcare technology investments
+
+## Sources
+
+- https://www.mayfield.com
+- PitchBook
+- Crunchbase

@@ -1,45 +1,54 @@
 ---
 slug: nea
 name: NEA (New Enterprise Associates)
-website: https://www.nea.com/portfolio?category=digital-health
-location: US
-fundType: healthcare-focused
-stages: ["seed", "series-a", "series-b", "series-c", "growth"]
-typicalInvestmentRange: ''
-description: Global venture capital firm investing in technology and healthcare companies. Seed investor in Tempus.
-lastResearched: 2025-01-27
+website: https://www.nea.com
+location: Menlo Park, California, USA
+fundType: generalist
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $1M - $200M+
+aum: $25B+
+founded: 1977
+description: NEA is one of the world's largest and most active venture capital firms, with over 45 years of history. Their healthcare practice is one of the most established in the industry, backing transformative companies across therapeutics, healthcare IT, and medical devices.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-NEA is a global venture capital firm with a focus on technology and healthcare investments. They invest across multiple stages from seed to growth.
+NEA invests in technology and healthcare companies at all stages of growth. Their healthcare strategy spans therapeutics, medical devices, and healthcare IT, focusing on companies that can fundamentally improve patient outcomes and transform healthcare delivery through innovation.
 
-## Notes
+## Team
 
-- Seed investor at Tempus.com
-- Focus on digital health category
-- Global venture capital firm
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Scott Sandell** - Managing General Partner - https://www.linkedin.com/in/scottsandell/
+- **Carmen Chang** - General Partner (Healthcare) - https://www.linkedin.com/in/carmenchang/
+- **Ed Mathers** - Partner (Healthcare) - https://www.linkedin.com/in/edmathers/
+- **Forest Baskett** - General Partner - https://www.linkedin.com/in/forestbaskett/
 
-- **Scott Sandell** - Managing General Partner
-- **Forest Baskett** - General Partner
-- **Carmen Chang** - General Partner (Healthcare)
+### Other Key Team Members
+
+- **Ali Behbahani, MD** - General Partner - https://www.linkedin.com/in/alibehbahani/
+- **Mohamad Makhzoumi** - General Partner - https://www.linkedin.com/in/mohamadmakhzoumi/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Digital Health
-- Technology
+- Therapeutics (oncology, immunology, rare diseases)
+- Digital health
+- Healthcare IT
+- Medical devices
+- Diagnostics
+- Healthcare services
 
-## Portfolio Companies (Healthcare)
+## Notable Exits
 
-- Tempus (seed investor)
+- **Tempus** - IPO (2024, precision medicine AI - seed investor)
+- **Intuitive Surgical** - IPO (surgical robotics)
+- **Immunomedics** - Acquired by Gilead (2020, $21B)
+- **Moderna** - Early investor (mRNA therapeutics)
 
-## Additional Research Findings
+## Sources
 
-- One of the largest venture capital firms globally
-- Strong focus on healthcare and technology sectors
-
+- https://www.nea.com
+- https://www.nea.com/portfolio?category=digital-health
+- PitchBook
+- SEC filings

@@ -2,53 +2,61 @@
 slug: novo-holdings
 name: Novo Holdings
 website: https://www.novoholdings.dk
-location: ''
+location: Hellerup, Denmark
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Holding and investment company of the Novo Nordisk Foundation. Invests in life sciences and biotechnology companies.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $500M+
+aum: $150B+
+founded: 1999
+description: Novo Holdings is the holding and investment company of the Novo Nordisk Foundation, one of the world's largest philanthropic foundations. They are among the largest life sciences investors globally, investing across venture, growth equity, principal investments, and public equities in healthcare.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Novo Holdings is the holding and investment company of the Novo Nordisk Foundation, investing in life sciences and biotechnology companies across various stages.
+Novo Holdings invests in life sciences companies with breakthrough potential across all stages, from seed to public markets. As a long-term investor backed by the Novo Nordisk Foundation, they can provide patient capital and strategic support to companies developing transformative therapies and technologies.
 
-## Notes
+## Team
 
-- Co-led $15 million seed financing for Booster Therapeutics (October 2024) with Apollo Health Ventures
-- Part of Novo Nordisk Foundation
-- Life sciences and biotechnology focus
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Kasim Kutay** - CEO - https://www.linkedin.com/in/kasimkutay/
+- **Søren Møller** - Managing Partner, Novo Seeds - https://www.linkedin.com/in/sorenmoller/
+- **Lars Kongsbak** - Senior Partner - https://www.linkedin.com/in/larskongsbak/
+
+### Other Key Team Members
+
+- **Christian Kjølhede Møller** - Investment Partner - https://www.linkedin.com/in/christiankjoelhedemoeller/
+- **Large global investment team across stages**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Life Sciences
-- Biotechnology
+- Therapeutics (all modalities)
+- Life science tools
+- Healthcare technology
+- Diagnostics
+- Drug discovery
+- Cell and gene therapy
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Investments
 
-- Booster Therapeutics (co-led $15M seed financing, October 2024)
-- Obsidian Therapeutics (engineered cell and gene therapies)
-- AvenCell Therapeutics (universal CAR-T cell therapies)
-- Convergent Therapeutics (radiopharmaceuticals for cancer)
-- Myricx Bio (antibody-drug conjugates)
-- Asceneuron (neurodegenerative disease therapeutics)
-- Kivu Biosciences (neurodegenerative disease treatments)
-- SiteOne Therapeutics (non-opioid pain therapeutics)
-- Arrivent Biopharma (cancer therapies)
-- Zenas Biopharma (autoimmune diseases)
-- MedGenome ($50M investment, August 2022, genomic solutions in South Asia)
-- Sangon Biotech ($290M strategic financing, August 2023, life science tools in China)
-- Asceneuron ($100M Series C, July 2024, Alzheimer's disease therapeutics)
-- Oxford Nanopore Technologies (£50M investment, August 2024, nanopore sequencing)
-- Catalent (acquired $16.5B, December 2024, contract drug manufacturing)
+- **Booster Therapeutics** - Co-led $15M seed (2024)
+- **Obsidian Therapeutics** - Cell and gene therapy
+- **AvenCell Therapeutics** - CAR-T cell therapies
+- **Asceneuron** - $100M Series C (2024, Alzheimer's)
+- **Oxford Nanopore** - £50M investment (2024)
+- **Catalent** - Acquired ($16.5B, 2024)
+- **MedGenome** - $50M investment (2022)
+- **Sangon Biotech** - $290M strategic financing (2023)
 
-## Additional Research Findings
+## Notable Exits
 
-- Part of Novo Nordisk Foundation
-- Life sciences specialization
-- Biotechnology investments
+- **Novo Nordisk** - Major shareholder (diabetes, obesity)
+- **Novozymes** - Major shareholder (now Novonesis)
+- Multiple IPOs and M&A exits annually
 
+## Sources
+
+- https://www.novoholdings.dk
+- Novo Nordisk Foundation annual reports
+- PitchBook

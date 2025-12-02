@@ -1,39 +1,45 @@
 ---
 slug: mubadala-capital
 name: Mubadala Capital
-website: https://www.mubadalacapital.com
-location: UAE
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Investment arm of Mubadala Investment Company. Participated in $290 million funding round for Metsera (April 2024).
-lastResearched: 2025-01-27
+website: https://www.mubadala.com
+location: Abu Dhabi, UAE
+fundType: pe
+stages: ['series-b', 'series-c', 'growth']
+typicalInvestmentRange: $50M - $500M+
+aum: $284B+ (Mubadala Investment Company)
+founded: 2002
+description: Mubadala Capital is the investment arm of Mubadala Investment Company, one of the world's largest sovereign wealth funds. They make strategic investments across sectors including healthcare and life sciences, focusing on growth-stage opportunities with significant scale potential.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Mubadala Capital is the investment arm of Mubadala Investment Company, investing across various sectors including healthcare and biotechnology.
+Mubadala Capital makes strategic investments in companies that align with UAE's economic diversification goals and offer attractive risk-adjusted returns. In healthcare, they focus on growth-stage companies in biotechnology, healthcare services, and healthcare technology with global market potential.
 
-## Notes
+## Team
 
-- Participated in $290 million funding round for Metsera (April 2024)
-- Part of Mubadala Investment Company
-- Multi-sector approach
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Khaldoon Al Mubarak** - CEO, Mubadala - https://www.linkedin.com/in/khaldoonalmubarak/
+- **Investment team spans sectors including healthcare**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Technology
-- Healthcare
+- Healthcare and life sciences
+- Biotechnology
+- Healthcare technology
+- Healthcare services
+- Growth-stage investments
+- Strategic partnerships
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Investments
 
-- Metsera (weight-loss drug developer)
+- **Metsera** - $290M funding round (2024, weight-loss drug developer)
+- Multiple healthcare and life sciences investments globally
+- Strategic partnerships with leading healthcare companies
 
-## Additional Research Findings
+## Sources
 
-- UAE-based investment firm
-- Part of Mubadala Investment Company
-- Healthcare sector investments
+- https://www.mubadala.com
+- Mubadala annual reports
+- PitchBook

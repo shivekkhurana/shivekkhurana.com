@@ -53,7 +53,7 @@ const { investor } = Astro.props as { investor: EnrichedInvestor };
           </a>
         </div>
         <InvestorDetail
-          client:load
+          client:idle
           investor={investor}
         />
       </section>

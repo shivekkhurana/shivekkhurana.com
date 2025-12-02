@@ -1,32 +1,50 @@
 ---
 slug: novartis
-name: Novartis
-website: https://www.novartis.com
-location: ''
-fundType: corporate-venture
-stages: []
-typicalInvestmentRange: ''
-description: Pharmaceutical company with strategic investments and partnerships
-lastResearched: 2025-12-01
+name: Novartis Venture Fund
+website: https://www.nvfund.com
+location: Basel, Switzerland
+fundType: cvc
+stages: ['seed', 'series-a', 'series-b', 'series-c']
+typicalInvestmentRange: $5M - $30M
+aum: $800M+
+founded: 1996
+description: Novartis Venture Fund is the corporate venture capital arm of Novartis, one of the world's largest pharmaceutical companies. They invest in innovative biotech and healthcare technology companies, with particular focus on areas aligned with Novartis's therapeutic interests and strategic priorities.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Novartis is a pharmaceutical company that makes strategic investments and partnerships in gene editing and genomics companies.
+Novartis Venture Fund invests in breakthrough therapeutics and healthcare technologies that can transform patient care. They provide capital alongside strategic partnership opportunities with Novartis's research and commercial organizations, focusing on innovative science with clinical and commercial potential.
 
-## Notes
+## Team
 
-- Pharmaceutical company
-- Strategic investments in biotech
-- Corporate venture activities
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Birgit Tauber, PhD** - Managing Director - https://www.linkedin.com/in/birgittauber/
+- **Anja König, PhD** - Partner - https://www.linkedin.com/in/anjakoenig/
+
+### Other Key Team Members
+
+- **Investment team with deep pharma R&D backgrounds**
 
 ## Focus Areas
 
-- Pharmaceuticals
-- Biotechnology
-- Strategic investments
+- Therapeutics (oncology, immunology, ophthalmology, CNS)
+- Gene therapy and cell therapy
+- Precision medicine
+- Digital therapeutics
+- Healthcare technology
+- Drug discovery platforms
 
-## Additional Research Findings
+## Notable Exits
 
-- Strategic investor in gene editing and genomics companies
+- **Intellia Therapeutics** - IPO (gene editing)
+- **CRISPR Therapeutics** - Early investor (gene editing)
+- Multiple strategic acquisitions by Novartis and others
+- Strong track record in novel therapeutic modalities
 
+## Sources
+
+- https://www.nvfund.com
+- Novartis annual reports
+- PitchBook

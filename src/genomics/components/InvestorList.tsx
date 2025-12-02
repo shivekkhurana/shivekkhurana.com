@@ -1,8 +1,7 @@
-import React, { type PropsWithChildren } from 'react';
 import clsx from 'clsx';
 import type { EnrichedInvestor } from '@src/genomics/types';
 
-interface InvestorListProps extends PropsWithChildren {
+interface InvestorListProps {
   investors: EnrichedInvestor[];
 }
 
@@ -24,7 +23,7 @@ function InvestorList({ investors }: InvestorListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -35,7 +34,7 @@ function InvestorList({ investors }: InvestorListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -46,7 +45,7 @@ function InvestorList({ investors }: InvestorListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -57,7 +56,7 @@ function InvestorList({ investors }: InvestorListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -68,7 +67,7 @@ function InvestorList({ investors }: InvestorListProps) {
               className={clsx(
                 'text-left',
                 'py-3',
-                'px-4',
+                'px-0 sm:px-4',
                 'font-semibold',
                 'text-sm'
               )}
@@ -98,16 +97,36 @@ function InvestorList({ investors }: InvestorListProps) {
                   'cursor-pointer'
                 )}
               >
-                <td className={clsx('py-3', 'px-4')}>
-                  <span className={clsx('font-medium')}>{investor.name}</span>
+                <td className={clsx('py-3', 'px-0 sm:px-4')}>
+                  <a
+                    href={`/genomics-landscape/investors/${investor.slug}`}
+                    className={clsx('font-medium', 'hover:underline')}
+                    onClick={(e) => e.stopPropagation()}
+                  >
+                    {investor.name}
+                  </a>
                 </td>
-                <td className={clsx('py-3', 'px-4', 'text-sm', 'opacity-70')}>
+                <td
+                  className={clsx(
+                    'py-3',
+                    'px-0 sm:px-4',
+                    'text-sm',
+                    'opacity-70'
+                  )}
+                >
                   {investor.location || '-'}
                 </td>
-                <td className={clsx('py-3', 'px-4', 'text-sm', 'opacity-70')}>
+                <td
+                  className={clsx(
+                    'py-3',
+                    'px-0 sm:px-4',
+                    'text-sm',
+                    'opacity-70'
+                  )}
+                >
                   {investor.fundType || '-'}
                 </td>
-                <td className={clsx('py-3', 'px-4')}>
+                <td className={clsx('py-3', 'px-0 sm:px-4')}>
                   {investor.stages && investor.stages.length > 0 ? (
                     <div className={clsx('flex flex-wrap gap-1')}>
                       {investor.stages.slice(0, 2).map((stage: string) => (
@@ -133,7 +152,14 @@ function InvestorList({ investors }: InvestorListProps) {
                     '-'
                   )}
                 </td>
-                <td className={clsx('py-3', 'px-4', 'text-sm', 'opacity-70')}>
+                <td
+                  className={clsx(
+                    'py-3',
+                    'px-0 sm:px-4',
+                    'text-sm',
+                    'opacity-70'
+                  )}
+                >
                   {portfolioCount}
                 </td>
               </tr>

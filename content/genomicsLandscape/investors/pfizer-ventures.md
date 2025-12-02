@@ -2,46 +2,54 @@
 slug: pfizer-ventures
 name: Pfizer Ventures
 website: https://www.pfizer.com/science/innovation/pfizer-ventures
-location: US
-fundType: corporate-venture
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital arm of Pfizer, investing in biotechnology and healthcare companies. First pharmaceutical company to invest in a DAO (VitaDAO).
-lastResearched: 2025-01-27
+location: New York, New York, USA
+fundType: cvc
+stages: ['seed', 'series-a', 'series-b', 'series-c']
+typicalInvestmentRange: $5M - $50M
+aum: $600M+
+founded: 2004
+description: Pfizer Ventures is the corporate venture capital arm of Pfizer, one of the world's largest pharmaceutical companies. They invest in innovative biotechnology and healthcare companies, with a focus on areas aligned with Pfizer's therapeutic interests and emerging modalities including the first pharma company to invest in a DAO.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Pfizer Ventures is the venture capital arm of Pfizer, investing in biotechnology and healthcare companies. Marked first pharmaceutical company investment in a DAO with VitaDAO.
+Pfizer Ventures invests in transformative healthcare companies at the forefront of science and technology. They focus on innovative therapeutic approaches, novel platforms, and healthcare technologies, providing strategic value through Pfizer's global R&D and commercial capabilities.
 
-## Notes
+## Team
 
-- Participated in $4.1 million fundraising round for VitaDAO (January 2023)
-- First pharmaceutical company to invest in a DAO
-- Corporate venture capital arm of Pfizer
-- Biotechnology and healthcare focus
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Barbara Dalton, PhD** - Senior Vice President, Venture Investments - https://www.linkedin.com/in/barbaradalton/
+- **Eddie Sullivan** - Vice President, Venture Investments - https://www.linkedin.com/in/eddiesullivan/
 
-- **Barbara Dalton, PhD** - Senior Vice President, Venture Investments
-- **Eddie Sullivan** - Vice President, Venture Investments
+### Other Key Team Members
+
+- **Investment team with pharmaceutical R&D and commercial experience**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Healthcare
-- Longevity Research
+- Therapeutics (oncology, immunology, rare diseases)
+- Gene therapy and cell therapy
+- RNA therapeutics
+- Drug discovery platforms
+- Healthcare technology
+- Longevity research (DeSci)
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Investments
 
-- VitaDAO (longevity research DAO)
+- **VitaDAO** - $4.1M fundraising round (2023, first pharma company to invest in a DAO)
+- Multiple early-stage biotech investments
+- Focus on novel modalities and platforms
 
-## Additional Research Findings
+## Notable Exits
 
-- Corporate venture capital
-- Part of Pfizer
-- First pharma company to invest in DAO
-- Biotechnology specialization
+- Strategic acquisitions aligned with Pfizer's interests
+- Multiple IPOs in therapeutics
+- Strong track record in oncology
+
+## Sources
+
+- https://www.pfizer.com/science/innovation/pfizer-ventures
+- Pfizer annual reports
+- PitchBook

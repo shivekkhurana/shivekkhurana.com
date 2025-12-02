@@ -2,35 +2,48 @@
 slug: albionvc-healthcare
 name: AlbionVC (Healthcare)
 website: https://www.albion.vc
-location: UK
-fundType: healthtech-life-sciences-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Healthtech and life sciences investment firm investing in innovative healthcare companies in the UK.
-lastResearched: 2025-01-27
+location: London, UK
+fundType: biotech-focused
+stages: ['seed', 'series-a', 'series-b']
+typicalInvestmentRange: £1M - £10M
+aum: £500M+
+founded: 2009
+description: UK-based venture capital firm with dedicated healthcare and life sciences investment focus. Part of the broader Albion Capital Group, investing in innovative UK life sciences companies from early stage through growth.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-AlbionVC (Healthcare) is a healthtech and life sciences investment firm investing in innovative healthcare companies in the UK across various stages.
+AlbionVC Healthcare invests in UK-based life sciences and healthcare companies with differentiated technology platforms and strong intellectual property. They focus on companies that can achieve significant clinical and commercial milestones with their capital, supporting founders from seed through Series B and beyond.
 
-## Notes
+## Team
 
-- Healthtech and life sciences focus
-- UK focus
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Ed Sherwood** - Partner, Healthcare - https://www.linkedin.com/in/edsherwood/
+- **Christoph Sherwood** - Investment Director - https://www.linkedin.com/in/christophsherwood/
+
+### Other Key Team Members
+
+- **Will Fraser-Allen** - Managing Partner - https://www.linkedin.com/in/will-fraser-allen-42b3b39/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Healthtech
-- Life Sciences
-- Healthcare
+- Therapeutics
+- Medical Devices
+- Diagnostics
+- Digital Health
+- Life Science Tools
+- UK Life Sciences
 
-## Additional Research Findings
+## Notable Exits
 
-- Healthtech and life sciences-focused investment firm
-- UK market focus
-- Multi-stage investments
+- Multiple UK life sciences exits and IPOs
+- Strong track record in UK healthcare technology
+
+## Sources
+
+- https://www.albion.vc
+- https://www.crunchbase.com/organization/albion-vc
+- https://pitchbook.com/profiles/albionvc
+

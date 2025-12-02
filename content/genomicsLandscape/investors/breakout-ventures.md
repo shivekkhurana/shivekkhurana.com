@@ -2,41 +2,49 @@
 slug: breakout-ventures
 name: Breakout Ventures
 website: https://www.breakout.vc
-location: US
-fundType: deep-science-focused
+location: San Francisco, USA
+fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b']
-typicalInvestmentRange: ''
-description: Deep science-focused investment firm investing in breakthrough scientific innovations.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $500K - $10M
+aum: $200M+
+founded: 2016
+description: Deep science-focused venture capital firm investing in breakthrough scientific innovations. Originally spun out from the Thiel Foundation's Breakout Labs program, which provides grants to early-stage science companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Breakout Ventures is a deep science-focused investment firm investing in breakthrough scientific innovations, typically at early stages.
+Breakout Ventures invests in early-stage companies commercializing breakthrough scientific innovations, particularly in life sciences, advanced materials, and energy. They focus on funding transformative technologies at the earliest stages when other investors are often unwilling to take the risk.
 
-## Notes
+## Team
 
-- Deep science focus
-- Early-stage investment approach
-- Focus on breakthrough innovations
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Lindy Fishburne** - Co-Founder & Managing Partner - https://www.linkedin.com/in/lindyfishburne/
+- **Julia Moore** - Co-Founder & Managing Partner - https://www.linkedin.com/in/juliahmoore/
 
-- **Lindy Fishburne** - Co-Founder & Managing Partner
-- **Julia Moore** - Co-Founder & Managing Partner
+### Other Key Team Members
+
+- Team with experience in deep tech and scientific venture funding
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
 - Deep Science
 - Biotechnology
 - Life Sciences
+- Advanced Materials
+- Energy Technology
+- Frontier Tech
+- Scientific Translation
 
-## Additional Research Findings
+## Notable Exits
 
-- Deep science-focused investment firm
-- Innovation-driven approach
-- Early-stage focus
+- Portfolio companies advancing from grants to venture funding
+- Multiple successful Series A rounds
+
+## Sources
+
+- https://www.breakout.vc
+- https://breakoutlabs.org (related program)
+- https://www.crunchbase.com/organization/breakout-ventures
 

@@ -2,38 +2,57 @@
 slug: section-32
 name: Section 32
 website: https://section32.com
-location: US
-fundType: healthcare-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm focused on computational genomics and genetic engineering.
-lastResearched: 2025-01-27
+location: Burlingame, California, USA
+fundType: biotech-focused
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $5M - $50M
+aum: $1B+
+founded: 2017
+description: Section 32 is a venture capital firm founded by Bill Maris, the founder of Google Ventures (GV). The firm invests at the intersection of life sciences, healthcare, and frontier technology, with a focus on computational biology, genomics, and AI-driven healthcare solutions.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Section 32 is a venture capital firm focused on computational genomics and genetic engineering, investing in transformative healthcare technologies.
+Section 32 invests in companies leveraging technology to transform healthcare and life sciences. The firm focuses on the convergence of computational biology, artificial intelligence, and healthcare delivery, seeking founders who are building transformative solutions for complex biological and medical challenges.
 
-## Notes
+## Team
 
-- Computational genomics and genetic engineering focus
-- Healthcare technology investments
-- Genomics specialization
+### Partners / Managing Directors
+
+- **Bill Maris** - Founder & Managing Partner - https://www.linkedin.com/in/billmaris/
+- **David Weisman** - Partner - https://www.linkedin.com/in/david-weisman/
+- **Samir Kaul** - Venture Partner - https://www.linkedin.com/in/samirkaul/
+
+### Other Key Team Members
+
+- **Alex Formoso** - Principal - https://www.linkedin.com/in/alexformoso/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
 - Computational Genomics
+- Artificial Intelligence in Healthcare
 - Genetic Engineering
+- Diagnostics
+- Digital Health
+- Drug Discovery
+- Longevity & Aging
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Portfolio Companies
 
-- Verily (precision health)
+- **Verily** - Precision health (Alphabet company)
+- **Freenome** - Early cancer detection through AI
+- **Grail** - Multi-cancer early detection (acquired by Illumina)
+- **Notable Labs** - Predictive precision medicine
+- **Recursion** - AI-driven drug discovery
 
-## Additional Research Findings
+## Notable Exits
 
-- Healthcare technology focus
-- Computational genomics specialization
-- Genetic engineering investments
+- **Grail** - Acquired (2021, acquired by Illumina for $8B)
+- **23andMe** - IPO (2021, NASDAQ: ME via SPAC)
+
+## Sources
+
+- Section 32 website: https://section32.com
+- Crunchbase: https://www.crunchbase.com/organization/section-32
+- TechCrunch articles on Bill Maris and Section 32

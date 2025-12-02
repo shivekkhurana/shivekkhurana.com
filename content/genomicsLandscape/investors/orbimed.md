@@ -2,43 +2,59 @@
 slug: orbimed
 name: OrbiMed
 website: https://www.orbimed.com
-location: US
+location: New York, New York, USA
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Healthcare investment firm investing in healthcare companies across the life cycle, from venture capital to public equity.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $200M+
+aum: $18B+
+founded: 1989
+description: OrbiMed is one of the world's largest healthcare-dedicated investment firms. They invest across the full spectrum of healthcare, from early-stage venture capital to public equities and credit, with deep expertise in biopharmaceuticals, medical devices, and healthcare services.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-OrbiMed is a healthcare investment firm that invests in healthcare companies across the entire life cycle, from venture capital to public equity.
+OrbiMed invests in companies across the healthcare spectrum, from drug discovery to healthcare services. Their multi-stage approach allows them to support companies throughout their lifecycle, from formation through IPO and beyond, bringing deep industry expertise and an extensive network to portfolio companies.
 
-## Notes
+## Team
 
-- Participated in $400 million funding round for Mirador Therapeutics (March 2024)
-- Full lifecycle healthcare investing
-- Healthcare specialization
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Sven Hoppe, MD, PhD** - Managing Partner - https://www.linkedin.com/in/svenhoppe/
+- **Carl Gordon, PhD, CFA** - Managing Partner - https://www.linkedin.com/in/carlgordonphd/
+- **Jonathan Silverstein** - Managing Partner - https://www.linkedin.com/in/jonathansilverstein/
+- **Carter Neild** - Managing Partner - https://www.linkedin.com/in/carterneild/
+- **Geoffrey Hsu** - Managing Partner - https://www.linkedin.com/in/geoffreyhsu/
 
-- **Sven Hoppe, MD, PhD** - Managing Partner
-- **Carter Neild** - Managing Partner
-- **Jonathan Silverstein** - Managing Partner
-- **Geoffrey Hsu** - Managing Partner
-- **Carl Gordon, PhD, CFA** - Managing Partner
+### Other Key Team Members
+
+- **Large global team with offices in NYC, San Francisco, Hong Kong, Mumbai**
+- **Investment team includes MDs, PhDs, former pharma executives**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Healthcare
-- Life Sciences
+- Biopharmaceuticals
 - Biotechnology
+- Medical devices
+- Healthcare services
+- Healthcare IT
+- Diagnostics
+- Life science tools
 
-## Additional Research Findings
+## Notable Investments
 
-- Healthcare-focused investment firm
-- Full lifecycle approach
-- Strong healthcare specialization
+- **Mirador Therapeutics** - $400M funding round (2024)
+- One of the most active healthcare investors globally
+- Strong track record across therapeutic areas
+
+## Notable Exits
+
+- Numerous IPOs annually across biopharma
+- Multiple M&A exits above $1B
+- Leading returns in healthcare venture
+
+## Sources
+
+- https://www.orbimed.com
+- PitchBook
+- SEC filings

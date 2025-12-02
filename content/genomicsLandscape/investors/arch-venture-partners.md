@@ -2,43 +2,56 @@
 slug: arch-venture-partners
 name: ARCH Venture Partners
 website: https://www.archventure.com
-location: US
+location: Chicago, USA
 fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Leading venture capital firm investing in life sciences, physical sciences, and advanced technology companies. Early-stage focus with company-building approach.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $5M - $100M
+aum: $7B+
+founded: 1986
+description: One of the most prolific and successful life sciences venture capital firms, known for company creation and backing transformative scientific innovations. Legendary track record including Illumina, Grail, Unity Biotechnology, and numerous breakthrough companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-ARCH Venture Partners is a leading venture capital firm that invests in early-stage biotechnology, life sciences, physical sciences, and advanced technology companies. They take a company-building approach, often co-founding companies with scientists and entrepreneurs.
+ARCH Venture Partners invests at the intersection of technology and life sciences, with a focus on company creation around breakthrough scientific discoveries. They take a hands-on company-building approach, often co-founding companies with scientists and providing extensive operational support from inception through IPO.
 
-## Notes
+## Team
 
-- Led $400 million funding round for Mirador Therapeutics (March 2024)
-- Early-stage focus with company-building approach
-- Life sciences and biotechnology specialization
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Robert Nelsen** - Co-Founder & Managing Director - https://www.linkedin.com/in/robert-nelsen-04b5b61/
+- **Keith Crandell** - Co-Founder & Managing Director - https://www.linkedin.com/in/keith-crandell-aa93b21/
+- **Kristina Burow** - Managing Director - https://www.linkedin.com/in/kristinaburow/
+- **Clinton Bybee** - Managing Director - https://www.linkedin.com/in/clintonbybee/
 
-- **Robert Nelsen** - Co-Founder & Managing Director
-- **Keith Crandell** - Co-Founder & Managing Director
-- **Clinton Bybee** - Managing Director
-- **Kristina Burow** - Managing Director
+### Other Key Team Members
+
+- **Steve Gillis, PhD** - Managing Director - https://www.linkedin.com/in/steve-gillis-phd-6b28a01/
+- **Bob Tabb** - Managing Director - https://www.linkedin.com/in/bobtabb/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Life Sciences
 - Biotechnology
+- Genomics
+- Life Sciences
 - Physical Sciences
-- Advanced Technology
+- Drug Discovery
+- Platform Technologies
+- Company Creation
 
-## Additional Research Findings
+## Notable Exits
 
-- One of the most active biotech VCs
-- Strong track record in genomics and life sciences
-- Company-building approach
+- **Illumina** - IPO (2000, NASDAQ: ILMN) - founded by ARCH
+- **Grail** - Acquired (2021, by Illumina for $8B)
+- **Juno Therapeutics** - Acquired (2018, by Celgene for $9B)
+- **Kite Pharma** - Acquired (2017, by Gilead for $11.9B)
+- **Unity Biotechnology** - IPO (2018, NASDAQ: UBX)
+- **Alnylam Pharmaceuticals** - IPO (2004, NASDAQ: ALNY)
+
+## Sources
+
+- https://www.archventure.com
+- https://www.crunchbase.com/organization/arch-venture-partners
+- https://pitchbook.com/profiles/arch-venture-partners
+

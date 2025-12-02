@@ -2,47 +2,60 @@
 slug: sequoia-capital
 name: Sequoia Capital
 website: https://www.sequoiacap.com
-location: US
-fundType: healthcare-focused
+location: Menlo Park, California, USA
+fundType: generalist
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: American venture capital firm headquartered in Menlo Park, California, investing across various technology sectors, including healthcare and biotechnology.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $1M - $500M
+aum: $85B+
+founded: 1972
+description: Sequoia Capital is one of the world's most prestigious venture capital firms, with a track record of backing iconic companies including Apple, Google, and WhatsApp. Their healthcare and life sciences practice invests in transformative companies across therapeutics, diagnostics, digital health, and healthcare services.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Sequoia Capital is a venture capital firm investing across various technology sectors, including healthcare and biotechnology. They invest from seed to growth stages.
+Sequoia partners with exceptional founders building enduring companies across all stages. In healthcare and life sciences, they focus on companies that can fundamentally change how diseases are diagnosed, treated, and managed, with particular interest in the convergence of technology and biology.
 
-## Notes
+## Team
 
-- One of the most prominent venture capital firms globally
-- Healthcare and biotechnology investments
-- Multi-stage approach
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Roelof Botha** - Partner (Global Managing Partner) - https://www.linkedin.com/in/roelofbotha/
+- **Luciana Lixandru** - Partner - https://www.linkedin.com/in/lucianalixandru/
+- **Jess Lee** - Partner - https://www.linkedin.com/in/jesslee/
+- **Ravi Gupta** - Partner - https://www.linkedin.com/in/ravigupta/
 
-- **Stephanie Zhan** - Partner (Healthcare)
-- **Luciana Lixandru** - Partner
-- **Ravi Gupta** - Partner
+### Other Key Team Members
+
+- **Andrew Reed** - Partner - https://www.linkedin.com/in/andrew-reed/
+- **Konstantine Buhler** - Partner - https://www.linkedin.com/in/konstantinebuhler/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Technology
-- Healthcare
+- Healthcare Technology
 - Biotechnology
+- Digital Health
+- Diagnostics
+- Healthcare Services
+- AI in Healthcare
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Portfolio Companies (Healthcare/Biotech)
 
-- Guardant Health (liquid biopsy tests for cancer)
-- Natera (genetic testing services)
-- Assurex Health (genetic testing for mental health)
+- **Guardant Health** - Liquid biopsy for cancer detection
+- **Natera** - Genetic testing and cell-free DNA analysis
+- **Tempus** - AI-enabled precision medicine
+- **23andMe** - Consumer genetics
+- **Ro** - Digital health pharmacy
 
-## Additional Research Findings
+## Notable Exits
 
-- Global venture capital firm
-- Strong healthcare and biotech portfolio
-- Multi-stage investments
+- **Guardant Health** - IPO (2018, NASDAQ: GH)
+- **Natera** - IPO (2015, NASDAQ: NTRA)
+- **Nurix Therapeutics** - IPO (2020, NASDAQ: NRIX)
+- **Ginkgo Bioworks** - IPO (2021, NYSE: DNA via SPAC)
+
+## Sources
+
+- Sequoia Capital website: https://www.sequoiacap.com
+- Crunchbase: https://www.crunchbase.com/organization/sequoia-capital
+- Forbes, TechCrunch coverage

@@ -2,41 +2,48 @@
 slug: lightstone-ventures
 name: Lightstone Ventures
 website: https://lightstonevc.com
-location: US/EU
-fundType: medtech-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Investment firm focused on medtech and biotech, with presence in both US and EU markets.
-lastResearched: 2025-01-27
+location: Boston, Massachusetts, USA
+fundType: biotech-focused
+stages: ['seed', 'series-a', 'series-b', 'series-c']
+typicalInvestmentRange: $5M - $30M
+aum: $700M+
+founded: 2012
+description: Lightstone Ventures is a transatlantic life sciences venture capital firm with offices in Boston and London. They focus on therapeutics and medical devices, investing in companies with strong science and clear paths to clinical development.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Lightstone Ventures is an investment firm focused on medtech and biotech, with presence in both US and EU markets, investing across various stages.
+Lightstone Ventures partners with exceptional entrepreneurs building transformative healthcare companies. They focus on therapeutics and medical devices with differentiated science and clear clinical development strategies, bringing deep scientific expertise and operational support across the US and Europe.
 
-## Notes
+## Team
 
-- Medtech and biotech focus
-- Transatlantic presence (US/EU)
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Jason Lettmann** - Managing Partner - https://www.linkedin.com/in/jasonlettmann/
+- **Michael Ross, MD, PhD** - Managing Partner - https://www.linkedin.com/in/michaelrossmd/
+- **Jean-François Formela, MD** - Partner - https://www.linkedin.com/in/jeanfrancoisformela/
 
-- **Jason Lettmann** - Managing Partner
-- **Michael Ross, MD, PhD** - Managing Partner
+### Other Key Team Members
+
+- **John Freund, MD, MBA** - Partner - https://www.linkedin.com/in/johnfreundmd/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Medtech
-- Biotechnology
-- Life Sciences
+- Therapeutics (oncology, immunology)
+- Medical devices
+- Diagnostics
+- Drug discovery platforms
+- Boston life sciences ecosystem
+- European biotech
 
-## Additional Research Findings
+## Notable Exits
 
-- Medtech and biotech specialization
-- Strong transatlantic presence
-- Multi-stage investments
+- Multiple therapeutics and medtech exits through M&A
+- Strong track record in oncology and immunology
 
+## Sources
+
+- https://lightstonevc.com
+- PitchBook
+- Atlas Venture (predecessor)

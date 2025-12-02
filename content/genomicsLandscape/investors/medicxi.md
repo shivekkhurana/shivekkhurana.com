@@ -2,41 +2,50 @@
 slug: medicxi
 name: Medicxi
 website: https://www.medicxi.com
-location: EU
+location: London, United Kingdom
 fundType: biotech-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Biotech-focused investment firm investing in innovative biotechnology companies in Europe.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b', 'series-c']
+typicalInvestmentRange: €5M - €50M
+aum: €800M+
+founded: 2016
+description: Medicxi is a leading European life sciences venture capital firm founded by former partners of Index Ventures. They specialize in therapeutics investments, focusing on companies with innovative science and strong potential for clinical and commercial success.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Medicxi is a biotech-focused investment firm investing in innovative biotechnology companies in Europe across various stages.
+Medicxi invests in innovative therapeutics companies with transformative potential. They focus on companies with differentiated science, experienced management teams, and clear clinical development strategies. Their deep scientific expertise allows them to identify and support breakthrough opportunities.
 
-## Notes
+## Team
 
-- Biotech specialization
-- European focus
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Francesco De Rubertis, PhD** - Partner - https://www.linkedin.com/in/francescoderubertis/
+- **Kevin Johnson** - Partner - https://www.linkedin.com/in/kevinjohnson/
+- **David Grainger, PhD** - Partner - https://www.linkedin.com/in/davidgrainger/
+- **Michèle Ollier** - Partner - https://www.linkedin.com/in/micheleollier/
 
-- **Francesco De Rubertis, PhD** - Partner
-- **Kevin Johnson** - Partner
-- **David Grainger, PhD** - Partner
-- **Michèle Ollier** - Partner
+### Other Key Team Members
+
+- **Science-driven investment team**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Therapeutics (oncology, immunology, rare diseases)
+- Drug discovery
+- Novel modalities
+- European biotech
+- Company creation
+- Platform technologies
 
-## Additional Research Findings
+## Notable Exits
 
-- Biotech-focused investment firm
-- European market focus
-- Multi-stage investments
+- **Novimmune** - Acquired by Aptinyx and others
+- **Amryt Pharma** - IPO (rare diseases)
+- Strong track record of biotech exits through M&A and IPOs
+
+## Sources
+
+- https://www.medicxi.com
+- PitchBook
+- European biotech news

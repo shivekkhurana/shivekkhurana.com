@@ -2,31 +2,49 @@
 slug: general-atlantic
 name: General Atlantic
 website: https://www.generalatlantic.com
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Global growth equity firm
-lastResearched: 2025-12-01
+location: New York, New York, USA
+fundType: pe
+stages: ['growth']
+typicalInvestmentRange: $100M - $1B+
+aum: $84B+
+founded: 1980
+description: General Atlantic is a leading global growth equity firm providing capital and strategic support for growth companies. Their healthcare practice invests in life sciences, healthcare services, and healthcare technology companies at the growth stage, with a focus on transformative businesses.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-General Atlantic is a global growth equity firm that invests in companies across various sectors including technology, healthcare, and life sciences.
+General Atlantic focuses on growth-stage investments in healthcare companies that are transforming their industries through technology and innovation. They target companies with proven business models seeking capital to scale globally, typically investing $100M+ in late-stage rounds.
 
-## Notes
+## Team
 
-- Global growth equity firm
-- Invests across multiple sectors
-- Healthcare and life sciences focus
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Robbert Vorhoff** - Managing Director, Healthcare - https://www.linkedin.com/in/robbert-vorhoff/
+- **Anton Levy** - Co-President & Managing Director - https://www.linkedin.com/in/antonlevy/
+- **Martín Escobari** - Co-President & Managing Director - https://www.linkedin.com/in/martinescobari/
+
+### Other Key Team Members
+
+- **Jeff Klinger** - Vice President, Healthcare - https://www.linkedin.com/in/jeffklinger/
 
 ## Focus Areas
 
-- Growth equity
-- Technology
-- Healthcare
+- Healthcare technology
 - Life sciences
+- Healthcare services
+- Precision medicine
+- Digital health
+- Biopharma services
 
-## Additional Research Findings
+## Notable Exits
 
-- Investor in Ultima Genomics ($600M funding round, June 2022)
+- **Veracyte** - Public company (diagnostics)
+- **Livongo** - Acquired by Teladoc (2020, $18.5B)
+- **Alignment Healthcare** - IPO (2021)
+
+## Sources
+
+- https://www.generalatlantic.com
+- PitchBook
+- Crunchbase

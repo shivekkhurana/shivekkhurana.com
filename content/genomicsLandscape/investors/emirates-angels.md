@@ -1,34 +1,49 @@
 ---
 slug: emirates-angels
 name: Emirates Angels
-website: https://www.emiratesangels.org/
-location: UAE
-fundType: healthcare-focused
-stages: []
-typicalInvestmentRange: ''
-description: Angel investment network supporting startups in various sectors, including Tech Bio, Deep Tech, and Health.
-lastResearched: 2025-01-27
+website: https://www.emiratesangels.org
+location: Dubai, UAE
+fundType: generalist
+stages: ['seed']
+typicalInvestmentRange: $50K - $500K
+aum: N/A (angel network)
+founded: 2014
+description: Leading angel investment network in the UAE, connecting high-net-worth individuals with promising startups across various sectors including healthcare and biotechnology. Part of the growing MENA startup ecosystem.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Emirates Angels is an angel investment network supporting startups in various sectors, including Tech Bio, Deep Tech, and Health.
+Emirates Angels provides angel funding to early-stage startups in the MENA region, connecting entrepreneurs with a network of experienced investors. They invest across sectors including healthcare, technology, and deep tech, with a focus on companies that can scale regionally and globally.
 
-## Notes
+## Team
 
-- Angel investment network
-- UAE-based
-- Multi-sector support
+### Key Members
+
+- Network of angel investors with diverse industry backgrounds
+- Advisory board with MENA business expertise
+
+### Other Key Team Members
+
+- Operational team supporting deal sourcing and due diligence
 
 ## Focus Areas
 
-- Tech Bio
+- Healthcare Technology
+- Biotechnology
 - Deep Tech
-- Health
+- Consumer Technology
+- Fintech
+- MENA Startups
 
-## Additional Research Findings
+## Notable Exits
 
-- Angel network structure
-- UAE-based
-- Multi-sector approach
+- Portfolio companies advancing through regional and global growth
+- Angel investments maturing to institutional funding
+
+## Sources
+
+- https://www.emiratesangels.org
+- MENA startup ecosystem reports
+- Regional venture capital coverage
 

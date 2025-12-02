@@ -2,40 +2,57 @@
 slug: perceptive-advisors
 name: Perceptive Advisors
 website: https://www.perceptivelife.com
-location: US
-fundType: life-sciences-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Life sciences investment firm focused on investing in innovative life sciences companies.
-lastResearched: 2025-01-27
+location: New York, New York, USA
+fundType: biotech-focused
+stages: ['series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $25M - $200M+
+aum: $10B+
+founded: 1999
+description: Perceptive Advisors is one of the largest dedicated healthcare investment managers in the world. They invest across the full capital structure, from venture to public equities and credit, with deep expertise in biopharmaceuticals and a strong track record of backing successful therapeutics companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Perceptive Advisors is a life sciences investment firm focused on investing in innovative life sciences companies across various stages.
+Perceptive Advisors invests in innovative healthcare companies across all stages and structures. Their multi-strategy approach allows them to provide flexible capital solutions, from early-stage venture investments through public market support, backed by deep scientific and commercial expertise.
 
-## Notes
+## Team
 
-- Life sciences specialization
-- Multi-stage investment approach
-- Focus on innovative companies
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Joseph Edelman** - Founder & CEO - https://www.linkedin.com/in/josephedelman/
+- **James Flynn, MD, PhD** - Managing Partner - https://www.linkedin.com/in/jamesflynnmd/
+- **Adam Stone** - Partner - https://www.linkedin.com/in/adamstone/
 
-- **Joseph Edelman** - Founder & CEO
-- **James Flynn, MD, PhD** - Managing Partner
+### Other Key Team Members
+
+- **Large investment team with scientific and financial backgrounds**
+- **Global presence with expertise across therapeutic areas**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Life Sciences
+- Biopharmaceuticals
 - Biotechnology
+- Medical devices
+- Healthcare services
+- Diagnostics
+- Life science tools
+- Healthcare technology
 
-## Additional Research Findings
+## Notable Investments
 
-- Life sciences-focused investment firm
-- Innovation-driven approach
-- Multi-stage investments
+- One of the most active healthcare crossover investors
+- Major positions in leading biotech companies
+- Strong track record across therapeutic areas
 
+## Notable Exits
+
+- Numerous successful IPOs in biopharma
+- Multiple M&A exits
+- Leading healthcare hedge fund returns
+
+## Sources
+
+- https://www.perceptivelife.com
+- SEC 13F filings
+- PitchBook

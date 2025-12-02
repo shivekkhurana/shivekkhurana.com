@@ -1,30 +1,53 @@
 ---
 slug: vg-acquisition-corp
 name: VG Acquisition Corp
-website: ''
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: SPAC (Special Purpose Acquisition Company) backed by Richard Branson's Virgin Group
-lastResearched: 2025-12-01
+website: N/A (dissolved after merger)
+location: New York, New York, USA
+fundType: generalist
+stages: ['growth']
+typicalInvestmentRange: $500M+ (SPAC)
+aum: $600M (at IPO)
+founded: 2019
+description: VG Acquisition Corp was a Special Purpose Acquisition Company (SPAC) sponsored by Virgin Group and Social Capital. The SPAC successfully merged with 23andMe in February 2021, taking the consumer genetics company public at a $3.5 billion valuation. The entity no longer operates as a separate investment vehicle.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-VG Acquisition Corp was a SPAC (Special Purpose Acquisition Company) backed by Richard Branson's Virgin Group, used to take 23andMe public in February 2021.
+VG Acquisition Corp was formed to identify and merge with a high-growth company in the consumer, technology, or healthcare sectors. The SPAC targeted companies that could benefit from Virgin Group's brand, consumer focus, and operational expertise.
 
-## Notes
+## Team (at time of SPAC)
 
-- SPAC backed by Richard Branson
-- Used for 23andMe public listing
+### Sponsors & Board
 
-## Focus Areas
+- **Richard Branson** - Founder, Virgin Group - https://www.linkedin.com/in/richardbranson/
+- **Chamath Palihapitiya** - Founder, Social Capital - https://www.linkedin.com/in/chamath/
+- **Evan Lovell** - Chief Investment Officer, Virgin Group
 
-- SPAC transactions
-- Public listings
+## SPAC Details
 
-## Additional Research Findings
+- **IPO Date**: October 2019
+- **IPO Size**: ~$600 million raised
+- **Target Sector**: Consumer, technology, healthcare
+- **Successful Merger**: 23andMe (February 2021)
 
-- Took 23andMe public via SPAC merger in February 2021, valuing the company at $3.5 billion
+## Notable Transaction
 
+### 23andMe Merger (February 2021)
+
+- **Valuation**: $3.5 billion
+- **Company**: 23andMe - Consumer genetics and drug discovery
+- **Trading Symbol**: Post-merger traded as ME on NASDAQ
+- **Significance**: Brought one of the leading consumer genetics companies to public markets
+
+## Post-Merger Status
+
+- VG Acquisition Corp ceased to exist as a separate entity after the 23andMe merger
+- 23andMe (NASDAQ: ME) continues to operate as a public company
+- 23andMe has since faced challenges with stock price decline and data privacy concerns
+
+## Sources
+
+- SEC filings (S-1, merger proxy)
+- Bloomberg, CNBC coverage of 23andMe SPAC merger
+- Virgin Group announcements

@@ -2,29 +2,53 @@
 slug: oak-hc-ft
 name: Oak HC/FT
 website: https://www.oakhcft.com
-location: ''
-fundType: healthcare-focused
-stages: []
-typicalInvestmentRange: ''
-description: Healthcare and financial technology focused venture capital firm
-lastResearched: 2025-12-01
+location: Greenwich, Connecticut, USA
+fundType: generalist
+stages: ['series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $20M - $150M
+aum: $4.5B+
+founded: 2014
+description: Oak HC/FT is a growth equity firm focused exclusively on healthcare and financial services technology. They partner with exceptional entrepreneurs building transformative companies in healthcare IT, fintech, and healthcare services.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Oak HC/FT is a venture capital firm focused on healthcare and financial technology companies.
+Oak HC/FT invests in growth-stage companies transforming healthcare and financial services through technology. In healthcare, they focus on companies improving care delivery, increasing access, reducing costs, and enabling better outcomes through innovative business models and technology.
 
-## Notes
+## Team
 
-- Healthcare and financial technology focus
-- Growth-stage investments
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Annie Lamont** - Co-Founder & Managing Partner - https://www.linkedin.com/in/annielamont/
+- **Andrew Adams** - Managing Partner - https://www.linkedin.com/in/andrewadamsoakhcft/
+- **Patricia Kemp** - General Partner - https://www.linkedin.com/in/patriciakemp/
+
+### Other Key Team Members
+
+- **Allen Miller** - General Partner - https://www.linkedin.com/in/allenmiller/
+- **Nancy Brown** - Operating Partner - https://www.linkedin.com/in/nancybrown/
 
 ## Focus Areas
 
-- Healthcare
-- Financial technology
 - Digital health
+- Healthcare services
+- Healthcare IT
+- Value-based care
+- Women's health
+- Mental health
+- Healthcare payments
 
-## Additional Research Findings
+## Notable Investments & Exits
 
-- Investor in Maven Clinic ($125 million funding round, October 2024)
+- **Maven Clinic** - $125M funding round (2024, women's health)
+- **Oscar Health** - IPO (2021)
+- **Alignment Healthcare** - IPO (2021)
+- **Devoted Health** - Medicare Advantage
+- **Signify Health** - Acquired by CVS (2022, $8B)
+
+## Sources
+
+- https://www.oakhcft.com
+- PitchBook
+- TechCrunch

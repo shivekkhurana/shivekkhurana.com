@@ -2,47 +2,57 @@
 slug: atlas-venture
 name: Atlas Venture
 website: https://www.atlasventure.com
-location: US
+location: Cambridge, USA
 fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b']
-typicalInvestmentRange: ''
-description: Venture capital firm focused on early-stage biotechnology and life sciences companies.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $5M - $50M
+aum: $2B+
+founded: 1980
+description: Premier early-stage biotech venture capital firm focused on company creation. One of the most experienced biotech VCs with over 40 years of track record, known for building companies from scientific ideas to clinical success.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Atlas Venture is a venture capital firm focused on early-stage biotechnology and life sciences companies, with a strong track record in company creation.
+Atlas Venture focuses exclusively on biotechnology company creation, working with scientists to build companies from the earliest stages. They take a thesis-driven approach, identifying breakthrough science and building leadership teams to translate discoveries into transformative medicines.
 
-## Notes
+## Team
 
-- Early-stage biotechnology focus
-- Life sciences specialization
-- Company creation approach
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Bruce Booth, PhD** - Partner - https://www.linkedin.com/in/bruceabooth/
+- **Kevin Bitterman, PhD** - Partner - https://www.linkedin.com/in/kevinbitterman/
+- **Jean-François Formela, MD** - Partner - https://www.linkedin.com/in/jfformela/
+- **Michael Gladstone** - Partner - https://www.linkedin.com/in/michaelgladstone/
+- **David Grayzel, MD** - Partner - https://www.linkedin.com/in/davidgrayzel/
+- **Jason Rhodes, PhD** - Partner - https://www.linkedin.com/in/jasonrhodes/
 
-- **Kevin Bitterman** - Partner
-- **Bruce Booth** - Partner
-- **Jean-Francois Formela** - Partner
-- **Michael Gladstone** - Partner
-- **David Grayzel** - Partner
-- **Jason Rhodes** - Partner
+### Other Key Team Members
+
+- Company creation team with deep drug development expertise
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
 - Biotechnology
-- Life Sciences
+- Therapeutics
+- Oncology
+- Immunology
+- Genetic Medicines
+- Rare Diseases
+- Company Creation
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Exits
 
-- Intellia Therapeutics (CRISPR/Cas9 therapeutics)
+- **Intellia Therapeutics** - IPO (2016, NASDAQ: NTLA) - CRISPR/Cas9 pioneer
+- **Nimbus Therapeutics** - Sale of assets to Gilead ($400M+)
+- **Synlogic** - IPO (2017, NASDAQ: SYBX)
+- **Bluebird Bio** - IPO (2013, NASDAQ: BLUE)
+- **Agios Pharmaceuticals** - IPO (2013, NASDAQ: AGIO)
 
-## Additional Research Findings
+## Sources
 
-- Early-stage focus
-- Biotechnology specialization
-- Strong company creation track record
+- https://www.atlasventure.com
+- https://lifescivc.com (Bruce Booth's blog)
+- https://www.crunchbase.com/organization/atlas-venture
+- https://pitchbook.com/profiles/atlas-venture
+

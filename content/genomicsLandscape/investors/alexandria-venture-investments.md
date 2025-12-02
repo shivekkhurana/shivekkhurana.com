@@ -1,41 +1,52 @@
 ---
 slug: alexandria-venture-investments
 name: Alexandria Venture Investments
-website: https://www.alexandriavc.com
-location: US
-fundType: corporate-venture
-stages: []
-typicalInvestmentRange: ''
-description: Strategic venture capital arm of Alexandria Real Estate Equities, investing in life science companies.
-lastResearched: 2025-01-27
+website: https://www.are.com/venture-investments.html
+location: Pasadena, USA
+fundType: cvc
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $5M - $50M
+aum: $1.8B+
+founded: 2006
+description: Strategic venture capital arm of Alexandria Real Estate Equities (NYSE - ARE), the leading life science real estate company. Invests in life science companies, often current or prospective tenants of Alexandria's innovation campuses.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Alexandria Venture Investments is the strategic venture capital arm of Alexandria Real Estate Equities, investing in life science companies that align with their real estate portfolio.
+Alexandria Venture Investments provides strategic capital to life science companies across all stages, with a focus on companies that align with Alexandria's real estate ecosystem. They leverage their unique position as both landlord and investor to provide companies with capital, lab space, and access to their extensive network of life science companies and talent.
 
-## Notes
+## Team
 
-- Company with Venture ARM
-- Portfolio: https://www.are.com/venture-investments.html
-- Strategic venture capital arm
-- Life science focus
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Joel S. Marcus** - Executive Chairman & Founder - https://www.linkedin.com/in/joel-marcus-62b5691/
+- **Peter Moglia** - Co-CEO & CIO - https://www.linkedin.com/in/peter-moglia-75b3a21/
+- **Aaron Jacobson** - Managing Director, Venture Investments - https://www.linkedin.com/in/aaronjacobson/
 
-- **Joel Marcus** - Executive Chairman & Founder
-- **Aaron Jacobson** - Managing Director
+### Other Key Team Members
+
+- **Dean Shigenaga** - President - https://www.linkedin.com/in/dean-shigenaga-8a08051/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Life Sciences
+- Therapeutics
+- Life Science Tools
+- Diagnostics
+- Digital Health
+- Medical Devices
+- Synthetic Biology
+- Cell & Gene Therapy
 
-## Additional Research Findings
+## Notable Exits
 
-- Corporate venture capital
-- Part of Alexandria Real Estate Equities
-- Life science specialization
+- **Adaptive Biotechnologies** - IPO (2019, NASDAQ: ADPT)
+- **Grail** - Acquired (2021, by Illumina)
+- **Denali Therapeutics** - IPO (2017, NASDAQ: DNLI)
+- **Agios Pharmaceuticals** - IPO (2013, NASDAQ: AGIO)
 
+## Sources
+
+- https://www.are.com/venture-investments.html
+- https://www.crunchbase.com/organization/alexandria-venture-investments
+- Alexandria Real Estate Equities SEC Filings

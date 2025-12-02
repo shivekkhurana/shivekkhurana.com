@@ -2,41 +2,50 @@
 slug: gilde-healthcare
 name: Gilde Healthcare
 website: https://gildehealthcare.com
-location: EU
-fundType: healthcare-medtech-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Healthcare and medtech investment firm investing in innovative healthcare companies in Europe.
-lastResearched: 2025-01-27
+location: Utrecht, Netherlands
+fundType: biotech-focused
+stages: ['series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: €5M - €50M
+aum: €1.2B+
+founded: 2001
+description: Gilde Healthcare is a leading European venture capital and growth equity firm focused exclusively on healthcare. They invest in therapeutics, medtech, and digital health companies, with a strong presence in the European healthcare innovation ecosystem.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Gilde Healthcare is a healthcare and medtech investment firm investing in innovative healthcare companies in Europe across various stages.
+Gilde Healthcare focuses on healthcare companies with differentiated technology or approaches that can significantly improve patient outcomes. They invest across therapeutics, medical devices, diagnostics, and digital health, with a preference for European companies while also investing globally.
 
-## Notes
+## Team
 
-- Healthcare and medtech focus
-- European focus
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Pieter van der Meer, PhD** - Managing Partner - https://www.linkedin.com/in/pietervandermeer/
+- **Geert Duyck** - Partner - https://www.linkedin.com/in/geertduyck/
+- **Johan Körver** - Partner - https://www.linkedin.com/in/johankorver/
+- **Rolf Sobel** - Partner - https://www.linkedin.com/in/rolfsobel/
 
-- **Pieter van der Meer, PhD** - Partner
-- **Geert Duyck** - Partner
-- **Johan Körver** - Partner
+### Other Key Team Members
+
+- **Jasper Bos** - Partner - https://www.linkedin.com/in/jasperbos/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Healthcare
-- Medtech
-- Life Sciences
+- Therapeutics (oncology, CNS, rare diseases)
+- Medical devices
+- Diagnostics
+- Digital health
+- Healthcare services
+- European healthcare innovation
 
-## Additional Research Findings
+## Notable Exits
 
-- Healthcare and medtech-focused investment firm
-- European market focus
-- Multi-stage investments
+- **Acerta Pharma** - Acquired by AstraZeneca (2016, $7B total)
+- **Kite Pharma Europe** - Part of Kite/Gilead acquisition
+- **AM-Pharma** - Multiple exits
+
+## Sources
+
+- https://gildehealthcare.com
+- PitchBook
+- Company press releases

@@ -2,29 +2,50 @@
 slug: dragoneer-investment-group
 name: Dragoneer Investment Group
 website: https://www.dragoneer.com
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Growth equity investment firm
-lastResearched: 2025-12-01
+location: San Francisco, USA
+fundType: generalist
+stages: ['series-c', 'growth']
+typicalInvestmentRange: $50M - $500M
+aum: $25B+
+founded: 2012
+description: Growth equity firm founded by Marc Stad (former Tiger Global partner), investing in high-growth technology and healthcare companies. Known for taking significant positions in category-defining companies at growth stage.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Dragoneer Investment Group is a growth equity investment firm that invests in technology and healthcare companies.
+Dragoneer focuses on growth-stage investments in category-defining technology and healthcare companies. They take concentrated, long-term positions in companies with strong network effects, recurring revenue, and potential for durable competitive advantage. In healthcare, they back digital health and healthcare technology platforms.
 
-## Notes
+## Team
 
-- Growth equity focus
-- Technology and healthcare investments
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Marc Stad** - Founder & Managing Partner - https://www.linkedin.com/in/marcstad/
+- **Tony Bates** - Partner - https://www.linkedin.com/in/tonybates/
+
+### Other Key Team Members
+
+- Investment team with public and private market expertise
 
 ## Focus Areas
 
-- Growth equity
+- Growth Equity
 - Technology
-- Healthcare
+- Digital Health
+- Healthcare Technology
+- Consumer
+- Fintech
+- Enterprise Software
 
-## Additional Research Findings
+## Notable Exits
 
-- Investor in Maven Clinic ($125 million funding round, October 2024)
+- **Maven Clinic** - $125M funding round (2024) participant
+- **Docusign** - IPO (2018, NASDAQ: DOCU)
+- Multiple technology growth investments
+
+## Sources
+
+- https://www.dragoneer.com
+- https://www.crunchbase.com/organization/dragoneer-investment-group
+- SEC filings
+

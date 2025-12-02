@@ -2,41 +2,53 @@
 slug: foresite-capital
 name: Foresite Capital
 website: https://foresitecapital.com
-location: US
+location: San Francisco, USA
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Healthcare investment firm focused on precision medicine and genomic therapeutics.
-lastResearched: 2025-01-27
+stages: ['series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $100M
+aum: $5B+
+founded: 2011
+description: Healthcare investment firm founded by Jim Tananbaum (GreenLight Biosciences, Theravance founder), focused on precision medicine, genomics, and transformative healthcare companies. Deep expertise across therapeutics, diagnostics, and healthcare services.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Foresite Capital is a healthcare investment firm focused on precision medicine and genomic therapeutics, investing across the healthcare spectrum.
+Foresite Capital invests across the healthcare spectrum with a focus on precision medicine, genomics, and data-driven healthcare companies. They take concentrated positions in companies with transformative potential, leveraging their team's deep operating experience and scientific expertise.
 
-## Notes
+## Team
 
-- Precision medicine and genomic therapeutics focus
-- Healthcare investment firm
-- Strong genomics portfolio
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Jim Tananbaum, MD** - Founder & CEO - https://www.linkedin.com/in/jim-tananbaum-md-mba-5621781/
+- **Dennis Ryan** - Managing Director - https://www.linkedin.com/in/dennis-ryan-4651b51/
+- **Michael Rome** - Managing Director - https://www.linkedin.com/in/michael-rome-8b48931/
+- **Matt Portnoy** - Managing Director - https://www.linkedin.com/in/matthew-portnoy-7b52b51/
 
-- **Jim Tananbaum, MD** - Founder & CEO
-- **Dennis Ryan** - Managing Director
-- **Michael Rome** - Managing Director
-- **Matt Portnoy** - Managing Director
+### Other Key Team Members
+
+- Investment team with MD/PhD expertise
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
 - Precision Medicine
-- Genomic Therapeutics
+- Genomics
+- Therapeutics
+- Diagnostics
+- Healthcare Technology
+- Life Science Tools
+- Data-Driven Healthcare
 
-## Additional Research Findings
+## Notable Exits
 
-- Healthcare-focused investment firm
-- Precision medicine specialization
-- Strong genomics track record
+- **Guardant Health** - IPO (2018, NASDAQ: GH) - liquid biopsy leader
+- **Grail** - Acquired (2021, by Illumina for $8B)
+- **Adaptive Biotechnologies** - IPO (2019, NASDAQ: ADPT)
+- **10x Genomics** - IPO (2019, NASDAQ: TXG)
+
+## Sources
+
+- https://foresitecapital.com
+- https://www.crunchbase.com/organization/foresite-capital
+- https://pitchbook.com/profiles/foresite-capital
+

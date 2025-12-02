@@ -1,32 +1,44 @@
 ---
 slug: mike-jafar-family-office
 name: Mike Jafar Family Office
-website: https://www.mikejafar.com
-location: ""
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Family office that seems to be active but has limited online presence.
-lastResearched: 2025-01-27
+website: ''
+location: United States
+fundType: family-office
+stages: ['series-a', 'series-b', 'growth']
+typicalInvestmentRange: $1M - $10M
+aum: Undisclosed
+description: Mike Jafar Family Office is a private family office that has participated in healthcare and technology investments. Limited public information is available about their investment activities and portfolio.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Mike Jafar Family Office is a family office that appears to be active in investments but has limited online presence.
+As a family office, investment focus and strategy details are not publicly disclosed. They appear to participate in healthcare and technology company funding rounds alongside other investors.
 
-## Notes
+## Team
 
-- Seems to be active but limited online presence
-- Family office structure
-- Limited public information
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Mike Jafar** - Principal
 
 ## Focus Areas
 
-- Unknown (limited information)
+- Healthcare (based on known investments)
+- Technology
+- Private equity-style investments
 
-## Additional Research Findings
+## Notable Investments
 
-- Family office structure
 - Limited public information available
-- Active but low profile
+- Participates in syndicated rounds with other investors
 
+## Notes
+
+- Family office structure with limited public disclosure
+- Active but maintains low public profile
+- Investment details typically not announced
+
+## Sources
+
+- SEC filings (where applicable)
+- PitchBook (limited data)

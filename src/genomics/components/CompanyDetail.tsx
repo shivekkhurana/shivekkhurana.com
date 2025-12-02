@@ -10,49 +10,121 @@ interface CompanyDetailProps extends PropsWithChildren {
 }
 
 function CompanyDetail({ company, investors }: CompanyDetailProps) {
+  // Count unique investors
+  const uniqueInvestors = new Set(
+    company.investments.map((inv) => inv.investorSlug).filter(Boolean)
+  );
+  const investorCount = uniqueInvestors.size;
+
   return (
     <div
       id={`company-${company.slug}`}
       className={clsx('mb-6', 'bg-white')}
     >
-      <div className={clsx('mb-4')}>
-        <h3 className={clsx('text-xl font-bold', 'mb-2')}>{company.name}</h3>
-        {company.website && (
-          <a
-            href={company.website}
-            target="_blank"
-            rel="noopener noreferrer"
+      {/* Header Section */}
+      <div className={clsx('mb-6', 'pb-6', 'border-b border-gray-200')}>
+        <h1 className={clsx('text-3xl font-bold', 'mb-4')}>{company.name}</h1>
+
+        {/* Key Info Grid */}
+        <div className={clsx('grid grid-cols-1 md:grid-cols-2 gap-4', 'mb-4')}>
+          {company.website && (
+            <div>
+              <div
+                className={clsx(
+                  'text-xs',
+                  'opacity-50',
+                  'mb-1',
+                  'uppercase tracking-wide'
+                )}
+              >
+                Website
+              </div>
+              <a
+                href={company.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={clsx(
+                  'text-sm text-black',
+                  'hover:underline',
+                  'break-all'
+                )}
+              >
+                {company.website}
+              </a>
+            </div>
+          )}
+          {company.location && (
+            <div>
+              <div
+                className={clsx(
+                  'text-xs',
+                  'opacity-50',
+                  'mb-1',
+                  'uppercase tracking-wide'
+                )}
+              >
+                Location
+              </div>
+              <div className={clsx('text-sm')}>{company.location}</div>
+            </div>
+          )}
+          {company.founded && (
+            <div>
+              <div
+                className={clsx(
+                  'text-xs',
+                  'opacity-50',
+                  'mb-1',
+                  'uppercase tracking-wide'
+                )}
+              >
+                Founded
+              </div>
+              <div className={clsx('text-sm')}>{company.founded}</div>
+            </div>
+          )}
+          {investorCount > 0 && (
+            <div>
+              <div
+                className={clsx(
+                  'text-xs',
+                  'opacity-50',
+                  'mb-1',
+                  'uppercase tracking-wide'
+                )}
+              >
+                Investors
+              </div>
+              <div className={clsx('text-sm', 'font-medium')}>
+                {investorCount}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* Description */}
+        {company.description && (
+          <p
             className={clsx(
-              'text-sm text-black',
-              'hover:underline',
-              'block mb-2'
+              'text-base leading-relaxed',
+              'mb-4',
+              'text-gray-700'
             )}
           >
-            {company.website}
-          </a>
+            {company.description}
+          </p>
         )}
-        {company.location && (
-          <div className={clsx('text-sm opacity-60', 'mb-2')}>
-            {company.location}
-          </div>
-        )}
-        {company.founded && (
-          <div className={clsx('text-sm opacity-60', 'mb-2')}>
-            Founded: {company.founded}
-          </div>
-        )}
-        {company.description && (
-          <p className={clsx('text-sm', 'mb-2')}>{company.description}</p>
-        )}
+
+        {/* Tags Section */}
         {company.categories && company.categories.length > 0 && (
-          <div className={clsx('flex flex-wrap gap-2', 'mb-2')}>
+          <div className={clsx('flex flex-wrap gap-2', 'items-center')}>
             {company.categories.map((category: string) => (
               <span
                 key={category}
                 className={clsx(
-                  'px-2 py-1',
+                  'px-3 py-1',
                   'bg-green-50 text-green-700',
-                  'rounded',
+                  'rounded-full',
                   'text-xs font-medium'
                 )}
               >

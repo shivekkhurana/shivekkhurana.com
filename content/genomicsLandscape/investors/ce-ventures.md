@@ -3,31 +3,44 @@ slug: ce-ventures
 name: CE-Ventures (Crescent Enterprises)
 website: https://www.crescententerprises.com/what-we-do/ce-ventures
 location: Sharjah, UAE
-fundType: biotech-focused
-stages: ["seed", "series-a", "series-b", "series-c", "series-d", "growth", "late-stage"]
-typicalInvestmentRange: ""
-description: Corporate venture capital platform of Crescent Enterprises, investing in early- to late-stage high-growth companies and venture funds globally. Focus on tech-enabled solutions in US, MENA, India, and Southeast Asia.
-lastResearched: 2025-01-27
+fundType: generalist
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $5M - $50M
+aum: $500M+
+founded: 2017
+description: Corporate venture capital platform of Crescent Enterprises, investing in early- to late-stage high-growth companies and venture funds globally. Focus on tech-enabled solutions across US, MENA, India, and Southeast Asia with significant biotech exposure.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-CE-Ventures maintains a versatile approach, unbound by sector or stage limitations, with investments spanning consumer, deep-tech, and biotech sectors. The firm has invested over $500 million in early-stage businesses and venture capital funds across various regions.
+CE-Ventures maintains a versatile, thesis-driven approach investing across consumer, deep-tech, and biotech sectors. They leverage Crescent Enterprises' global network to support portfolio companies across US, MENA, India, and Southeast Asia markets, focusing on companies with transformative potential.
 
-## Notes
+## Team
 
-- Established in 2017
-- Active portfolio of 26 tech startups and 9 VC funds
-- Portfolio companies achieved 104% growth in revenues in 2020 compared with 2019
-- Portfolio companies have raised over $1 billion in capital since CE-Ventures' initial investments
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Tushar Singhvi** - Deputy CEO & Head of CE-Ventures - https://www.linkedin.com/in/tusharsinghvi/
+- **Badr Jafar** - CEO, Crescent Enterprises - https://www.linkedin.com/in/badrjafar/
+
+### Other Key Team Members
+
+- Investment team with global venture experience
 
 ## Focus Areas
 
-- Tech Bio
+- Biotechnology
 - Deep Tech
-- Health
-- Consumer
-- Biotech
+- Consumer Technology
+- Microbiome
+- Gene Editing
+- Healthcare Technology
+- MENA, India, Southeast Asia Markets
+
+## Notable Exits
+
+- Portfolio companies with combined $1B+ raised post-investment
+- Active portfolio of 26 tech startups and 9 VC funds
 
 ## Portfolio Companies (Healthcare/Biotech)
 
@@ -36,9 +49,9 @@ CE-Ventures maintains a versatile approach, unbound by sector or stage limitatio
 - Prime Medicine (gene editing/prime editing)
 - CrossBridge Bio (clinical-stage biopharmaceutical)
 
-## Additional Research Findings
+## Sources
 
-- Headquarters: Sharjah, United Arab Emirates
-- Focus regions: US, MENA, India, Southeast Asia
-- Investment approach: Early-stage to late-stage, including venture funds
+- https://www.crescententerprises.com/what-we-do/ce-ventures
+- https://www.crunchbase.com/organization/ce-ventures
+- Company press releases
 

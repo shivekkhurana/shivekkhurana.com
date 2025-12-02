@@ -2,36 +2,59 @@
 slug: seventure-partners
 name: Seventure Partners
 website: https://www.seventure.fr
-location: EU
-fundType: microbiome-life-sciences-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Investment firm focused on microbiome and life sciences, investing in innovative companies.
-lastResearched: 2025-01-27
+location: Paris, France
+fundType: biotech-focused
+stages: ['seed', 'series-a', 'series-b', 'series-c']
+typicalInvestmentRange: €2M - €20M
+aum: €1B+
+founded: 1997
+description: Seventure Partners is a leading European venture capital firm with a unique focus on the microbiome and life sciences. As a pioneer in microbiome investing, Seventure manages dedicated funds targeting the human, animal, and plant microbiome sectors alongside broader life sciences investments.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Seventure Partners is an investment firm focused on microbiome and life sciences, investing in innovative companies across various stages.
+Seventure invests in innovative life sciences companies across Europe and globally, with a distinctive expertise in the microbiome sector. Their Health for Life Capital funds focus on microbiome-based therapeutics, diagnostics, and nutrition, while their broader life sciences funds target therapeutics, medical devices, and digital health.
 
-## Notes
+## Team
 
-- Microbiome and life sciences focus
-- Multi-stage investment approach
-- Focus on innovative companies
+### Partners / Managing Directors
+
+- **Isabelle de Crémoux** - CEO & Managing Partner - https://www.linkedin.com/in/isabelledecremoux/
+- **Laurent Bénard** - Partner - https://www.linkedin.com/in/laurentbenard/
+- **Marc Julien** - Partner - https://www.linkedin.com/in/marcjulien/
+
+### Other Key Team Members
+
+- **Nicolas Houba, PhD** - Partner - https://www.linkedin.com/in/nicolashouba/
+- **Stéphane Grégoire** - Partner - https://www.linkedin.com/in/stephanegregoire/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Microbiome
-- Life Sciences
+- Microbiome Therapeutics
+- Microbiome Diagnostics
+- Gut-Brain Axis
+- Nutrition & Microbiome
+- Digital Health
+- Medical Devices
 - Biotechnology
 
-## Additional Research Findings
+## Notable Portfolio Companies
 
-- Microbiome and life sciences-focused investment firm
-- Innovation-driven approach
-- Multi-stage investments
+- **Enterome** - Microbiome-based cancer immunotherapy
+- **MaaT Pharma** - Microbiome restoration
+- **Eligo Bioscience** - Precision microbiome engineering
+- **Microbiotica** - Microbiome-based therapeutics
+- **Symbiomics** - Gut microbiome diagnostics
 
+## Notable Exits
+
+- **DBV Technologies** - IPO (Euronext: DBV, food allergy treatment)
+- **Cellectis** - IPO (NASDAQ: CLLS, gene editing)
+- **Noxxon Pharma** - IPO (Euronext)
+
+## Sources
+
+- Seventure Partners website: https://www.seventure.fr
+- Crunchbase: https://www.crunchbase.com/organization/seventure-partners
+- France Biotech

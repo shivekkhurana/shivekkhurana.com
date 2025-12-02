@@ -2,38 +2,61 @@
 slug: the-column-group
 name: The Column Group
 website: https://www.thecolumngroup.com
-location: US
+location: San Francisco, California, USA
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm focused on biotechnology and life sciences companies.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $100M
+aum: $2B+
+founded: 2006
+description: The Column Group is a leading life sciences venture capital firm that invests in transformative biotechnology companies. Founded by David Goeddel, a pioneer in the biotechnology industry and co-founder of Genentech, the firm combines deep scientific expertise with company-building experience.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-The Column Group is a venture capital firm focused on biotechnology and life sciences companies, investing in transformative therapeutic platforms.
+The Column Group invests in breakthrough biotechnology companies developing novel therapeutic platforms. They focus on companies with strong scientific foundations, differentiated technologies, and the potential to transform patient care. The firm takes a hands-on approach, providing strategic guidance and operational support to portfolio companies.
 
-## Notes
+## Team
 
-- Participated in $350.7 million Series D for Eikon Therapeutics (February 2025)
-- Biotechnology and life sciences focus
-- Therapeutic platform investments
+### Partners / Managing Directors
+
+- **David Goeddel, PhD** - Founder & Managing Partner - https://www.linkedin.com/in/davidgoeddel/ (former Genentech CSO)
+- **Peter Svennilson** - Managing Partner - https://www.linkedin.com/in/petersvennilson/
+- **Tim Kutzkey** - Managing Partner - https://www.linkedin.com/in/timkutzkey/
+
+### Other Key Team Members
+
+- **Gary Lyons** - Partner - https://www.linkedin.com/in/garylyons/
+- **Brent Ahrens** - General Partner - https://www.linkedin.com/in/brentahrens/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Drug Discovery Platforms
+- Therapeutic Development
+- Oncology
+- Immunology
+- Neuroscience
+- Gene & Cell Therapy
+- Novel Modalities
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Portfolio Companies
 
-- Eikon Therapeutics (drug discovery platform)
+- **Eikon Therapeutics** - Drug discovery platform ($350.7M Series D, February 2025)
+- **Denali Therapeutics** - Neurodegeneration (IPO 2017)
+- **Annexon Biosciences** - Classical complement pathway (IPO 2020)
+- **Protagonist Therapeutics** - Peptide-based drugs (IPO 2016)
+- **Ultragenyx Pharmaceutical** - Rare diseases (IPO 2014)
 
-## Additional Research Findings
+## Notable Exits
 
-- Biotechnology specialization
-- Life sciences focus
-- Therapeutic platform investments
+- **Denali Therapeutics** - IPO (2017, NASDAQ: DNLI)
+- **Annexon Biosciences** - IPO (2020, NASDAQ: ANNX)
+- **Protagonist Therapeutics** - IPO (2016, NASDAQ: PTGX)
+- **Ultragenyx Pharmaceutical** - IPO (2014, NASDAQ: RARE)
+- **FLX Bio** - Acquired (acquired by Bristol-Myers Squibb)
+
+## Sources
+
+- The Column Group website: https://www.thecolumngroup.com
+- Crunchbase: https://www.crunchbase.com/organization/the-column-group
+- BioCentury, Fierce Biotech coverage

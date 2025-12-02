@@ -2,41 +2,70 @@
 slug: versant-ventures
 name: Versant Ventures
 website: https://www.versantventures.com
-location: US
+location: San Francisco, California, USA & Basel, Switzerland
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm supporting both new venture creation and external investments in biotechnology and life sciences.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $100M
+aum: $5B+
+founded: 1999
+description: Versant Ventures is a leading global healthcare venture capital firm with a unique company creation model. Through their internal discovery engines and Inception Discovery programs, Versant creates new biotechnology companies from the ground up while also making external investments in innovative life sciences companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Versant Ventures supports both new venture creation and external investments in biotechnology and life sciences, with a focus on internal discovery engines.
+Versant combines company creation with traditional venture investing. Their Inception Discovery programs identify novel drug targets and create companies around them, while also investing externally in promising biotechnology companies. They focus on differentiated science, novel therapeutic modalities, and experienced management teams.
 
-## Notes
+## Team
 
-- Raised $950 million across three vehicles in April 2021
-- New venture creation and external investments
-- Internal discovery engines
+### Partners / Managing Directors
 
-### Partners & Team
+- **Brad Bolzon, PhD** - Managing Director - https://www.linkedin.com/in/bradbolzon/
+- **Clare Ozawa** - Managing Director - https://www.linkedin.com/in/clareozawa/
+- **Tom Woiwode, PhD** - Managing Director - https://www.linkedin.com/in/tomwoiwode/
+- **Alex Mayweg, PhD** - Managing Director - https://www.linkedin.com/in/alexmayweg/
+- **Jerel Davis, PhD** - Managing Director - https://www.linkedin.com/in/jereldavis/
 
-- **Brad Bolzon** - Managing Director
-- **Clare Ozawa** - Managing Director
-- **Tom Woiwode** - Managing Director
-- **Alex Mayweg** - Managing Director
+### Other Key Team Members
+
+- **Carlo Rizzuto, PhD** - Managing Director - https://www.linkedin.com/in/carlorizzuto/
+- **William Link, PhD** - Founding Managing Director
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Oncology
+- Immunology
+- Neuroscience
+- Rare Diseases
+- Gene & Cell Therapy
+- Drug Discovery Platforms
+- Medical Devices
 
-## Additional Research Findings
+## Notable Portfolio Companies
 
-- Company creation model
-- Biotechnology specialization
-- Internal discovery focus
+- **Chinook Therapeutics** - Kidney diseases (acquired by Novartis for $3.2B)
+- **Cullinan Oncology** - Cancer therapies (IPO 2021)
+- **Rallybio** - Rare diseases (IPO 2021)
+- **Generation Bio** - Non-viral gene therapy
+- **Annexon Biosciences** - Complement pathway (IPO 2020)
+
+## Notable Exits
+
+- **Chinook Therapeutics** - Acquired (2023, acquired by Novartis for $3.2B)
+- **Juno Therapeutics** - Acquired (2018, acquired by Celgene for $9B)
+- **Aimmune Therapeutics** - Acquired (2020, acquired by Nestlé for $2.6B)
+- **Cullinan Oncology** - IPO (2021, NASDAQ: CGEM)
+- **Rallybio** - IPO (2021, NASDAQ: RLYB)
+- **Intellia Therapeutics** - IPO (2016, NASDAQ: NTLA)
+
+## Unique Model
+
+- **Inception Discovery** - Internal company creation platform
+- Raised $950 million across three vehicles (April 2021)
+- Discovery engines in Basel, Switzerland and San Francisco
+
+## Sources
+
+- Versant Ventures website: https://www.versantventures.com
+- Crunchbase: https://www.crunchbase.com/organization/versant-ventures
+- BioCentury, Fierce Biotech coverage

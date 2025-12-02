@@ -1,41 +1,49 @@
 ---
 slug: mpm-bioimpact
 name: MPM BioImpact
-website: https://mpmbioimpact.com
-location: US
+website: https://www.mpmbioimpact.com
+location: Boston, Massachusetts, USA
 fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Biotech-focused investment firm investing in innovative biotechnology companies.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $5M - $50M
+aum: $450M+
+founded: 2018
+description: MPM BioImpact is a life sciences venture fund focused on therapeutics investments. Part of the broader MPM Capital platform, they specialize in innovative biotechnology companies with potential for significant patient impact and commercial success.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-MPM BioImpact is a biotech-focused investment firm investing in innovative biotechnology companies across various stages.
+MPM BioImpact invests in innovative therapeutics companies that can make a meaningful impact on patient lives. They focus on companies with differentiated science, strong management teams, and clear paths to clinical development and regulatory approval.
 
-## Notes
+## Team
 
-- Biotech specialization
-- Multi-stage investment approach
-- Focus on innovative biotech companies
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Ansbert Gadicke, MD** - Co-Founder & Managing Partner - https://www.linkedin.com/in/ansbertgadicke/
+- **Todd Foley** - Managing Partner - https://www.linkedin.com/in/toddfoley/
+- **Luke Evnin, PhD** - Founding Partner (MPM Capital) - https://www.linkedin.com/in/lukeevnin/
 
-- **Ansbert Gadicke, MD** - Co-Founder & Managing Partner
-- **Todd Foley** - Managing Partner
+### Other Key Team Members
+
+- **Investment team with deep pharma and biotech experience**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
+- Therapeutics (oncology, rare diseases)
 - Biotechnology
-- Life Sciences
+- Drug discovery
+- Novel modalities
+- Company creation
+- Platform technologies
 
-## Additional Research Findings
+## Notable Investments
 
-- Biotech-focused investment firm
-- Innovation-driven approach
-- Multi-stage investments
+- Multiple therapeutics companies across oncology and rare diseases
+- Strong track record in biotech company building
 
+## Sources
+
+- https://www.mpmbioimpact.com
+- MPM Capital website
+- PitchBook

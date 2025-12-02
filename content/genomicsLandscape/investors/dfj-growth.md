@@ -2,30 +2,48 @@
 slug: dfj-growth
 name: DFJ Growth
 website: https://www.dfjgrowth.com
-location: ''
-fundType: generic
-stages: []
-typicalInvestmentRange: ''
-description: Growth-stage venture capital firm
-lastResearched: 2025-12-01
+location: Menlo Park, USA
+fundType: generalist
+stages: ['series-c', 'growth']
+typicalInvestmentRange: $25M - $150M
+aum: $1B+
+founded: 2008
+description: Growth-stage venture capital firm affiliated with the Draper network. Focuses on expansion-stage investments in technology and healthcare companies that have proven product-market fit and are scaling rapidly.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-DFJ Growth is a growth-stage venture capital firm that invests in technology and healthcare companies.
+DFJ Growth invests in growth-stage companies that have established product-market fit and are ready to scale. In healthcare, they focus on companies using technology to transform healthcare delivery, diagnostics, and patient engagement, providing capital to accelerate commercial expansion.
 
-## Notes
+## Team
 
-- Growth-stage focus
-- Technology and healthcare investments
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Randy Glein** - Partner - https://www.linkedin.com/in/randyglein/
+- **Barry Schuler** - Partner - https://www.linkedin.com/in/barryschuler/
+
+### Other Key Team Members
+
+- Investment team with growth-stage investing experience
 
 ## Focus Areas
 
-- Growth stage
-- Technology
-- Healthcare
+- Growth Stage
+- Healthcare Technology
+- Digital Health
+- Genomics
+- Enterprise Technology
+- Consumer Technology
 
-## Additional Research Findings
+## Notable Exits
 
-- Potential investor in Helix ($200 million funding round, 2018)
+- **Helix** - $200M funding round (2018) participant
+- Portfolio companies scaling to IPO
+
+## Sources
+
+- https://www.dfjgrowth.com
+- https://www.crunchbase.com/organization/dfj-growth
+- https://pitchbook.com/profiles/dfj-growth
 

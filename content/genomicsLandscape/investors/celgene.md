@@ -1,32 +1,49 @@
 ---
 slug: celgene
-name: Celgene
-website: ''
-location: ''
-fundType: corporate-venture
-stages: []
-typicalInvestmentRange: ''
-description: Pharmaceutical company (acquired by Bristol Myers Squibb in 2019) with strategic investments
-lastResearched: 2025-12-01
+name: Celgene (now Bristol Myers Squibb)
+website: https://www.bms.com
+location: Summit, USA (historical)
+fundType: cvc
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $10M - $100M (historical)
+aum: N/A (acquired)
+founded: 1986
+description: Celgene was a major biopharmaceutical company with active corporate venture investments. Acquired by Bristol Myers Squibb in 2019 for $74B. Historical investments in genomics, cell therapy, and oncology continue under BMS umbrella.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Celgene was a pharmaceutical company (acquired by Bristol Myers Squibb in 2019) that made strategic investments in biotechnology and genomics companies.
+Celgene's venture arm made strategic investments in companies developing innovative therapies, particularly in oncology, immunology, and inflammation. Post-acquisition, Bristol Myers Squibb continues strategic investing through its business development organization.
 
-## Notes
+## Team
 
-- Pharmaceutical company (now part of Bristol Myers Squibb)
-- Strategic investments in biotech
-- Corporate venture activities
+### Historical Partners / Managing Directors (Health & Bio Focus)
+
+- **Mark Alles** - Former CEO - https://www.linkedin.com/in/markalles/
+- **Scott Smith** - Former EVP
+
+### Bristol Myers Squibb Leadership
+
+- **Chris Boerner, PhD** - CEO, BMS - https://www.linkedin.com/in/chris-boerner-phd-1a9b3a1/
 
 ## Focus Areas
 
-- Pharmaceuticals
-- Biotechnology
-- Strategic investments
+- Oncology
+- Immunology
+- Cell Therapy
+- Gene Therapy
+- Inflammation
+- Hematology
 
-## Additional Research Findings
+## Notable Exits
 
-- Strategic investor in biotechnology and genomics companies
+- **Juno Therapeutics** - Acquired (2018, by Celgene for $9B)
+- **Impact Biomedicines** - Acquired (2018, by Celgene for up to $7B)
+- Multiple strategic partnerships converted to acquisitions
 
+## Sources
+
+- https://www.bms.com
+- https://www.crunchbase.com/organization/celgene
+- SEC filings and acquisition announcements

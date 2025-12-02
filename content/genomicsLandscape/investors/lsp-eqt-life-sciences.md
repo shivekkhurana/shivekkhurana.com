@@ -1,37 +1,51 @@
 ---
 slug: lsp-eqt-life-sciences
-name: LSP / EQT Life Sciences
+name: EQT Life Sciences (formerly LSP)
 website: https://www.eqtgroup.com/our-businesses/eqt-life-sciences
-location: EU
+location: Munich, Germany
 fundType: biotech-focused
 stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Biotech-focused investment firm, part of EQT Group, investing in innovative biotechnology companies in Europe.
-lastResearched: 2025-01-27
+typicalInvestmentRange: €5M - €100M+
+aum: €3B+
+founded: 1989
+description: EQT Life Sciences (formerly Life Sciences Partners/LSP) is one of Europe's leading life sciences venture capital firms. Now part of EQT Group, they invest across the full life cycle of healthcare companies, from early-stage biotech to growth-stage therapeutics and medical technology.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-LSP / EQT Life Sciences is a biotech-focused investment firm, part of EQT Group, investing in innovative biotechnology companies in Europe across various stages.
+EQT Life Sciences invests in innovative healthcare companies with transformative potential. They focus on therapeutics, medical devices, and diagnostics across Europe and globally, bringing deep scientific expertise and the resources of EQT's global platform to portfolio companies.
 
-## Notes
+## Team
 
-- Biotech specialization
-- Part of EQT Group
-- European focus
-- Multi-stage investment approach
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Martijn Kleijwegt** - Partner - https://www.linkedin.com/in/martijnkleijwegt/
+- **Joachim Rothe** - Partner - https://www.linkedin.com/in/joachimrothe/
+- **René Kuijten** - Partner - https://www.linkedin.com/in/renekuijten/
+
+### Other Key Team Members
+
+- **Large team of investment professionals across Europe**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Therapeutics (oncology, rare diseases, immunology)
+- Medical devices
+- Diagnostics
+- Drug delivery
+- European biotech
+- Global healthcare
 
-## Additional Research Findings
+## Notable Exits
 
-- Biotech-focused investment firm
-- Part of EQT Group
-- European market focus
-- Multi-stage investments
+- **argenx** - IPO (2017, continued investment, autoimmune diseases)
+- **Galapagos** - Public company (inflammation)
+- **Cerenis** - IPO
+- **Ablynx** - Acquired by Sanofi (2018, $4.8B)
+
+## Sources
+
+- https://www.eqtgroup.com/our-businesses/eqt-life-sciences
+- PitchBook
+- EQT Group investor reports

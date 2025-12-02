@@ -2,46 +2,61 @@
 slug: venrock
 name: Venrock
 website: https://www.venrock.com
-location: US
+location: Palo Alto, California, USA & New York, New York, USA
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm combining deep scientific understanding with commercial insight, investing in breakthrough therapeutic platforms and medical devices.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $5M - $50M
+aum: $4B+
+founded: 1969
+description: Venrock is one of the most established venture capital firms in the United States, originally founded by the Rockefeller family. The firm's healthcare practice is among the most respected in venture capital, combining deep scientific understanding with commercial insight to invest in breakthrough therapeutic platforms, medical devices, and digital health companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Venrock combines deep scientific understanding with commercial insight, investing in companies developing breakthrough therapeutic platforms and medical devices.
+Venrock invests in transformative healthcare companies with strong scientific foundations and exceptional teams. They focus on companies developing novel therapeutic modalities, innovative medical devices, and digital health solutions that can fundamentally change patient care. Their long-term approach and patient capital enable portfolio companies to pursue ambitious goals.
 
-## Notes
+## Team
 
-- Participated in $70 million Series D for Suki (October 2024)
-- Scientific and commercial focus
-- Therapeutic platforms and medical devices
+### Partners / Managing Directors (Healthcare Focus)
 
-### Partners & Team
+- **Bryan Roberts, PhD** - Partner - https://www.linkedin.com/in/bryanroberts/ (healthcare lead)
+- **Camille Samuels** - Partner - https://www.linkedin.com/in/camillesamuels/
+- **Bob Kocher, MD** - Partner - https://www.linkedin.com/in/bobkocher/ (former Obama healthcare advisor)
+- **Ravi Viswanathan** - Partner - https://www.linkedin.com/in/raviviswanathan/
 
-- **Bryan Roberts, PhD** - Partner
-- **Camille Samuels** - Partner
-- **Bob Kocher, MD** - Partner
-- **Ravi Viswanathan** - Partner
+### Other Key Team Members
+
+- **Austin Byers** - Partner - https://www.linkedin.com/in/austinbyers/
+- **Racquel Bracken** - Partner - https://www.linkedin.com/in/racquelbracken/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Therapeutic Platforms
+- Therapeutics (Oncology, Immunology, Neuroscience)
 - Medical Devices
+- Diagnostics
+- Digital Health & Healthcare IT
+- AI in Healthcare
+- Drug Delivery
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Portfolio Companies
 
-- Suki (AI voice assistants for healthcare)
+- **Suki** - AI voice assistant for healthcare ($70M Series D, October 2024)
+- **Illumina** - DNA sequencing (early investor, IPO 2000)
+- **Athenahealth** - Healthcare IT (early investor, acquired)
+- **23andMe** - Consumer genetics (early investor)
+- **Inscripta** - Gene editing
 
-## Additional Research Findings
+## Notable Exits
 
-- Scientific focus
-- Biotechnology specialization
-- Therapeutic platform investments
+- **Illumina** - IPO (2000, NASDAQ: ILMN, market cap >$30B)
+- **Athenahealth** - Acquired (2019, $5.7B deal)
+- **Idec Pharmaceuticals** - Merged with Biogen (NASDAQ: BIIB)
+- **Gilead Sciences** - IPO (NASDAQ: GILD, early investor)
+- **Centocor** - Acquired (acquired by J&J for $4.9B)
+
+## Sources
+
+- Venrock website: https://www.venrock.com
+- Crunchbase: https://www.crunchbase.com/organization/venrock
+- Forbes Midas List, TechCrunch coverage

@@ -2,35 +2,48 @@
 slug: bioadvance
 name: BioAdvance
 website: https://www.bioadvance.com
-location: US
-fundType: biotech-seed-fund
+location: Philadelphia, USA
+fundType: biotech-focused
 stages: ['seed', 'series-a']
-typicalInvestmentRange: ''
-description: Biotech seed fund focused on early-stage biotechnology investments.
-lastResearched: 2025-01-27
+typicalInvestmentRange: $250K - $3M
+aum: $60M+
+founded: 2002
+description: Philadelphia region's biotech seed fund, focused on early-stage life sciences companies. Provides seed and early Series A funding to startups in the greater Philadelphia area, supporting the region's life sciences ecosystem.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-BioAdvance is a biotech seed fund focused on early-stage biotechnology investments, providing seed and Series A funding.
+BioAdvance provides seed funding to early-stage life sciences companies in the Philadelphia region, helping translate academic research into commercial ventures. They focus on therapeutics, diagnostics, and medical devices, bridging the gap between academic discoveries and institutional venture funding.
 
-## Notes
+## Team
 
-- Biotech seed fund
-- Early-stage focus
-- Seed and Series A investments
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Barbara Schilberg** - President & CEO - https://www.linkedin.com/in/barbaraschilberg/
+
+### Other Key Team Members
+
+- Investment team with regional life sciences expertise
+- Strong ties to Philadelphia academic medical centers
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Therapeutics
+- Diagnostics
+- Medical Devices
+- Life Science Tools
+- Regional Life Sciences
+- University Spinouts
 
-## Additional Research Findings
+## Notable Exits
 
-- Biotech seed fund
-- Early-stage specialization
-- Seed and Series A focus
+- Multiple companies advancing to Series A and beyond
+- Regional portfolio supporting Philadelphia life sciences ecosystem
+
+## Sources
+
+- https://www.bioadvance.com
+- https://www.crunchbase.com/organization/bioadvance
+- Philadelphia life sciences ecosystem reports
 

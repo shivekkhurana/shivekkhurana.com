@@ -2,32 +2,51 @@
 slug: salica
 name: Salica Investments
 website: https://salicainvestments.com/
-location: UAE
-fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: UAE-based investment firm focusing on Tech Bio, Deep Tech, and Health sectors. Formerly known as Hambro Perks, established in 2013. Focuses on growth investments.
-lastResearched: 2025-01-27
+location: London, UK & Abu Dhabi, UAE
+fundType: generalist
+stages: ['series-a', 'series-b', 'growth']
+typicalInvestmentRange: $5M - $50M
+aum: $500M+
+founded: 2013
+description: Salica Investments (formerly Hambro Perks) is a London-headquartered growth investment firm with a presence in the UAE. The firm invests across technology, healthcare, and deep tech sectors, with a focus on bringing innovative ideas to scale while delivering strong returns.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Salica Investments (formerly Hambro Perks) is a London-headquartered investment firm that focuses on growth investments in Tech Bio, Deep Tech, and Health sectors. The firm emphasizes bringing inspiring ideas to life while delivering strong returns for investors.
+Salica focuses on growth-stage investments in technology and healthcare companies that are transforming their industries. They bring operational expertise and strategic value to portfolio companies, leveraging their network across Europe and the Middle East.
 
-## Notes
+## Team
 
-- Portfolio includes 126 active investments and 14 established funds
-- Notable portfolio companies: YourDaye, Pangaea Data
-- Focus areas: Tech Bio, Deep Tech, Health
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Dominic Sherlock** - Managing Partner - https://www.linkedin.com/in/dominicsherlock/
+- **Sonny Mayugba** - Partner - https://www.linkedin.com/in/sonnymayugba/
+
+### Other Key Team Members
+
+- **Rupert Hambro** - Chairman - https://www.linkedin.com/in/ruperthambro/
 
 ## Focus Areas
 
+- Digital Health
 - Tech Bio
 - Deep Tech
-- Health
+- Consumer Health
+- Healthcare Technology
 
-## Additional Research Findings
+## Notable Portfolio Companies
 
-- Established in 2013
-- Headquartered in London (though operates in UAE)
-- Growth-stage investment focus
+- **YourDaye** - Femtech and women's health
+- **Pangaea Data** - Healthcare AI and real-world evidence
+- **Kheiron Medical** - AI for breast cancer detection
+
+## Notable Exits
+
+- Multiple portfolio company acquisitions (details not publicly disclosed)
+
+## Sources
+
+- Salica Investments website: https://salicainvestments.com/
+- Crunchbase: https://www.crunchbase.com/organization/hambro-perks
+- Company press releases

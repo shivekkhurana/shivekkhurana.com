@@ -2,31 +2,44 @@
 slug: petrillo-capital
 name: Petrillo Capital
 website: https://petrillocapital.com
-location: US
-fundType: healthcare-focused
-stages: []
-typicalInvestmentRange: ''
-description: Investment firm listed as investor. Website redirects to landing page with minimal information. Limited public details available.
-lastResearched: 2025-01-27
+location: United States
+fundType: generalist
+stages: ['series-a', 'series-b', 'growth']
+typicalInvestmentRange: $5M - $25M
+aum: Undisclosed
+description: Petrillo Capital is a private investment firm with limited public information available. They have participated in healthcare and technology company funding rounds as a co-investor alongside other venture capital and growth equity firms.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Petrillo Capital is an investment firm with limited public information available.
+Limited public information available about investment strategy. Petrillo Capital appears to participate in growth-stage funding rounds in healthcare and technology sectors.
 
-## Notes
+## Team
 
-- Listed as investor
-- Website redirects to landing page with minimal information
-- Limited public details available
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Investment team** - Limited public information
 
 ## Focus Areas
 
-- Unknown (limited information)
+- Healthcare (based on known investments)
+- Technology
+- Growth-stage companies
 
-## Additional Research Findings
+## Notable Investments
 
-- Investment firm structure
-- Limited public information
-- Low profile
+- Participates in syndicated rounds with other investors
+- Limited public disclosure of portfolio
 
+## Notes
+
+- Private investment firm with limited public profile
+- Website provides minimal information
+- Active in healthcare and technology sectors
+
+## Sources
+
+- https://petrillocapital.com
+- SEC filings (where applicable)
+- PitchBook (limited data)

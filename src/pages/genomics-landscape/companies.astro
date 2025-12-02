@@ -6,7 +6,7 @@ import HtmlLayout from '@src/layouts/Html.astro';
 import BodyLayout from '@src/layouts/Body.astro';
 import HeadLayout from '@src/layouts/Head.astro';
 import Footer from '@src/components/Footer';
-import CompanyList from '@src/genomics/components/CompanyList';
+import FilteredCompanyList from '@src/genomics/components/FilteredCompanyList';
 import GenomicsTabs from '@src/genomics/components/GenomicsTabs.astro';
 import { enrichData } from '@src/genomics/utils/enrich';
 
@@ -29,13 +29,13 @@ const { investors, companies } = enrichData();
       <section class="font-mlm-roman">
         <div>
           <h1 class={clsx('text-3xl font-bold', 'mb-8')}>Genomics Landscape</h1>
-          <GenomicsTabs 
-            activeTab="companies" 
+          <GenomicsTabs
+            activeTab="companies"
             investorCount={investors.length}
             companyCount={companies.length}
           />
-          <CompanyList
-            client:load
+          <FilteredCompanyList
+            client:idle
             companies={companies}
           />
         </div>

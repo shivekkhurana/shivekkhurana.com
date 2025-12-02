@@ -1,38 +1,67 @@
 ---
 slug: revolution-growth
 name: Revolution Growth
-website: https://revolution.com/companies/
-location: US
-fundType: healthcare-focused
-stages: ["seed", "growth"]
-typicalInvestmentRange: ''
-description: Venture capital firm investing in growth-stage companies across various sectors, including health. Seed investor in Tempus.
-lastResearched: 2025-01-27
+website: https://www.revolution.com/growth/
+location: Washington, DC, USA
+fundType: generalist
+stages: ['series-b', 'series-c', 'growth']
+typicalInvestmentRange: $25M - $150M
+aum: $1.5B+
+founded: 2011
+description: Revolution Growth is the growth equity arm of Revolution LLC, founded by Steve Case (AOL co-founder). The firm focuses on high-growth companies outside of Silicon Valley, with particular interest in healthcare, technology, and consumer sectors. They were early investors in Tempus, one of the leading precision medicine AI companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Revolution Growth invests in growth-stage companies across various sectors, with a focus on transformative businesses.
+Revolution Growth invests in growth-stage companies that are disrupting large industries, with a particular focus on companies outside traditional tech hubs (the "Rise of the Rest" thesis). In healthcare, they back companies using technology to transform healthcare delivery, improve access, and drive better patient outcomes. They seek companies with proven business models ready to scale nationally or globally.
 
-## Notes
+## Team
 
-- Seed investor at Tempus.com
-- Growth-stage focus
-- Multi-sector approach
+### Partners / Managing Directors (Health & Bio Focus)
+
+- **Steve Case** - Chairman & CEO, Revolution - https://www.linkedin.com/in/stevecase/
+- **David Golden** - General Partner, Revolution Growth - https://www.linkedin.com/in/davidmgolden/
+- **Clara Sieg** - General Partner, Revolution Growth - https://www.linkedin.com/in/clarasieg/
+- **Patrick Conroy** - Partner, Revolution Growth - https://www.linkedin.com/in/patrickconroy/
+
+### Other Key Team Members
+
+- **Revolution investment team covers healthcare, technology, and consumer sectors**
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
+- Healthcare Technology
+- Precision Medicine
+- Digital Health
+- Consumer Technology
+- Enterprise Software
+- Rise of the Rest (regional investments)
 - Growth-stage companies
 
-## Portfolio Companies (Healthcare)
+## Notable Portfolio Companies (Healthcare/Biotech)
 
-- Tempus (seed investor)
+- **Tempus** - Precision medicine AI platform (seed investor, IPO 2024)
+- **DraftKings** - Sports technology
+- **Sweetgreen** - Food technology
+- **Tala** - Financial technology
 
-## Additional Research Findings
+## Notable Exits
 
-- Part of Revolution LLC
-- Growth-stage investment focus
+- **Tempus** - IPO (2024, NASDAQ: TEM, precision medicine AI)
+- **DraftKings** - SPAC (2020, NASDAQ: DKNG)
+- **Sweetgreen** - IPO (2021, NYSE: SG)
+- **Revolution Foods** - Acquired
 
+## Unique Model
+
+- Part of Revolution LLC alongside Revolution Ventures (early stage) and Rise of the Rest Seed Fund
+- Focus on companies in emerging startup ecosystems outside Silicon Valley
+- Steve Case's network and influence in policy and business
+
+## Sources
+
+- https://www.revolution.com/growth/
+- https://www.crunchbase.com/organization/revolution-growth
+- https://pitchbook.com/profiles/revolution-growth
+- Forbes, TechCrunch coverage

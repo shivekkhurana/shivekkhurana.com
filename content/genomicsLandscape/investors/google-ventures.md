@@ -1,43 +1,54 @@
 ---
 slug: google-ventures
-name: Google Ventures (GV)
+name: GV (Google Ventures)
 website: https://www.gv.com
-location: US
-fundType: healthcare-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c']
-typicalInvestmentRange: ''
-description: Venture capital arm of Alphabet (Google), investing in technology and healthcare companies, including genomics and life sciences.
-lastResearched: 2025-01-27
+location: Mountain View, California, USA
+fundType: cvc
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $100K - $250M+
+aum: $8B+
+founded: 2009
+description: GV (formerly Google Ventures) is the venture capital arm of Alphabet Inc. With a dedicated life sciences practice, GV invests in transformative healthcare and life sciences companies, bringing deep technical expertise and operational support from Google's ecosystem to portfolio companies.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Google Ventures (GV) is the venture capital arm of Alphabet, investing in technology and healthcare companies, with a focus on genomics, life sciences, and digital health.
+GV invests in founders who are building transformative companies in life sciences and healthcare. They focus on applying technology and engineering approaches to solve fundamental healthcare challenges, from drug discovery and genomics to digital health and healthcare delivery.
 
-## Notes
+## Team
 
-- Corporate venture capital arm of Alphabet
-- Technology and healthcare focus
-- Genomics and life sciences investments
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Krishna Yeshwant, MD** - General Partner, Life Sciences - https://www.linkedin.com/in/krishnayeshwant/
+- **Cathy Friedman** - Partner, Life Sciences - https://www.linkedin.com/in/cathyfriedman/
+- **David Scheinberg** - Partner, Life Sciences - https://www.linkedin.com/in/davidscheinberg/
 
-- **Krishna Yeshwant, MD** - General Partner (Life Sciences)
-- **David Krane** - Managing Partner
-- **Tom Hulme** - General Partner
+### Other Key Team Members
+
+- **David Krane** - CEO & Managing Partner - https://www.linkedin.com/in/davidkrane/
+- **Tom Hulme** - General Partner - https://www.linkedin.com/in/tomhulme/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Technology
-- Healthcare
-- Genomics
-- Life Sciences
+- Genomics and sequencing
+- Drug discovery and development
+- Diagnostics
+- Digital health
+- Healthcare AI/ML
+- Medical devices
+- Synthetic biology
 
-## Additional Research Findings
+## Notable Exits
 
-- Corporate venture capital
-- Part of Alphabet (Google)
-- Strong healthcare and genomics portfolio
+- **Flatiron Health** - Acquired by Roche (2018, $1.9B)
+- **Foundation Medicine** - Acquired by Roche (2018, $5.3B)
+- **23andMe** - SPAC (2021)
+- **Tempus** - IPO (2024)
+
+## Sources
+
+- https://www.gv.com
+- Crunchbase
+- PitchBook
+- Company announcements

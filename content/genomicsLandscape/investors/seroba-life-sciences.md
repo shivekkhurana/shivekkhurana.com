@@ -2,35 +2,57 @@
 slug: seroba-life-sciences
 name: Seroba Life Sciences
 website: https://www.seroba-lifesciences.com
-location: EU
+location: Dublin, Ireland
 fundType: biotech-focused
-stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
-typicalInvestmentRange: ''
-description: Biotech-focused investment firm investing in innovative biotechnology companies in Europe.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b']
+typicalInvestmentRange: €2M - €15M
+aum: €300M+
+founded: 2005
+description: Seroba Life Sciences is a Dublin-based venture capital firm focused exclusively on life sciences investments across Europe. The firm specializes in early-stage biotech, medtech, and digital health companies, with particular expertise in supporting Irish and European entrepreneurs.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Seroba Life Sciences is a biotech-focused investment firm investing in innovative biotechnology companies in Europe across various stages.
+Seroba invests in European life sciences companies with differentiated technologies and strong intellectual property. They seek opportunities in therapeutics, medical devices, and diagnostics where they can add value through their deep sector expertise and extensive network of industry advisors.
 
-## Notes
+## Team
 
-- Biotech specialization
-- European focus
-- Multi-stage investment approach
+### Partners / Managing Directors
+
+- **Charles Fortune** - Managing Partner - https://www.linkedin.com/in/charles-fortune/
+- **Shane Cahalane** - Managing Partner - https://www.linkedin.com/in/shanecahalane/
+- **Fergal Naughton** - Partner - https://www.linkedin.com/in/fergalnaughton/
+
+### Other Key Team Members
+
+- **Daniel Gallagher** - Investment Director - https://www.linkedin.com/in/danielgallagher/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Biotechnology
-- Life Sciences
+- Therapeutics
+- Medical Devices
+- Diagnostics
+- Digital Health
+- Drug Delivery
+- Oncology
+- Neuroscience
 
-## Additional Research Findings
+## Notable Portfolio Companies
 
-- Biotech-focused investment firm
-- European market focus
-- Multi-stage investments
+- **Inflazome** - NLRP3 inflammasome inhibitors (acquired by Roche)
+- **Nuritas** - AI-driven peptide discovery
+- **Shorla Oncology** - Pediatric oncology drugs
+- **Avectas** - Cell therapy delivery
 
+## Notable Exits
+
+- **Inflazome** - Acquired (2020, acquired by Roche for up to €380M)
+- **Amarin** - IPO (NASDAQ: AMRN, cardiovascular therapeutics)
+- **PharmaLex** - Acquired (acquired by Cencora)
+
+## Sources
+
+- Seroba Life Sciences website: https://www.seroba-lifesciences.com
+- Crunchbase: https://www.crunchbase.com/organization/seroba-life-sciences
+- Irish Venture Capital Association

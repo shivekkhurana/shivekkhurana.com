@@ -96,6 +96,8 @@ const GenomicsInvestor = defineDocumentType(() => ({
     fundType: { type: 'string', required: false },
     stages: { type: 'list', of: { type: 'string' }, required: false },
     typicalInvestmentRange: { type: 'string', required: false },
+    aum: { type: 'string', required: false },
+    founded: { type: 'number', required: false },
     description: { type: 'string', required: false },
     lastResearched: { type: 'date', required: false },
   },

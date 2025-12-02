@@ -2,45 +2,52 @@
 slug: general-catalyst
 name: General Catalyst
 website: https://www.generalcatalyst.com
-location: US
-fundType: healthcare-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm focusing on digital health transformation, investing in companies that leverage technology to address healthcare challenges.
-lastResearched: 2025-01-27
+location: Cambridge, Massachusetts, USA
+fundType: generalist
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $1M - $500M+
+aum: $25B+
+founded: 2000
+description: General Catalyst is a venture capital firm that invests in powerful, positive change through technology and healthcare. They have made a major commitment to transforming healthcare through their Health Assurance initiative and HATCo (Health Assurance Transformation Company), acquiring health systems to drive innovation.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-General Catalyst focuses on digital health transformation, investing in companies that leverage technology to address healthcare challenges. Has healthcare-focused arm HATCHhealthcare.
+General Catalyst believes in "health assurance" over health insurance - proactively managing health rather than reactively treating illness. Their healthcare strategy combines venture investments with direct ownership of health systems through HATCo, creating a unique model for testing and scaling healthcare innovations.
 
-## Notes
+## Team
 
-- Digital health transformation focus
-- Healthcare technology investments
-- Strong healthcare portfolio
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Hemant Taneja** - CEO & Managing Director - https://www.linkedin.com/in/hemanttaneja/
+- **Holly Maloney** - Managing Director, Healthcare - https://www.linkedin.com/in/hollybmaloney/
+- **Ken Chenault** - Chairman & Managing Director - https://www.linkedin.com/in/kenchenault/
 
-- **Hemant Taneja** - CEO & Managing Director
-- **Ken Chenault** - Chairman & Managing Director
-- **Holly Maloney** - Managing Director (Healthcare)
+### Other Key Team Members
+
+- **Kyle Doherty** - Managing Director, Healthcare - https://www.linkedin.com/in/kyledoherty1/
+- **Chris Bischoff** - Vice President, Healthcare - https://www.linkedin.com/in/chrisbischoff/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
-- Digital Health
-- Healthcare Technology
+- Digital health
+- Healthcare technology
+- Health systems transformation
+- Value-based care
+- Mental health
+- Women's health
+- Healthcare AI
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Exits
 
-- Maven Clinic (women-focused healthcare)
-- Transcarent (consumer-directed health platform)
+- **Livongo** - Acquired by Teladoc (2020, $18.5B)
+- **Oscar Health** - IPO (2021)
+- **Clover Health** - SPAC (2021)
 
-## Additional Research Findings
+## Sources
 
-- Digital health specialization
-- Healthcare technology focus
-- Strong healthcare portfolio
+- https://www.generalcatalyst.com
+- https://www.healthassurance.com
+- PitchBook
+- TechCrunch

@@ -2,45 +2,58 @@
 slug: lux-capital
 name: Lux Capital
 website: https://www.luxcapital.com
-location: US
+location: New York, New York, USA
 fundType: biotech-focused
-stages: []
-typicalInvestmentRange: ''
-description: Venture capital firm investing in emerging science and technology ventures, including biotechnology and life sciences.
-lastResearched: 2025-01-27
+stages: ['seed', 'series-a', 'series-b', 'series-c', 'growth']
+typicalInvestmentRange: $1M - $100M+
+aum: $5B+
+founded: 2000
+description: Lux Capital is a venture capital firm focused on emerging science and technology ventures. They specialize in deep tech and life sciences, backing companies that are turning science fiction into fact, including breakthrough biotechnology, drug discovery, and healthcare technology.
+lastResearched: 2025-12-02
 ---
 
 ## Investment Thesis
 
-Lux Capital is a venture capital firm investing in emerging science and technology ventures, with a focus on biotechnology, life sciences, and deep technology.
+Lux Capital invests in companies that are harnessing scientific breakthroughs to solve hard problems. In life sciences, they focus on next-generation drug discovery platforms, novel therapeutic modalities, and technologies that fundamentally change how we understand and treat disease.
 
-## Notes
+## Team
 
-- Participated in $350.7 million Series D for Eikon Therapeutics (February 2025)
-- Emerging science and technology focus
-- Biotechnology and life sciences specialization
+### Partners / Managing Directors (Health & Bio Focus)
 
-### Partners & Team
+- **Josh Wolfe** - Co-Founder & Managing Partner - https://www.linkedin.com/in/joshwolfe/
+- **Zavain Dar** - Partner - https://www.linkedin.com/in/zavaindar/
+- **Deena Shakir** - Partner - https://www.linkedin.com/in/deenashakir/
+- **Shahin Farshchi, PhD** - Partner - https://www.linkedin.com/in/shahinfarshchi/
 
-- **Josh Wolfe** - Co-Founder & Managing Partner
-- **Zavain Dar** - Partner
-- **Deena Shakir** - Partner
+### Other Key Team Members
+
+- **Peter Hébert** - Co-Founder & Managing Partner - https://www.linkedin.com/in/peterhebert/
+- **Bilal Zuberi** - Partner - https://www.linkedin.com/in/bilalzuberi/
 
 ## Focus Areas
 
-- Tech Bio
-- Deep Tech
-- Health
+- Drug discovery platforms
 - Biotechnology
-- Life Sciences
-- Emerging Science
+- Synthetic biology
+- Computational biology
+- Deep tech in healthcare
+- Healthcare AI
+- Novel therapeutic modalities
 
-## Portfolio Companies (Healthcare/Biotech)
+## Notable Exits
 
-- Eikon Therapeutics (drug discovery platform)
+- **Desktop Metal** - SPAC (2020)
+- **Shapeways** - SPAC (2021)
+- **Eikon Therapeutics** - Continuing ($350.7M Series D, February 2025)
 
-## Additional Research Findings
+## Notable Healthcare Investments
 
-- Emerging science focus
-- Biotechnology specialization
-- Deep technology investments
+- **Eikon Therapeutics** - Drug discovery platform
+- **Recursion** - AI drug discovery
+- **Variant Bio** - Population genomics
+
+## Sources
+
+- https://www.luxcapital.com
+- PitchBook
+- Crunchbase
