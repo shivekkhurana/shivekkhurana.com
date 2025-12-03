@@ -3,7 +3,7 @@ slug: metsera
 name: Metsera
 website: 'https://www.metsera.com'
 location: 'New York, New York, USA'
-categories: ['therapeutics', 'biotech', 'pharma', 'obesity', 'metabolic-disease', 'glp-1']
+categories: ['therapeutics', 'biotech', 'pharma', 'obesity', 'metabolic-disease', 'cardiovascular', 'glp-1']
 founded: '2022'
 description: Biotechnology company developing next-generation obesity and metabolic disease therapies, including novel GLP-1 agonists and other innovative approaches to weight management.
 logo: ''

@@ -3,7 +3,7 @@ slug: nimbus-therapeutics
 name: Nimbus Therapeutics
 website: 'https://www.nimbustx.com'
 location: 'Cambridge, Massachusetts, USA'
-categories: ['biotech', 'drug-discovery', 'computational-biology', 'structure-based-drug-design']
+categories: ['biotech', 'drug-discovery', 'computational-biology', 'structure-based-drug-design', 'cardiovascular']
 founded: '2009'
 description: Biotechnology company pioneering structure-based drug design using computational approaches to discover small molecule medicines for immunology, oncology, and metabolic diseases.
 logo: ''

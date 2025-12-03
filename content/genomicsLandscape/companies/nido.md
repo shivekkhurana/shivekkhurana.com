@@ -3,7 +3,7 @@ slug: nido
 name: Nido Biosciences
 website: 'https://www.nidobio.com'
 location: 'Boston, Massachusetts, USA'
-categories: ['biotech', 'microbiome', 'therapeutics', 'gastrointestinal']
+categories: ['biotech', 'microbiome', 'therapeutics', 'gastrointestinal', 'cardiovascular']
 founded: '2019'
 description: Biotechnology company leveraging the small intestinal microbiome to develop novel therapeutics for gastrointestinal and metabolic diseases.
 logo: ''

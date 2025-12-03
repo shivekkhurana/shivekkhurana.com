@@ -3,7 +3,7 @@ slug: cardiosense
 name: Cardiosense
 website: 'https://www.cardiosense.com'
 location: 'Chicago, Illinois, USA'
-categories: ['digital-health', 'cardiology', 'ai', 'medical-devices', 'wearables']
+categories: ['digital-health', 'cardiology', 'cardiovascular', 'ai', 'medical-devices', 'wearables']
 founded: '2016'
 description: AI-enabled non-invasive cardiac monitoring company developing wearable technology for early detection and management of congestive heart failure.
 logo: ''

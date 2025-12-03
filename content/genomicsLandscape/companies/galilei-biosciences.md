@@ -3,7 +3,7 @@ slug: galilei-biosciences
 name: Galilei Biosciences
 website: 'https://www.galileibio.com'
 location: 'Boston, Massachusetts, USA'
-categories: ['biotech', 'longevity', 'metabolic-health', 'drug-discovery']
+categories: ['biotech', 'longevity', 'metabolic-health', 'cardiovascular', 'drug-discovery']
 founded: '2021'
 description: Drug development company targeting PARP1, a central regulator of DNA damage repair, glucose and lipid metabolism, to develop therapies for metabolic health and human longevity.
 logo: ''

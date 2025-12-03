@@ -94,10 +94,10 @@ function FilteredCompanyList({ companies }: FilteredCompanyListProps) {
     return {
       countries: Array.from(countries.entries())
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 10),
+        .slice(0, 16), // top 16 countries
       categories: Array.from(categories.entries())
         .sort((a, b) => b[1] - a[1])
-        .slice(0, 15),
+        .slice(0, 24), // top 24 categories
       foundedGroups: Array.from(foundedGroups.entries()).sort((a, b) => {
         const order = [
           '2020s',

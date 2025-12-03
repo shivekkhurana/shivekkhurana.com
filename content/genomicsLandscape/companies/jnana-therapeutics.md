@@ -3,7 +3,7 @@ slug: jnana-therapeutics
 name: Jnana Therapeutics
 website: 'https://www.jnanatx.com'
 location: 'Boston, Massachusetts, USA'
-categories: ['biotech', 'drug-discovery', 'metabolic-disease', 'rare-disease', 'small-molecule']
+categories: ['biotech', 'drug-discovery', 'metabolic-disease', 'cardiovascular', 'rare-disease', 'small-molecule']
 founded: '2018'
 description: Biotechnology company developing small molecule therapeutics for metabolic and rare diseases by targeting solute carrier (SLC) transporters using its proprietary RAPID platform.
 logo: ''

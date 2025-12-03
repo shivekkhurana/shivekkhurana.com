@@ -3,7 +3,7 @@ slug: pelagos-pharmaceuticals
 name: Pelagos Pharmaceuticals
 website: 'https://www.pelagospharma.com'
 location: 'Houston, Texas, USA'
-categories: ['biotech', 'longevity', 'aging', 'metabolic-disease']
+categories: ['biotech', 'longevity', 'aging', 'metabolic-disease', 'cardiovascular']
 founded: '2021'
 description: Pre-clinical biotechnology company developing oral drugs to prevent diseases of aging including obesity, heart failure, sarcopenia, and neurodegenerative diseases.
 logo: ''

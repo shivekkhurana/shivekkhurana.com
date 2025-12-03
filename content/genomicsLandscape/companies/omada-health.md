@@ -3,7 +3,7 @@ slug: omada-health
 name: Omada Health
 website: 'https://www.omadahealth.com'
 location: 'San Francisco, California, USA'
-categories: ['digital-health', 'chronic-disease', 'behavioral-medicine', 'diabetes-prevention']
+categories: ['digital-health', 'chronic-disease', 'behavioral-medicine', 'diabetes-prevention', 'cardiovascular']
 founded: '2011'
 description: Digital health company providing virtual-first care programs for chronic conditions including diabetes prevention, musculoskeletal care, and behavioral health through personalized coaching and technology.
 logo: ''
