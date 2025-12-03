@@ -63,11 +63,15 @@ export default function Snapshot({
       : undefined;
 
   return (
-    <div className={clsx('flex flex-row flex-wrap gap-1.5 items-center')}>
+    <div
+      className={clsx(
+        'grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-8 xl:grid-cols-9 gap-1 sm:gap-2 md:gap-3 lg:gap-4 items-center'
+      )}
+    >
       {locationData && (
         <LocationPin
           locationData={locationData}
-          className="w-24 h-24"
+          className="w-full aspect-square"
         />
       )}
       {workoutStats && workoutStats.latest && (
@@ -78,7 +82,7 @@ export default function Snapshot({
           lowestValue={0}
           targetValue={workoutStats.weekdays}
           currentValue={workoutStats.latest.count}
-          className="w-24 h-24"
+          className="w-full aspect-square"
           showUpRate={workoutShowUpRate}
         />
       )}
@@ -87,27 +91,27 @@ export default function Snapshot({
         title={unoTimeSeriesMetrics.restingHeartRate.title}
         unit={unoTimeSeriesMetrics.restingHeartRate.unit}
         color={unoTimeSeriesMetrics.restingHeartRate.color}
-        className="w-24 h-24"
+        className="w-full aspect-square"
       />
       <UnoTimeSeriesSnapshot
         data={hrvData}
         title={unoTimeSeriesMetrics.hrv.title}
         unit={unoTimeSeriesMetrics.hrv.unit}
         color={unoTimeSeriesMetrics.hrv.color}
-        className="w-24 h-24"
+        className="w-full aspect-square"
       />
       <UnoTimeSeriesSnapshot
         data={bodyTempData}
         title={unoTimeSeriesMetrics.bodySurfaceTemp.title}
         unit={unoTimeSeriesMetrics.bodySurfaceTemp.unit}
         color={unoTimeSeriesMetrics.bodySurfaceTemp.color}
-        className="w-24 h-24"
+        className="w-full aspect-square"
       />
       {lastSleepData && (
         <SleepCard
           lastSleepData={lastSleepData}
           color={config.colors.healthkit.sleep}
-          className="w-24 h-24"
+          className="w-full aspect-square"
         />
       )}
     </div>

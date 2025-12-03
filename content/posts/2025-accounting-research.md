@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-11-21T01:25:00.000Z
-title: Exploring the Intersection of Accounting and AI - Nov 2025
+title: Exploring the Intersection of Accounting and AI
 featured: false
 heroImg: /img/content/posts/nov-2025-acc-research.png
 slug: accounting-research-nov-2025

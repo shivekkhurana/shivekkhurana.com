@@ -70,7 +70,6 @@ export default function LocationPin({
     <div
       className={clsx(
         className,
-        'w-24 h-24',
         'relative flex flex-col',
         'px-2 pt-2 pb-2',
         'rounded-lg overflow-hidden',

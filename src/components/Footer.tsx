@@ -19,6 +19,11 @@ const socialLinks: SocialLink[] = [
     label: 'YouTube',
     href: 'https://youtube.com/@shivekkhurana?si=fyV-MrFjD0zRG-gA',
   },
+  {
+    label: 'Hacker News',
+    href: 'https://news.ycombinator.com/user?id=shivekkhurana',
+  },
+  { label: 'Instagram (private)', href: 'https://www.instagram.com/sxivek/' },
 ];
 
 const otherLinks: { label: string; href: string }[] = [

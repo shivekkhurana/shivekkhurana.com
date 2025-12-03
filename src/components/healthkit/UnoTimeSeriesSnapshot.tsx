@@ -88,7 +88,7 @@ function BarChartComponent({ data, color }: BarChartComponentProps) {
           <div
             key={`bar-${index}`}
             style={barStyle}
-            className={clsx('w-1 flex-shrink-0 rounded-t-sm border')}
+            className={clsx('w-full rounded-t-sm border')}
             title={
               entry.isMissing
                 ? `Missing data for ${format(entry.date, 'yyyy-MM-dd')}`
