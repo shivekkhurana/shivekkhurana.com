@@ -161,15 +161,7 @@ function Post({ post }: PostProps) {
       <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
         <div className="text-lg">
           {canonicalUrl && <CanonicalRef canonicalUrl={canonicalUrl} />}
-
-          {/* <div> */}
-          {/*   <div className="uppercase text-xs font-semibold mb-3"> */}
-          {/*     Share this post */}
-          {/*   </div> */}
-          {/*   <Share title={title} url={`https://krimlabs.com/blog/${slug}`} /> */}
-          {/* </div> */}
         </div>
-        {/* {relatedPosts.length > 0 && <Related relatedPosts={relatedPosts} />} */}
       </div>
     </div>
   );

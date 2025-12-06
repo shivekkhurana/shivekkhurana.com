@@ -328,7 +328,7 @@ export const freeResources: FreeResource[] = [
   {
     title: 'Drug Dealer API with Pedestal',
     subTitle: 'A three part series on how to build REST APIs with Clojure',
-    url: 'https://krimlabs.com/blog/clojure-drug-dealer-part-1',
+    url: 'https://shivekkhurana.com/blog/clojure-drug-dealer-part-1',
   },
   {
     title: 'It starts with Clojure',
