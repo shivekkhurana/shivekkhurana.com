@@ -1,37 +1,18 @@
 ---
+import clsx from 'clsx';
 import Seo from '@src/components/Seo';
 import HtmlLayout from '@src/layouts/Html.astro';
 import BodyLayout from '@src/layouts/Body.astro';
 import HeadLayout from '@src/layouts/Head.astro';
-import { fetchLocationData } from '@src/domain/location';
-import {
-  fetchRestingHeartRate,
-  fetchHRV,
-  fetchBodySurfaceTemp,
-  fetchLastSleep,
-} from '@src/domain/healthkit';
-import { fetchWorkoutStats } from '@src/domain/workouts';
-
-import clsx from 'clsx';
-import Spotlight from '@src/components/Spotlight';
-import About from '@src/components/About';
-import Nav from '@src/components/Nav';
 import NavV2 from '@src/components/NavV2';
 import Footer from '@src/components/Footer';
-
-const locationData = await fetchLocationData();
-const rhrData = await fetchRestingHeartRate();
-const hrvData = await fetchHRV();
-const bodyTempData = await fetchBodySurfaceTemp();
-const workoutStats = await fetchWorkoutStats();
-const lastSleepData = await fetchLastSleep();
 ---
 
 <HtmlLayout>
   <HeadLayout>
     <Seo
-      title={'Shivek Khurana (formerly Krim Labs)'}
-      subTitle={'Hi, my name is Shivek. Krim is my interface to the world.'}
+      title={'Shivek Khurana'}
+      subTitle={'Product Engineer, Entrepreneur, Writer, and Investor'}
       tags={'Krim Labs, krim, labs, shivek khurana, shivek, clojure, krimlabs, krimlabs.com'}
       authorName={'Shivek Khurana'}
       heroImg={'/img/og.png'}
