@@ -1,6 +1,7 @@
 ---
 publishedOn: 2025-12-06
 title: Reflections from shutting down my VC backed startup after 4 years
+subTitle: The idea wasn’t working, and no amount of optimism or grit would change that. So we made the only honest call left; return the money.
 featured: false
 heroImg: /img/content/posts/mbk-reflections-cover.png
 slug: reflections-after-shutting-down-first-vc-backed-startup
@@ -13,8 +14,6 @@ author: shivekkhurana
 In December 2021, we closed a round to build a decentralised protocol on Solana.
 
 I believed we were about to build something important. It took me four years to accept that we weren’t.
-
-The idea wasn’t working, and no amount of optimism or grit would change that. So we made the only honest call left: return the money.
 
 We were fortunate. We had revenue. We returned about 70% of the capital.
 
