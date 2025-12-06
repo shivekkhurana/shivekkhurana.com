@@ -70,7 +70,9 @@ const transform = {
     </li>
   ),
   blockquote: ({ children }: PropsWithChildren) => (
-    <blockquote className="font-serif italic text-xl">{children}</blockquote>
+    <blockquote className="mt-4 font-serif italic text-2xl text-gray-600 [&_p]:my-0 [&_p]:first:mt-0 [&_p]:last:mb-0 [&_p]:text-2xl [&_p]:leading-relaxed">
+      {children}
+    </blockquote>
   ),
   a: ({ href, children }: PropsWithChildren<{ href: string }>) => {
     if (href.startsWith('https://gist.github.com')) {

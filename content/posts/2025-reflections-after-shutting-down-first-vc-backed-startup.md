@@ -1,8 +1,8 @@
 ---
-publishedOn:
-title: Reflections after shutting down a VC backed startup after 4 years
+publishedOn: 2025-12-06
+title: Reflections from shutting down my VC backed startup after 4 years
 featured: false
-heroImg: /img/content/posts/reflections-shutting-down-startup.png
+heroImg: /img/content/posts/mbk-reflections-cover.png
 slug: reflections-after-shutting-down-first-vc-backed-startup
 tags:
   - startup
@@ -10,121 +10,239 @@ tags:
 author: shivekkhurana
 ---
 
-In December of 2021, we closed a round for building a decentralised protocol on Solana.
-It took me 4 years to accept that my idea would not work. So we decided to give the money back.
+In December 2021, we closed a round to build a decentralised protocol on Solana.
 
-We were lucky because we had some hits, and a consistent revenue. We were able to return about 70% of the capital that we raised.
+I believed we were about to build something important. It took me four years to accept that we weren’t.
 
-This is not a post about raising capital, or about finding ideas, or about running a company. This is a post about how running a company with external investment changed my perspective. About the lessons I learnt and what I will do better next time.
+The idea wasn’t working, and no amount of optimism or grit would change that. So we made the only honest call left: return the money.
+
+We were fortunate. We had revenue. We returned about 70% of the capital.
+
+But shutting down isn’t about numbers. What stays with you are the decisions, the pressure, the moments when you realise the market doesn’t care about your plans.
+
+This isn’t a post about raising capital or running a company. It’s about the internal shift that happens when you run one with external money. The parts people don’t tell you. The parts I learned the hard way. And the parts I want to do differently next time.
 
 # Who is the post for
 
-Most of what I say here will only apply if you:
+Most of what I say here won’t make sense unless you’ve tried building something on the internet with your own two hands.
 
-- Want to build an internet company
-- Have a background in building products, writing code
-- Have an eye for design
-- Believe you can sell and
-- Are slightly dumb, because building companies is a dumb endeavour, statistically
+If you:
 
-# Your ideas don't matter
+- write code
+- design well enough to trust your own taste
+- believe you can sell
+- and still decide to build a company despite knowing the odds
 
-VCs work with LPs(Liquidity Providers) on a promise of a return or impact. To deliver the promise, they bet on ecosystems. Ideally trying to front-run breakout trends. In 1998, they were trying to front-run the web. And in 2022, AI.
+…then this is for you.
 
-If your idea fits the niche, you have your foot in the door. Because you can make a big "impact". The other way is to have a cash flow.
+It's for people who don’t need motivation but perspective. Someone who wants to know what the journey actually feels like, not the polished version that shows up on podcasts.
+
+# Your Idea Isn’t the Pitch, the Market Is
+
+I used to think the strength of the idea mattered. It doesn’t. At least not in the way founders imagine.
+
+VCs raise money from LPs on a promise: return capital by betting on the next big ecosystem.
+Their job is not to validate your imagination. Their job is to position themselves before a wave forms.
+
+- In 1998, that wave was the web.
+- In 2008, mobile.
+- In 2015, crypto.
+- In 2022, AI.
+
+Solana in 2021 had the same energy.
+
+If your idea sits inside the narrative they believe will compound, doors open. If it doesn’t, it doesn’t matter how “clever” you think it is.
+
+Ideas are only valuable in hindsight. After the market has already validated them for you.
 
 # Work life balance is a myth
 
-Motion produces balance. Not rest.
+> In an early stage company, you don’t maintain anything. You respond.
 
-Building companies is hard. Your customers will want all your time. And still complain. Your employees might betray you. Your team might have a breakdown.
+Customers demand attention at the exact moment you’re exhausted. Teams break down when you least expect it.
+A fire appears the day you planned a break. And when things finally calm down, something else tilts.
 
-> Nothing about building a business is exciting when you are building it. It's only exciting in retrospective.
+Balance is your ability to keep moving inside chaos.
 
-When you have a job, the reality of the market is abstracted by the leadership. Your only interaction with reality is a paycheck, which is stable. But reality is not. As a leader, you play close to the metal. It will get tough, but the only way out is to keep moving.
+When you have a job, leadership absorbs the real volatility. Your experience of the market is a stable paycheck. But when you’re the one building, there is no insulation. You operate close to the metal. You feel every fluctuation in revenue, morale, and direction.
 
-Take breaks, but be okay with the fact that something will always be on fire. And prolonged rest periods will not fix anything.
+You can (and should) take breaks. But don’t confuse rest with repair.
+Nothing in a company fixes itself because you stepped away for a weekend.
+
+Movement creates balance. Not rest.
 
 # Macro markets crash
 
-My startup was crypto first, and my customers reacted to BTC trends before they reacted to my offerings. This was a clean correlation, but I feel every startup will have to fight the macro-trend-waves.
+My startup lived inside the crypto cycle.
+I learned this the hard way: customers reacted to Bitcoin’s price faster than they reacted to our product. Revenue moved with the market, not with our roadmap.
 
-The best way to protect yourself from these waves, is to ignore them. A surfer once told me that, if you get stuck in a wave, don't fight it, let it make you tumble. It's a good analogy for macro trends. Don't fight them, let them tumble you.
+![](/img/content/posts/mbk-reflections-macro.png)
+_Illustration of plans being disturbed by the weather, generated by Google Imagen 4_
+
+I underestimated how dominant the macro tide is. You can be building well, shipping fast, growing steadily, and the entire environment can still turn against you in a single week.
+
+A surfer once told me:
+
+> If you get stuck in a wave, don’t fight it. Let it tumble you. Fighting burns oxygen you need later.
+
+That became the right mental model for volatile markets.
+
+- You can’t out-plan a macro cycle.
+- You can’t out-work it.
+- You can’t stabilise something the entire system is destabilising.
+
+When the wave turns, let it throw you around. When it calms, get back to paddling.
 
 # Raising capital
 
-Just don't. Unless you are building a deep tech platform with a low chance of success, you don't need capital.
+Most founders treat fundraising like a milestone.
+It isn’t. It’s a commitment that rewires the entire psychology of the company.
 
-The largest expense of building an online company is building the product. With Claude Code, that expense gets slashed. What needed a team of 5 and 6 months, can be done by one person in one month.
+If you’re building something truly deep-tech with long R&D cycles and low probability of early revenue, capital makes sense. But for most internet companies, the biggest cost has always been building the product. That cost collapsed with modern AI tools. What used to take a team of five now takes a focused individual.
 
-Having a steady job (or savings) is the best source of funds till you find pmf. My friend [Anand](https://codeanand.com/) said you should raise capital only when you don't need to negotiate on terms.
+The truth I learned late:
 
-I'm noticing a trend of treating capital as a micro-exit (Gamma raised without giving board seats), or a [forever runway](https://x.com/paulg/status/1995278455332856176).
+- If you haven’t hit product–market fit, capital doesn’t accelerate you.
+- It just increases the pressure to pretend you’re progressing.
+
+Having a steady job or savings is a much cleaner way to fund the early stage. You retain your pace, your ownership, and your ability to make honest decisions.
 
 # Managing money
 
-Learn the basics of accounting, maintain your books, have a model of monthly expenses, always know your runway and cash in hand. Record everything, it's easy to misplace a few thousand dollars.
+The moment you take external money, your relationship with cash changes. It stops being “your” money and becomes fuel for a system you’re responsible for keeping alive.
 
-# Fear of loss of lifestyle
+- Learn the basics of accounting
+- Maintain your books
+- Model of monthly expenses
+- Know your runway and cash in hand
+- Record everything that goes in and out
 
-Most successful software engineers tend to enjoy a certain lifestyle. The ability to go to the gym, travel for conferences, take unlimited vacations, have the best tech gear.
+While building fast it's easy to misplace a few thousand dollars. All it takes is one missed contractor invoice.
 
-Building a company might make you lose these perks temporarily.
+# Fear of loss of software engineer lifestyle
+
+Most software engineers get used to a certain rhythm: good gyms, good gear, travel, conferences, flexible hours. It becomes normal.
+
+When you start a company, that stability disappears.
+
+The routines that kept you healthy and sharp suddenly compete with fires, customers, and cash flow.
+I didn’t realise how much of my confidence came from those habits: consistent training, good sleep, a clean schedule.
+
+Losing them didn’t feel dramatic, just gradual. But over time it affects how you think, work, and make decisions. Founding a company forces you to live below the lifestyle you could have had as an engineer. It’s temporary, but the adjustment is real.
+
+If you go in expecting comfort, you’ll break.
 
 # Don't let your health and social circle collapse
 
-When I was building my company, I took it too seriously. I felt responsible for my investor's money, and my customers' expectations.
+I took the company too seriously. I felt responsible for the money, the customers, the expectations.
+That tunnel vision cost me two years of my life.
 
-That led to loss of health and social circle. I spent 2 years of my youth, sitting in my home office, building 12 hours a day.
+I stopped going out. Stopped meeting people. Stopped doing anything that wasn’t “progress.” My world shrank to a home office and a laptop.
 
-My health and social life collapsed. I didn't date. I had no prospects for finding a wife. Before we decided to shut down our company, I realised this problem and fixed it.
+The collapse wasn’t sudden. It was quiet. Worse sleep. No dating life. No new friendships.
+Days blending into each other because nothing existed outside work.
 
-If only someone had told me this would be a problem in the first place.
+By the time I noticed, most of the damage was already done. Before shutting down, I forced myself to fix it, rebuild routine, reconnect, get healthy again. It worked, but it shouldn’t have reached that point.
+
+Founders underestimate this part. No one warns you that your health and your social circle are the first to go. And the last to recover.
 
 # Doing hard things
 
-Ultimately, in order to be successful, you need to build something that solves a pain. If it was easy, Twitter Tech Bros, and vibe coding gurus will do it.
+I spent too long looking for “easy” problems.
+Something quick to build and clean to ship.
+Something the market would instantly understand.
 
-Most problems lie outside the software domain. Which is hard for software developers to comprehend. Software is just the interface.
+That instinct was wrong.
 
-I wanted to find an easy problem and solve it fast. In retrospect, it's better to look for hard problems. Because it will probably take the same effort to solve. Punch above your weight class.
+![](/img/content/posts/mbk-reflections-hard.png)
+_Illustration of a man playing tug of war with a lion in captivity, generated by Google Imagen 4_
+
+Most real problems sit outside software. They involve operations, regulation, trust, behaviour or money flows. Complex processes you can’t solve with a weekend sprint. Software is just the interface.
+
+> I wanted leverage without friction. In reality, friction was the leverage.
+
+Hard problems aren’t harder to build. They’re just harder to start.
+But once you’re in them, the effort is the same. Punch above your weight. The easy stuff never compounds.
 
 # Being in the scene
 
-Leonardo of Vinci and Michaelangelo were contemporaries. Mark and Sergey too. There is some power in being close to people similar to you.
+There’s a real advantage in being around people who think like you.
+Not for networking, not for hype, but for calibration.
 
-My closest experience with this was being in university. Being surrounded by intelligent people made me more intelligent. Although I despise formal education, there is benefit in being where the smart people are.
+In university, I saw this clearly. Being surrounded by sharp people made me sharper. You rise to the level of the room without noticing it.
 
-Won't work for me in this life because I was born in India and most software-smart people are in the US. Maybe I can go and live in China sometime.
+That same effect exists in tech. Mark and Sergey were contemporaries. So were Jobs and Gates.
+Being in the right environment accelerates you in ways effort alone can’t.
+
+My reality is different. I grew up in India and live in Europe. Most of the people who work the way I do are in the US. Some days I feel the distance.
+
+Geography isn’t everything, but proximity matters. You think bigger when the people around you are already operating at that scale.
 
 # There is no such thing as a success or failure
 
-There are just levels to the game. You not being able to reach the level where you want to operate is deemed as a failure. But failure is not absolute. Where you are today might be someone's definition of success.
+People talk about success and failure as if they’re endpoints. They’re not. They’re just positions on a map.
+
+You don't "fail" at a company. You just stop at a level you didn't want to stop at. Someone else might look at that same level and call it success.
+
+Your internal benchmark keeps shifting. The moment you reach something, you raise the bar. The moment you miss something, you redefine the target.
+
+None of this is absolute. You’re not a success. You’re not a failure. You’re just at a stage.
+The only real question is whether you want to move to the next one.
 
 # Timing
 
-At low capital levels, you cannot build a wave. You can only ride one. So float patiently. When the wave presents, pounce on it. Ride it for as long as you can, don't wait for bigger waves.
+At low capital levels, you don’t create waves. You only ride them.
 
-When it's over, start floating again. Focus on the wave at hand.
+I hated this realisation. I wanted to believe grit and insight can compensate for timing. They can’t.
+
+> Your job is simple: to stay afloat. Watch the market. Stay alive long enough for a real wave to appear.
+
+When it does, don’t hesitate. Pounce. Ride it as far as it goes.
+Don’t wait for a bigger one. Big waves are rare, and you may not get another shot.
+
+When the wave dies, go back to floating. Reset. Look again.
+
+Timing isn’t luck. It’s patience plus readiness.
 
 # Competition is validation
 
-As a kid, I used to look for opportunities where there was no competition. I thought it would be easier that way. Wrong.
+When I was younger, I looked for ideas with no competition. I thought it meant "clean opportunity". It actually meant "no market".
 
-Competition has already created a market, where your customers understand the problem and the solution. Not having competitors means the market you are building for doesnt exist.
+Competition is a signal. It tells you customers already understand the problem. It tells you they're willing to pay.
+
+The absence of competitors isn't a blessing. It's a warning. You're either early, wrong, or looking at a market that doesn't exist.
+
+Competing is not a disadvantage. It's confirmation you're in the right arena.
 
 # Security
 
-Our Discord community got hacked and flooded with phishing links. I was kicked out of my own server and saw the attackers impersonating me.
+Our Discord server where we built our 8000 member community got hacked. The attackers impersonated me, kicked me out of my own server, and filled it with phishing links.
 
-I negotiated with them, and lost over 1.5k USD as ransom. It's a small amount compared to the mental toll of getting hacked.
+I tried negotiating. We paid them $1.5k and they didn't return the server back. But the money wasn’t the real hit.
 
-We eventually setup a new server and abandoned the old one, but harm was done.
+Talking to them was disturbing. Like dealing with people who had no moral compass, no conscience, and no sense of consequence.
+Just broken minds hiding behind screens. You can’t reason with people like that.
 
-As a rule of thumb, enforce 2FA across all work properties, across entire team. And never negotiate with bad actors. Take a loss and move on.
+We eventually abandoned the server and rebuilt everything from scratch. The harm was already done.
+
+The lesson was simple:
+
+- Enforce 2FA everywhere.
+- Force it across the team.
+- And never negotiate with bad actors. Take the loss and move on.
 
 # Conclusion
 
-The experience of building a company from scratch has helped me grow as a person and as an entreprenuer.
+Building a company from scratch changes you. You enter with confidence, assumptions, and a clean mind.
+You leave with scars, clarity, and a different sense of what matters.
 
-It's a journey that I will not recommend anyone to take. Because if you are a founder, you will ignore what I say and do it anyways.
+I grew in ways I didn’t expect. As a builder. As a human. As a person carrying responsibility for other people’s money, time, and belief.
+
+![](/img/content/posts/mbk-reflections-conclusion.png)
+_Illustration of a man writing on a desk. A lamp is glowing, everything is black and white except the light and cookies, generated by Google Imagen 4_
+
+I won’t tell anyone to follow this path. If you’re a founder, you’ll ignore advice and do it anyway.
+There is no glamour in the middle of the journey. Only work, pressure, and decisions you can’t outsource.
+
+But if you make it through, even if you don’t reach the level you wanted, you come out sharper, calmer, and harder to shake.
+That part is worth it.
