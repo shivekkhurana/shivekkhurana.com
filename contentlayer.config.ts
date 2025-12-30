@@ -2,13 +2,61 @@ import { defineDocumentType, makeSource } from 'contentlayer/source-files';
 import { Marked } from 'marked';
 import { markedHighlight } from 'marked-highlight';
 import { getHighlighter } from 'shiki';
+import * as vega from 'vega';
+import * as vegaLite from 'vega-lite';
+
+// Helper to escape HTML entities
+function escapeHtml(text: string): string {
+  const map: Record<string, string> = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;'
+  };
+  return text.replace(/[&<>"']/g, (m) => map[m]);
+}
+
+// Helper to render Vega-Lite spec to SVG
+async function renderVegaToSvg(spec: string): Promise<string> {
+  try {
+    const parsedSpec = JSON.parse(spec);
+    
+    // Compile Vega-Lite to Vega
+    const vegaSpec = vegaLite.compile(parsedSpec).spec;
+    
+    // Create a Vega view and render to SVG
+    const view = new vega.View(vega.parse(vegaSpec), { renderer: 'none' });
+    const svg = await view.toSVG();
+    
+    return `<div class="vega-chart-container">
+      <div class="vega-chart-wrapper">
+        ${svg}
+      </div>
+    </div>`;
+  } catch (error) {
+    console.error('Failed to render Vega chart:', error);
+    const errorMessage = error instanceof Error ? error.message : String(error);
+    return `<div style="margin: 1.5rem auto; max-width: 66%; padding: 1rem; background-color: #fef2f2; border: 1px solid #fecaca; border-radius: 0.25rem;">
+      <p style="color: #dc2626; font-weight: 600;">Error rendering chart</p>
+      <p style="color: #ef4444; font-size: 0.875rem; margin-top: 0.5rem;">Invalid Vega-Lite specification: ${errorMessage}</p>
+    </div>`;
+  }
+}
 
 const marked = new Marked(
   markedHighlight({
     async: true,
     async highlight(code, lang, _info) {
+      // Render vega/vega-lite charts server-side as SVG
+      if (lang === 'vega-lite' || lang === 'vega') {
+        const svg = await renderVegaToSvg(code);
+        return svg;
+      }
+      
       const highlighter = await getHighlighter({ theme: 'monokai' });
-      return highlighter.codeToHtml(code, lang);
+      const html = highlighter.codeToHtml(code, lang); 
+      return html;
     },
   })
 );
@@ -63,9 +111,10 @@ const Post = defineDocumentType(() => ({
   computedFields: {
     parsedMd: {
       type: 'string',
-      resolve: (doc) => {
-        return marked.parse(doc.body.raw);
-      },
+      resolve: async (doc) => {
+        const html = await marked.parse(doc.body.raw);
+        return html;   
+     },
     },
   },
 }));
@@ -101,14 +150,6 @@ const GenomicsInvestor = defineDocumentType(() => ({
     description: { type: 'string', required: false },
     lastResearched: { type: 'date', required: false },
   },
-  computedFields: {
-    parsedMd: {
-      type: 'string',
-      resolve: (doc) => {
-        return marked.parse(doc.body.raw);
-      },
-    },
-  },
 }));
 
 const GenomicsCompany = defineDocumentType(() => ({
@@ -124,14 +165,6 @@ const GenomicsCompany = defineDocumentType(() => ({
     description: { type: 'string', required: false },
     logo: { type: 'string', required: false },
     lastResearched: { type: 'date', required: false },
-  },
-  computedFields: {
-    parsedMd: {
-      type: 'string',
-      resolve: (doc) => {
-        return marked.parse(doc.body.raw);
-      },
-    },
   },
 }));
 

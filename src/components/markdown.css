@@ -94,3 +94,31 @@
 .markdown table tbody tr:nth-child(odd) {
   background-color: transparent;
 }
+
+/* Vega chart styles */
+.markdown .vega-chart-container {
+  display: flex;
+  justify-content: center;
+}
+
+.markdown .vega-chart-wrapper {
+  width: 100%; /* Match code block default width */
+}
+
+.markdown .vega-chart-wrapper svg {
+  width: 100%; /* SVG occupies full container width */
+  height: auto;
+}
+
+/* Match code block responsive widths */
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .markdown .vega-chart-wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .markdown .vega-chart-wrapper {
+    width: 50%;
+  }
+}

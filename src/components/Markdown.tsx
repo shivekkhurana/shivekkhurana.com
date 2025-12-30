@@ -8,11 +8,15 @@ import '@src/components/markdown.css';
 
 const transform = {
   p: ({ children }: PropsWithChildren) => {
-    const el = children[0];
+    // Safely check if children is an array and has elements
+    const childArray = React.Children.toArray(children);
+    const el = childArray[0];
     const isElImg =
-      el.props &&
-      el.props.hasOwnProperty('alt') &&
-      el.props.hasOwnProperty('src');
+      el &&
+      typeof el === 'object' &&
+      'props' in el &&
+      el.props?.hasOwnProperty('alt') &&
+      el.props?.hasOwnProperty('src');
     return (
       <p
         className={clsx('mx-auto', 'mt-6', ' text-lg leading-relaxed', {
@@ -25,7 +29,8 @@ const transform = {
     );
   },
   h1: ({ children }: PropsWithChildren) => (
-    <h1
+    // H1 is H3 on page context, becasuse title is H1, subtitle is H2 
+    <h3
       className={clsx(
         'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-2xl',
         'mt-6 mb-3',
@@ -33,10 +38,10 @@ const transform = {
       )}
     >
       {children}
-    </h1>
+    </h3>
   ),
   h2: ({ children }: PropsWithChildren) => (
-    <h2
+    <h4
       className={clsx(
         'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-xl',
         'mt-5 mb-2',
@@ -44,10 +49,10 @@ const transform = {
       )}
     >
       {children}
-    </h2>
+    </h4>
   ),
   h3: ({ children }: PropsWithChildren) => (
-    <h3
+    <h5
       className={clsx(
         'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-lg',
         'mt-4 mb-1',
@@ -55,9 +60,9 @@ const transform = {
       )}
     >
       {children}
-    </h3>
+    </h5>
   ),
-  hr: () => <hr className="mx-auto w-[9/10] md:w-8/12 lg:w-6/12" />,
+  hr: () => <hr className="mx-auto w-9/10 md:w-8/12 lg:w-6/12" />,
   ul: ({ children }: PropsWithChildren) => (
     <ul className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">{children}</ul>
   ),
@@ -70,25 +75,27 @@ const transform = {
     </li>
   ),
   blockquote: ({ children }: PropsWithChildren) => (
-    <blockquote className="mt-4 font-serif italic text-2xl text-gray-600 [&_p]:my-0 [&_p]:first:mt-0 [&_p]:last:mb-0 [&_p]:text-2xl [&_p]:leading-relaxed">
+    <blockquote className="mt-4 font-serif italic text-2xl text-gray-600 [&_p]:px-6 [&_p]:my-0 [&_p]:first:mt-0 [&_p]:last:mb-0 [&_p]:text-2xl [&_p]:leading-relaxed">
       {children}
     </blockquote>
   ),
-  a: ({ href, children }: PropsWithChildren<{ href: string }>) => {
-    if (href.startsWith('https://gist.github.com')) {
+  a: ({ href, children, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
+    if (href?.startsWith('https://gist.github.com')) {
       // Handle specific case
     }
     return (
       <a
         href={href}
         target="_blank"
+        rel="noopener noreferrer"
+        {...props}
       >
         {children}
       </a>
     );
   },
-  img: ({ src, alt }: { src: string; alt: string }) => {
-    const srcParts = src.split('?');
+  img: ({ src, alt }: { src?: string; alt?: string }) => {
+    const srcParts = (src || '').split('?');
     const size = srcParts[1];
     return (
       <img
@@ -99,7 +106,7 @@ const transform = {
           'w-10/12 md:w-8/12': size === 'large',
           'w-10/12': size === 'x-large',
         })}
-        alt={String(alt)}
+        alt={alt || ''}
       />
     );
   },
