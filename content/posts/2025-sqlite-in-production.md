@@ -1,7 +1,7 @@
 ---
 publishedOn: 2025-12-30T00:00:00.000Z
 title: Sophisticated Simplicity of Modern SQLite
-subTitle: A benchmark-driven guide to tuning SQLite for production workloads
+subTitle: A benchmark-driven guide to tuning SQLite for production workloads, 10k ops/second with sub 10ms write latency and sub 5ms read latency. 
 heroImg: /img/content/posts/sqlite-benchmarks.png
 featured: false
 slug: sqlite-in-production
