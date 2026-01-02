@@ -33,14 +33,24 @@ function Hero() {
           />
           <a
             href="/about"
-            className={clsx('inline-block h-[30px] px-[10px]', 'border')}
+            className={clsx('inline-block h-[30px] px-[10px]', 'border border-black/60')}
           >
             About
           </a>
         </div>
 
+         <a
+          href="/projects"
+          className={clsx(
+            'inline-block h-[30px] px-[10px]',
+            'border'
+          )}
+        >
+          Projects
+        </a>
+ 
         {/* Available for consultancy Button */}
-        <a
+        {/* <a
           href="/consultancy"
           className={clsx(
             'inline-block h-[30px] px-[10px]',
@@ -48,8 +58,8 @@ function Hero() {
           )}
         >
           Consultancy
-        </a>
-      </div>
+        </a> */}
+      </div> 
     </div>
   );
 }
