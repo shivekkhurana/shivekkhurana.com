@@ -1,6 +1,7 @@
 import React from 'react';
 import { getAuthorBySlug } from '@src/domain/content';
 import Markdown from '@src/components/Markdown';
+import PostClosing from '@src/components/PostClosing';
 import { convertDateString } from '@src/utils/time';
 import type {
   Post as PostContentType,
@@ -163,6 +164,8 @@ function Post({ post }: PostProps) {
           {canonicalUrl && <CanonicalRef canonicalUrl={canonicalUrl} />}
         </div>
       </div>
+
+      <PostClosing />
     </div>
   );
 }

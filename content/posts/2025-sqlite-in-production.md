@@ -1,7 +1,7 @@
 ---
 publishedOn: 2025-12-30T00:00:00.000Z
 title: Sophisticated Simplicity of Modern SQLite
-subTitle: A benchmark-driven guide to tuning SQLite for production workloads, 10k ops/second with sub 10ms write latency and sub 5ms read latency. 
+subTitle: A benchmark-driven guide to tuning SQLite for production workloads
 heroImg: /img/content/posts/sqlite-benchmarks.png
 featured: false
 slug: sqlite-in-production
@@ -9,8 +9,7 @@ tags: []
 author: shivekkhurana
 ---
 
-
-A [recent post](https://andersmurphy.com/2025/12/02/100000-tps-over-a-billion-rows-the-unreasonable-effectiveness-of-sqlite.html) claiming SQLite reaches 100k TPS using batched `BEGIN IMMEDIATE` transactions sparked a question: Can I build everything with SQLite? 
+A [recent post](https://andersmurphy.com/2025/12/02/100000-tps-over-a-billion-rows-the-unreasonable-effectiveness-of-sqlite.html) claiming SQLite reaches 100k TPS using batched `BEGIN IMMEDIATE` transactions sparked a question: Can I build everything with SQLite?
 
 Despite my experience since 2014 suggesting it lacks concurrent writer support, I [wasn't](https://www.reddit.com/r/Database/comments/1cqx84l/who_has_sqlite_in_production/) [alone](https://www.reddit.com/r/django/comments/17vn181/is_it_okay_to_use_sqlite_in_production/) [in](https://www.reddit.com/r/programming/comments/1djkt2y/why_does_sqlite_in_production_have_such_a_bad_rep/) [this](https://www.reddit.com/r/dotnet/comments/1bulzdi/sqlite_in_production/) [curiosity](https://www.reddit.com/r/rails/comments/k4vlqo/is_anyone_using_sqlite_on_production_either_side/). A [2024 Rails talk](https://www.youtube.com/watch?v=wFUy120Fts8) by [@fractalmind](https://fractaledmind.com/2024/10/16/sqlite-supercharges-rails/) clarified matters, debunking concurrency myths and explaining that SQLite simply needs tuning for modern hardware:
 
@@ -40,18 +39,17 @@ Benefits:
 - Reads are faster than network DBs.
 - Writes are faster in low concurrency.
 
-
 ## About the benchmarking methodology
 
 Benchmarks often optimize for peak numbers rather than real-world scenarios. Real applications involve connected data, joins, and concurrent writes. To simulate this, I used a blog model (Users, Posts, Tags) with realistic relationships (User has-many Posts, Post has-many Tags) and indices.
 
 The benchmark mimics a multi-process web server with realistic queries:
+
 - Users by time range
 - Paginated posts and tags (100/read)
 - Posts with joined users and tags
 
 All code (co-authored by Composer 1, Opus 4.5, and Gemini 1.5 Pro) is [available on GitHub](https://github.com/shivekkhurana/sqlite-test).
-
 
 ## Runtime
 
@@ -59,14 +57,13 @@ Benchmarks run on a 2.4GHz 8-core Intel i9 MacBook (32GB RAM). Node.js and [Pisc
 
 I assumed a 16-thread limit matching the logical cores, but testing exceeded this to observe saturation.
 
-Like a real app, all workers can read and write. 
-
+Like a real app, all workers can read and write.
 
 # Write Phase
+
 SQLite is a single-writer, multi-reader database. I began by tuning for write throughput, then introduced a mixed workload of 80% reads and 20% writes.
 
 If your workload involves fewer than 20% writes, expect better performance than this benchmark. Higher write ratios will likely degrade performance.
-
 
 In this phase, we start with a vanilla SQLite database and tune it for writes.
 
@@ -467,14 +464,13 @@ I tested 400ms, 2000ms, and 5000ms timeouts:
 }
 ```
 
-There is no significant change in `p99` latency with various busy timeout settings. The latency drop beyond 32 workers in 400ms case is due to lock errors. Lock errors cause the latency metrics to drop inaccurately. 
+There are no significant changes in `p99` latency with various busy timeout settings. The latency drop beyond 32 workers in the 400ms case is due to lock errors. Lock errors cause the latency metrics to drop inaccurately.
 
-Increasing the busy timeout prevents these errors without affecting latency, I recommend a setting between 5 and 10 seconds. This gives us our first knob:
+Increasing the busy timeout prevents these errors without affecting latency. I recommend a setting between 5 and 10 seconds. This gives us our first knob:
 
-
-| SQLITE Production Configuration Knob | Value | Description |
-| --- | --- | --- |
-| `PRAGMA busy_timeout` | 5s - 10s | Prevents lock errors |
+| SQLITE Production Configuration Knob | Value    | Description          |
+| ------------------------------------ | -------- | -------------------- |
+| `PRAGMA busy_timeout`                | 5s - 10s | Prevents lock errors |
 
 ## Enable WAL Journal
 
@@ -487,7 +483,6 @@ Readers see a consistent view by reading from the database file plus any newer p
 **The WAL file is therefore a first-class data store, not a temporary buffer. At any moment, the authoritative state of the database is: database file + WAL file**
 
 Changes are copied from the WAL back into the database file later during a checkpoint. A checkpoint is not time-based but is triggered by:
-
 
 - WAL file size thresholds
 - Auto-checkpoint settings or explicit `PRAGMA wal_checkpoint`
@@ -1338,12 +1333,12 @@ Anything above that improves writes/second significantly.
 }
 ```
 
-WAL is the strongest knob we can tune to improve SQLite production performance. 
+WAL is the strongest knob we can tune to improve SQLite production performance.
 
-| SQLITE Production Configuration Knob | Value | Description |
-| --- | --- | --- |
-| `PRAGMA busy_timeout` | 5s - 10s | Prevents lock errors |
-| `PRAGMA journal_mode` | `WAL` | Improves write concurrency |
+| SQLITE Production Configuration Knob | Value    | Description                |
+| ------------------------------------ | -------- | -------------------------- |
+| `PRAGMA busy_timeout`                | 5s - 10s | Prevents lock errors       |
+| `PRAGMA journal_mode`                | `WAL`    | Improves write concurrency |
 
 ## Sync Normal vs Full
 
@@ -1790,33 +1785,31 @@ By default, SQLite uses `PRAGMA synchronous = FULL`, ensuring every transaction 
 }
 
 ```
-On my machine, I didn't notice any difference between `NORMAL` and `FULL` in terms of latency. But these are write-only workloads, so the difference might be more visible in read-heavy workloads. It could also mean that `fsync` on a Mac is not as expensive as I expected:
 
+On my machine, I didn't notice any significant difference between `NORMAL` and `FULL` in terms of latency. But these are write-only workloads, so the difference might be more visible in read-heavy workloads. It could also mean that `fsync` on a Mac is not as expensive as I expected:
 
-| SQLITE Production Configuration Knob | Value | Description |
-| --- | --- | --- |
-| `PRAGMA busy_timeout` | 5s - 10s | Prevents lock errors |
-| `PRAGMA journal_mode` | `WAL` | Improves write concurrency |
-| `PRAGMA synchronous` | `NORMAL` | Reduces fsync (trade durability for speed) |
-
+| SQLITE Production Configuration Knob | Value    | Description                                |
+| ------------------------------------ | -------- | ------------------------------------------ |
+| `PRAGMA busy_timeout`                | 5s - 10s | Prevents lock errors                       |
+| `PRAGMA journal_mode`                | `WAL`    | Improves write concurrency                 |
+| `PRAGMA synchronous`                 | `NORMAL` | Reduces fsync (trade durability for speed) |
 
 ChatGPT recommended to use `NORMAL` for most workloads (Web APIs, caches, event ingestion). Only use `FULL` if you strictly cannot afford to lose the last committed transaction, even at the cost of higher latency.
 
 ## Advanced WAL Tuning: Latency Comparison
 
-Next we'll tune some advanced knobs that are very specific to your workload. 
+Next we'll tune some advanced knobs that are very specific to your workload.
 
 - `PRAGMA wal_autocheckpoint`: Adjusts how often we "checkpoint" (transfer) data from the WAL to the main database file.
 - `PRAGMA mmap_size`: Reduces system call overhead by mapping the database file directly into memory.
 - `PRAGMA temp_store`: Keeps temporary tables and indices entirely in RAM to avoid disk I/O.
 
-Below is a chart of following configurations against the WAL Sync Normal mode for reference. 
+Below is a chart of following configurations against the WAL Sync Normal mode for reference.
 
 - WAL + Sync NORMAL
 - WAL + NORMAL + Checkpoint 2k
 - WAL + NORMAL + Checkpoint 4k
 - WAL + NORMAL + Checkpoint 4k + 1GB MMAP
-
 
 ```vega-lite
 {
@@ -2324,8 +2317,7 @@ Below is a chart of following configurations against the WAL Sync Normal mode fo
 }
 ```
 
-On my machine, the difference in P99 and Average latency between these configurations was not very visible. This is likely because the benchmark consists primarily of write-only workloads. The benefits of MMAP and larger checkpoints are typically more pronounced in read-heavy or mixed workloads where read lock contention and system call overhead become bottlenecks.
-
+On my machine, the difference in P99 and Average latency between these configurations was not very visible. This is likely because this particular test run emphasized write operations. The benefits of MMAP and larger checkpoints are typically more pronounced in read-heavy or mixed workloads where read lock contention and system call overhead become bottlenecks.
 
 ### Checkpoints: Quick vs Delayed "Bill Payments"
 
@@ -2333,8 +2325,8 @@ To understand `PRAGMA wal_autocheckpoint`, use the "billing analogy". Think of w
 
 The `wal_autocheckpoint` setting defines how often you pay that bill (in number of pages).
 
-*   **Paying Often (Low Threshold, e.g., 1000 pages)**: The default setting. You pay your bill frequently. This keeps your debt (WAL file size) small and manageable, ensuring that readers have less WAL data to scan. However, the administrative overhead of logging in to pay (invoking the checkpointer and fsyncing) happens frequently, stealing cycles from your application.
-*   **Paying Later (High Threshold, e.g., 2000 or 4000 pages)**: You let the tab run up higher before paying. This is more efficient because you batch the "payment" work—you perform the expensive checkpoint operation less often. The tradeoff is that the "bill" (WAL file) gets larger. A larger WAL file can slightly slow down readers and means the eventual payment will take longer to process, potentially causing a minor latency spike.
+- **Paying Often (Low Threshold, e.g., 1000 pages)**: The default setting. You pay your bill frequently. This keeps your debt (WAL file size) small and manageable, ensuring that readers have less WAL data to scan. However, the administrative overhead of logging in to pay (invoking the checkpointer and fsyncing) happens frequently, stealing cycles from your application.
+- **Paying Later (High Threshold, e.g., 2000 or 4000 pages)**: You let the tab run up higher before paying. This is more efficient because you batch the "payment" work—you perform the expensive checkpoint operation less often. The tradeoff is that the "bill" (WAL file) gets larger. A larger WAL file can slightly slow down readers and means the eventual payment will take longer to process, potentially causing a minor latency spike.
 
 For high-throughput write applications, increasing the checkpoint threshold (e.g., from 1000 to 4000) strikes a better balance, reducing the frequency of checkpoint freezes.
 
@@ -2342,20 +2334,17 @@ For high-throughput write applications, increasing the checkpoint threshold (e.g
 
 The final optimizations involve how SQLite interacts with memory.
 
-*   **MMAP (`PRAGMA mmap_size`)**: By default, SQLite reads data from disk using standard system calls (`read()`). This is like asking a librarian to fetch a book for you every time you need to look up a fact. Enabling MMAP (`mmap_size > 0`) allows the OS to map the database file directly into the process's memory space. It's equivalent to spreading the books out on your desk; you can access the data instantly without the overhead of asking the librarian. A 1GB MMAP limits syscalls and can significantly reduce CPU usage for reads.
-*   **Temp Store (`PRAGMA temp_store`)**: Complex queries often create temporary tables or indices. By setting `temp_store = 2` (Memory), you force SQLite to build these temporary structures in RAM rather than on the disk. This is a "free" performance win if you have memory to spare, preventing unnecessary I/O for transient data.
+- **MMAP (`PRAGMA mmap_size`)**: By default, SQLite reads data from disk using standard system calls (`read()`). This is like asking a librarian to fetch a book for you every time you need to look up a fact. Enabling MMAP (`mmap_size > 0`) allows the OS to map the database file directly into the process's memory space. It's equivalent to spreading the books out on your desk; you can access the data instantly without the overhead of asking the librarian. A 1GB MMAP limits syscalls and can significantly reduce CPU usage for reads.
+- **Temp Store (`PRAGMA temp_store`)**: Complex queries often create temporary tables or indices. By setting `temp_store = 2` (Memory), you force SQLite to build these temporary structures in RAM rather than on the disk. This is a "free" performance win if you have memory to spare, preventing unnecessary I/O for transient data.
 
-| SQLITE Production Configuration Knob | Value | Description |
-| :--- | :--- | :--- |
-| `PRAGMA busy_timeout` | 5s - 10s | Prevents lock errors |
-| `PRAGMA journal_mode` | `WAL` | Improves write concurrency |
-| `PRAGMA synchronous` | `NORMAL` | Reduces fsync (trade durability for speed) |
-| `PRAGMA wal_autocheckpoint` | `4000` | Checkpoint less often to improve write throughput |
-| `PRAGMA mmap_size` | `1073741824` | (1GB) Reduces syscalls by mapping DB to RAM |
-| `PRAGMA temp_store` | `MEMORY` | Stores temp tables in RAM instead of disk |
-
-
-
+| SQLITE Production Configuration Knob | Value        | Description                                       |
+| :----------------------------------- | :----------- | :------------------------------------------------ |
+| `PRAGMA busy_timeout`                | 5s - 10s     | Prevents lock errors                              |
+| `PRAGMA journal_mode`                | `WAL`        | Improves write concurrency                        |
+| `PRAGMA synchronous`                 | `NORMAL`     | Reduces fsync (trade durability for speed)        |
+| `PRAGMA wal_autocheckpoint`          | `4000`       | Checkpoint less often to improve write throughput |
+| `PRAGMA mmap_size`                   | `1073741824` | (1GB) Reduces syscalls by mapping DB to RAM       |
+| `PRAGMA temp_store`                  | `MEMORY`     | Stores temp tables in RAM instead of disk         |
 
 # Mixed Read-Write Phase
 
@@ -2366,11 +2355,12 @@ In this phase of the benchmark, we introduce 4 different kinds of read queries t
 3. `single_post_with_details`: Fetches a single post along with its author and tags. This is a more complex query requiring multiple `LEFT JOIN`s to bring in data from `users`, `user_posts`, `posts_tags`, and `tags`.
 4. `users_in_timeframe`: Selects a list of 100 users who joined the platform within a specified time window.
 
-Along with the 4 read queries, we continue to write data to the database. 80% of total queries are read queries and 20% are write queries. 
+Along with the 4 read queries, we continue to write data to the database. 80% of total queries are read queries and 20% are write queries.
 
 ## Mixed Workload Database setup
 
 The mixed workload database is configured with:
+
 - Busy Timeout: 5s
 - Journal Mode: WAL
 - Synchronous: NORMAL
@@ -2381,9 +2371,8 @@ The mixed workload database is configured with:
 
 Page Cache is similar to MMAP in that both utilize memory to accelerate data retrieval, but they function differently. The Page Cache (`PRAGMA cache_size`) is a user-space buffer managed by SQLite, meaning data is copied from the operating system's kernel cache into SQLite’s memory. MMAP, on the other hand, maps the file directly into the process's address space, allowing zero-copy access where the OS manages paging transparently. While MMAP acts as a "second layer" of caching that reduces syscall overhead, the Page Cache remains essential for managing dirty pages and handling write operations effectively.
 
-
-
 ## Ops per second
+
 The benchmarks start after seeding 50000 records in the database. Then we run 1,048,576 (2^20) reads and 131,072 (2^17) writes.
 
 ```vega-lite
@@ -2521,12 +2510,11 @@ The benchmarks start after seeding 50000 records in the database. Then we run 1,
 }
 ```
 
-The drop at 14 to 20 concurrency feels unnatural. It could be due to my [laptop throttling under sustained load](https://stanislas.blog/2025/12/macos-thermal-throttling-app/). **The sweet spot for ops per second is between 8 to 14 concurrency or 80% of thread count (80% x 16 = 12.8)**.
-
+The drop from 14 to 20 workers feels unnatural. It could be due to my [laptop throttling under sustained load](https://stanislas.blog/2025/12/macos-thermal-throttling-app/). **The sweet spot for ops per second is between 8 to 14 concurrency or 80% of thread count (80% x 16 = 12.8)**.
 
 ## Detailed Read vs Write Latency
 
-The p99 read latency consistently stays under 6ms, even at 60+ concurrent workers. This is a testament to SQLite's performance. 
+The p99 read latency consistently stays under 6ms, even at 60+ concurrent workers. This is a testament to SQLite's performance.
 
 ```vega-lite
 {
@@ -2766,7 +2754,7 @@ For writes, the p99 stays under 10 when concurrency is less than thread count. P
 }
 ```
 
-I was honestly surprised to see sub 10ms write latency, and sub 5ms read latency. This is just a file on my machine. It's radically simple, faster and easier to work with. SQLite is a game changer. 
+I was honestly surprised to see sub 10ms write latency, and sub 5ms read latency. This is just a file on my machine—it's radically simple, faster and easier to work with.
 
 ## Impact of Page Cache Size on Ops/sec and Latency
 
@@ -2847,8 +2835,7 @@ In the next step of performance testing, I varied the page cache size and measur
 }
 ```
 
-
-Ops/sec was highest and latency was the lowest at 256MB cache size. The data doesn't have a conclusive shape, and it could be caused by factors beyond control of the benchmark. One possible control factor is the random timing of WAL checkpoints. Checkpoints are I/O intensive events; if one test run happens to trigger a checkpoint more frequently than another purely due to timing alignment, it can significantly skew the average throughput. 
+Ops/sec were highest and latency was lowest at 256MB cache size. The data doesn't have a conclusive shape, and it could be caused by factors beyond control of the benchmark. One possible control factor is the random timing of WAL checkpoints. Checkpoints are I/O intensive events; if one test run happens to trigger a checkpoint more frequently than another purely due to timing alignment, it can significantly skew the average throughput.
 
 ```vega-lite
 {
@@ -2913,18 +2900,17 @@ Ops/sec was highest and latency was the lowest at 256MB cache size. The data doe
 }
 ```
 
-Since I got lucky with 256MB, here's the final set of fine tunes for and SQLite DB:
+Since I got lucky with 256MB, here's the final set of fine tunes for a SQLite DB:
 
-| SQLITE Production Configuration Knob | Value | Description |
-| :--- | :--- | :--- |
-| `PRAGMA busy_timeout` | `5s - 10s` | Prevents lock errors |
-| `PRAGMA journal_mode` | `WAL` | Improves write concurrency |
-| `PRAGMA synchronous` | `NORMAL` | Reduces fsync (trade durability for speed) |
-| `PRAGMA wal_autocheckpoint` | `4000` | Checkpoint less often to improve write throughput |
-| `PRAGMA mmap_size` | `1073741824` | (1GB) Reduces syscalls by mapping DB to RAM |
-| `PRAGMA temp_store` | `MEMORY` | Stores temp tables in RAM instead of disk |
-| `PRAGMA cache_size` | `-262144` | (256MB) Caches hot pages in RAM to reduce disk I/O |
-
+| SQLITE Production Configuration Knob | Value        | Description                                        |
+| :----------------------------------- | :----------- | :------------------------------------------------- |
+| `PRAGMA busy_timeout`                | `5s - 10s`   | Prevents lock errors                               |
+| `PRAGMA journal_mode`                | `WAL`        | Improves write concurrency                         |
+| `PRAGMA synchronous`                 | `NORMAL`     | Reduces fsync (trade durability for speed)         |
+| `PRAGMA wal_autocheckpoint`          | `4000`       | Checkpoint less often to improve write throughput  |
+| `PRAGMA mmap_size`                   | `1073741824` | (1GB) Reduces syscalls by mapping DB to RAM        |
+| `PRAGMA temp_store`                  | `MEMORY`     | Stores temp tables in RAM instead of disk          |
+| `PRAGMA cache_size`                  | `-262144`    | (256MB) Caches hot pages in RAM to reduce disk I/O |
 
 # Tuning at the query level
 
@@ -2968,18 +2954,103 @@ While `busy_timeout` helps by making them wait, a more robust architectural patt
 
 ### Benefits
 
-*   **Zero Contention**: Since there is only one writer, `SQLITE_BUSY` errors due to write-write conflicts become impossible.
-*   **Smart Batching**: The writer can peek at the queue. If there are 50 pending insert jobs, it can wrap them all in a single `BEGIN IMMEDIATE ... COMMIT` transaction, dramatically reducing I/O overhead.
-*   **Backpressure**: If the queue fills up, you can handle backpressure gracefully (e.g., return 503 Service Unavailable) rather than timing out threads deep in the database driver.
+- **Zero Contention**: Since there is only one writer, `SQLITE_BUSY` errors due to write-write conflicts become impossible.
+- **Smart Batching**: The writer can peek at the queue. If there are 50 pending insert jobs, it can wrap them all in a single `BEGIN IMMEDIATE ... COMMIT` transaction, dramatically reducing I/O overhead.
+- **Backpressure**: If the queue fills up, you can handle backpressure gracefully (e.g., return 503 Service Unavailable) rather than timing out threads deep in the database driver.
 
 This pattern essentially turns SQLite into a highly efficient, single-threaded append-log engine for writes, while utilizing its multi-threaded read capabilities for serving data.
 
+# Production Readiness
+
+You've tuned SQLite for performance, but production deployment requires addressing a few more practical concerns: accessing the database for debugging, handling complex analytical queries, and ensuring data safety through backups.
+
+## Accessing the Production Database
+
+In a "one-person framework" philosophy, sometimes you need to jump into the production database to inspect or fix data quickly. While direct database access in production is generally discouraged in larger teams, for solo developers or small teams, pragmatism wins.
+
+Options for safe production access:
+
+- SSH + SQLite CLI: SSH into your server and use the `sqlite3` command-line tool to open your database file. Set `.mode` to something readable like `column` or `json`.
+- Read-only connection string: When just inspecting data, open the database in read-only mode to prevent accidental writes: `sqlite3 'file:/path/to/production.db?mode=ro`
+- Web-based admin panel: Build a lightweight admin interface in your app (protected by authentication) that lets you run read-only queries or perform common operations. Tools like [sqlite-web](https://github.com/coleifer/sqlite-web) can be run locally by copying the database file down first.
+- Litestream restore to local: Use Litestream to restore a recent snapshot locally, then explore it without touching production.
+
+## What About Complex Queries?
+
+SQLite excels at OLTP (transactional) workloads—the kinds of queries you see in this benchmark: lookups by ID, paginated lists, simple joins. It is **not optimized for OLAP (analytical) workloads** like complex aggregations, multi-table joins across millions of rows, or heavy GROUP BY operations.
+
+**Why?** Postgres runs as a separate process with sophisticated query planning, parallel execution, and extensive memory for intermediate results. SQLite is embedded inside your application. When you run a complex query in SQLite, it consumes your application's CPU and memory, potentially blocking other requests.
+
+**The SQLite way: Lift complexity to the application layer**
+
+Instead of writing a single massive SQL query, break it into multiple smaller, focused queries and compose the results in your application code:
+
+- **Bad (OLAP-style)**: `SELECT category, AVG(price), COUNT(*) FROM products JOIN orders ... GROUP BY category HAVING ...`
+- **Better (OLTP-style)**: Run separate queries per category or per time window, then aggregate in JavaScript/Python/etc.
+
+This might feel inefficient, but remember: SQLite has sub-millisecond query latency for simple operations. Running 10 small queries at 1ms each (10ms total) is often faster and more predictable than one complex query that takes 200ms and blocks your app.
+
+**For true analytics:**
+
+If you need real analytical workloads, consider:
+
+- **Separate analytics database**: Replicate your SQLite data to [DuckDB](https://duckdb.org/) nightly for OLAP queries. DuckDB is designed for analytics and can query SQLite databases directly.
+- **Materialized views**: Precompute expensive aggregations in a background job and store results in a summary table.
+- **Export to data warehouse**: For serious BI, export to BigQuery, Snowflake, or ClickHouse periodically.
+
+The key insight: SQLite's embedded nature is a feature, not a limitation. Embrace it by keeping queries simple and doing data processing in your application where you have full control.
+
+## WAL Checkpoint Behavior Under Load
+
+Earlier, we tuned `PRAGMA wal_autocheckpoint = 4000` to improve write throughput by reducing checkpoint frequency. But what actually happens when a checkpoint runs during peak traffic?
+
+**Checkpoints can block writes.** During a checkpoint, SQLite copies modified pages from the WAL file back into the main database file. While this happens, the database briefly acquires locks that can stall concurrent write transactions. The impact depends on checkpoint mode:
+
+- **PASSIVE mode** (default for auto-checkpoints): Won't block readers or writers if they're active. If the database is busy, the checkpoint simply skips and retries later. This is safe but means the WAL can grow unbounded during sustained write load.
+- **FULL mode**: Blocks until all readers finish, then performs the checkpoint. Can cause latency spikes.
+- **TRUNCATE mode**: Like FULL, but also resets the WAL file to zero bytes, preventing fragmentation.
+
+**Best practices:**
+
+1. **Manual checkpoints during quiet periods**: If your application has predictable low-traffic windows (e.g., 3-5 AM), schedule a `PRAGMA wal_checkpoint(TRUNCATE)` to reset the WAL. This prevents unbounded growth.
+   ```sql
+   -- In a nightly cron job
+   PRAGMA wal_checkpoint(TRUNCATE);
+   ```
+2. **Monitor WAL size**: Track the size of your `*.db-wal` file. If it exceeds 100MB regularly, your autocheckpoint setting might be too aggressive for your write volume, or you need manual checkpoints.
+3. **Separate checkpoint worker**: Consider a dedicated background worker that runs checkpoints independently, outside your request-handling workers.
+4. **Read-heavy apps**: If you have many long-running read transactions, they can prevent checkpoints from completing. Ensure read transactions are short-lived.
+
+**The takeaway**: Checkpoints are necessary I/O "bill payments" for WAL mode's performance gains. Tune `wal_autocheckpoint` based on your write volume, but don't ignore manual checkpoints during off-peak hours.
+
+## Pitfalls and Observability Gaps
+
+SQLite's simplicity comes with a downside: **the observability ecosystem is weak**. Unlike Postgres with `pg_stat_statements`, slow query logs, and rich monitoring tools (pganalyze, Datadog integrations), SQLite offers minimal built-in instrumentation. Without observability, you're flying blind—a production incident caused by a runaway WAL or checkpoint blocking writes will be hard to diagnose.
+
+For production deployments, you'll need to build custom monitoring for:
+
+- **WAL size metrics**: Track your `*.db-wal` file size over time
+- **Checkpoint frequency and duration**: How often checkpoints run and how long they take
+- **Lock contention metrics**: Count `SQLITE_BUSY` errors to identify write conflicts
+- **Query latency percentiles**: Track p50, p99, p999 for reads and writes separately
+- **Cache hit ratios**: Approximate via OS-level disk I/O monitoring tools like `iostat`
+
+Budget time to build a lightweight monitoring layer that exports metrics to a time-series database (Prometheus, CloudWatch, Grafana Cloud) and set alerts for anomalies like WAL size exceeding 100MB, `SQLITE_BUSY` error rates above 10/min, or p99 write latency over 50ms. The effort is small compared to the visibility you gain.
+
+## Backup and Replication with Litestream
+
+As mentioned earlier, backups are non-negotiable for production. [Litestream](https://litestream.io/) is the de facto solution for SQLite replication.
+
+Litestream continuously monitors your SQLite database's WAL (Write-Ahead Log) file and streams changes to cloud storage (S3, Azure Blob, GCS, etc.) in near real-time. It's not a snapshot-based backup—it's continuous replication of every transaction.
+
+If Litestream crashes or loses connection to S3, your application continues working normally—SQLite doesn't depend on Litestream. You just lose backup coverage until Litestream reconnects. Monitor Litestream with health checks and alerting.
+
+For detailed setup instructions, see the [Litestream documentation](https://litestream.io/guides/).
+
 # Final Thoughts
 
-The code for these benchmarks is available at [https://github.com/shivekkhurana/sqlite-test](https://github.com/shivekkhurana/sqlite-test).  
+If tuned correctly, SQLite is an incredible database. It can handle a significant amount of traffic and is particularly well suited for read heavy workloads. But it's not a silver bullet for every application. It can easily be ruled out for OLAP requirements. The observability ecosystem is weak and disaster recovery is not as simple as it should be.
 
-> If tuned correctly, an SQLite database can be incredibly fast. 
+It might be a good choice for you. You can always give LLMs a link to this article and pitch them your specific use case. The information contained herein will help the LLM make a rational choice.
 
-> You can get ~10k ops/second with sub 10ms write latency and sub 5ms read latency.
-
-
+The code for these benchmarks is available at [https://github.com/shivekkhurana/sqlite-test](https://github.com/shivekkhurana/sqlite-test).

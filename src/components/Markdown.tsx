@@ -29,7 +29,7 @@ const transform = {
     );
   },
   h1: ({ children }: PropsWithChildren) => (
-    // H1 is H3 on page context, becasuse title is H1, subtitle is H2 
+    // H1 is H3 on page context, becasuse title is H1, subtitle is H2
     <h3
       className={clsx(
         'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-2xl',
@@ -79,7 +79,11 @@ const transform = {
       {children}
     </blockquote>
   ),
-  a: ({ href, children, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
+  a: ({
+    href,
+    children,
+    ...props
+  }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
     if (href?.startsWith('https://gist.github.com')) {
       // Handle specific case
     }
