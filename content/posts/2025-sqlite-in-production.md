@@ -1786,7 +1786,7 @@ By default, SQLite uses `PRAGMA synchronous = FULL`, ensuring every transaction 
 
 ```
 
-On my machine, I didn't notice any significant difference between `NORMAL` and `FULL` in terms of latency. But these are write-only workloads, so the difference might be more visible in read-heavy workloads. It could also mean that `fsync` on a Mac is not as expensive as I expected:
+On my machine, I didn't notice any significant difference between `NORMAL` and `FULL` in terms of latency. However, **these benchmarks were likely affected by macOS's durability issues**: The SQLite shipped by Apple on macOS has fsync patched out. While custom-compiled SQLite knows to call `fcntl(F_FULLSYNC)` for proper durability, [Apple's version replaces it with the weaker `fsync()`](https://transactional.blog/blog/2022-darwins-deceptive-durability) which only ensures write ordering but not durability. (Thanks to [this Reddit comment](https://www.reddit.com/r/Database/comments/1qa14m6/comment/nz0a1fg/) for pointing this out.)
 
 | SQLITE Production Configuration Knob | Value    | Description                                |
 | ------------------------------------ | -------- | ------------------------------------------ |
