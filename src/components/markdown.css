@@ -62,9 +62,11 @@
 }
 
 /*inline code*/
-.markdown p code {
+.markdown p code,
+.markdown li code {
   font-size: 16px;
   background-color: #eee;
+  color: #ff6b35;
   padding: 2px;
   overflow-y: scroll;
 }
