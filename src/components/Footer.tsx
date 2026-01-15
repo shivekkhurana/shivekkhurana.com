@@ -27,6 +27,7 @@ const socialLinks: SocialLink[] = [
 ];
 
 const otherLinks: { label: string; href: string }[] = [
+  { label: 'RSS Feed', href: '/rss.xml' },
   { label: 'Tinycanva', href: '/tinycanva' },
   { label: 'Genomics Landscape', href: '/genomics-landscape' },
 ];
