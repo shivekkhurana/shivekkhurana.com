@@ -142,8 +142,8 @@ function Post({ post }: PostProps) {
           </h2>
         )}
         <Author
-          slug={author}
-          publishedOn={publishedOn}
+          slug={author ?? ''}
+          publishedOn={publishedOn ?? ''}
         />
         {/* <Share title={title} url={`https://krimlabs.com/blog/${slug}`} /> */}
       </div>
@@ -152,7 +152,10 @@ function Post({ post }: PostProps) {
         <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
           <img
             src={heroImg}
+            alt={`Hero image for the post: ${title}`}
             className="rounded-md"
+            // @ts-expect-error: fetchpriority is not a valid react prop, but is defined at HTML level
+            fetchpriority="high"
           />
         </div>
       )}
