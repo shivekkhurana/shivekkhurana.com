@@ -10,4 +10,8 @@ export default defineConfig({
   devToolbar: {
     enabled: false,
   },
+  build: {
+    // Inline all CSS to avoid render-blocking stylesheet requests
+    inlineStylesheets: 'always',
+  },
 });
