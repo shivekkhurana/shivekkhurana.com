@@ -1,6 +1,15 @@
 import clsx from 'clsx';
-import type { NavLink } from './NavV2';
-import { navLinks as defaultNavLinks } from './NavV2';
+
+type NavLink = {
+  label: string;
+  href: string;
+};
+
+const defaultNavLinks: NavLink[] = [
+  { label: 'About', href: '/about' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Projects', href: '/projects' },
+];
 
 type SocialLink = {
   label: string;

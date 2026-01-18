@@ -1,0 +1,117 @@
+---
+import clsx from 'clsx';
+import omLogo from '@src/img/om.svg';
+
+type NavLink = {
+  label: string;
+  href: string;
+};
+
+const defaultNavLinks: NavLink[] = [
+  { label: 'About', href: '/about' },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Projects', href: '/projects' },
+];
+
+interface Props {
+  links?: NavLink[];
+}
+
+const { links = defaultNavLinks } = Astro.props;
+---
+
+<nav
+  class={clsx(
+    'sticky top-0 z-50',
+    'w-full',
+    'backdrop-blur-md bg-white/70',
+    'border-b border-black',
+    'flex items-center justify-between',
+    'px-2 py-[1px]'
+  )}
+>
+  <!-- Brand -->
+  <div class="flex items-center gap-2">
+    <a href="/">
+      <img
+        src={omLogo.src}
+        alt="Om"
+        class="h-[16px] w-[20.8px]"
+      />
+    </a>
+    <a
+      href="/"
+      id="name-branding"
+      class="font-mlm-roman text-black transition-all duration-300 opacity-0 translate-y-2 pointer-events-none"
+    >
+      Shivek Khurana
+    </a>
+  </div>
+
+  <!-- Desktop nav links -->
+  <div class="hidden md:flex items-center gap-6">
+    {
+      links.map((link) => (
+        <a
+          href={link.href}
+          class="font-mlm-roman text-black hover:opacity-80 transition-opacity"
+        >
+          {link.label}
+        </a>
+      ))
+    }
+  </div>
+
+  <!-- Mobile nav dropdown -->
+  <details class="md:hidden relative group">
+    <summary
+      class="font-mlm-roman text-black text-sm leading-none outline-none cursor-pointer list-none [&::-webkit-details-marker]:hidden select-none"
+      aria-label="Open navigation menu"
+    >
+      &#8226;&#8226;
+    </summary>
+    <div
+      class={clsx(
+        'absolute top-full right-0 mt-2',
+        'bg-white border border-black',
+        'z-[60] min-w-[160px]'
+      )}
+    >
+      <div class="flex flex-col py-1">
+        {
+          links.map((link) => (
+            <a
+              href={link.href}
+              class="font-mlm-roman text-black px-4 py-2 text-sm block hover:bg-black hover:text-white"
+            >
+              {link.label}
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </details>
+</nav>
+
+<script is:inline>
+  const details = document.querySelector('nav details');
+
+  document.addEventListener('click', (e) => {
+    if (details?.open && !details.contains(e.target)) {
+      details.open = false;
+    }
+  });
+
+  // Shows brand name in nav after scrolling 50px
+  const el = document.getElementById('name-branding');
+  if (el) {
+    const onScroll = () => {
+      const show = scrollY > 50;
+      el.style.opacity = show ? '1' : '0';
+      el.style.transform = show ? 'translateY(0)' : 'translateY(8px)';
+      el.style.pointerEvents = show ? 'auto' : 'none';
+    };
+    onScroll();
+    addEventListener('scroll', onScroll, { passive: true });
+  }
+</script>

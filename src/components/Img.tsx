@@ -9,6 +9,7 @@ interface ImgProps {
   className?: string;
   loading?: 'lazy' | 'eager';
   fetchPriority?: 'high' | 'low' | 'auto';
+  sizes?: string;
 }
 
 function Img({
@@ -18,6 +19,7 @@ function Img({
   defaultWidth = 240,
   loading = 'lazy',
   fetchPriority,
+  sizes,
 }: ImgProps) {
   const widths: number[] = [32, 80, 240, 480, 720, 960, 1440];
   const optimizedBase = img.getOptimizedBase(path);
@@ -34,10 +36,11 @@ function Img({
   // Generate sizes attribute based on defaultWidth
   // For small images like logos, use a fixed size
   // For larger images, use responsive sizes
-  const sizesAttr =
+  const defaultSizesAttr =
     defaultWidth <= 80
       ? `${defaultWidth}px`
       : '(max-width: 480px) 32px, (max-width: 640px) 80px, (max-width: 768px) 96px, (max-width: 1024px) 160px, (max-width: 1440px) 720px, 1440px';
+  const sizesAttr = sizes ?? defaultSizesAttr;
 
   const imgProps: React.ImgHTMLAttributes<HTMLImageElement> & {
     fetchPriority?: 'high' | 'low' | 'auto';

@@ -10,6 +10,7 @@ import type {
 
 import image from '@src/utils/image';
 import str from '@src/utils/string';
+import Img from '@src/components/Img';
 
 const shareUrls = {
   twitter: (link = '', message = '') =>
@@ -24,7 +25,7 @@ const shareUrls = {
     &title=${encodeURIComponent(message)}&summary=${encodeURIComponent(
       message
     )}&source=${encodeURIComponent(link)}`,
-  mail: (link = '', subject, body) =>
+  mail: (link = '', subject: string, body: string) =>
     `mailto:?subject=${encodeURIComponent(
       subject || ''
     )}&body=${encodeURIComponent((body && `${body}\n\n${link}`) || link)}`,
@@ -119,17 +120,8 @@ function CanonicalRef({ canonicalUrl }: { canonicalUrl: string }) {
 }
 
 function Post({ post }: PostProps) {
-  const {
-    heroImg,
-    title,
-    subTitle,
-    publishedOn,
-    slug,
-    canonicalUrl,
-    relatedPosts,
-    author,
-    contents,
-  } = post;
+  const { heroImg, title, subTitle, publishedOn, slug, canonicalUrl, author } =
+    post;
   return (
     <div className="pb-12">
       <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
@@ -150,12 +142,14 @@ function Post({ post }: PostProps) {
 
       {heroImg && (
         <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
-          <img
-            src={heroImg}
+          <Img
+            path={heroImg}
             alt={`Hero image for the post: ${title}`}
             className="rounded-md"
-            // @ts-expect-error: fetchpriority is not a valid react prop, but is defined at HTML level
-            fetchpriority="high"
+            defaultWidth={960}
+            loading="eager"
+            fetchPriority="high"
+            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 66vw, 83vw"
           />
         </div>
       )}
