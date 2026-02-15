@@ -9,6 +9,7 @@ const defaultNavLinks: NavLink[] = [
   { label: 'About', href: '/about' },
   { label: 'Blog', href: '/blog' },
   { label: 'Projects', href: '/projects' },
+  { label: 'Hire Me', href: '/hire' },
 ];
 
 type SocialLink = {
@@ -170,11 +171,11 @@ function IdentityBlock() {
 
   return (
     <div>
-      <h3
+      <h4
         className={clsx('font-mlm-roman', 'text-black/60', 'text-sm', 'mb-2')}
       >
         License
-      </h3>
+      </h4>
       <div className={clsx('flex flex-col', 'gap-2', 'max-w-xs')}>
         <p className={clsx('font-mlm-roman', 'text-black', 'text-sm')}>
           © Shivek Khurana {currentYear} | Except where otherwise noted, all
@@ -188,7 +189,9 @@ function IdentityBlock() {
 function OtherLinksColumn() {
   return (
     <div className="font-mlm-roman">
-      <h4 className={clsx('text-black/60', 'text-sm', 'mb-4')}>Addendum</h4>
+      <h4 className={clsx('text-black/60', 'text-sm', 'mb-4', 'mt-12 md:mt-0')}>
+        Addendum
+      </h4>
       <ul className={clsx('flex flex-col', 'gap-2')}>
         {otherLinks.map((link) => (
           <li key={link.href}>
@@ -208,7 +211,12 @@ type FooterProps = {
 function Footer({ navLinks = defaultNavLinks }: FooterProps) {
   return (
     <footer
-      className={clsx('w-full', 'bg-white', 'border-t border-black', 'py-8')}
+      className={clsx(
+        'w-full',
+        'bg-white',
+        'border-t border-black',
+        'py-8 mb-16'
+      )}
     >
       <div className={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12')}>
         <div className={clsx('flex flex-col md:flex-row', 'md:gap-12')}>

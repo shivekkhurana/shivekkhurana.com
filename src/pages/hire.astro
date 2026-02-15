@@ -1,0 +1,72 @@
+---
+import clsx from 'clsx';
+import Seo from '@src/components/Seo';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import NavV2 from '@src/components/NavV2.astro';
+import Footer from '@src/components/Footer';
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <Seo
+      title={'Hire Shivek'}
+      subTitle={'Build AI systems. Ship MVPs. Go from 0 to 1. Fast.'}
+      tags={'hire shivek, consultant, ai systems, mvp development, product engineer'}
+      authorName={'Shivek Khurana'}
+      heroImg={'/img/og.png'}
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <NavV2 />
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}>
+      <div class="mt-24 mb-12 font-mlm-roman">
+        <h1 class="font-bold text-2xl md:text-3xl mb-4">Hire Shivek</h1>
+        <h2 class="text-lg opacity-80 mb-4">
+          Build AI systems. Ship MVPs. Go from 0 to 1. Fast.
+        </h2>
+        <p class="text-base opacity-70 mb-6">
+          Staff-level engineer who builds AI systems, product MVPs, and full-stack applications.
+          I've taken ideas from napkin sketch to production for startups and growth-stage companies.
+          Currently available for 1-2 contracts.
+        </p>
+        <p class="text-base opacity-70">
+          Fill out the form below to get in touch.
+        </p>
+      </div>
+
+      <div class="mb-24">
+        <iframe
+          data-tally-src="https://tally.so/embed/dWx7gr?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+          loading="lazy"
+          width="100%"
+          height="345"
+          frameborder="0"
+          marginheight="0"
+          marginwidth="0"
+          title="Hire Shivek"
+        ></iframe>
+      </div>
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>
+
+<script is:inline>
+  var d = document,
+    w = 'https://tally.so/widgets/embed.js',
+    v = function () {
+      'undefined' != typeof Tally
+        ? Tally.loadEmbeds()
+        : d.querySelectorAll('iframe[data-tally-src]:not([src])').forEach(function (e) {
+            e.src = e.dataset.tallySrc;
+          });
+    };
+  if ('undefined' != typeof Tally) v();
+  else if (d.querySelector('script[src="' + w + '"]') == null) {
+    var s = d.createElement('script');
+    (s.src = w), (s.onload = v), (s.onerror = v), d.body.appendChild(s);
+  }
+</script>

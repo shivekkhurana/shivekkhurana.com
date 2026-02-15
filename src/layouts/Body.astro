@@ -1,5 +1,7 @@
 ---
+import HireFloating from '@src/components/HireFloating';
 
+const isHirePage = Astro.url.pathname === '/hire' || Astro.url.pathname === '/hire/';
 ---
 
 <body class="overflow-x-hidden selection:bg-gray-200 selection:text-pink-700">
@@ -11,4 +13,5 @@
   <div class="bg-white m-2 border border-black">
     <slot />
   </div>
+  {!isHirePage && <HireFloating />}
 </body>
