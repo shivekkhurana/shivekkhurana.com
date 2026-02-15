@@ -1,7 +1,8 @@
 import clsx from 'clsx';
+import Img from './Img';
 
 function Hero() {
-  const profilePhotoSrc = '/img/hero/profile-photo.png';
+  const profilePhotoPath = '/img/hero/profile-photo.png';
 
   return (
     <div className="mt-48 mb-24 font-mlm-roman">
@@ -20,9 +21,10 @@ function Hero() {
       <div className="flex gap-4 items-start mt-4">
         {/* About Button with hover photo */}
         <div className="relative group">
-          <img
-            src={profilePhotoSrc}
+          <Img
+            path={profilePhotoPath}
             alt="Shivek Khurana"
+            defaultWidth={80}
             className={clsx(
               'w-12 h-auto',
               'absolute bottom-full left-[8px]',
