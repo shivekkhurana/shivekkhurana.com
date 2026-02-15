@@ -58,6 +58,12 @@ const fontsCss = readFileSync(
     href="https://fonts.gstatic.com"
     crossorigin
   />
+  {import.meta.env.PROD && (
+    <link
+      rel="preconnect"
+      href="https://gc.zgo.at"
+    />
+  )}
 
   <!-- https://pagespeedchecklist.com/asynchronous-google-fonts->
   <!-- connect to domain of font files -->
@@ -97,6 +103,14 @@ const fontsCss = readFileSync(
     title="Shivek Khurana"
     href="/rss.xml"
   />
+
+  <!-- GoatCounter Analytics -->
+  {import.meta.env.PROD && (
+    <script
+      data-goatcounter="https://shivekkhurana.goatcounter.com/count"
+      async
+      src="//gc.zgo.at/count.js"></script>
+  )}
 
   <!-- Page specific SEO -->
   <slot />
