@@ -36,10 +36,15 @@ const socialLinks: SocialLink[] = [
   { label: 'Instagram (private)', href: 'https://www.instagram.com/sxivek/' },
 ];
 
-const otherLinks: { label: string; href: string }[] = [
+const otherLinks: { label: string; href: string; external?: boolean }[] = [
   { label: 'RSS Feed', href: '/rss.xml' },
   { label: 'Tinycanva', href: '/tinycanva' },
   { label: 'Genomics Landscape', href: '/genomics-landscape' },
+  {
+    label: 'View Stats',
+    href: 'https://shivekkhurana.goatcounter.com/',
+    external: true,
+  },
 ];
 
 type Repo = {
@@ -61,7 +66,7 @@ const repos: Repo[] = [
 function SocialsColumn() {
   return (
     <div>
-      <h4
+      <p
         className={clsx(
           'font-mlm-roman',
           'text-black/60',
@@ -70,7 +75,7 @@ function SocialsColumn() {
         )}
       >
         Socials
-      </h4>
+      </p>
       <ul className={clsx('flex flex-col', 'gap-2')}>
         {socialLinks.map((social) => (
           <li key={social.href}>
@@ -97,7 +102,7 @@ function SocialsColumn() {
 function SourceColumn() {
   return (
     <div>
-      <h4
+      <p
         className={clsx(
           'font-mlm-roman',
           'text-black/60',
@@ -107,7 +112,7 @@ function SourceColumn() {
         )}
       >
         Source
-      </h4>
+      </p>
       <ul className={clsx('flex flex-col', 'gap-2')}>
         {repos.map((repo) => (
           <li key={repo.name}>
@@ -134,7 +139,7 @@ function SourceColumn() {
 function NavigationColumn({ navLinks }: { navLinks: NavLink[] }) {
   return (
     <div>
-      <h4
+      <p
         className={clsx(
           'font-mlm-roman',
           'text-black/60',
@@ -144,7 +149,7 @@ function NavigationColumn({ navLinks }: { navLinks: NavLink[] }) {
         )}
       >
         Navigation
-      </h4>
+      </p>
       <ul className={clsx('flex flex-col', 'gap-2')}>
         {navLinks.map((link) => (
           <li key={link.href}>
@@ -171,11 +176,9 @@ function IdentityBlock() {
 
   return (
     <div>
-      <h4
-        className={clsx('font-mlm-roman', 'text-black/60', 'text-sm', 'mb-2')}
-      >
+      <p className={clsx('font-mlm-roman', 'text-black/60', 'text-sm', 'mb-2')}>
         License
-      </h4>
+      </p>
       <div className={clsx('flex flex-col', 'gap-2', 'max-w-xs')}>
         <p className={clsx('font-mlm-roman', 'text-black', 'text-sm')}>
           © Shivek Khurana {currentYear} | Except where otherwise noted, all
@@ -189,13 +192,21 @@ function IdentityBlock() {
 function OtherLinksColumn() {
   return (
     <div className="font-mlm-roman">
-      <h4 className={clsx('text-black/60', 'text-sm', 'mb-4', 'mt-12 md:mt-0')}>
+      <p className={clsx('text-black/60', 'text-sm', 'mb-4', 'mt-12 md:mt-0')}>
         Addendum
-      </h4>
+      </p>
       <ul className={clsx('flex flex-col', 'gap-2')}>
         {otherLinks.map((link) => (
           <li key={link.href}>
-            <a href={link.href}>{link.label}</a>
+            <a
+              href={link.href}
+              {...(link.external && {
+                target: '_blank',
+                rel: 'noopener noreferrer',
+              })}
+            >
+              {link.label}
+            </a>
           </li>
         ))}
       </ul>
