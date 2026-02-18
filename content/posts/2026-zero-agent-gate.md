@@ -4,7 +4,7 @@ title: Zero Agent Gate
 subTitle: Agent-to-Service Auth That Keeps Secrets Out of the LLM
 featured: false
 heroImg: /img/content/posts/zag.png
-slug: zag-zero-agent-gate
+slug: zag
 tags:
   - ai-agents
   - security
