@@ -17,7 +17,7 @@ function PostItem({ post }: PostItemProps) {
       className={clsx(
         'flex items-center gap-1',
         'group',
-        'px-3',
+        'px-3 mb-3',
         'transition-colors',
         'hover:bg-gray-100'
       )}
