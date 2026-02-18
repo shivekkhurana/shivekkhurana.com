@@ -254,4 +254,4 @@ Source: [github.com/shivekkhurana/zag](https://github.com/shivekkhurana/zag)
 
 ## End notes
 
-Are you building services for always-on agents like Open Claw ? Please reach out to me. I find this new field exiciting.
+Are you building services for always-on agents like Open Claw ? Please reach out to me. I find this new field exciting.
