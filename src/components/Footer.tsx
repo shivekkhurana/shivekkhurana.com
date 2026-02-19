@@ -186,12 +186,11 @@ function IdentityBlock() {
           content is licensed under CC BY-SA 4.0.
         </p>
       </div>
-      <div className="mt-8 md:flex md:justify-center">
+      <div className="mt-8 sm:flex sm:justify-center">
         <Img
           path="/img/sketches/hippo-straight-pov.png"
           alt="Hippo sketch"
-          defaultWidth={240}
-          className="max-w-[160px]"
+          className="w-[80px] sm:w-[160px]"
         />
       </div>
     </div>
