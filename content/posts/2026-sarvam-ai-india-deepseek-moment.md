@@ -46,7 +46,7 @@ Sarvam unveiled two models at the summit:
 
 The architecture details come from [NVIDIA's technical blog](https://developer.nvidia.com/blog/how-nvidia-extreme-hardware-software-co-design-delivered-a-large-inference-boost-for-sarvam-ais-sovereign-models/), not Sarvam directly. (NVIDIA's blog refers to a 100B model; the summit announced 105B. Likely the same architecture with minor variations.) NVIDIA worked closely with them on inference optimization, achieving 2x speedups on H100s and 4x on Blackwell with NVFP4 quantization.
 
-Both models use Mixture-of-Experts, the same architecture that makes Mixtral and DeepSeek efficient. The 30B model activates only 1B parameters per token, which dramatically reduces inference costs. This is the right architectural choice for a market where cost sensitivity is extreme.
+Both models use Mixture-of-Experts, the same architecture that makes Mistral and DeepSeek efficient. The 30B model activates only 1B parameters per token, which dramatically reduces inference costs. This is the right architectural choice for a market where cost sensitivity is extreme.
 
 ## The Claims (Unverified)
 
