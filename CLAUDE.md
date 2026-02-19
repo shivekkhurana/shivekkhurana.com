@@ -1,5 +1,11 @@
 # Claude Rules for shivekkhurana.com
 
+## Code Style
+
+**Imports:**
+- Always use absolute imports with `@src/` prefix (e.g., `import Img from '@src/components/Img'`)
+- Never use relative imports like `./` or `../`
+
 ## Writing Style
 
 **Frontmatter format:**

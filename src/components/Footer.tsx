@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Img from '@src/components/Img';
 
 type NavLink = {
   label: string;
@@ -184,6 +185,14 @@ function IdentityBlock() {
           © Shivek Khurana {currentYear} | Except where otherwise noted, all
           content is licensed under CC BY-SA 4.0.
         </p>
+      </div>
+      <div className="mt-8 md:flex md:justify-center">
+        <Img
+          path="/img/sketches/hippo-straight-pov.png"
+          alt="Hippo sketch"
+          defaultWidth={240}
+          className="max-w-[160px]"
+        />
       </div>
     </div>
   );
