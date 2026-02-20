@@ -9,7 +9,6 @@ relatedSlugs:
 tags:
   - functional-programming
   - lambda
-  - js
   - es6
   - javascript
   - map-reduce-filter

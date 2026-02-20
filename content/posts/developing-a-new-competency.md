@@ -9,7 +9,6 @@ tags:
   - personal-growth
   - art
   - drawing
-  - challenge
 author: shivekkhurana
 ---
 

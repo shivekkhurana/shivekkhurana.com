@@ -9,7 +9,6 @@ heroImgCaption: Cover Photo by CoWomen on Unsplash
 tags:
   - clojure
   - clojurescript
-  - clojure-424
 relatedSlugs:
   - clojure-drug-dealer-part-1
   - clojure-drug-dealer-part-2

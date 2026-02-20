@@ -1,5 +1,5 @@
 ---
-slug: js
+slug: javascript
 title: JavaScript
 featured: false
 ---

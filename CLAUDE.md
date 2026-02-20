@@ -31,6 +31,26 @@ author: shivekkhurana
 ---
 ```
 
+**Tags vs Slugs (important distinction):**
+- **Tags**: Reusable categories for posts (e.g., `clojure`, `javascript`, `startup`). Defined in `content/tags/`. Used in the `tags:` array.
+- **Slugs**: Unique URL identifiers for individual posts (e.g., `clojure-drug-dealer-part-1`). Each post has one `slug:` field. Never use slugs as tags.
+
+**Tags:**
+- Only use tags that exist in `content/tags/` (check the `slug` field in each tag file)
+- If a new tag is needed, first create the tag file in `content/tags/`:
+  ```yaml
+  ---
+  slug: tag-slug
+  title: Tag Title
+  featured: false
+  ---
+  ```
+
+**Related posts:**
+- Use `relatedSlugs` in frontmatter to link to related posts (renders as "Related Posts" section)
+- Values are post slugs (the `slug` field from other posts), not tags
+- Example: `relatedSlugs: [post-slug-1, post-slug-2]`
+
 **Tone:**
 - First-person, personal ("I", "we")
 - Technical but conversational
