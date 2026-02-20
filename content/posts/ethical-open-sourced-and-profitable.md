@@ -3,6 +3,7 @@ title: Ethical, open sourced and profitable at the same time
 canonicalUrl: https://medium.com/@shivekkhurana/ethical-open-sourced-and-profitable-at-the-same-time-16c53efdfe5a
 publishedOn: 2019-04-13
 heroImg: /img/content/posts/1b6fCxwMBepVjSuxtvsLokA.jpeg
+heroImgCaption: The team behind Frappe & ERPNext
 featured: true
 relatedSlugs:
   - imitate
@@ -16,7 +17,6 @@ tags:
 author: shivekkhurana
 slug: ethical-open-sourced-and-profitable
 ---
-*The team behind Frappe & ERPNext*
 
 Over my recent vacation, I got a chance to meet Rushabh Mehta, Founder, and CEO of [Frappe Technologies](https://frappe.io/) & [ERPNext Foundation](https://erpnext.com/).
 
@@ -35,8 +35,7 @@ I didn’t know him and had no common connections. If you’d like to know my ap
 
 On reaching the Frappe office in Mumbai, I immediately got a vibe of a company in its growth phase. It was a clean hall with a meeting room and huge windows. From what I observed, I can bet that Frappe is close to their customers and their product has found a market fit.
 
-![Rushabh Mehta](/img/content/posts/1-lftgkzuqlwbg9hlsqbeirw.jpeg)
-*Rushabh Mehta, Founder & CEO of Frappe Technologies*
+![Rushabh Mehta, Founder & CEO of Frappe Technologies](/img/content/posts/1-lftgkzuqlwbg9hlsqbeirw.jpeg)
 
 It was 10 minutes after the scheduled time when Rushabh actually arrived. He had not confirmed the invitation to meet, didn’t respond to my emails on the day, and we had never spoken on the phone.
 
@@ -52,8 +51,7 @@ I have taken the liberty to paraphrase the responses while trying to keep the es
 
 **Rushabh**: Our family business was automating their furniture manufacturing process. The factory and the office were almost 150kms apart and both units had their own implementations of a famous ERP.
 
-![](/img/content/posts/1-a-gfquocdw1qsri-ale28w.jpeg)
-*Quote Dialogue Illustration by [Freepik](http://freepik.com/)*
+![Quote Dialogue Illustration by Freepik](/img/content/posts/1-a-gfquocdw1qsri-ale28w.jpeg)
 
 The problem was that they were out of sync. A bunch of files containing invoices and other docs was manually delivered to the office every day. Here an operator manually entered this data to the office ERP so the systems stay in sync.
 
@@ -73,8 +71,7 @@ There is a shift in open source culture too. Companies are moving from “open s
 
 We are inspired by the RedHat model, that is to provide bespoke consultancy around our core open source solution. That is what we are majorly working on. There are other independent companies that provide consultancy for ERPNext but we become the preferred vendor due to our authorship.
 
-![](/img/content/posts/1-217e1x7qk-hdydkqilxesq.jpeg)
-*Quote Dialogue Illustration by [Freepik](http://freepik.com/)*
+![Quote Dialogue Illustration by Freepik](/img/content/posts/1-217e1x7qk-hdydkqilxesq.jpeg)
 
 The other source of revenue is our hosted solution.
 

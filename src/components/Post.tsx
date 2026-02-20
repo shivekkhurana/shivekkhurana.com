@@ -141,17 +141,22 @@ function Post({ post }: PostProps) {
       </div>
 
       {heroImg && (
-        <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
+        <figure className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
           <Img
             path={heroImg}
-            alt={`Hero image for the post: ${title}`}
+            alt={post.heroImgCaption || `Hero image for the post: ${title}`}
             className="rounded-md"
             defaultWidth={960}
             loading="eager"
             fetchPriority="high"
             sizes="(min-width: 1024px) 50vw, (min-width: 768px) 66vw, 83vw"
           />
-        </div>
+          {post.heroImgCaption && (
+            <figcaption className="mt-2 text-sm text-center opacity-60">
+              {post.heroImgCaption}
+            </figcaption>
+          )}
+        </figure>
       )}
 
       <Markdown post={post} />

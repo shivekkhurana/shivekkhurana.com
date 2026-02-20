@@ -29,13 +29,6 @@
   text-decoration: underline;
 }
 
-/*<img> followed by <em> is always an attribution*/
-/*first <em> is always cover attribution*/
-.markdown img + em,
-.markdown p:first-child > em {
-  display: block;
-}
-
 .markdown img {
   border-radius: 4px;
 }

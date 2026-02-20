@@ -5,6 +5,7 @@ slug: clojure-424-days
 canonicalUrl: https://medium.com/@shivekkhurana/what-i-learned-after-writing-clojure-for-424-days-straight-8884ec471f8e
 publishedOn: 2019-05-07
 heroImg: /img/content/posts/XEPPU9coPaUidehQiAl63A.jpeg
+heroImgCaption: Cover Photo by CoWomen on Unsplash
 tags:
   - clojure
   - clojurescript
@@ -15,14 +16,12 @@ relatedSlugs:
   - clojure-drug-dealer-part-3
 author: shivekkhurana
 ---
-*Cover Photo by [CoWomen](https://unsplash.com/photos/7Zy2KV76Mts?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
-I’ve been working on Clojure projects at Juxt for more than a year now, but have never written about my experiences because:
+I've been working on Clojure projects at Juxt for more than a year now, but have never written about my experiences because:
 
 - Before writing an article, I research the problems the community face on Reddit, HackerNews, GitHub issues, and Google trends.
 
-![Clojure vs Python vs JavaScript Google Trend](/img/content/posts/1-uz6fgvbo5-iadfxircs3yw.png)
-*Past 12 months Google Trends for Python (Red) vs Clojure (Blue) vs JavaScript (Yellow)*
+![Past 12 months Google Trends for Python (Red) vs Clojure (Blue) vs JavaScript (Yellow)](/img/content/posts/1-uz6fgvbo5-iadfxircs3yw.png)
 
 - Clojure/Script never seemed to be problematic or in demand
 - Not many people use Clojure/Script as their first language
@@ -56,8 +55,7 @@ It’s hard to label this as a pro or con. Rich Hickey is a fantastic thinker an
 
 This XKCD is only accurate if you don’t have an insider perspective.
 
-![XKCD Comic 297](/img/content/posts/1-3aokcfb-vjm5otrs7vo1cw.png)
-*https://xkcd.com/297/*
+![XKCD Comic 297 - xkcd.com/297](/img/content/posts/1-3aokcfb-vjm5otrs7vo1cw.png)
 
 It’s true that parenthesis can be a problem sometimes, especially when you are getting started. I used to think that I’d have to type and match all these brackets manually. But that’s not the case. There are tools that help you with structural editing and after a few months, the brackets become invisible.
 
@@ -69,13 +67,11 @@ Clojure runs on the JVM and has a significantly slower startup time compared to 
 
 Even more so if you are an experienced developer and have never worked with a LISP. The tooling is kinda complex. A majority of Clojure (46%) devs use Emacs which is hard to learn if you started your career with Sublime Text or Atom.
 
-![Clojure Env Survey Stats](/img/content/posts/1-1ywxkjqewp6hd5h9vcbsra.png)
-*The preferred environment for Clojure Dev — State of Clojure 2019 [https://www.surveymonkey.com/results/SM-S9JVNXNQV/]*
+![The preferred environment for Clojure Dev — State of Clojure 2019](/img/content/posts/1-1ywxkjqewp6hd5h9vcbsra.png)
 
 There is an old joke that still goes around, “Emacs is a great OS lacking a good text editor”. In my experiences, Emacs is a beast worth taming. Here’s what mine looks like (no tabs and no snappy “Goto anything” feature) still gets everything done.
 
-![My Emacs Setup](/img/content/posts/1-ui5bylhzudoywdywwxh7qg.png)
-*My Emacs setup — Config at https://github.com/shivekkhurana/emacs.d*
+![My Emacs setup — Config at github.com/shivekkhurana/emacs.d](/img/content/posts/1-ui5bylhzudoywdywwxh7qg.png)
 
 If Emacs is too much for your appetite, there is a Cursive plugin for IntelliJ. You can also use VSCode.
 
@@ -102,8 +98,7 @@ If you are a skeptic, like I was, you have to try it out. Clojure improved me as
 
 Languages like Python focus on readability by making the code look like the English language. LISPs, on the other hand, ignore the English language semantics completely and enforce a structural syntax.
 
-![](/img/content/posts/1-0yvwrjqbhvholaltngmydw.png)
-*Abstract syntax tree for a mathematical expression from [Ruslan’s Blog](https://ruslanspivak.com/lsbasi-part7/)*
+![Abstract syntax tree for a mathematical expression from Ruslan's Blog](/img/content/posts/1-0yvwrjqbhvholaltngmydw.png)
 
 For example, the expression 2*7+3 can be represented in the image.
 
@@ -122,8 +117,7 @@ Immutability means that your variables will never be overwritten. When a change 
 This seemingly simple functionality helps to build complex pipelines. One of the toughest problems in programming (apart from naming and cache management) is handling side effects. Immutable data structures make handling side-effects less error-prone because the thing you are observing will never change. Ever.
 
 ## Compiles to JVM and JS (and Graal)
-![Compiling](/img/content/posts/1-j-1mc3qgbiuwq4tb-yr-ia.png)
-*https://xkcd.com/303/*
+![XKCD Comic 303 - Compiling](/img/content/posts/1-j-1mc3qgbiuwq4tb-yr-ia.png)
 
 You can easily write a Java-based backend and JS based frontend using Clojure. The interop is very straight forward.
 
@@ -135,8 +129,7 @@ I didn’t quite realize the power of this feature until it became a part of my 
 
 The REPL basically lets you load parts of your code in an interactive runtime and play with it as if you were using it in your app.
 
-![](/img/content/posts/1-sabu5fb4bcj-ykiwx1lafa.jpeg)
-*REPL Illustration from [This is why your read-eval-print-loop is so amazing](https://medium.freecodecamp.org/this-is-why-your-read-eval-print-loop-is-so-amazing-cf0362003983) by IObert*
+![REPL Illustration from "This is why your read-eval-print-loop is so amazing" by IObert](/img/content/posts/1-sabu5fb4bcj-ykiwx1lafa.jpeg)
 
 For example, consider a database function that is tied to a controller that is called through a REST API. Now, your task is to optimize the query. In the real world, you’d make the changes to the DB function, let the code reload automatically (or manually), and then check the results of the REST API.
 

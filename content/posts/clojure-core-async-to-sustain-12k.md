@@ -34,8 +34,7 @@ We were JavaScript version 0.1. But instead of being built in 15 days, this orga
 # Karuna 2020 Runtime -  v1
 The organization was similar to JavaScript runtime. We had an event loop. There were asynchronous tasks that needed to be finished in order and we had a Promise like mechanism.
 
-![](/img/content/posts/karuna-runtime-v1.png?large)
-*A simplified view of the organization - The arrows represent the flow of information*
+![A simplified view of the organization - The arrows represent the flow of information](/img/content/posts/karuna-runtime-v1.png?large)
 
 There was a central coordinator - aka the "main thread". The main thread would call "async functions". These functions were actual volunteers who'd do some work in the real world and return a response. For example, we might call the Godown Manager to get inventory status. 
 
@@ -97,8 +96,7 @@ For example, the donor management process broadly had 4 pure steps:
 3. If identified, contact them and fetch details like the address, to generate a receipt. After getting details, mark as "Ready for generating receipt"
 4. If not identified, add an empty record and mark as "Receipt not needed"
 
-![](/img/content/posts/donor-lifecycle.png?large)
-*A contrived version of Donor Lifecycle management*
+![A contrived version of Donor Lifecycle management](/img/content/posts/donor-lifecycle.png?large)
 
 In reality, the Airtable board had more columns to handle edge cases. But the idea was the same. 
 > A volunteer needs to process only one stage at a time. All "state" needed to process that stage is available on the card.
@@ -112,8 +110,7 @@ We onboarded volunteers and assigned them a task. We also got a bird's eye overv
 
 Over time, we wrote similar guides for [Volunteer Onboarding](https://karuna2020.org/guides/volunteer-application-and-onboarding/), [Social Media Outreach](https://karuna2020.org/guides/social-media-outreach/) and [Distribution Management](https://karuna2020.org/guides/distribution-management/). We also had processes for Procurement and Accounting, but we have not been able to generalize them yet.
 
-![Karuna Airtable Base](/img/content/posts/karuna-airtable.png?large)
-*Our Airtable base as of today*
+![Our Airtable base as of today](/img/content/posts/karuna-airtable.png?large)
 
 This system took multiple iterations and feedback from the entire team.
 

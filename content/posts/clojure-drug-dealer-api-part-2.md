@@ -5,6 +5,7 @@ subTitle: git commit -am “Add database using HugSQL and Postgres”
 canonicalUrl: https://medium.com/@shivekkhurana/learn-clojure-by-building-a-drug-dealer-api-part-2-de8c47512a71
 featured: false
 heroImg: /img/content/posts/4vZebt3dYvHSlHwNGC-1A.png
+heroImgCaption: Base Photo by Jose Antonio Gallego Vázquez on Unsplash
 slug: clojure-drug-dealer-part-2
 tags:
   - clojure-api
@@ -16,8 +17,6 @@ relatedSlugs:
   - clojure-drug-dealer-part-3
 author: shivekkhurana
 ---
-
-*Base Photo by [Jose Antonio Gallego Vázquez](https://unsplash.com/@joseantoniogall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
 [You have built a simple app](https://shivekkhurana.com/blog/clojure-drug-dealer-part-1). Now you want it to be a little more useful. You want to ultimately push it to prod right?In this part, we’d connect to a database and handle CRUD.
 
@@ -31,8 +30,7 @@ In the [last part](https://shivekkhurana.com/blog/clojure-drug-dealer-part-1)  w
 
 I  carefully crafted a situation that had only one domain entity: The  drug. Each drug has a price and availability. Procurement is offline, so  we don’t care. Sale would just reduce the inventory size.
 
-![](/img/content/posts/1-p8w7hkn6ls81fkcr7h8wfa.jpeg)
-*The database we are trying to model*
+![The database we are trying to model](/img/content/posts/1-p8w7hkn6ls81fkcr7h8wfa.jpeg)
 
 We will have 5 routes on the drug model.
 
@@ -42,8 +40,7 @@ We will have 5 routes on the drug model.
 - PUT /drugs/:id — Update a drug by id
 - DELETE /drugs/:id — Delete a drug by id
 
-![](/img/content/posts/1-kt1mzwyxuce-rq4vfu3scw.png)
-*Source code available at [https://github.com/krimlabs/workshops](https://github.com/krimlabs/workshops) (branch [snapshot/dealer-api-part-2](https://github.com/krimlabs/workshops/tree/snapshot/dealer-api-part-2))*
+![Source code available at github.com/krimlabs/workshops (branch snapshot/dealer-api-part-2)](/img/content/posts/1-kt1mzwyxuce-rq4vfu3scw.png)
 
 
 We first need to create a new namespace to handle interactions with the database. We are going to use [HugSQL](https://www.hugsql.org/) to handle db interactions. There is no db migration setup in this tutorial, but you can easily use a library like [Flyway](https://flywaydb.org/) or [Ragtime](https://github.com/weavejester/ragtime).
@@ -75,8 +72,7 @@ We’ll also create a new namespace to hold this model. Let’s call it `dealer-
 $ touch src/dealer_api/drugs.clj
 ```
 
-![](/img/content/posts/1-s1-jdzsaisrvh7q6nnyoow.png)
-*Your directory structure after all files have been created*
+![Your directory structure after all files have been created](/img/content/posts/1-s1-jdzsaisrvh7q6nnyoow.png)
 
 ## Create initial table structure
 
@@ -221,8 +217,7 @@ The `:route-name` parameter lets you do fancy things like creating named routes.
 
 # Test your setup — Power to the REPL
 
-![](/img/content/posts/1-qprlhmtv-jw8ewfo2001-w.jpeg)
-*An infinite REPL | Ouroboros — A mythical creature that represents infinity in Middle Eastern culture [[source](https://mythologian.net/ouroboros-symbol-of-infinity/)]*
+![An infinite REPL - Ouroboros, a mythical creature that represents infinity in Middle Eastern culture](/img/content/posts/1-qprlhmtv-jw8ewfo2001-w.jpeg)
 
 You  can go ahead, open a REPL, and start a server as we did in the last  post. And then go to the browser and check if the routes are working.But the REPL is more powerful. Most aspects of your codebase can be tested without opening the browser. **This is the one thing you should definitely take from this article.**
 
@@ -297,8 +292,7 @@ user=> (go)
 ```
 Now visit localhost:8890 and you should see the list of drugs being returned.
 
-![](/img/content/posts/1-x1tzaqzrefajvo9luaoyra.png)
-*Our GET /drugs route is working !*
+![Our GET /drugs route is working!](/img/content/posts/1-x1tzaqzrefajvo9luaoyra.png)
 
 # Part 2 — Conclusion
 

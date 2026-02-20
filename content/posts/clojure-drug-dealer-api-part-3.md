@@ -5,6 +5,7 @@ subTitle: git commit -am “Improve DX, Implement POST route”
 canonicalUrl: https://medium.com/@shivekkhurana/learn-clojure-by-building-a-drug-dealer-api-part-3-endgame-b12717164574
 featured: false
 heroImg: /img/content/posts/11NchAKnoQJ-Lm1mqdzkw.png
+heroImgCaption: Photo by Jose Antonio Gallego Vázquez on Unsplash
 slug: clojure-drug-dealer-part-3
 tags:
   - clojure-api
@@ -16,12 +17,10 @@ relatedSlugs:
   - clojure-drug-dealer-part-2
 author: shivekkhurana
 ---
-*Photo by [Jose Antonio Gallego Vázquez](https://unsplash.com/@joseantoniogall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/drug-store?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
 In [part 1](https://shivekkhurana.com/blog/clojure-drug-dealer-part-1) and [part 2](https://shivekkhurana.com/blog/clojure-drug-dealer-part-2) of the series, we walked through setting up a Clojure application from scratch. Part two ended with a working GET route. In this part, we’ll upgrade our developer experience, introduce REPL and implement the POST route.
 
-![](/img/content/posts/0-xoj6pi84nnxxpt-k.png) 
-*Source code available at [https://github.com/krimlabs/workshops](https://github.com/krimlabs/workshops) (branch [snapshot/dealer-api-part-3](https://github.com/krimlabs/workshops/tree/snapshot/dealer-api-part-3))*
+![Source code available at github.com/krimlabs/workshops (branch snapshot/dealer-api-part-3)](/img/content/posts/0-xoj6pi84nnxxpt-k.png)
 
 # Updating the editor workflow
 
@@ -84,8 +83,7 @@ VS Code users can use [this guide](https://spin.atomicobject.com/2017/06/22/cloj
 
 I  must tell you, that there is no going back after this point. If you  want, stop now. But what you are about to witness might just get to  addicted.Inline evaluation means executing a piece of code inside your editor.
 
-![](/img/content/posts/1-jmhsr0jufkdpptutdiydpq.gif)
-*Inline Evaluation Demo*
+![Inline Evaluation Demo](/img/content/posts/1-jmhsr0jufkdpptutdiydpq.gif)
 
 By evaluating code inline, you can skip `(reset)` and just eval the updated form inline. You can also test the functions you are writing without leaving your editor.
 
@@ -153,8 +151,7 @@ The POST route consumes data sent using an API. It’s a good practice to valida
 ```
 We’ll not dive deeper in the world of spec in this post.
 
-![](/img/content/posts/1-tlq2p9avc26nwygtpsyyiq.gif)
-*Checking that spec works with inline eval*
+![Checking that spec works with inline eval](/img/content/posts/1-tlq2p9avc26nwygtpsyyiq.gif)
 
 ## Write the handler
 

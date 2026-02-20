@@ -47,8 +47,7 @@ LISPs are syntax-free. Compared to C-style languages, there are fewer constructs
 
 Clojure is a homo-iconic language. This means that the code is written using data structures. This leads to a terse and concise expression.
 
-![](/img/content/posts/20210105093510245-1-a-radltjz50rf4diwqirsq.png)
-*Image from [Jacek Schae](https://medium.com/@jacekschae)'s article on [Medium](https://medium.com/@jacekschae/learn-how-to-build-functional-front-ends-with-clojurescript-and-react-733fa260dd6b)*
+![Image from Jacek Schae's article on Medium](/img/content/posts/20210105093510245-1-a-radltjz50rf4diwqirsq.png)
 
 ### REPL
 

@@ -1,5 +1,11 @@
 # Claude Rules for shivekkhurana.com
 
+## Build Tools
+
+**Always use bun:**
+- Use `bun` instead of `npm` for all commands
+- `bun run dev`, `bun run build`, `bun install`, etc.
+
 ## Code Style
 
 **Imports:**
@@ -16,6 +22,7 @@ title: Title Here
 subTitle: Optional subtitle
 featured: false
 heroImg: /img/content/posts/image-name.png
+heroImgCaption: Photo credit or description for hero image
 slug: url-slug-here
 tags:
   - tag1

@@ -103,6 +103,10 @@ const Post = defineDocumentType(() => ({
       type: 'string',
       required: true,
     },
+    heroImgCaption: {
+      type: 'string',
+      required: false,
+    },
     slug: { type: 'string' },
     tags: { type: 'list', of: { type: 'string' }, required: false },
     relatedSlugs: { type: 'list', of: { type: 'string' }, required: false },

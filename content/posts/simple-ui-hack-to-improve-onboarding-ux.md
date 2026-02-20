@@ -3,6 +3,7 @@ publishedOn: 2018-10-09
 title: A simple UI hack to improve Onboarding UX [OCD]
 canonicalUrl: https://medium.com/@shivekkhurana/a-simple-ui-hack-to-improve-onboarding-ux-ocd-93ed5d77247
 heroImg: /img/content/posts/11Tpc-t8BBCU62Bx6ezsBA.png
+heroImgCaption: Messenger UI built using this free sketch resource
 relatedSlugs:
   - handle-js-data-structures-with-map-reduce
 tags:
@@ -12,7 +13,6 @@ tags:
 author: shivekkhurana
 slug: simple-ui-hack-to-improve-onboarding-ux
 ---
-*Messenger ui built using this [free sketch resource](https://www.sketchappsources.com/free-source/2262-ios-messenger-ui-kit-sketch-freebie-resource.html)*
 
 UI Mockups and sketches assume that user data is already present. For example, the mockup below assumes that the user will have contacts to chat with, notifications and even chat threads.
 
@@ -29,8 +29,7 @@ Bad UX increases on-boarding and support cost, directly affecting revenue. It al
 ### Upfront Presentation
 One solution was to have an upfront on-boarding using slides like interface. This seems to be the standard for mobile apps.
 
-![](/img/content/posts/1-1ku47a701p09igschw2s-g.png)
-*Slack’s slide-based on-boarding UX*
+![Slack's slide-based on-boarding UX](/img/content/posts/1-1ku47a701p09igschw2s-g.png)
 
 The problem with slides approach is the lack of context. You can convey only so much on the slides (how much the user retains is a different question).
 
@@ -40,8 +39,7 @@ It’s great for giving an overview of the product, but not very helpful in expl
 
 There was also a tooltip based solution that walks the user through specific steps. This option is more popular with web apps. There are many good javascript libraries to help you build these flows.
 
-![](/img/content/posts/1-9gz7n-tu5xuj4yot5nyujq.png)
-*Tooltip based on-boarding demo for introjs.com/*
+![Tooltip based on-boarding demo for introjs.com](/img/content/posts/1-9gz7n-tu5xuj4yot5nyujq.png)
 
 As far as a tooltip based solution goes, **I found them annoying and almost always clicked “skip tutorial”**. Though big companies like Canva use tooltip based on-boarding. A product called [AppCues](http://appcues.com/) lets you design these tooltips without code, neat.
 
@@ -49,8 +47,7 @@ As far as a tooltip based solution goes, **I found them annoying and almost alwa
 
 There also exists a beacon style approach, where commonly misunderstood features are labeled with glowing beacons, which provide relevant information when (if) needed.
 
-![](/img/content/posts/1-gsi2ycu3p-dvwdgwphqslg.png)
-*Beacon Styled Context*
+![Beacon Styled Context](/img/content/posts/1-gsi2ycu3p-dvwdgwphqslg.png)
 
 This is the most unobtrusive way. Unlike tooltip that shoves a 17 step tutorial down your throat and vanishes when you actually need it, this **hotspot based approach provides info when you are ready**.
 
@@ -83,8 +80,7 @@ The goal of each state is to progress the user to the next state. When the user 
 
 The mockup below has just one call to action, the blue plus button that lets the user add a new contact. The graphics and the text both prime the user to take that action.
 
-![](/img/content/posts/1-vk6rmieembmlg2kemrmg1q.png)
-*State 1 — Prime the user to add contacts (illustration by undraw.co)*
+![State 1 — Prime the user to add contacts (illustration by undraw.co)](/img/content/posts/1-vk6rmieembmlg2kemrmg1q.png)
 
 Once a contact has been added, we can start the second goal.
 
@@ -92,16 +88,14 @@ Once a contact has been added, we can start the second goal.
 
 The mockup below shows has a graphical primer to start a chat. It explicitly outlines the features available. Again, there is only one thing you can do now, i.e. send a message. You can also make a call in this UI, but both these actions serve the same purpose. They take your user to step 3.
 
-![](/img/content/posts/1-tbydduw4hr-d-na3cwzr-q.png)
-*State 2 — Contact added, prime to start a chat*
+![State 2 — Contact added, prime to start a chat](/img/content/posts/1-tbydduw4hr-d-na3cwzr-q.png)
 
 
 ### Goal of State 3: None, the user is on-boarded — all cues should vanish
 
 And finally, when your user has repeated the process a few times, her UI will start looking the way we originally intended.
 
-![](/img/content/posts/1-a1tpc-t8bbcu62bx6ezsba.png)
-*State 3 — The user is successfully on boarded*
+![State 3 — The user is successfully on boarded](/img/content/posts/1-a1tpc-t8bbcu62bx6ezsba.png)
 
 ## Benefits of this approach
 

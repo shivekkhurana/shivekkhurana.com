@@ -5,6 +5,7 @@ subTitle: null
 canonicalUrl: https://www.newline.co/@shivekkhurana/reaching-flow-state-with-clojures-repl--14018b04
 featured: false
 heroImg: /img/content/posts/repl-flow-cover.png
+heroImgCaption: Photo by Jeremy Bishop on Unsplash
 slug: clojure-repl-flow-state
 tags:
   - clojure
@@ -13,8 +14,6 @@ tags:
   - dev-tools
 author: shivekkhurana
 ---
-
-*Photo by <a href="https://unsplash.com/@jeremybishop?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Jeremy Bishop</a> on <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>*
 
 Did you know that you sleep in multiple phases? At first, you lie down and close your eyes, but it's still easy to be woken up. As sleep progresses it becomes deeper, to the point where you lose your sense of time and start dreaming. This stage is called deep sleep or REM sleep and it's essential for learning, memory, and wellbeing. The catch is - you cannot progress to the REM stage until you have finished the earlier, non-REM stages.
 
@@ -52,8 +51,7 @@ Imagine a language that is not written like English prose, but expressed in term
 
 Imagine if we could somehow connect the source code to the runtime (compiled code), to the extent that we could pinpoint and execute a function `f` defined in source code right from the editor. This is what it would look like:
 
-![Executing inside Clojure Repl](/img/content/posts/20201219081714648-repl-demo.gif)
-*Figure 1: Executing functions in the REPL*
+![Figure 1: Executing functions in the REPL](/img/content/posts/20201219081714648-repl-demo.gif)
 
 In the GIF above, we have ClojureScript source code in a text editor, connected to a runtime (browser). We can execute functions as we write them. No refresh, no recompilation, no interpreter.
 
@@ -75,8 +73,7 @@ Consider a function that takes a Hash Map like `{:a "b" :c "d"}` and returns a q
 
 This code can be represented in the form of a tree as follows:
 
-![Clojure code is a tree](/img/content/posts/20201219082406554-tree.svg)
-*Figure 2: Tree representation of LISP code*
+![Figure 2: Tree representation of LISP code](/img/content/posts/20201219082406554-tree.svg)
 
 Because of the discrete data structure form, the compiler can easily create a one-to-one mapping of functions in source (CLJS) code to output in compiled (JS) code, and can also execute a selected part of the source in runtime.
 
@@ -84,8 +81,7 @@ Like in **Figure 1** above, the code `(+ 3 4)` is written in ClojureScript, comp
 
 The REPL is the hidden agent that facilitates this source to runtime bridge. It takes source code, executes instructions in runtime, and brings the results right back to the point of definition, ie. the editor:
 
-![Scope of Clojure's REPL](/img/content/posts/20201219082703461-repl-scope.png)
-*Figure 3: Scope of the REPL*
+![Figure 3: Scope of the REPL](/img/content/posts/20201219082703461-repl-scope.png)
 
 1\. Your source code lives in your editor\
 2\. The Shadow (compiler) converts this code to browser ready JavaScript\
@@ -106,15 +102,13 @@ According to the official Clojure docs, [the REPL is a user interface to your pr
 
 Since the REPL can execute any source code, you can use it to check the methods a third party library exposes.
 
-![](/img/content/posts/20201219170955642-lib-optimized.gif)
-*Figure 4: Inspecting methods exposed in the React package*
+![Figure 4: Inspecting methods exposed in the React package](/img/content/posts/20201219170955642-lib-optimized.gif)
 
 ### Inspect state
 
 A large part of UI development involves interacting with state. The REPL can be used to read the data structure storing your state.
 
-![](/img/content/posts/20201219171220458-state-optimized.gif)
-*Figure 5: Inspecting app state in real-time*
+![Figure 5: Inspecting app state in real-time](/img/content/posts/20201219171220458-state-optimized.gif)
 
 ### Fill forms
 
@@ -126,8 +120,7 @@ Form states are generally saved using one-way binding(like in React) or two-way 
 
 If you are building a multi-step process like checkout or signup, filling the initial steps might become tedious as your flow grows. You can define the steps in your source code, and execute it in the REPL. The UI will respond respectively.
 
-![Clojure REPL with React Native](/img/content/posts/20201220073216472-my-20movie-half.gif)
-*Figure 6: Simulating UI events on a React Native app*
+![Figure 6: Simulating UI events on a React Native app](/img/content/posts/20201220073216472-my-20movie-half.gif)
 
 In the GIF above, we have a Status App (A free, libre, open-source | GitHub.com/status-im/status-react) messenger running on an Android device, and a REPL connected to it. We can simulate events in the REPL, essentially letting us develop complex flows, without even touching the device. If you are a mobile developer, imagine the time saved if you never needed to take your hands off the keyboard to interact with the app. And the feedback is fire 🔥.
 

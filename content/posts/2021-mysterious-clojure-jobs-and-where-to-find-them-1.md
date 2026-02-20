@@ -5,6 +5,7 @@ subTitle: My personal list of resources and techniques that might help you land
   your next job in Clojure
 featured: false
 heroImg: /img/content/posts/clojure-jobs-cover.png
+heroImgCaption: Photo by Iman soleimany zadeh on Unsplash
 slug: clojure-jobs-and-where-to-find-them
 tags:
   - clojure
@@ -16,7 +17,6 @@ relatedSlugs:
   - making-clojure-jobs
 author: shivekkhurana
 ---
-*Photo by <a href="https://unsplash.com/@chiichiinii?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Iman soleimany zadeh</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>*
 
 So you have read a few articles, watched some Hickey talks, and dabbled with the REPL. You want to graduate from the hobbyist level and write Clojure professionally?
 
@@ -58,7 +58,6 @@ This is by far the best way in my opinion. Advertised Clojure jobs are visible t
 The idea is simple: Google indexes all pages on the internet. If there is a Clojure job, it'd be posted on some HR platform, and Google would index it. So if we can come up with a list of famous HR platforms, we can use the search operators like: [`clojure site:bamboohr.com`](https://www.google.com/search?q=clojure+site%3Abamboohr.com):
 
 ![Google search for Clojure jobs on Bamboo HR](/img/content/posts/screenshot-2021-06-04-at-10.21.51-pm.png?large)
-*Google search for Clojure jobs on Bamboo HR*
 
 There are 5 famous HR platforms that I know of:
 

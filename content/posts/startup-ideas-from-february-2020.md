@@ -71,11 +71,9 @@ What if we can reach every clickable thing on the screen without using the mouse
 For a power user like a developer, it could mean saving a lot of time that was used to drag the mouse.
 The following images explain the idea better.
 
-![](/img/content/posts/mouseless-default.png)
-*The screen as we see it*
+![The screen as we see it](/img/content/posts/mouseless-default.png)
 
-![](/img/content/posts/mouseless-on-cmd-press.png)
-*On pressing Command, every clickable is given an address so it could be accessed instantly*
+![On pressing Command, every clickable is given an address so it could be accessed instantly](/img/content/posts/mouseless-on-cmd-press.png)
 
 In the case above, pressing `Cmd + A` will click the blog link.
 

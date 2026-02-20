@@ -102,20 +102,24 @@ const transform = {
     const srcParts = (src || '').split('?');
     const size = srcParts[1];
     return (
-      <img
-        src={src}
-        className={clsx('mx-auto mt-8', {
-          'w-auto': size === 'original',
-          'w-10/12 md:w-8/12 lg:w-6/12': size === 'medium' || !size,
-          'w-10/12 md:w-8/12': size === 'large',
-          'w-10/12': size === 'x-large',
-        })}
-        alt={alt || ''}
-      />
+      <figure className="mt-8 text-center">
+        <img
+          src={src}
+          className={clsx('mx-auto', {
+            'w-auto': size === 'original',
+            'w-10/12 md:w-8/12 lg:w-6/12': size === 'medium' || !size,
+            'w-10/12 md:w-8/12': size === 'large',
+            'w-10/12': size === 'x-large',
+          })}
+          alt={alt || ''}
+        />
+        {alt && (
+          <figcaption className="mt-2 mb-4 text-sm opacity-60">
+            {alt}
+          </figcaption>
+        )}
+      </figure>
     );
-  },
-  em: ({ children }: PropsWithChildren) => {
-    return <em className="mt-2 mb-4 text-sm opacity-60">{children}</em>;
   },
   table: ({ children }: PropsWithChildren) => (
     <div className="mx-auto w-full md:w-4/5 overflow-x-auto my-6">
