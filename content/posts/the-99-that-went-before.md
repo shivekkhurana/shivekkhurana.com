@@ -9,9 +9,8 @@ tags:
   - motivation
   - life-lessons
 author: shivekkhurana
+heroImgCaption: "Image source: zastavki.com"
 ---
-
-_Image source : http://www.zastavki.com/eng/Fantasy/wallpaper-44441.htm_
 
 Walking warrior on a hill  
 Saw a shimmer and stood still  

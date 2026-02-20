@@ -25,22 +25,19 @@ Sync engines solve the data freshness problem by establishing a three-part contr
 
 On load, the client defines queries that materialize a snapshot of server data locally. This snapshot contains all data needed to render the UI—ideally everything the user will interact with.
 
-![Sync Engine Queries](/img/content/posts/sync-engine-queries.png)
-_Sync Engine: All data is fetched on load_
+![Sync Engine: All data is fetched on load](/img/content/posts/sync-engine-queries.png)
 
 ## 2. Mutation queueing
 
 User actions are queued locally and sent to the sync engine in order. If the client is offline, mutations queue locally and sync when connectivity returns. The queue ensures mutations are applied atomically and in the correct sequence, maintaining multiplayer correctness.
 
-![Sync Engine Mutations](/img/content/posts/sync-engines-mutation.png)
-_Sync Engine: User actions are queued_
+![Sync Engine: User actions are queued](/img/content/posts/sync-engines-mutation.png)
 
 ## 3. Live invalidation and re-fetch
 
 When a mutation occurs—whether from the current user or another client—the sync engine invalidates affected queries and pushes fresh data via a persistent connection. The UI updates automatically without manual intervention.
 
-![Sync Engine Query Notification](/img/content/posts/sync-engine-query-notify.png)
-_Sync Engine: When data changes on server, UI gets notified_
+![Sync Engine: When data changes on server, UI gets notified](/img/content/posts/sync-engine-query-notify.png)
 
 This contract delivers local-first UX with web-first multiplayer. Everything works offline.
 
@@ -84,8 +81,7 @@ Electric SQL talk helps understand the perspective of a library developer. It al
 
 Linear is a project management app that competes and wins in the saturated project management market. It demonstrates sync engines in production: it can run offline as a Chrome PWA, loads most pages in less than 50ms, and provides a snappy UX that rivals native applications.
 
-![Linear Homepage 2025 November](/img/content/posts/sync-engine-linear.png)
-_Linear Project Management: Landing Page_
+![Linear Project Management: Landing Page](/img/content/posts/sync-engine-linear.png)
 
 Linear uses sync at the core of their data flow. This lets them fetch data efficiently, store mutations as a queue locally, and run offline. As a collaborative system with multiple users and organization support, Linear achieves the best of all worlds:
 

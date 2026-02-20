@@ -14,9 +14,8 @@ relatedSlugs:
   - clojure-drug-dealer-part-2
   - clojure-drug-dealer-part-3
 author: shivekkhurana
+heroImgCaption: Base Photo by Jose Antonio Gallego Vazquez on Unsplash
 ---
-
-_Base Photo by [Jose Antonio Gallego Vázquez](https://unsplash.com/@joseantoniogall?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
 Over the last 2 years, Clojure has become my primary language. It compiles to Java & JavaScript and has a [few other advantages that I learnt over time](https://shivekkhurana.com/clojure-424-days/).One of the disadvantage was the steep upfront learning curve. If you are just getting started with Clojure, this (and a series of future posts) might help you.For today, we’ll be building a Drug Dealer API. Imagine a drug store near you (don’t let the word dealer delude you):
 
@@ -27,8 +26,7 @@ Over the last 2 years, Clojure has become my primary language. It compiles to Ja
 
 This article assumes that you are comfortable developing APIs in some other language.Jargon terms are used without explanation. If you have ever developed and API with Node, Spring, Java, Python, RoR or literally any other framework/language, you are good to go.
 
-![GitHUb logo](/img/content/posts/1-kt1mzwyxuce-rq4vfu3scw.png)
-_Source at https://github.com/krimlabs/workshops (branch [snapshot/dealer-api-part-2](https://github.com/krimlabs/workshops/tree/snapshot/dealer-api-part-1))._
+![Source at https://github.com/krimlabs/workshops (branch snapshot/dealer-api-part-1)](/img/content/posts/1-kt1mzwyxuce-rq4vfu3scw.png)
 
 For this exercise, our back-end consists of a database, configuration, a router and controllers. Clojure community doesn’t promote the idea of ORMs (for good).
 

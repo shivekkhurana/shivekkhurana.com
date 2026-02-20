@@ -71,13 +71,15 @@ const AuthorImage = ({ profilePicture, name }: AuthorContentType) => {
 const Author = ({
   slug,
   publishedOn,
+  postSlug,
 }: {
   slug: string;
   publishedOn: string;
+  postSlug: string;
 }) => {
   const author = getAuthorBySlug(slug);
   return (
-    <div className="flex mt-4 items-center justify-between">
+    <div className="flex flex-col md:flex-row mt-4 md:items-center justify-between gap-3">
       <div className="flex items-center">
         <div className="w-[56px]">
           <AuthorImage {...author} />
@@ -89,6 +91,17 @@ const Author = ({
           </div>
         </div>
       </div>
+      <a
+        href={`/blog/${postSlug}.md`}
+        className="flex items-center gap-2 text-sm opacity-80 hover:opacity-100"
+      >
+        <img
+          src="/img/markdown.svg"
+          alt=""
+          className="w-5 h-5"
+        />
+        Markdown for AI Agents
+      </a>
     </div>
   );
 };
@@ -136,6 +149,7 @@ function Post({ post }: PostProps) {
         <Author
           slug={author ?? ''}
           publishedOn={publishedOn ?? ''}
+          postSlug={slug || ''}
         />
         {/* <Share title={title} url={`https://krimlabs.com/blog/${slug}`} /> */}
       </div>
