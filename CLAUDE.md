@@ -9,8 +9,58 @@
 ## Code Style
 
 **Imports:**
-- Always use absolute imports with `@src/` prefix (e.g., `import Img from '@src/components/Img'`)
-- Never use relative imports like `./` or `../`
+- Always use absolute imports only - never use relative imports (`../` or `./`)
+- Use the `@src/*` path alias for all source files (e.g., `@src/config`, `@src/domain/location.types`)
+- Use `@contentlayer/generated` for contentlayer generated types
+
+```typescript
+// Correct
+import config from '@src/config';
+import type { LocationData } from '@src/domain/location.types';
+import { allPosts } from '@contentlayer/generated';
+
+// Incorrect
+import config from '../config';
+import type { LocationData } from './location.types';
+```
+
+**Type Definitions:**
+- Always define types in corresponding `.types.ts` files - never define types inline in implementation files
+- Each domain module should have a corresponding `*.types.ts` file (e.g., `location.ts` → `location.types.ts`)
+- All type definitions should be exported from the types file
+- File naming: `domain-name.ts` for implementation, `domain-name.types.ts` for types (same directory)
+
+## Commit Messages
+
+**Format:** `[emoji] [Description]`
+
+**Emoji guidelines:**
+- 📊 Data/Charts/Visualization
+- 🩺 Health/Medical
+- 📝 Documentation, README, comments, spelling fixes
+- 🪛 Fixes/Bugfixes, typing issues, corrections
+- ✨ New Features, components, functionality
+- 🗑️ Removal, deleting files
+- 🎨 Styling/UI, CSS
+- ⚡ Performance optimizations
+- 🔧 Configuration, settings, tooling
+- 📍 Location/Geography, maps
+- ✈️ Travel
+- ☁️ Infrastructure, deployment, hosting
+- 🏞️ Images/Media
+- 📐 Rules/Guidelines
+- 🪪 About/Profile
+- 🎆 Optimization (image/asset)
+- ⬅️ Layout/Positioning
+- 🛫 Travel Details
+
+**Best practices:**
+- Keep descriptions concise but descriptive
+- Use present tense ("Add" not "Added")
+- Capitalize the first letter after the emoji
+- No period at the end
+
+**Examples:** `📊 Add health snapshots on home page`, `🪛 Fix typing issues`, `✨ Add new feature`
 
 ## Writing Style
 

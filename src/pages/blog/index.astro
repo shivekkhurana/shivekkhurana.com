@@ -38,10 +38,7 @@ const years = Object.keys(postsByYear)
               <div class="mb-12">
                 <div class="font-bold text-xs opacity-60 mt-8 mb-4">{year}</div>
                 {posts.map((post: Post) => (
-                  <PostItem
-                    post={post}
-                    client:load
-                  />
+                  <PostItem post={post} />
                 ))}
               </div>
             );
