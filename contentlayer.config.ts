@@ -138,6 +138,17 @@ const Project = defineDocumentType(() => ({
   },
 }));
 
+const Video = defineDocumentType(() => ({
+  name: 'Video',
+  filePathPattern: 'videos/*.md',
+  fields: {
+    publishedOn: { type: 'date', required: false },
+    title: { type: 'string' },
+    url: { type: 'string' },
+    coverImg: { type: 'string', required: false },
+  },
+}));
+
 const GenomicsInvestor = defineDocumentType(() => ({
   name: 'GenomicsInvestor',
   filePathPattern: 'genomicsLandscape/investors/*.md',
@@ -179,6 +190,7 @@ export default makeSource({
     Tag,
     Author,
     Project,
+    Video,
     GenomicsInvestor,
     GenomicsCompany,
   ],

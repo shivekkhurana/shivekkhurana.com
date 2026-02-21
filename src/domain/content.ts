@@ -3,8 +3,9 @@ import {
   allAuthors,
   allTags,
   allProjects,
+  allVideos,
 } from '@contentlayer/generated';
-import type { Post, Author, Tag, Project } from '@contentlayer/generated';
+import type { Post, Author, Tag, Project, Video } from '@contentlayer/generated';
 
 function getAllPosts(): Post[] {
   // If there is no publishedOn, then it is a draft
@@ -97,6 +98,18 @@ function getRecentPosts(excludeSlug?: string, limit: number = 5): Post[] {
     .slice(0, limit);
 }
 
+function getAllVideos(): Video[] {
+  return allVideos.filter((v: Video) => v.publishedOn);
+}
+
+function getSortedVideos(): Video[] {
+  return [...getAllVideos()].sort((a: Video, b: Video) => {
+    const aTime = new Date(a.publishedOn!).getTime();
+    const bTime = new Date(b.publishedOn!).getTime();
+    return bTime - aTime;
+  });
+}
+
 export {
   getAllPosts,
   getSortedPosts,
@@ -110,5 +123,7 @@ export {
   getTopProjects,
   getProjectsGroupedByYear,
   getTopProjectsGroupedByYear,
+  getAllVideos,
+  getSortedVideos,
 };
-export type { Post, Author, Tag, Project };
+export type { Post, Author, Tag, Project, Video };
