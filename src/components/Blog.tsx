@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import type { Post } from '@contentlayer/generated';
-import PostItem from '@src/components/PostItem';
+import PostListContainer from '@src/components/PostListContainer';
 
 function Blog({
   postsByYear,
@@ -17,25 +17,13 @@ function Blog({
     <section className="font-mlm-roman">
       <h2 className="text-lg font-bold font-mlm-roman mb-4">Blog</h2>
       <div className="text-sm"></div>
-      {years.map((year) => {
-        const posts = postsByYear[year];
-        return (
-          <div
-            key={year}
-            className="mb-6"
-          >
-            <div className="font-bold text-xs opacity-60">{year}</div>
-            {posts.map((post) => {
-              return (
-                <PostItem
-                  post={post}
-                  key={post.slug!}
-                />
-              );
-            })}
-          </div>
-        );
-      })}
+      {years.map((year) => (
+        <PostListContainer
+          key={year}
+          title={String(year)}
+          posts={postsByYear[year]}
+        />
+      ))}
       <div className="mt-4">
         <a
           href="/blog"

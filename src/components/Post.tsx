@@ -1,7 +1,12 @@
 import React from 'react';
-import { getAuthorBySlug } from '@src/domain/content';
+import {
+  getAuthorBySlug,
+  getPostsBySlugs,
+  getRecentPosts,
+} from '@src/domain/content';
 import Markdown from '@src/components/Markdown';
 import PostClosing from '@src/components/PostClosing';
+import PostListContainer from '@src/components/PostListContainer';
 import { convertDateString } from '@src/utils/time';
 import type {
   Post as PostContentType,
@@ -136,52 +141,69 @@ function Post({ post }: PostProps) {
   const { heroImg, title, subTitle, publishedOn, slug, canonicalUrl, author } =
     post;
   return (
-    <div className="pb-12">
-      <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
-        <h1 className="text-3xl md:text-2xl lg:text-4xl font-bold mt-5 mb-2">
-          {title}
-        </h1>
-        {subTitle && (
-          <h2 className="text-lg md:text-xl lg:text-3xl text-black-80 mt-2 mb-3 opacity-60">
-            {subTitle}
-          </h2>
-        )}
-        <Author
-          slug={author ?? ''}
-          publishedOn={publishedOn ?? ''}
-          postSlug={slug || ''}
-        />
-        {/* <Share title={title} url={`https://krimlabs.com/blog/${slug}`} /> */}
-      </div>
-
-      {heroImg && (
-        <figure className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
-          <Img
-            path={heroImg}
-            alt={post.heroImgCaption || `Hero image for the post: ${title}`}
-            className="rounded-md"
-            defaultWidth={960}
-            loading="eager"
-            fetchPriority="high"
-            sizes="(min-width: 1024px) 50vw, (min-width: 768px) 66vw, 83vw"
-          />
-          {post.heroImgCaption && (
-            <figcaption className="mt-2 text-sm text-center opacity-60">
-              {post.heroImgCaption}
-            </figcaption>
+    <div>
+      <article>
+        <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
+          <h1 className="text-3xl md:text-2xl lg:text-4xl font-bold mt-5 mb-2">
+            {title}
+          </h1>
+          {subTitle && (
+            <h2 className="text-lg md:text-xl lg:text-3xl text-black-80 mt-2 mb-3 opacity-60">
+              {subTitle}
+            </h2>
           )}
-        </figure>
-      )}
-
-      <Markdown post={post} />
-
-      <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
-        <div className="text-lg">
-          {canonicalUrl && <CanonicalRef canonicalUrl={canonicalUrl} />}
+          <Author
+            slug={author ?? ''}
+            publishedOn={publishedOn ?? ''}
+            postSlug={slug || ''}
+          />
+          {/* <Share title={title} url={`https://krimlabs.com/blog/${slug}`} /> */}
         </div>
-      </div>
+
+        {heroImg && (
+          <figure className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
+            <Img
+              path={heroImg}
+              alt={post.heroImgCaption || `Hero image for the post: ${title}`}
+              className="rounded-md"
+              defaultWidth={960}
+              loading="eager"
+              fetchPriority="high"
+              sizes="(min-width: 1024px) 50vw, (min-width: 768px) 66vw, 83vw"
+            />
+            {post.heroImgCaption && (
+              <figcaption className="mt-2 text-sm text-center opacity-60">
+                {post.heroImgCaption}
+              </figcaption>
+            )}
+          </figure>
+        )}
+
+        <Markdown post={post} />
+
+        <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
+          <div className="text-lg">
+            {canonicalUrl && <CanonicalRef canonicalUrl={canonicalUrl} />}
+          </div>
+        </div>
+      </article>
 
       <PostClosing />
+
+      <div className="w-full border-t border-black py-8">
+        <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 font-mlm-roman space-y-12">
+          {post.relatedSlugs && post.relatedSlugs.length > 0 && (
+            <PostListContainer
+              title="Related Posts"
+              posts={getPostsBySlugs(post.relatedSlugs)}
+            />
+          )}
+          <PostListContainer
+            title="Recent Posts"
+            posts={getRecentPosts(post.slug, 5)}
+          />
+        </div>
+      </div>
     </div>
   );
 }

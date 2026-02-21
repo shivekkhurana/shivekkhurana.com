@@ -87,6 +87,16 @@ function getAuthorBySlug(slug: string): Author {
   return getAllAuthors().find((a: Author) => a.slug === slug)!;
 }
 
+function getPostsBySlugs(slugs: string[]): Post[] {
+  return getAllPosts().filter((p: Post) => slugs.includes(p.slug));
+}
+
+function getRecentPosts(excludeSlug?: string, limit: number = 5): Post[] {
+  return getSortedPosts()
+    .filter((p) => p.slug !== excludeSlug)
+    .slice(0, limit);
+}
+
 export {
   getAllPosts,
   getSortedPosts,
@@ -94,6 +104,8 @@ export {
   getTopPostsGroupedByYear,
   getPostsGroupedByYear,
   getAuthorBySlug,
+  getPostsBySlugs,
+  getRecentPosts,
   getAllProjects,
   getTopProjects,
   getProjectsGroupedByYear,
