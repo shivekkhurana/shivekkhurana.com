@@ -38,12 +38,14 @@ function PostItem({ post }: PostItemProps) {
           'flex items-center gap-4'
         )}
       >
-        <Img
-          path={heroImg}
-          alt={title ?? ''}
-          defaultWidth={80}
-          className={clsx('w-20 aspect-video object-cover', 'opacity-100')}
-        />
+        <div className="w-20 aspect-video flex-shrink-0 bg-gray-100">
+          <Img
+            path={heroImg}
+            alt={title ?? ''}
+            defaultWidth={80}
+            className={clsx('w-full h-full object-cover', 'opacity-100')}
+          />
+        </div>
 
         <span
           className={clsx(

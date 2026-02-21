@@ -40,16 +40,16 @@ function ProjectItem({ project }: ProjectItemProps) {
 
   return (
     <div className={clsx('flex gap-4', 'py-3', 'mb-4')}>
-      {logo && (
-        <div className="shrink-0">
+      <div className="w-6 h-6 shrink-0 bg-gray-100">
+        {logo && (
           <Img
             path={logo}
             alt={`${companyName} logo`}
             defaultWidth={32}
-            className={clsx('w-6 h-6 object-contain')}
+            className={clsx('w-full h-full object-contain')}
           />
-        </div>
-      )}
+        )}
+      </div>
       <div className={clsx('flex-1')}>
         <div className={clsx('flex items-center gap-2', 'mb-1')}>
           {title && (
