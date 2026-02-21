@@ -48,10 +48,9 @@ const shots = [
 
   <BodyLayout>
     <NavV2 />
-    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16')}>
-      <div class="mt-48 mb-24 font-mlm-roman">
-        <!-- Heading -->
-        <h1 class="font-bold text-2xl md:text-3xl mb-6">About</h1>
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16 mb-24')}>
+      <section class="font-mlm-roman">
+        <h1 class="text-2xl font-bold font-mlm-roman mb-8">About</h1>
 
         <!-- About Me Content -->
         <div class="prose prose-lg max-w-none mb-16">
@@ -142,7 +141,7 @@ const shots = [
             </section>
           </section>
         </div>
-      </div>
+      </section>
     </main>
     <Footer />
   </BodyLayout>
