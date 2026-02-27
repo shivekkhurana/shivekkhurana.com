@@ -9,26 +9,32 @@ layout {
         }
     }
 
-    tab name="shivekkhurana.com" {
+    tab name="claude" {
         pane split_direction="vertical" {
-            pane stacked=true {
-                pane name="emacs" {
-                    command "emacsclient"
-                    args "-t"
-                }
-                pane name="server" {
-                    command "bun"
-                    args "dev"
-                }
+            pane name="claude0" {
+                command "claude"
             }
-            pane stacked=true {
-                pane name="claude0" {
-                    command "claude"
-                }
-                pane name="claude1" {
-                    command "claude"
-                }
+            pane name="claude1" {
+                command "claude"
             }
         }
+    }
+
+    tab name="emacs" {
+        pane name="emacs" {
+            command "emacsclient"
+            args "-t"
+        }
+    }
+
+    tab name="server" {
+        pane name="server" {
+            command "bun"
+            args "dev"
+        }
+    }
+
+    tab name="terminal" {
+        pane
     }
 }

@@ -20,6 +20,9 @@ export default {
     source: './content',
     sink: './content/index.json',
   },
+  blog: {
+    recentPostsLimit: 8,
+  },
   colors: {
     healthkit: {
       restingHeartRate: '#FF69B4', // Hot pink

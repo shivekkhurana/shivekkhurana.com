@@ -20,8 +20,9 @@ import {
   fetchLastSleep,
 } from '@src/domain/healthkit';
 import { fetchWorkoutStats } from '@src/domain/workouts';
+import config from '@src/config';
 
-const topPostsByYear = getTopPostsGroupedByYear(5);
+const topPostsByYear = getTopPostsGroupedByYear(config.blog.recentPostsLimit);
 const topProjects = getTopProjects(3);
 const totalPosts = getAllPosts().length;
 const totalProjects = getAllProjects().length;

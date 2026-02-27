@@ -8,6 +8,7 @@ import Markdown from '@src/components/Markdown';
 import PostClosing from '@src/components/PostClosing';
 import PostListContainer from '@src/components/PostListContainer';
 import { convertDateString } from '@src/utils/time';
+import config from '@src/config';
 import type {
   Post as PostContentType,
   Author as AuthorContentType,
@@ -143,7 +144,7 @@ function Post({ post }: PostProps) {
   return (
     <div>
       <article>
-        <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
+        <div className="mx-auto w-11/12 md:w-8/12 lg:w-6/12">
           <h1 className="text-3xl md:text-2xl lg:text-4xl font-bold mt-5 mb-2">
             {title}
           </h1>
@@ -161,7 +162,7 @@ function Post({ post }: PostProps) {
         </div>
 
         {heroImg && (
-          <figure className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 my-4">
+          <figure className="mx-auto w-11/12 md:w-8/12 lg:w-6/12 my-4">
             <Img
               path={heroImg}
               alt={post.heroImgCaption || `Hero image for the post: ${title}`}
@@ -181,7 +182,7 @@ function Post({ post }: PostProps) {
 
         <Markdown post={post} />
 
-        <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">
+        <div className="mx-auto w-11/12 md:w-8/12 lg:w-6/12">
           <div className="text-lg">
             {canonicalUrl && <CanonicalRef canonicalUrl={canonicalUrl} />}
           </div>
@@ -191,7 +192,7 @@ function Post({ post }: PostProps) {
       <PostClosing />
 
       <div className="w-full border-t border-black py-8">
-        <div className="mx-auto w-10/12 md:w-8/12 lg:w-6/12 font-mlm-roman space-y-12">
+        <div className="mx-auto w-11/12 md:w-8/12 lg:w-6/12 font-mlm-roman space-y-12">
           {post.relatedSlugs && post.relatedSlugs.length > 0 && (
             <PostListContainer
               title="Related Posts"
@@ -200,7 +201,7 @@ function Post({ post }: PostProps) {
           )}
           <PostListContainer
             title="Recent Posts"
-            posts={getRecentPosts(post.slug, 5)}
+            posts={getRecentPosts(post.slug, config.blog.recentPostsLimit)}
           />
         </div>
       </div>
