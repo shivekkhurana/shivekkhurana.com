@@ -69,7 +69,7 @@ import type { LocationData } from './location.types';
 ```yaml
 ---
 publishedOn: 2025-02-15T00:00:00.000Z
-title: Title Here
+title: "Title Here"
 subTitle: Optional subtitle
 featured: false
 heroImg: /img/content/posts/image-name.png
@@ -81,6 +81,10 @@ tags:
 author: shivekkhurana
 ---
 ```
+
+**Title rules:**
+- Always wrap titles in double quotes `"..."` to avoid parsing issues with colons (`:`)
+- Never use raw colons in unquoted titles
 
 **Tags vs Slugs (important distinction):**
 - **Tags**: Reusable categories for posts (e.g., `clojure`, `javascript`, `startup`). Defined in `content/tags/`. Used in the `tags:` array.

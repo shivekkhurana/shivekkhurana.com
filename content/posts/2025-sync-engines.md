@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-11-25T00:00:00.000Z
-title: The Local-First Comeback You Didn’t See Coming
+title: "Sync Engines: The Local-First Comeback You Didn't See Coming"
 subTitle: Linear’s Secret Weapon and The Quiet Rebellion Against Slow and Stale Web Apps
 heroImg: /img/content/posts/sync-engine-cover.png
 featured: false
