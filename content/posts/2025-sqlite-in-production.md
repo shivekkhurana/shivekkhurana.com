@@ -1,6 +1,6 @@
 ---
 publishedOn: 2025-12-30T00:00:00.000Z
-title: Sophisticated Simplicity of Modern SQLite
+title: SQLite in Production: A Real-World Benchmark
 subTitle: A benchmark-driven guide to tuning SQLite for production workloads
 heroImg: /img/content/posts/sqlite-benchmarks.png
 featured: false
