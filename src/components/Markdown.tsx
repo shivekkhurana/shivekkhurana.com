@@ -21,7 +21,7 @@ const transform = {
       <p
         className={clsx('mx-auto', 'mt-6', ' text-lg leading-relaxed', {
           'text-center': isElImg,
-          'w-11/12 lg:w-10/12 xl:w-8/12': !isElImg,
+          'w-10/12 md:w-8/12 lg:w-6/12': !isElImg,
         })}
       >
         {children}
@@ -32,7 +32,7 @@ const transform = {
     // H1 is H3 on page context, becasuse title is H1, subtitle is H2
     <h3
       className={clsx(
-        'mx-auto w-11/12 lg:w-10/12 xl:w-8/12 text-2xl',
+        'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-2xl',
         'mt-6 mb-3',
         'font-bold'
       )}
@@ -43,7 +43,7 @@ const transform = {
   h2: ({ children }: PropsWithChildren) => (
     <h4
       className={clsx(
-        'mx-auto w-11/12 lg:w-10/12 xl:w-8/12 text-xl',
+        'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-xl',
         'mt-5 mb-2',
         'font-bold'
       )}
@@ -54,7 +54,7 @@ const transform = {
   h3: ({ children }: PropsWithChildren) => (
     <h5
       className={clsx(
-        'mx-auto w-11/12 lg:w-10/12 xl:w-8/12 text-lg',
+        'mx-auto w-10/12 md:w-8/12 lg:w-6/12 text-lg',
         'mt-4 mb-1',
         'font-bold'
       )}
@@ -62,12 +62,12 @@ const transform = {
       {children}
     </h5>
   ),
-  hr: () => <hr className="mx-auto w-11/12 lg:w-10/12 xl:w-8/12" />,
+  hr: () => <hr className="mx-auto w-9/10 md:w-8/12 lg:w-6/12" />,
   ul: ({ children }: PropsWithChildren) => (
-    <ul className="mx-auto w-11/12 lg:w-10/12 xl:w-8/12">{children}</ul>
+    <ul className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">{children}</ul>
   ),
   ol: ({ children }: PropsWithChildren) => (
-    <ol className="mx-auto w-11/12 lg:w-10/12 xl:w-8/12">{children}</ol>
+    <ol className="mx-auto w-10/12 md:w-8/12 lg:w-6/12">{children}</ol>
   ),
   li: ({ children }: PropsWithChildren) => (
     <li className="list-outside list-disc ml-6 mb-2 text-lg leading-relaxed">
@@ -107,9 +107,9 @@ const transform = {
           src={src}
           className={clsx('mx-auto', {
             'w-auto': size === 'original',
-            'w-11/12 lg:w-10/12 xl:w-8/12': size === 'medium' || !size,
-            'w-11/12 lg:w-10/12': size === 'large',
-            'w-11/12': size === 'x-large',
+            'w-10/12 md:w-8/12 lg:w-6/12': size === 'medium' || !size,
+            'w-10/12 md:w-8/12': size === 'large',
+            'w-10/12': size === 'x-large',
           })}
           alt={alt || ''}
         />
