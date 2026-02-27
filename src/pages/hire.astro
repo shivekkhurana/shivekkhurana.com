@@ -6,13 +6,93 @@ import BodyLayout from '@src/layouts/Body.astro';
 import HeadLayout from '@src/layouts/Head.astro';
 import NavV2 from '@src/components/NavV2.astro';
 import Footer from '@src/components/Footer';
+import TrustedBy from '@src/components/hire-me/TrustedBy';
+import Services from '@src/components/hire-me/Services';
+import Testimonials from '@src/components/hire-me/Testimonials';
+import ButterflyDivider from '@src/components/hire-me/ButterflyDivider';
+import ContactForm from '@src/components/hire-me/ContactForm';
+
+const companies = [
+  { name: 'Collab Currency', logo: '/img/companies/cc.png', url: 'https://collabcurrency.com' },
+  { name: 'IFT Studios', logo: '/img/companies/IFT-lockup-black.svg', url: 'https://free.technology' },
+  { name: 'Skills Trainer', logo: '/img/companies/skillstrainer.svg', url: 'https://skillstrainer.in' },
+  { name: 'Steer Finance', logo: '/img/companies/steer.svg', url: 'https://steer.finance' },
+  { name: 'Status App', logo: '/img/companies/status.webp', url: 'https://status.app' },
+  { name: 'JUXT', logo: '/img/companies/juxt.png', url: 'https://juxt.pro' },
+];
+
+const services = [
+  {
+    title: 'AI Agents',
+    description: 'Autonomous systems that reason, use tools, and take actions. From simple chatbots to multi-step workflows that get things done.',
+  },
+  {
+    title: '0→1 + Full Stack',
+    description: 'Take ideas from napkin sketch to production. Full-stack development with React, Node, Clojure, and whatever else gets the job done.',
+  },
+  {
+    title: 'Voice Chatbots',
+    description: 'Conversational AI with voice interfaces. Build phone agents, voice assistants, and speech-enabled applications.',
+  },
+  {
+    title: 'RAGs & Private Models',
+    description: 'Retrieval-augmented generation and self-hosted models for sensitive data. Keep your data private while leveraging LLM capabilities.',
+  },
+  {
+    title: 'Workflow Automation',
+    description: 'Automate repetitive processes with AI-powered workflows. From document processing to data pipelines.',
+  },
+  {
+    title: 'AI Evals',
+    description: 'Update your prompts with confidence that nothing else will break.',
+  },
+];
+
+const testimonials = [
+  {
+    quote: 'Shivek has been instrumental in building AI-driven data pipelines and internal tools that unlock alpha for the firm. He combines deep technical fluency with sharp product intuition, consistently transforming messy crypto data into clear, actionable insights and intuitive visualizations for our Investment Team.',
+    name: 'Zack Rosenblatt',
+    title: 'COO',
+    company: 'Collab Currency',
+    pfp: '/img/testimonies/zack.jpeg',
+    companyLogo: '/img/content/projects/cc.jpg',
+    linkedIn: 'https://www.linkedin.com/in/zackrosenblatt/',
+  },
+  {
+    quote: 'A very smart and focused person with a very clear thought process.',
+    name: 'Shubham Goel',
+    title: 'Ads ML, Multimodal',
+    company: 'Meta',
+    pfp: '/img/testimonies/sg.jpeg',
+    companyLogo: '/img/testimonies/meta-icon.svg',
+    linkedIn: 'https://www.linkedin.com/in/shubhamgoel27/',
+  },
+  {
+    quote: 'Working with Shivek has been a blast. His optimism is endless but calm and steady.',
+    name: 'Alisher Sherali',
+    title: 'Experience designer',
+    company: 'IFT Studios',
+    pfp: '/img/testimonies/as.jpeg',
+    companyLogo: '/img/testimonies/IFT-mark-black.svg',
+    linkedIn: 'https://www.linkedin.com/in/alishersherali/',
+  },
+  {
+    quote: 'Shivek is a passionate developer with excellent Clojure and ClojureScript skills.',
+    name: 'Mark Woodhall',
+    title: 'Founder',
+    company: 'JHJ Technologies',
+    pfp: '/img/testimonies/mw.jpeg',
+    companyLogo: '/img/testimonies/jhj_logo.jpeg',
+    linkedIn: 'https://www.linkedin.com/in/mark-woodhall/',
+  },
+];
 ---
 
 <HtmlLayout>
   <HeadLayout>
     <Seo
       title={'Hire Shivek'}
-      subTitle={'Build AI systems. Ship MVPs. Go from 0 to 1. Fast.'}
+      subTitle={"Point me at a problem. I'll figure it out and deliver working software."}
       tags={'hire shivek, consultant, ai systems, mvp development, product engineer'}
       authorName={'Shivek Khurana'}
       heroImg={'/img/og.png'}
@@ -21,31 +101,23 @@ import Footer from '@src/components/Footer';
 
   <BodyLayout>
     <NavV2 />
-    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'mt-16 mb-24')}>
-      <section class="font-mlm-roman">
+    <main class="mt-16 mb-24">
+      <div class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'font-mlm-roman')}>
         <h1 class="text-2xl font-bold font-mlm-roman mb-8">Hire Shivek</h1>
-        <h2 class="text-lg opacity-80 mb-4">
-          Build AI systems. Ship MVPs. Go from 0 to 1. Fast.
-        </h2>
-        <p class="text-base opacity-70 mb-6">
-          Staff-level engineer who builds AI systems, product MVPs, and full-stack applications.
-          I've taken ideas from napkin sketch to production for startups and growth-stage companies.
-          Currently available for 1-2 contracts.
+        <p class="text-lg opacity-80 mb-16">
+          Your team is stretched, your timeline is tight, and the last thing you need is another thing to manage. As an ex-founder of a VC backed company and an engineering lead, I deeply understand the need to move fast and react to the market. Point me at a problem and I'll figure it out and keep you updated.
         </p>
-        <p class="text-base opacity-70 mb-8">
-          Fill out the form below to get in touch.
-        </p>
-        <iframe
-          data-tally-src="https://tally.so/embed/dWx7gr?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
-          loading="lazy"
-          width="100%"
-          height="345"
-          frameborder="0"
-          marginheight="0"
-          marginwidth="0"
-          title="Hire Shivek"
-        ></iframe>
-      </section>
+
+        <TrustedBy companies={companies} />
+      </div>
+
+      <ButterflyDivider />
+
+      <div class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-8/12', 'font-mlm-roman')}>
+        <Services services={services} />
+        <Testimonials testimonials={testimonials} />
+        <ContactForm />
+      </div>
     </main>
     <Footer />
   </BodyLayout>

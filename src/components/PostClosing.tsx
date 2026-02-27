@@ -3,7 +3,7 @@ import clsx from 'clsx';
 function PostClosing() {
   return (
     <div className={clsx('w-full', 'border-t border-black mt-12 py-8')}>
-      <div className={clsx('w-10/12 md:w-8/12 lg:w-6/12 mx-auto')}>
+      <div className={clsx('w-11/12 lg:w-10/12 xl:w-8/12 mx-auto')}>
         <div
           className={clsx(
             'flex flex-col md:flex-row',
