@@ -59,6 +59,7 @@ import type { LocationData } from './location.types';
 - Use present tense ("Add" not "Added")
 - Capitalize the first letter after the emoji
 - No period at the end
+- Never include Anthropic signatures (Co-Authored-By lines)
 
 **Examples:** `📊 Add health snapshots on home page`, `🪛 Fix typing issues`, `✨ Add new feature`
 

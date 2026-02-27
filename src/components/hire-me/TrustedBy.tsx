@@ -12,7 +12,7 @@ export default function TrustedBy({ companies }: TrustedByProps) {
   return (
     <div className="mb-16">
       <h2 className="text-xl font-bold mb-8">Trusted by</h2>
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-6 items-center md:justify-items-center">
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-6 items-center md:justify-items-center xl:-mx-8">
         {companies.map((company) => (
           <a
             key={company.name}
