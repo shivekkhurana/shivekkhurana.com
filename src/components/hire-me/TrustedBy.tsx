@@ -11,8 +11,10 @@ interface TrustedByProps {
 export default function TrustedBy({ companies }: TrustedByProps) {
   return (
     <div className="mb-16">
-      <h2 className="text-xl font-bold mb-8">Trusted by</h2>
-      <div className="grid grid-cols-2 md:grid-cols-6 gap-6 items-center md:justify-items-center xl:-mx-8">
+      <p className="text-center text-gray-500 mb-8">
+        Companies I've collaborated with
+      </p>
+      <div className="flex flex-wrap gap-6 items-center mx-0 lg:-mx-48 justify-center">
         {companies.map((company) => (
           <a
             key={company.name}
