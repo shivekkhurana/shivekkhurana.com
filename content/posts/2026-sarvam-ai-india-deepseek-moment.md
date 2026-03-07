@@ -183,3 +183,5 @@ But DeepSeek earned its moment by shipping weights and a technical report on day
 Sarvam has made promises at a summit. The receipts are pending.
 
 I'll update this post when they release the models. Until then, file this under "interesting if true."
+
+**Update (March 2026):** Sarvam delivered. The models are now open-sourced on Hugging Face: [Sarvam-30B](https://huggingface.co/sarvamai/sarvam-30b) and [Sarvam-105B](https://huggingface.co/sarvamai/sarvam-105b). See their [technical blog post](https://www.sarvam.ai/blogs/sarvam-30b-105) for details.
