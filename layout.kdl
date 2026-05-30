@@ -9,21 +9,21 @@ layout {
         }
     }
 
-    tab name="claude" {
+    tab name="codex" {
         pane split_direction="vertical" {
-            pane name="claude0" {
-                command "claude"
+            pane name="codex0" {
+                command "codex"
             }
-            pane name="claude1" {
-                command "claude"
+            pane name="codex1" {
+                command "codex"
             }
         }
     }
 
-    tab name="emacs" {
-        pane name="emacs" {
-            command "emacsclient"
-            args "-t"
+    tab name="nvim" {
+        pane name="nvim" {
+            command "nvim"
+            args "."
         }
     }
 

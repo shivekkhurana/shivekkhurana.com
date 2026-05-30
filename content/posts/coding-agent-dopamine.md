@@ -1,6 +1,6 @@
 ---
 publishedOn: 2026-05-27T00:00:00.000Z
-title: AI coding agents ships at the cost of intuition and taste
+title: AI coding agents ship at the cost of intuition and taste
 subTitle: Software developers used to work for hours to get the dopamine hit of a working system. Codex and Claude give this hit without the work.
 featured: false
 heroImg: /img/content/posts/coding-agent-dopamine-cover.png
