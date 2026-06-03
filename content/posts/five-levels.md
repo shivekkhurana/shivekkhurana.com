@@ -94,6 +94,8 @@ If I were to do it again, I'll let the agent make components on the fly. Generat
 
 We can go one step further and generate mini apps. Long workflows can be collapsed into smaller steps, creating a more efficient process for the user and revenue lock-in (aka vendor lock-in) for the SaaS provider.
 
+This is also the thesis behind [GigaCatalyst's three levels of adding AI to your SaaS](https://gigacatalyst.com/blog/three-levels-of-adding-ai-to-your-saas). GigaCatalyst is a SaaS that helps teams skip the intermediate scaffolding and move directly towards Level 4: custom AI-generated interfaces that sit inside the product.
+
 ## Level 5: Agentic harness with plan mode, scheduled tasks, memory and monitoring
 
 Up to Level 4, the agent works but is not independent. Its agency is derived from the user's prompting. The next iteration is to let the agent run itself. That's where plan mode comes in. When you let the agent run on its own, you risk consuming more tokens than you are comfortable paying for, so the first step is to build a monitoring layer.
