@@ -10,8 +10,14 @@ const isHirePage = Astro.url.pathname === '/hire' || Astro.url.pathname === '/hi
   >
     https://krimlabs.com has been migrated to https://shivekkhurana.com
   </div> -->
-  <div class="bg-white m-2 border border-black">
+  <div class="relative bg-white m-2 border border-black">
     <slot />
+    <!-- Invisible trigger for the floating hire CTA's end-of-page margin adjustment. -->
+    <div
+      class="hire-floating-page-end"
+      aria-hidden="true"
+    >
+    </div>
   </div>
   {!isHirePage && <HireFloating />}
 </body>
