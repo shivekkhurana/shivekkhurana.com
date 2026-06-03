@@ -10,6 +10,7 @@ import HtmlLayout from '@src/layouts/Html.astro';
 import BodyLayout from '@src/layouts/Body.astro';
 import HeadLayout from '@src/layouts/Head.astro';
 import Footer from '@src/components/Footer';
+import image from '@src/utils/image';
 
 export async function getStaticPaths() {
   const posts = getAllPosts();
@@ -20,6 +21,7 @@ export async function getStaticPaths() {
 
 const { post } = Astro.props;
 const author = getAuthorBySlug(post.author);
+const postOgImg = post.heroImg ? image.getOgJpgSrc(post.heroImg) : post.heroImg;
 ---
 
 <HtmlLayout>
@@ -28,7 +30,7 @@ const author = getAuthorBySlug(post.author);
       title={post.title}
       subTitle={post.subTitle}
       tags={post.tags}
-      heroImg={post.heroImg}
+      heroImg={postOgImg}
       canonicalUrl={post.canonicalUrl}
       authorName={author.name}
       ogType="article"
@@ -38,7 +40,7 @@ const author = getAuthorBySlug(post.author);
       title={post.title}
       subTitle={post.subTitle}
       tags={post.tags}
-      heroImg={post.heroImg}
+      heroImg={postOgImg}
       authorName={author.name}
       publishedOn={post.publishedOn}
       url={`https://shivekkhurana.com/blog/${post.slug}`}

@@ -1,5 +1,4 @@
 interface OptimizedPaths {
-  og: string;
   w80: string;
   w240Blurred: string;
   w240: string;
@@ -17,7 +16,6 @@ function getOptimizedBase(path: string): string {
 function getOptimizedPaths(path: string): OptimizedPaths {
   const base = getOptimizedBase(path);
   return {
-    og: base + '/og.webp',
     w80: base + '/w-80.webp',
     w240Blurred: base + '/w-240-blurred.webp',
     w240: base + '/w-240.webp',
@@ -29,8 +27,8 @@ function getOptimizedPaths(path: string): OptimizedPaths {
   };
 }
 
-function getOgSrc(path: string): string {
-  return `${getOptimizedBase(path)}/og.webp`;
+function getOgJpgSrc(path: string): string {
+  return `${getOptimizedBase(path)}/og.jpg`;
 }
 
 function getSrcSet(path: string): string {
@@ -43,6 +41,6 @@ function getSrcSet(path: string): string {
 export default {
   getOptimizedBase,
   getOptimizedPaths,
-  getOgSrc,
+  getOgJpgSrc,
   getSrcSet,
 };

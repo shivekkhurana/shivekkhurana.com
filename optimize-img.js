@@ -6,6 +6,11 @@ const R = require('ramda');
 
 const sourceDir = 'public/img';
 const destDir = 'public/optimized-img';
+const postSourceDir = path.join(sourceDir, 'content/posts');
+const maxOgJpgSize = 1024 * 1024;
+const ogJpgQualityStart = 100;
+const ogJpgQualityFloor = 50;
+const ogJpgQualityStep = 10;
 
 const notEndsWith = (extension) =>
   R.filter((node) => R.not(R.endsWith(extension, node)));
@@ -66,15 +71,75 @@ const stripFileNames = (processedImgFiles) => {
 
 const filesToProcess = (imgFiles, processedImgFiles) => {
   const computedOutComponents = tentativeOptimizedPaths(imgFiles);
-  const existingOptimizedPaths = stripFileNames(processedImgFiles);
-  return R.filter(
-    (c) => R.not(R.includes(c.optimizedPath, existingOptimizedPaths)),
-    computedOutComponents
-  );
+  const existingOptimizedFiles = new Set(processedImgFiles);
+  return R.filter((c) => {
+    const requiredFiles = requiredOptimizedFiles(c);
+    return R.any(
+      (filePath) => !existingOptimizedFiles.has(filePath),
+      requiredFiles
+    );
+  }, computedOutComponents);
 };
 
 const widthsToGenerate = [32, 80, 240, 480, 720, 960, 1440];
 const widthsToBlur = [480, 960];
+
+const isPostImage = (component) => {
+  const relativePath = path.relative(postSourceDir, component.filePath);
+  return (
+    relativePath === '' ||
+    (!relativePath.startsWith('..') && !path.isAbsolute(relativePath))
+  );
+};
+
+const requiredOptimizedFiles = (component) => {
+  const webpFiles = [
+    ...R.map(
+      (width) => path.join(component.optimizedPath, `w-${width}.webp`),
+      widthsToGenerate
+    ),
+    ...R.map(
+      (width) => path.join(component.optimizedPath, `w-${width}-blurred.webp`),
+      widthsToBlur
+    ),
+  ];
+
+  if (isPostImage(component)) {
+    return [...webpFiles, path.join(component.optimizedPath, 'og.jpg')];
+  }
+
+  return webpFiles;
+};
+
+const generateOgJpg = async (sourcePath, outputPath) => {
+  for (
+    let quality = ogJpgQualityStart;
+    quality >= ogJpgQualityFloor;
+    quality -= ogJpgQualityStep
+  ) {
+    await sharp(sourcePath)
+      .resize({
+        width: 1200,
+        height: 630,
+        fit: 'cover',
+        position: sharp.strategy.attention,
+      })
+      .jpeg({ quality, mozjpeg: true })
+      .toFile(outputPath);
+
+    const stat = await fs.stat(outputPath);
+    if (stat.size <= maxOgJpgSize) {
+      return;
+    }
+  }
+
+  const stat = await fs.stat(outputPath);
+  throw new Error(
+    `Generated OG JPG is ${(stat.size / 1024 / 1024).toFixed(
+      2
+    )}MB, which exceeds the 1MB limit at quality ${ogJpgQualityFloor}`
+  );
+};
 
 const processFile = async (component) => {
   const sourcePath = path.join(component.filePath, component.name);
@@ -82,17 +147,19 @@ const processFile = async (component) => {
     // create the folder
     await fs.mkdir(component.optimizedPath, { recursive: true });
 
-    // convert image to webp format in highest quality
-    const inputSharp = sharp(sourcePath);
-    const ogWebpPath = path.join(component.optimizedPath, 'og.webp');
-    await inputSharp.toFile(ogWebpPath);
+    if (isPostImage(component)) {
+      await generateOgJpg(
+        sourcePath,
+        path.join(component.optimizedPath, 'og.jpg')
+      );
+    }
 
-    // convert og.webp to desired widths
-    const ogSharp = sharp(ogWebpPath);
+    // Convert source image to desired WebP widths.
+    const sourceSharp = sharp(sourcePath);
     await Promise.all(
       R.map(async (width) => {
         const widthPath = path.join(component.optimizedPath, `w-${width}.webp`);
-        await ogSharp.clone().resize({ width }).toFile(widthPath);
+        await sourceSharp.clone().resize({ width }).toFile(widthPath);
 
         // blur if needed
         if (R.includes(width, widthsToBlur)) {
@@ -154,6 +221,8 @@ module.exports = {
   appendOptimizedPath,
   stripFileNames,
   filesToProcess,
+  isPostImage,
+  requiredOptimizedFiles,
 };
 
 if (require.main === module) {
