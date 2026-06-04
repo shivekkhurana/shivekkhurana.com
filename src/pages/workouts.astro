@@ -1,0 +1,48 @@
+---
+import clsx from 'clsx';
+import Nav from '@src/components/Nav.astro';
+import Seo from '@src/components/Seo';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
+import WorkoutsDashboard from '@src/components/WorkoutsDashboard';
+import { fetchWorkoutDashboardStats } from '@src/domain/workouts';
+import {
+  buildWorkoutChartMarkdowns,
+  formatWorkoutUpdatedAt,
+} from '@src/domain/workouts-markdown';
+import { renderMarkdown } from '@src/components/Markdown';
+
+const updatedAt = new Date();
+const workoutStats = await fetchWorkoutDashboardStats(updatedAt);
+const charts = await Promise.all(
+  buildWorkoutChartMarkdowns(workoutStats).map(async (chart) => ({
+    ...chart,
+    parsedMd: await renderMarkdown(chart.markdown),
+  }))
+);
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <Seo
+      title="Workouts - Shivek Khurana"
+      subTitle="Workout stats and charts"
+      heroImg="/img/og.png"
+      authorName="Shivek Khurana"
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <Nav />
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-6/12', 'mt-16 mb-24')}>
+      <WorkoutsDashboard
+        stats={workoutStats}
+        updatedAt={formatWorkoutUpdatedAt(updatedAt)}
+        charts={charts}
+      />
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>

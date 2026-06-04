@@ -75,16 +75,22 @@ export default function Snapshot({
         />
       )}
       {workoutStats && workoutStats.latest && (
-        <LinearProgress
-          color={config.colors.healthkit.workouts}
-          label="Workouts"
-          month={workoutStats.currentMonth}
-          lowestValue={0}
-          targetValue={workoutStats.weekdays}
-          currentValue={workoutStats.latest.count}
+        <a
+          href="/workouts"
           className="w-full aspect-square"
-          showUpRate={workoutShowUpRate}
-        />
+          aria-label="View workout stats"
+        >
+          <LinearProgress
+            color={config.colors.healthkit.workouts}
+            label="Workouts"
+            month={workoutStats.currentMonth}
+            lowestValue={0}
+            targetValue={workoutStats.weekdays}
+            currentValue={workoutStats.latest.count}
+            className="w-full h-full"
+            showUpRate={workoutShowUpRate}
+          />
+        </a>
       )}
       <UnoTimeSeriesSnapshot
         data={rhrData}

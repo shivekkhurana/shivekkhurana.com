@@ -1,5 +1,9 @@
 # Agent Instructions
 
+## Build Commands
+
+Use `bun` for project builds and package scripts.
+
 ## Commit Messages
 
 Every commit message must start with a relevant emoji prefix.
