@@ -1,44 +1,10 @@
 import clsx from 'clsx';
 import React from 'react';
 
-import { fetchWorkoutStats } from '@src/domain/workouts';
-import { fetchMeditationAggregates } from '@src/domain/meditations';
-import { fetchSleepAggregates } from '@src/domain/sleep';
 import Img from '@src/components/Img';
-import StateItem, {
-  BoltIcon,
-  HeartIcon,
-  TimeIcon,
-  EyeIcon,
-  SpaceIcon,
-  FireIcon,
-} from '@src/components/StateItem';
 import Location from '@src/components/spotlight/Location';
 
-import type { WorkoutStats } from '@src/domain/workouts';
-import type { StateItemProps } from '@src/components/StateItem';
 import type { LocationData } from '@src/domain/location.types';
-
-const workoutStats = await fetchWorkoutStats();
-const meditationAggregates = await fetchMeditationAggregates();
-const sleepAggregates = await fetchSleepAggregates();
-
-function daysUntilNovember2072(): string {
-  const currentDate: Date = new Date();
-  const november2072: Date = new Date(2072, 10, 1); // November is represented by 10 since months are zero-indexed
-
-  const millisecondsInDay: number = 1000 * 60 * 60 * 24;
-  const differenceInTime: number =
-    november2072.getTime() - currentDate.getTime();
-
-  const daysLeft: number = Math.floor(differenceInTime / millisecondsInDay);
-
-  if (daysLeft >= 1000) {
-    return Math.ceil(daysLeft / 1000) + 'k';
-  } else {
-    return daysLeft.toString();
-  }
-}
 
 type SpotlightBaseCardProps = {
   bgColorClass: string;
@@ -147,91 +113,10 @@ function SpotlightBaseCard(props: SpotlightBaseCardProps) {
   );
 }
 
-function OpenMeetContent() {
+function StateOfBeingContent() {
   return (
     <div className="text-sm leading-5 w-[80%]">
-      <p>Meeting strangers increases the surface area for luck to land on.</p>
-      <p className="mt-2">
-        If you find anything I do interesting, we should meet. 30 minutes.
-        Preferably in person.
-      </p>
-    </div>
-  );
-}
-
-const txfmStatsFactory = ({
-  workoutStats,
-  currentDay,
-  numObservations,
-  meditationEfficiency,
-  showUpRate,
-}: {
-  workoutStats: WorkoutStats;
-  currentDay: number;
-  numObservations: number;
-  showUpRate: string;
-  meditationEfficiency: string;
-}): StateItemProps[] => {
-  const workoutShowUpRate =
-    ((workoutStats?.latest?.count / workoutStats.weekdaysPassed) * 100).toFixed(
-      0
-    ) + '%';
-
-  const meditationStats = meditationAggregates.latestForDashboard.stats;
-
-  const awarenessShowUpRate =
-    (
-      (meditationStats.numObservations * 100) /
-      (meditationAggregates.latestForDashboard.currentDay *
-        meditationAggregates.latestForDashboard.targetObservationsPerDay)
-    ).toFixed(0) + '%';
-
-  return [
-    {
-      id: 'Workout',
-      icon: BoltIcon,
-      description: `Monthly goal of working out on every weekday. ${workoutShowUpRate} show up rate so far.`,
-      descriptor: '%',
-      itemType: 'bar',
-      barProps: {
-        target: workoutStats?.latest?.target,
-        current: workoutStats?.latest?.count,
-        showUpRate: workoutShowUpRate,
-      },
-    },
-  ];
-};
-
-function StateOfBeingContent() {
-  const { meditationEfficiency, showUpRate, numObservations } =
-    meditationAggregates.latestForDashboard.stats;
-  const { currentDay } = meditationAggregates.latestForDashboard;
-  const txfmStats = txfmStatsFactory({
-    workoutStats,
-    currentDay,
-    numObservations,
-    meditationEfficiency,
-    showUpRate,
-  });
-  return (
-    <div className={clsx('grid grid-cols-1 gap-4')}>
-      {txfmStats.map((s) => {
-        return (
-          <div key={s.id}>
-            <StateItem {...s} />
-          </div>
-        );
-      })}
-    </div>
-  );
-}
-
-function ClojureCourseContent() {
-  return (
-    <div className="w-[80%] md:w-[90%]">
-      <p className={clsx('text-2xl font-bold', 'mt-2')}>
-        Tinycanva - Clojure for React Developers
-      </p>
+      <p>Health, sleep, location, and personal state data workflows.</p>
     </div>
   );
 }

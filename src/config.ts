@@ -3,7 +3,7 @@ export default {
     'https://raw.githubusercontent.com/krimlabs/state-of-being/master/',
   stateOfBeingPagesBase: 'https://shivekkhurana.github.io/state-of-being',
   vault: {
-    workouts: '/vault/workouts.json',
+    workouts: '/vault/workoutv2.json',
     meditations: '/vault/meditations.json',
     sleep: '/vault/ultrahuman/sleep.json',
     sleepIndex: '/vault/ultrahuman/index.json',
