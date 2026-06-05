@@ -41,6 +41,7 @@ export type WorkoutMonthHighlight = {
 };
 
 export type WorkoutDashboardStats = WorkoutStats & {
+  currentDay: number;
   totalCurrentMonth: number;
   totalCurrentYear: number;
   averageCompletedYearWorkouts: number;
@@ -174,7 +175,9 @@ function formatYearMonthKey(year: number, month: number): string {
   return `${year}-${String(month).padStart(2, '0')}`;
 }
 
-function parseYearMonthKey(key: string): Pick<WorkoutMonthHighlight, 'year' | 'month'> {
+function parseYearMonthKey(
+  key: string
+): Pick<WorkoutMonthHighlight, 'year' | 'month'> {
   const [year, month] = key.split('-').map(Number);
   return { year, month };
 }
@@ -185,7 +188,9 @@ function pickBestMonth(months: WorkoutMonthHighlight[]): WorkoutMonthHighlight {
   );
 }
 
-function pickWorstMonth(months: WorkoutMonthHighlight[]): WorkoutMonthHighlight {
+function pickWorstMonth(
+  months: WorkoutMonthHighlight[]
+): WorkoutMonthHighlight {
   return months.reduce((worst, month) =>
     month.count < worst.count ? month : worst
   );
@@ -268,6 +273,7 @@ function buildWorkoutDashboardStatsFromEntries(
 
   return {
     ...baseStats,
+    currentDay: today.getDate(),
     totalCurrentMonth: baseStats.latest.count,
     totalCurrentYear,
     averageCompletedYearWorkouts,

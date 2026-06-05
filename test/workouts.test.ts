@@ -51,6 +51,7 @@ describe('buildWorkoutDashboardStatsFromEntries', () => {
   it('counts current month and current year workouts', () => {
     const stats = buildWorkoutDashboardStatsFromEntries(entries, today);
 
+    expect(stats.currentDay).toBe(4);
     expect(stats.totalCurrentMonth).toBe(3);
     expect(stats.totalCurrentYear).toBe(4);
   });
@@ -138,6 +139,10 @@ describe('buildWorkoutDashboardStatsFromEntries', () => {
 });
 
 describe('workout chart markdown', () => {
+  function parseChartSpec(markdown: string) {
+    return JSON.parse(markdown.replace(/^```vega-lite\n|\n```$/g, ''));
+  }
+
   it('formats the updated timestamp in GMT', () => {
     expect(formatWorkoutUpdatedAt(new Date(Date.UTC(2026, 5, 4, 12, 30)))).toBe(
       'Thu, 04 Jun 2026 12:30:00 GMT'
@@ -157,10 +162,118 @@ describe('workout chart markdown', () => {
       'Current Year Workouts',
       'All-Time Workouts',
     ]);
-    expect(charts.every((chart) => chart.markdown.startsWith('```vega-lite'))).toBe(
-      true
-    );
+    expect(
+      charts.every((chart) => chart.markdown.startsWith('```vega-lite'))
+    ).toBe(true);
     expect(charts.join('\n')).not.toContain('Last updated at');
+    expect(
+      charts.every(
+        (chart) => parseChartSpec(chart.markdown).config.view.stroke === null
+      )
+    ).toBe(true);
+  });
+
+  it('builds the current month as an eleven-column binary workout grid', () => {
+    const stats = buildWorkoutDashboardStatsFromEntries(
+      [
+        { date: '2026-06-01', note: '' },
+        { date: '2026-06-03', note: '' },
+        { date: '2026-06-03', note: '' },
+      ],
+      new Date(2026, 5, 4)
+    );
+    const [currentMonth] = buildWorkoutChartMarkdowns(stats);
+    const spec = parseChartSpec(currentMonth.markdown);
+
+    expect(spec.layer[0].mark).toEqual({
+      type: 'rect',
+      cornerRadius: 4,
+    });
+    expect(spec.config.view).toEqual({
+      stroke: null,
+    });
+    expect(spec.width).toEqual({ step: 56 });
+    expect(spec.height).toEqual({ step: 56 });
+    expect(spec.transform).toEqual([
+      {
+        window: [{ op: 'row_number', as: 'dayIndex' }],
+        sort: [{ field: 'date', order: 'ascending' }],
+      },
+      {
+        calculate: '(datum.dayIndex - 1) % 11',
+        as: 'column',
+      },
+      {
+        calculate: 'floor((datum.dayIndex - 1) / 11)',
+        as: 'row',
+      },
+      {
+        calculate: 'date(toDate(datum.date))',
+        as: 'dayOfMonth',
+      },
+    ]);
+    expect(spec.layer[0].encoding.x).toMatchObject({
+      field: 'column',
+      type: 'ordinal',
+      axis: null,
+      scale: {
+        paddingInner: 0.12,
+        paddingOuter: 0.06,
+      },
+    });
+    expect(spec.layer[0].encoding.y).toMatchObject({
+      field: 'row',
+      type: 'ordinal',
+      axis: null,
+      scale: {
+        paddingInner: 0.12,
+        paddingOuter: 0.06,
+      },
+    });
+    expect(spec.layer[0].encoding.color).toMatchObject({
+      condition: [
+        {
+          test: 'datum.count > 0',
+          value: '#6B7280',
+        },
+        {
+          test: 'datum.dayOfMonth > 4',
+          value: '#F3F4F6',
+        },
+      ],
+      value: '#E5E7EB',
+      legend: null,
+    });
+    expect(spec.data.values).toContainEqual({
+      date: '2026-06-02',
+      count: 0,
+    });
+    expect(spec.data.values).toContainEqual({
+      date: '2026-06-03',
+      count: 2,
+    });
+    expect(spec.layer[0].encoding.tooltip).toHaveLength(2);
+    expect(spec.layer[1]).toMatchObject({
+      mark: {
+        type: 'text',
+        fontSize: 13,
+        fontWeight: 'bold',
+      },
+      encoding: {
+        text: {
+          field: 'dayOfMonth',
+          type: 'quantitative',
+          format: '.0f',
+        },
+        color: {
+          condition: {
+            test: 'datum.count > 0',
+            value: '#FFFFFF',
+          },
+          value: '#374151',
+        },
+      },
+    });
   });
 });
 

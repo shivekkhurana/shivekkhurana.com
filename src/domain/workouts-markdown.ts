@@ -1,9 +1,14 @@
 import type { WorkoutDashboardStats } from '@src/domain/workouts';
 
 const chartBarColor = '#6B7280';
+const calendarEmptyColor = '#E5E7EB';
+const calendarFutureColor = '#F3F4F6';
 const chartConfig = {
   axis: {
     gridDash: [2, 4],
+  },
+  view: {
+    stroke: null,
   },
 };
 
@@ -30,33 +35,138 @@ function buildDailyChart(stats: WorkoutDashboardStats) {
   return {
     $schema: 'https://vega.github.io/schema/vega-lite/v6.json',
     config: chartConfig,
-    width: 640,
-    height: 240,
+    width: {
+      step: 56,
+    },
+    height: {
+      step: 56,
+    },
     data: {
       values: stats.currentMonthDailyCounts,
     },
-    mark: {
-      type: 'bar',
-      color: chartBarColor,
-    },
-    encoding: {
-      x: {
-        field: 'date',
-        type: 'ordinal',
-        title: 'Day',
-        axis: {
-          labelAngle: -45,
+    transform: [
+      {
+        window: [
+          {
+            op: 'row_number',
+            as: 'dayIndex',
+          },
+        ],
+        sort: [
+          {
+            field: 'date',
+            order: 'ascending',
+          },
+        ],
+      },
+      {
+        calculate: '(datum.dayIndex - 1) % 11',
+        as: 'column',
+      },
+      {
+        calculate: 'floor((datum.dayIndex - 1) / 11)',
+        as: 'row',
+      },
+      {
+        calculate: 'date(toDate(datum.date))',
+        as: 'dayOfMonth',
+      },
+    ],
+    layer: [
+      {
+        mark: {
+          type: 'rect',
+          cornerRadius: 4,
+        },
+        encoding: {
+          x: {
+            field: 'column',
+            type: 'ordinal',
+            axis: null,
+            scale: {
+              paddingInner: 0.12,
+              paddingOuter: 0.06,
+            },
+          },
+          y: {
+            field: 'row',
+            type: 'ordinal',
+            axis: null,
+            scale: {
+              paddingInner: 0.12,
+              paddingOuter: 0.06,
+            },
+          },
+          color: {
+            condition: [
+              {
+                test: 'datum.count > 0',
+                value: chartBarColor,
+              },
+              {
+                test: `datum.dayOfMonth > ${stats.currentDay}`,
+                value: calendarFutureColor,
+              },
+            ],
+            value: calendarEmptyColor,
+            legend: null,
+          },
+          tooltip: [
+            {
+              field: 'date',
+              type: 'temporal',
+              title: 'Date',
+              format: '%B %d, %Y',
+            },
+            {
+              field: 'count',
+              type: 'quantitative',
+              title: 'Workouts',
+              format: 'd',
+            },
+          ],
         },
       },
-      y: {
-        field: 'count',
-        type: 'quantitative',
-        title: 'Workouts',
-        scale: {
-          domainMin: 0,
+      {
+        mark: {
+          type: 'text',
+          fontSize: 13,
+          fontWeight: 'bold',
+        },
+        encoding: {
+          x: {
+            field: 'column',
+            type: 'ordinal',
+            axis: null,
+            scale: {
+              paddingInner: 0.12,
+              paddingOuter: 0.06,
+            },
+          },
+          y: {
+            field: 'row',
+            type: 'ordinal',
+            axis: null,
+            scale: {
+              paddingInner: 0.12,
+              paddingOuter: 0.06,
+            },
+          },
+          text: {
+            field: 'dayOfMonth',
+            type: 'quantitative',
+            format: '.0f',
+          },
+          color: {
+            condition: {
+              test: 'datum.count > 0',
+              value: '#FFFFFF',
+            },
+            value: '#374151',
+          },
         },
       },
-    },
+    ],
   };
 }
 
