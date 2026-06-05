@@ -275,6 +275,38 @@ describe('workout chart markdown', () => {
       },
     });
   });
+
+  it('hides only the vertical axis line on bar charts', () => {
+    const stats = buildWorkoutDashboardStatsFromEntries(
+      [{ date: '2026-06-01', note: '' }],
+      new Date(2026, 5, 4)
+    );
+    const [, currentYear, allTime] = buildWorkoutChartMarkdowns(stats);
+
+    expect(
+      parseChartSpec(currentYear.markdown).layer[0].encoding.y.axis
+    ).toEqual({
+      domain: false,
+    });
+    expect(parseChartSpec(allTime.markdown).layer[0].encoding.y.axis).toEqual({
+      domain: false,
+    });
+  });
+
+  it('hides zero-value labels for current and future months', () => {
+    const stats = buildWorkoutDashboardStatsFromEntries(
+      [{ date: '2026-01-01', note: '' }],
+      new Date(2026, 5, 4)
+    );
+    const [, currentYear] = buildWorkoutChartMarkdowns(stats);
+    const spec = parseChartSpec(currentYear.markdown);
+
+    expect(spec.layer[1].transform).toEqual([
+      {
+        filter: "datum.count > 0 || datum.month < '06'",
+      },
+    ]);
+  });
 });
 
 describe('buildWorkoutStatsFromEntries', () => {

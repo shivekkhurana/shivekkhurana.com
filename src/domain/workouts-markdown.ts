@@ -181,6 +181,9 @@ function buildMonthlyChart(stats: WorkoutDashboardStats) {
       field: 'count',
       type: 'quantitative',
       title: 'Workouts',
+      axis: {
+        domain: false,
+      },
       scale: {
         domainMin: 0,
       },
@@ -204,6 +207,13 @@ function buildMonthlyChart(stats: WorkoutDashboardStats) {
         encoding,
       },
       {
+        transform: [
+          {
+            filter: `datum.count > 0 || datum.month < '${String(
+              stats.currentMonth
+            ).padStart(2, '0')}'`,
+          },
+        ],
         mark: {
           type: 'text',
           dy: -6,
@@ -235,6 +245,9 @@ function buildYearlyChart(stats: WorkoutDashboardStats) {
       field: 'count',
       type: 'quantitative',
       title: 'Workouts',
+      axis: {
+        domain: false,
+      },
       scale: {
         domainMin: 0,
       },
