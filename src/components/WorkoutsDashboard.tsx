@@ -196,7 +196,7 @@ export default function WorkoutsDashboard({
         </div>
       </div>
 
-      <div className="mt-10 space-y-12">
+      <div className="mt-8 space-y-8">
         {charts.map((chart) => {
           const description = getChartDescription(chart, stats);
 
@@ -210,9 +210,10 @@ export default function WorkoutsDashboard({
                   {description}
                 </p>
               )}
+              {/* Vega charts are emitted through Markdown as pre/code blocks; reset that wrapper here so chart sections stay compact. */}
               <Markdown
                 parsedMd={chart.parsedMd}
-                className="[&_.vega-chart-wrapper]:!w-full"
+                className="[&_pre:has(.vega-chart-container)]:!m-0 [&_pre:has(.vega-chart-container)]:!w-full [&_pre:has(.vega-chart-container)]:!p-0 [&_pre:has(.vega-chart-container)]:!overflow-visible [&_pre:has(.vega-chart-container)_code]:block [&_pre:has(.vega-chart-container)_code]:text-[0] [&_.vega-chart-wrapper]:!w-full"
               />
             </section>
           );
