@@ -209,6 +209,11 @@ function buildWorkoutDashboardStatsFromEntries(
   const allTimeMonthlyCounts = new Map<string, number>();
   const yearlyCounts = new Map<number, number>();
   let totalCurrentYear = 0;
+  let completedPeriodWorkoutCount = 0;
+  let firstCompletedPeriodMonth: Pick<
+    ParsedWorkoutDate,
+    'year' | 'month'
+  > | null = null;
 
   entries.forEach((entry) => {
     const parsedDate = parseWorkoutDate(entry.date);
@@ -233,6 +238,20 @@ function buildWorkoutDashboardStatsFromEntries(
         parsedDate.month,
         (monthlyCounts.get(parsedDate.month) ?? 0) + 1
       );
+    } else if (parsedDate.year < currentYear) {
+      completedPeriodWorkoutCount += 1;
+
+      if (
+        !firstCompletedPeriodMonth ||
+        parsedDate.year < firstCompletedPeriodMonth.year ||
+        (parsedDate.year === firstCompletedPeriodMonth.year &&
+          parsedDate.month < firstCompletedPeriodMonth.month)
+      ) {
+        firstCompletedPeriodMonth = {
+          year: parsedDate.year,
+          month: parsedDate.month,
+        };
+      }
     }
 
     if (parsedDate.year === currentYear && parsedDate.month === currentMonth) {
@@ -240,13 +259,16 @@ function buildWorkoutDashboardStatsFromEntries(
     }
   });
 
-  const completedYearCounts = [...yearlyCounts.entries()]
-    .filter(([year]) => year < currentYear)
-    .map(([, count]) => count);
+  // Months before the first workout are unknown, but zero-workout months after
+  // recording begins are real data and should lower the annualized average.
+  const completedPeriodMonthCount = firstCompletedPeriodMonth
+    ? (currentYear - firstCompletedPeriodMonth.year) * 12 -
+      firstCompletedPeriodMonth.month +
+      1
+    : 0;
   const averageCompletedYearWorkouts =
-    completedYearCounts.length > 0
-      ? completedYearCounts.reduce((total, count) => total + count, 0) /
-        completedYearCounts.length
+    completedPeriodMonthCount > 0
+      ? (completedPeriodWorkoutCount * 12) / completedPeriodMonthCount
       : 0;
   const completedCurrentYearMonthCount = Math.max(1, currentMonth - 1);
   const completedCurrentYearMonths = Array.from(

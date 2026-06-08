@@ -62,6 +62,30 @@ describe('buildWorkoutDashboardStatsFromEntries', () => {
     expect(stats.averageCompletedYearWorkouts).toBe(2.5);
   });
 
+  it('excludes months before the first workout from the yearly average', () => {
+    const stats = buildWorkoutDashboardStatsFromEntries(
+      [
+        { date: '2024-11-01', note: '' },
+        { date: '2024-12-01', note: '' },
+      ],
+      new Date(2025, 5, 4)
+    );
+
+    expect(stats.averageCompletedYearWorkouts).toBe(12);
+  });
+
+  it('includes empty months after the first workout in the yearly average', () => {
+    const stats = buildWorkoutDashboardStatsFromEntries(
+      [
+        { date: '2024-01-01', note: '' },
+        { date: '2024-12-01', note: '' },
+      ],
+      new Date(2025, 5, 4)
+    );
+
+    expect(stats.averageCompletedYearWorkouts).toBe(2);
+  });
+
   it('zero-fills current month daily buckets', () => {
     const stats = buildWorkoutDashboardStatsFromEntries(entries, today);
 
