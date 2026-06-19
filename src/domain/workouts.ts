@@ -45,8 +45,8 @@ export type WorkoutDashboardStats = WorkoutStats & {
   totalCurrentMonth: number;
   totalCurrentYear: number;
   averageCompletedYearWorkouts: number;
+  allTimePerfectMonthCount: number;
   bestMonthThisYear: WorkoutMonthHighlight;
-  worstMonthThisYear: WorkoutMonthHighlight;
   bestMonthEver: WorkoutMonthHighlight;
   currentMonthDailyCounts: WorkoutDailyBucket[];
   currentYearMonthlyCounts: WorkoutMonthlyBucket[];
@@ -188,14 +188,6 @@ function pickBestMonth(months: WorkoutMonthHighlight[]): WorkoutMonthHighlight {
   );
 }
 
-function pickWorstMonth(
-  months: WorkoutMonthHighlight[]
-): WorkoutMonthHighlight {
-  return months.reduce((worst, month) =>
-    month.count < worst.count ? month : worst
-  );
-}
-
 function buildWorkoutDashboardStatsFromEntries(
   entries: WorkoutEntry[],
   today = new Date()
@@ -292,6 +284,16 @@ function buildWorkoutDashboardStatsFromEntries(
             count,
           }))
       : [{ year: currentYear, month: currentMonth, count: 0 }];
+  const allTimePerfectMonthCount = allTimeMonthlyHighlights.filter((month) => {
+    if (
+      month.year > currentYear ||
+      (month.year === currentYear && month.month >= currentMonth)
+    ) {
+      return false;
+    }
+
+    return month.count >= getWeekdaysInMonth(month.year, month.month);
+  }).length;
 
   return {
     ...baseStats,
@@ -299,8 +301,8 @@ function buildWorkoutDashboardStatsFromEntries(
     totalCurrentMonth: baseStats.latest.count,
     totalCurrentYear,
     averageCompletedYearWorkouts,
+    allTimePerfectMonthCount,
     bestMonthThisYear: pickBestMonth(completedCurrentYearMonths),
-    worstMonthThisYear: pickWorstMonth(completedCurrentYearMonths),
     bestMonthEver: pickBestMonth(allTimeMonthlyHighlights),
     currentMonthDailyCounts: Array.from(
       { length: daysInCurrentMonth },

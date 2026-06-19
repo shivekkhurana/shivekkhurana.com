@@ -101,7 +101,7 @@ function TextStat({
   imagePath: string;
   imageAlt: string;
   label: string;
-  value: string;
+  value: string | number;
   context: string;
 }) {
   return (
@@ -176,12 +176,9 @@ export default function WorkoutsDashboard({
           <TextStat
             imagePath="/img/sketches/workout-badge-worst-year.png"
             imageAlt="Pencil sketch of a subdued award badge"
-            label="Worst month this year"
-            value={formatMonthName(
-              stats.worstMonthThisYear.year,
-              stats.worstMonthThisYear.month
-            )}
-            context={`${stats.worstMonthThisYear.count} workouts`}
+            label="100% months"
+            value={stats.allTimePerfectMonthCount}
+            context="All recorded data"
           />
           <TextStat
             imagePath="/img/sketches/workout-badge-best-ever.png"

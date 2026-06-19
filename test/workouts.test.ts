@@ -36,6 +36,21 @@ describe('workout date helpers', () => {
 
 describe('buildWorkoutDashboardStatsFromEntries', () => {
   const today = new Date(2026, 5, 4);
+  const buildWeekdayEntries = (year: number, month: number) =>
+    Array.from(
+      { length: new Date(year, month, 0).getDate() },
+      (_, index) => index + 1
+    )
+      .filter((day) => {
+        const dayOfWeek = new Date(year, month - 1, day).getDay();
+        return dayOfWeek !== 0 && dayOfWeek !== 6;
+      })
+      .map((day) => ({
+        date: `${year}-${String(month).padStart(2, '0')}-${String(
+          day
+        ).padStart(2, '0')}`,
+        note: '',
+      }));
   const entries = [
     { date: '2024-01-01', note: '' },
     { date: '2024-12-31', note: '' },
@@ -132,7 +147,7 @@ describe('buildWorkoutDashboardStatsFromEntries', () => {
     ]);
   });
 
-  it('finds best and worst month highlights', () => {
+  it('finds best month highlights', () => {
     const stats = buildWorkoutDashboardStatsFromEntries(entries, today);
 
     expect(stats.bestMonthThisYear).toEqual({
@@ -140,16 +155,25 @@ describe('buildWorkoutDashboardStatsFromEntries', () => {
       month: 1,
       count: 1,
     });
-    expect(stats.worstMonthThisYear).toEqual({
-      year: 2026,
-      month: 2,
-      count: 0,
-    });
     expect(stats.bestMonthEver).toEqual({
       year: 2026,
       month: 6,
       count: 3,
     });
+  });
+
+  it('counts perfect completed months across all recorded data', () => {
+    const stats = buildWorkoutDashboardStatsFromEntries(
+      [
+        ...buildWeekdayEntries(2024, 12),
+        ...buildWeekdayEntries(2025, 1),
+        ...buildWeekdayEntries(2025, 2).slice(1),
+        ...buildWeekdayEntries(2026, 6),
+      ],
+      today
+    );
+
+    expect(stats.allTimePerfectMonthCount).toBe(2);
   });
 
   it('throws when invalid dates would corrupt dashboard stats', () => {
