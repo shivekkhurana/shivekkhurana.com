@@ -1,0 +1,79 @@
+---
+import clsx from 'clsx';
+import Nav from '@src/components/Nav.astro';
+import Seo from '@src/components/Seo';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
+import SleepDashboard from '@src/components/SleepDashboard';
+import { renderMarkdown } from '@src/components/Markdown';
+import {
+  fetchSleepDashboardData,
+  filterSleepDashboardDataByYear,
+  sleepDashboardYears,
+} from '@src/domain/sleep-dashboard';
+import {
+  buildSleepChartMarkdowns,
+  formatSleepUpdatedAt,
+  type SleepChartMarkdown,
+} from '@src/domain/sleep-markdown';
+
+type Props = {
+  year: number;
+  updatedAt: string;
+  charts: Array<SleepChartMarkdown & { parsedMd: string }>;
+};
+
+export async function getStaticPaths() {
+  const updatedAt = new Date();
+  const allSleepData = await fetchSleepDashboardData();
+
+  return Promise.all(
+    sleepDashboardYears.map(async (year) => {
+      const sleepData = filterSleepDashboardDataByYear(allSleepData, year);
+      const charts = await Promise.all(
+        buildSleepChartMarkdowns(sleepData).map(async (chart) => ({
+          ...chart,
+          parsedMd: await renderMarkdown(chart.markdown),
+        }))
+      );
+
+      return {
+        params: { year: String(year) },
+        props: {
+          year,
+          updatedAt: formatSleepUpdatedAt(updatedAt),
+          charts,
+        },
+      };
+    })
+  );
+}
+
+const { year, updatedAt, charts } = Astro.props;
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <Seo
+      title={`Sleep ${year} - Shivek Khurana`}
+      subTitle={`Sleep and overnight health charts for ${year}`}
+      heroImg="/img/og.png"
+      authorName="Shivek Khurana"
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <Nav />
+    <main class={clsx('w-11/12 mx-auto lg:w-10/12 xl:w-6/12', 'mt-16 mb-24')}>
+      <SleepDashboard
+        year={year}
+        years={sleepDashboardYears}
+        updatedAt={updatedAt}
+        charts={charts}
+      />
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>

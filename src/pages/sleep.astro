@@ -1,0 +1,14 @@
+---
+import {
+  fetchSleepDashboardData,
+  getLatestSleepDashboardYear,
+  sleepDashboardYears,
+} from '@src/domain/sleep-dashboard';
+
+const sleepData = await fetchSleepDashboardData();
+const latestConfiguredYear =
+  sleepDashboardYears[sleepDashboardYears.length - 1];
+const latestDataYear = getLatestSleepDashboardYear(sleepData);
+
+return Astro.redirect(`/sleep/${latestDataYear ?? latestConfiguredYear}`, 301);
+---

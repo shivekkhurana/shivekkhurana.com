@@ -92,33 +92,57 @@ export default function Snapshot({
           />
         </a>
       )}
-      <UnoTimeSeriesSnapshot
-        data={rhrData}
-        title={unoTimeSeriesMetrics.restingHeartRate.title}
-        unit={unoTimeSeriesMetrics.restingHeartRate.unit}
-        color={unoTimeSeriesMetrics.restingHeartRate.color}
+      <a
+        href="/sleep"
         className="w-full aspect-square"
-      />
-      <UnoTimeSeriesSnapshot
-        data={hrvData}
-        title={unoTimeSeriesMetrics.hrv.title}
-        unit={unoTimeSeriesMetrics.hrv.unit}
-        color={unoTimeSeriesMetrics.hrv.color}
-        className="w-full aspect-square"
-      />
-      <UnoTimeSeriesSnapshot
-        data={bodyTempData}
-        title={unoTimeSeriesMetrics.bodySurfaceTemp.title}
-        unit={unoTimeSeriesMetrics.bodySurfaceTemp.unit}
-        color={unoTimeSeriesMetrics.bodySurfaceTemp.color}
-        className="w-full aspect-square"
-      />
-      {lastSleepData && (
-        <SleepCard
-          lastSleepData={lastSleepData}
-          color={config.colors.healthkit.sleep}
-          className="w-full aspect-square"
+        aria-label="View resting heart rate charts"
+      >
+        <UnoTimeSeriesSnapshot
+          data={rhrData}
+          title={unoTimeSeriesMetrics.restingHeartRate.title}
+          unit={unoTimeSeriesMetrics.restingHeartRate.unit}
+          color={unoTimeSeriesMetrics.restingHeartRate.color}
+          className="w-full h-full"
         />
+      </a>
+      <a
+        href="/sleep"
+        className="w-full aspect-square"
+        aria-label="View heart rate variability charts"
+      >
+        <UnoTimeSeriesSnapshot
+          data={hrvData}
+          title={unoTimeSeriesMetrics.hrv.title}
+          unit={unoTimeSeriesMetrics.hrv.unit}
+          color={unoTimeSeriesMetrics.hrv.color}
+          className="w-full h-full"
+        />
+      </a>
+      <a
+        href="/sleep"
+        className="w-full aspect-square"
+        aria-label="View body surface temperature charts"
+      >
+        <UnoTimeSeriesSnapshot
+          data={bodyTempData}
+          title={unoTimeSeriesMetrics.bodySurfaceTemp.title}
+          unit={unoTimeSeriesMetrics.bodySurfaceTemp.unit}
+          color={unoTimeSeriesMetrics.bodySurfaceTemp.color}
+          className="w-full h-full"
+        />
+      </a>
+      {lastSleepData && (
+        <a
+          href="/sleep"
+          className="w-full aspect-square"
+          aria-label="View sleep charts"
+        >
+          <SleepCard
+            lastSleepData={lastSleepData}
+            color={config.colors.healthkit.sleep}
+            className="w-full h-full"
+          />
+        </a>
       )}
     </div>
   );
