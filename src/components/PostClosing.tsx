@@ -24,12 +24,12 @@ function PostClosing() {
             {/* CTA Buttons */}
             <div className={clsx('flex gap-3', 'justify-start')}>
               <a
-                href="https://github.com/shivekkhurana"
+                href="https://x.com/shivek_khurana"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={clsx('border border-black/20', 'text-sm px-2')}
               >
-                Follow me on GitHub
+                Follow me on X
               </a>
               <a
                 href="/about"
