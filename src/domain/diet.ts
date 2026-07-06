@@ -1,19 +1,14 @@
 import config from '@src/config';
-import type { HealthMetricData } from '@src/domain/healthkit.types';
+import type {
+  DietLogData,
+  MacroMetric,
+  MacrosData,
+} from '@src/domain/diet.types';
 
-export type DailyMacroTotals = {
-  date: string;
-  calories: number;
-  carbs_g: number;
-  protein_g: number;
-  fat_g: number;
-};
-
-export type DietLogData = HealthMetricData;
-
-export type MacrosData = Record<string, DailyMacroTotals>;
-
-export function buildDietLogDataFromMacros(macros: MacrosData): DietLogData {
+export function buildDietLogDataFromMacros(
+  macros: MacrosData,
+  metric: MacroMetric = 'calories'
+): DietLogData {
   const entries = Object.values(macros).sort((a, b) =>
     a.date.localeCompare(b.date)
   );
@@ -21,7 +16,7 @@ export function buildDietLogDataFromMacros(macros: MacrosData): DietLogData {
   return {
     metrics: entries.map((entry) => ({
       date: entry.date,
-      qty: entry.calories,
+      qty: entry[metric],
     })),
   };
 }
@@ -44,4 +39,10 @@ export async function fetchDietLogData(): Promise<DietLogData> {
   const macros = await fetchMacrosData();
 
   return buildDietLogDataFromMacros(macros);
+}
+
+export async function fetchProteinData(): Promise<DietLogData> {
+  const macros = await fetchMacrosData();
+
+  return buildDietLogDataFromMacros(macros, 'protein_g');
 }

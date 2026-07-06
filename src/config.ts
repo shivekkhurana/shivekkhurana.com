@@ -30,6 +30,7 @@ export default {
       workouts: '#A855F7', // Purple
       sleep: '#10B981', // Green
       calories: '#2563EB', // Blue
+      protein: '#F59E0B', // Amber
     },
   },
 };

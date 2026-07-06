@@ -2,13 +2,14 @@ import clsx from 'clsx';
 import type { HealthMetricData, SleepData } from '@src/domain/healthkit.types';
 import type { WorkoutStats } from '@src/domain/workouts';
 import type { LocationData } from '@src/domain/location.types';
-import type { DietLogData } from '@src/domain/diet';
+import type { DietLogData } from '@src/domain/diet.types';
 import config from '@src/config';
 import UnoTimeSeriesSnapshot from '@src/components/healthkit/UnoTimeSeriesSnapshot';
 import LinearProgress from '@src/components/healthkit/LinearProgress';
 import LocationPin from '@src/components/spotlight/LocationPin';
 import SleepCard from '@src/components/healthkit/SleepCard';
 import CaloriesCard from '@src/components/healthkit/CaloriesCard';
+import ProteinCard from '@src/components/healthkit/ProteinCard';
 
 export type UnoTimeSeriesMetricConfig = {
   title: string;
@@ -46,6 +47,7 @@ type SnapshotProps = {
   locationData?: LocationData;
   lastSleepData: SleepData;
   dietLogData?: DietLogData | null;
+  proteinData?: DietLogData | null;
 };
 
 export default function Snapshot({
@@ -56,6 +58,7 @@ export default function Snapshot({
   locationData,
   lastSleepData,
   dietLogData,
+  proteinData,
 }: SnapshotProps) {
   // Calculate show-up rate for workouts
   const workoutShowUpRate =
@@ -156,6 +159,18 @@ export default function Snapshot({
           <CaloriesCard
             data={dietLogData}
             color={config.colors.healthkit.calories}
+            className="w-full h-full"
+          />
+        </div>
+      )}
+      {proteinData && (
+        <div
+          className="w-full aspect-square"
+          aria-label="Latest protein intake"
+        >
+          <ProteinCard
+            data={proteinData}
+            color={config.colors.healthkit.protein}
             className="w-full h-full"
           />
         </div>

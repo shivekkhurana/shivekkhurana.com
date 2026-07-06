@@ -2,22 +2,22 @@ import config from '@src/config';
 import type { DietLogData } from '@src/domain/diet.types';
 import UnoTimeSeriesSnapshot from '@src/components/healthkit/UnoTimeSeriesSnapshot';
 
-type CaloriesCardProps = {
+type ProteinCardProps = {
   data: DietLogData;
   color?: string;
   className?: string;
 };
 
-export default function CaloriesCard({
+export default function ProteinCard({
   data,
-  color = config.colors.healthkit.calories,
+  color = config.colors.healthkit.protein,
   className,
-}: CaloriesCardProps) {
+}: ProteinCardProps) {
   return (
     <UnoTimeSeriesSnapshot
       data={data}
-      title="Calories"
-      unit="kcal"
+      title="Protein"
+      unit="g"
       color={color}
       className={className}
     />

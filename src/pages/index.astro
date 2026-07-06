@@ -20,7 +20,7 @@ import {
   fetchLastSleep,
 } from '@src/domain/healthkit';
 import { fetchWorkoutStats } from '@src/domain/workouts';
-import { fetchDietLogData } from '@src/domain/diet';
+import { buildDietLogDataFromMacros, fetchMacrosData } from '@src/domain/diet';
 import config from '@src/config';
 
 const updatedAt = new Date();
@@ -35,7 +35,9 @@ const hrvData = await fetchHRV();
 const bodyTempData = await fetchBodySurfaceTemp();
 const workoutStats = await fetchWorkoutStats();
 const lastSleepData = await fetchLastSleep();
-const dietLogData = await fetchDietLogData();
+const macrosData = await fetchMacrosData();
+const dietLogData = buildDietLogDataFromMacros(macrosData);
+const proteinData = buildDietLogDataFromMacros(macrosData, 'protein_g');
 ---
 
 <IndexBase>
@@ -48,6 +50,7 @@ const dietLogData = await fetchDietLogData();
     locationData={locationData}
     lastSleepData={lastSleepData}
     dietLogData={dietLogData}
+    proteinData={proteinData}
     updatedAt={formattedUpdatedAt}
   />
   <!-- <About /> -->

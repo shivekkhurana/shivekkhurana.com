@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import type { HealthMetricData, SleepData } from '@src/domain/healthkit.types';
 import type { WorkoutStats } from '@src/domain/workouts';
 import type { LocationData } from '@src/domain/location.types';
-import type { DietLogData } from '@src/domain/diet';
+import type { DietLogData } from '@src/domain/diet.types';
 import Snapshot from '@src/components/healthkit/Snapshot';
 
 type HealthProps = {
@@ -13,6 +13,7 @@ type HealthProps = {
   locationData?: LocationData;
   lastSleepData: SleepData;
   dietLogData?: DietLogData | null;
+  proteinData?: DietLogData | null;
   updatedAt: string;
 };
 
@@ -24,6 +25,7 @@ function Health({
   locationData,
   lastSleepData,
   dietLogData,
+  proteinData,
   updatedAt,
 }: HealthProps) {
   return (
@@ -43,6 +45,7 @@ function Health({
           locationData={locationData}
           lastSleepData={lastSleepData}
           dietLogData={dietLogData}
+          proteinData={proteinData}
         />
       </div>
 
