@@ -1,63 +1,38 @@
 import { describe, expect, it } from 'bun:test';
-import {
-  getDietLogFiles,
-  getLatestDietLogFile,
-  parseDietLogSummary,
-} from '@src/domain/diet';
+import { buildDietLogDataFromMacros } from '@src/domain/diet';
 
 describe('diet log helpers', () => {
-  it('parses calorie total from diet log frontmatter', () => {
+  it('builds calorie time series from macros api data', () => {
     expect(
-      parseDietLogSummary(`---
-date: 2026-07-05
-diet_total_calories: 1578
-diet_total_carbs_g: 215.5
----
-
-# Diet log
-`)
+      buildDietLogDataFromMacros({
+        '2026-07-05': {
+          date: '2026-07-05',
+          calories: 1578,
+          carbs_g: 215.5,
+          protein_g: 81,
+          fat_g: 48,
+        },
+        '2026-07-03': {
+          date: '2026-07-03',
+          calories: 1058,
+          carbs_g: 140.4,
+          protein_g: 89.6,
+          fat_g: 17,
+        },
+        '2026-07-04': {
+          date: '2026-07-04',
+          calories: 1062,
+          carbs_g: 95.5,
+          protein_g: 127,
+          fat_g: 15.9,
+        },
+      })
     ).toEqual({
-      date: '2026-07-05',
-      totalCalories: 1578,
+      metrics: [
+        { date: '2026-07-03', qty: 1058 },
+        { date: '2026-07-04', qty: 1062 },
+        { date: '2026-07-05', qty: 1578 },
+      ],
     });
-  });
-
-  it('selects the latest dated diet log file', () => {
-    expect(
-      getLatestDietLogFile([
-        {
-          name: '.gitkeep',
-          type: 'file',
-          download_url: 'https://example.com/.gitkeep',
-        },
-        {
-          name: '2026-07-04_diet_log.md',
-          type: 'file',
-          download_url: 'https://example.com/2026-07-04_diet_log.md',
-        },
-        {
-          name: '2026-07-05_diet_log.md',
-          type: 'file',
-          download_url: 'https://example.com/2026-07-05_diet_log.md',
-        },
-      ])?.name
-    ).toBe('2026-07-05_diet_log.md');
-  });
-
-  it('sorts diet log files from oldest to newest', () => {
-    expect(
-      getDietLogFiles([
-        {
-          name: '2026-07-05_diet_log.md',
-          type: 'file',
-          download_url: 'https://example.com/2026-07-05_diet_log.md',
-        },
-        {
-          name: '2026-07-03_diet_log.md',
-          type: 'file',
-          download_url: 'https://example.com/2026-07-03_diet_log.md',
-        },
-      ]).map((file) => file.name)
-    ).toEqual(['2026-07-03_diet_log.md', '2026-07-05_diet_log.md']);
   });
 });

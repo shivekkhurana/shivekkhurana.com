@@ -332,7 +332,7 @@ function buildWorkoutDashboardStatsFromEntries(
 
 async function fetchWorkoutEntries(): Promise<WorkoutEntry[]> {
   const response = await fetch(
-    `${config.stateOfBeingBase}/${config.vault.workouts}`
+    `${config.stateOfBeingPagesBase}${config.vault.workouts}`
   );
 
   if (!response.ok) {

@@ -47,7 +47,7 @@ export type MeditationAggregates = {
 
 async function fetchMeditationAggregates(): Promise<MeditationAggregates> {
   return await fetch(
-    `${config.stateOfBeingBase}/${config.vault.meditations}`
+    `${config.stateOfBeingPagesBase}${config.vault.meditations}`
   ).then((res) => res.json());
 }
 

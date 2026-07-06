@@ -54,7 +54,9 @@ function getTimezone(location: LocationEntry): CityData | null {
 }
 
 async function fetchLocationData(): Promise<LocationData> {
-  const response = await fetch(config.vault.location);
+  const response = await fetch(
+    `${config.stateOfBeingPagesBase}${config.vault.location}`
+  );
   if (!response.ok) {
     throw new Error(
       `Failed to fetch location data: ${response.status} ${response.statusText}`

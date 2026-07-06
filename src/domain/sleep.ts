@@ -50,9 +50,9 @@ export type SleepAggregates = {
 } & SleepInfo; // Combining all the types to represent the entire structure
 
 async function fetchSleepAggregates(): Promise<SleepAggregates> {
-  return await fetch(`${config.stateOfBeingBase}/${config.vault.sleep}`).then(
-    (res) => res.json(),
-  );
+  return await fetch(
+    `${config.stateOfBeingPagesBase}${config.vault.sleep}`
+  ).then((res) => res.json());
 }
 
 export { fetchSleepAggregates };
