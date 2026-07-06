@@ -20,8 +20,11 @@ import {
   fetchLastSleep,
 } from '@src/domain/healthkit';
 import { fetchWorkoutStats } from '@src/domain/workouts';
+import { fetchLatestDietLogSummary } from '@src/domain/diet';
 import config from '@src/config';
 
+const updatedAt = new Date();
+const formattedUpdatedAt = updatedAt.toUTCString();
 const topPostsByYear = getTopPostsGroupedByYear(config.blog.recentPostsLimit);
 const topProjects = getTopProjects(3);
 const totalPosts = getAllPosts().length;
@@ -32,6 +35,7 @@ const hrvData = await fetchHRV();
 const bodyTempData = await fetchBodySurfaceTemp();
 const workoutStats = await fetchWorkoutStats();
 const lastSleepData = await fetchLastSleep();
+const dietLog = await fetchLatestDietLogSummary();
 ---
 
 <IndexBase>
@@ -43,6 +47,8 @@ const lastSleepData = await fetchLastSleep();
     workoutStats={workoutStats}
     locationData={locationData}
     lastSleepData={lastSleepData}
+    dietLog={dietLog}
+    updatedAt={formattedUpdatedAt}
   />
   <!-- <About /> -->
   <Blog

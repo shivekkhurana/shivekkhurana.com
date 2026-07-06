@@ -2,6 +2,7 @@ import clsx from 'clsx';
 import type { HealthMetricData, SleepData } from '@src/domain/healthkit.types';
 import type { WorkoutStats } from '@src/domain/workouts';
 import type { LocationData } from '@src/domain/location.types';
+import type { DietLogSummary } from '@src/domain/diet';
 import Snapshot from '@src/components/healthkit/Snapshot';
 
 type HealthProps = {
@@ -11,6 +12,8 @@ type HealthProps = {
   workoutStats?: WorkoutStats;
   locationData?: LocationData;
   lastSleepData: SleepData;
+  dietLog?: DietLogSummary | null;
+  updatedAt: string;
 };
 
 function Health({
@@ -20,6 +23,8 @@ function Health({
   workoutStats,
   locationData,
   lastSleepData,
+  dietLog,
+  updatedAt,
 }: HealthProps) {
   return (
     <div className={clsx('mb-16 font-mlm-roman')}>
@@ -35,6 +40,7 @@ function Health({
           workoutStats={workoutStats}
           locationData={locationData}
           lastSleepData={lastSleepData}
+          dietLog={dietLog}
         />
       </div>
 
@@ -49,6 +55,7 @@ function Health({
         >
           github.com/shivekkhurana/state-of-being
         </a>
+        . Last updated at {updatedAt}
       </div>
     </div>
   );

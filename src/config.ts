@@ -2,8 +2,11 @@ export default {
   stateOfBeingBase:
     'https://raw.githubusercontent.com/krimlabs/state-of-being/master/',
   stateOfBeingPagesBase: 'https://shivekkhurana.github.io/state-of-being',
+  stateOfBeingGitHubApiBase:
+    'https://api.github.com/repos/krimlabs/state-of-being',
   vault: {
     workouts: '/vault/workouts.json',
+    dietLogs: '/contents/vault/diet-logs?ref=master',
     meditations: '/vault/meditations.json',
     sleep: '/vault/ultrahuman/sleep.json',
     sleepIndex: '/vault/ultrahuman/index.json',
@@ -31,6 +34,7 @@ export default {
       bodySurfaceTempText: '#0D9488', // Darker teal for text readability
       workouts: '#A855F7', // Purple
       sleep: '#10B981', // Green
+      calories: '#2563EB', // Blue
     },
   },
 };

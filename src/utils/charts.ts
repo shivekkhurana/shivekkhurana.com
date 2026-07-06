@@ -19,6 +19,9 @@ export function getGradientClasses(baseColor: string): string {
   } else if (baseColor === config.colors.healthkit.sleep) {
     // Green - darker gradient on hover
     return 'bg-gradient-to-br from-green-100 to-green-200 hover:from-green-300 hover:to-green-200';
+  } else if (baseColor === config.colors.healthkit.calories) {
+    // Blue - darker gradient on hover
+    return 'bg-gradient-to-br from-blue-100 to-blue-200 hover:from-blue-300 hover:to-blue-200';
   }
   // Default pastel gradient - darker gradient on hover
   return 'bg-gradient-to-br from-blue-100 to-purple-200 hover:from-blue-300 hover:to-purple-200';
