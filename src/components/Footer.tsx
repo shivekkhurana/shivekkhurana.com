@@ -41,7 +41,6 @@ const socialLinks: SocialLink[] = [
 const otherLinks: { label: string; href: string; external?: boolean }[] = [
   { label: 'RSS Feed', href: '/rss.xml' },
   { label: 'Tinycanva', href: '/tinycanva' },
-  { label: 'Genomics Landscape', href: '/genomics-landscape' },
   {
     label: 'View Stats',
     href: 'https://shivekkhurana.goatcounter.com/',
