@@ -2,7 +2,7 @@ import clsx from 'clsx';
 import type { HealthMetricData, SleepData } from '@src/domain/healthkit.types';
 import type { WorkoutStats } from '@src/domain/workouts';
 import type { LocationData } from '@src/domain/location.types';
-import type { DietLogSummary } from '@src/domain/diet';
+import type { DietLogData } from '@src/domain/diet';
 import config from '@src/config';
 import UnoTimeSeriesSnapshot from '@src/components/healthkit/UnoTimeSeriesSnapshot';
 import LinearProgress from '@src/components/healthkit/LinearProgress';
@@ -45,7 +45,7 @@ type SnapshotProps = {
   workoutStats?: WorkoutStats;
   locationData?: LocationData;
   lastSleepData: SleepData;
-  dietLog?: DietLogSummary | null;
+  dietLogData?: DietLogData | null;
 };
 
 export default function Snapshot({
@@ -55,7 +55,7 @@ export default function Snapshot({
   workoutStats,
   locationData,
   lastSleepData,
-  dietLog,
+  dietLogData,
 }: SnapshotProps) {
   // Calculate show-up rate for workouts
   const workoutShowUpRate =
@@ -148,13 +148,13 @@ export default function Snapshot({
           />
         </a>
       )}
-      {dietLog && (
+      {dietLogData && (
         <div
           className="w-full aspect-square"
           aria-label="Latest calorie intake"
         >
           <CaloriesCard
-            dietLog={dietLog}
+            data={dietLogData}
             color={config.colors.healthkit.calories}
             className="w-full h-full"
           />

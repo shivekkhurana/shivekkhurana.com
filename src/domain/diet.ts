@@ -1,9 +1,12 @@
 import config from '@src/config';
+import type { HealthMetricData } from '@src/domain/healthkit.types';
 
 export type DietLogSummary = {
   date: string;
   totalCalories: number;
 };
+
+export type DietLogData = HealthMetricData;
 
 type GitHubContentItem = {
   name: string;
@@ -59,34 +62,65 @@ export function parseDietLogSummary(markdown: string): DietLogSummary {
   };
 }
 
-export function getLatestDietLogFile(
-  files: GitHubContentItem[]
-): GitHubContentItem | null {
-  const dietLogs = files
+export function getDietLogFiles(files: GitHubContentItem[]): GitHubContentItem[] {
+  return files
     .filter(
       (file) =>
         file.type === 'file' &&
         file.download_url &&
         dietLogFilenamePattern.test(file.name)
     )
-    .sort((a, b) => b.name.localeCompare(a.name));
-
-  return dietLogs[0] ?? null;
+    .sort((a, b) => a.name.localeCompare(b.name));
 }
 
-export async function fetchLatestDietLogSummary(): Promise<DietLogSummary | null> {
+export function getLatestDietLogFile(
+  files: GitHubContentItem[]
+): GitHubContentItem | null {
+  const dietLogs = getDietLogFiles(files);
+
+  return dietLogs[dietLogs.length - 1] ?? null;
+}
+
+async function fetchDietLogFiles(): Promise<GitHubContentItem[]> {
   const files = (await fetch(
     `${config.stateOfBeingGitHubApiBase}${config.vault.dietLogs}`
   ).then((res) => res.json())) as GitHubContentItem[];
+
+  return files;
+}
+
+async function fetchDietLogSummary(
+  file: GitHubContentItem
+): Promise<DietLogSummary> {
+  if (!file.download_url) {
+    throw new Error(`Diet log ${file.name} is missing download_url`);
+  }
+
+  const markdown = await fetch(file.download_url).then((res) => res.text());
+
+  return parseDietLogSummary(markdown);
+}
+
+export async function fetchDietLogData(): Promise<DietLogData> {
+  const files = await fetchDietLogFiles();
+  const dietLogFiles = getDietLogFiles(files);
+  const summaries = await Promise.all(dietLogFiles.map(fetchDietLogSummary));
+
+  return {
+    metrics: summaries.map((summary) => ({
+      date: summary.date,
+      qty: summary.totalCalories,
+    })),
+  };
+}
+
+export async function fetchLatestDietLogSummary(): Promise<DietLogSummary | null> {
+  const files = await fetchDietLogFiles();
   const latestFile = getLatestDietLogFile(files);
 
-  if (!latestFile?.download_url) {
+  if (!latestFile) {
     return null;
   }
 
-  const markdown = await fetch(latestFile.download_url).then((res) =>
-    res.text()
-  );
-
-  return parseDietLogSummary(markdown);
+  return fetchDietLogSummary(latestFile);
 }

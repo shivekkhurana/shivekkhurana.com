@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'bun:test';
 import {
+  getDietLogFiles,
   getLatestDietLogFile,
   parseDietLogSummary,
 } from '@src/domain/diet';
@@ -41,5 +42,22 @@ diet_total_carbs_g: 215.5
         },
       ])?.name
     ).toBe('2026-07-05_diet_log.md');
+  });
+
+  it('sorts diet log files from oldest to newest', () => {
+    expect(
+      getDietLogFiles([
+        {
+          name: '2026-07-05_diet_log.md',
+          type: 'file',
+          download_url: 'https://example.com/2026-07-05_diet_log.md',
+        },
+        {
+          name: '2026-07-03_diet_log.md',
+          type: 'file',
+          download_url: 'https://example.com/2026-07-03_diet_log.md',
+        },
+      ]).map((file) => file.name)
+    ).toEqual(['2026-07-03_diet_log.md', '2026-07-05_diet_log.md']);
   });
 });
