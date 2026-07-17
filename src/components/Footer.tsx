@@ -40,6 +40,7 @@ const socialLinks: SocialLink[] = [
 
 const otherLinks: { label: string; href: string; external?: boolean }[] = [
   { label: 'RSS Feed', href: '/rss.xml' },
+  { label: 'Robots.txt', href: '/robots.txt' },
   { label: 'Tinycanva', href: '/tinycanva' },
   {
     label: 'View Stats',
