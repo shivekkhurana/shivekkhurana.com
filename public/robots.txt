@@ -1,1 +1,3 @@
 User-agent: *
+
+Sitemap: https://shivekkhurana.com/sitemap-index.xml
