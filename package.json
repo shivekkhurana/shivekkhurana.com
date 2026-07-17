@@ -53,9 +53,10 @@
     "dev:cms": "PORT=43999 bun run decap-server",
     "dev:contentlayer": "bun run contentlayer dev --verbose",
     "build:contentlayer": "bun run contentlayer build --verbose",
+    "build:llms": "bun run scripts/generate-llms-text.ts",
     "build:img": "bun run optimize-img.js",
     "dev": "run-p dev:*",
-    "build": "run-s build:contentlayer build:img build:astro"
+    "build": "run-s build:contentlayer build:llms build:img build:astro"
   },
   "type": "module"
 }

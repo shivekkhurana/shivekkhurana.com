@@ -18,6 +18,7 @@ function ProjectItem({ project }: ProjectItemProps) {
     description,
     startDay,
     endDay,
+    slug,
   } = project;
 
   // Calculate date range with year and months
@@ -39,7 +40,7 @@ function ProjectItem({ project }: ProjectItemProps) {
   }
 
   return (
-    <div className={clsx('flex gap-4', 'py-3', 'mb-4')}>
+    <div id={slug} className={clsx('flex gap-4 scroll-mt-8', 'py-3', 'mb-4')}>
       <div className="w-6 h-6 shrink-0 bg-gray-100">
         {logo && (
           <Img
