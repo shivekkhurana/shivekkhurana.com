@@ -1,0 +1,59 @@
+---
+import clsx from 'clsx';
+import Nav from '@src/components/Nav.astro';
+import HtmlLayout from '@src/layouts/Html.astro';
+import BodyLayout from '@src/layouts/Body.astro';
+import HeadLayout from '@src/layouts/Head.astro';
+import Footer from '@src/components/Footer';
+---
+
+<HtmlLayout>
+  <HeadLayout>
+    <title>404 - Shivek Khurana</title>
+    <meta
+      name="description"
+      content="The page you requested was not found."
+    />
+    <meta
+      name="robots"
+      content="noindex"
+    />
+  </HeadLayout>
+
+  <BodyLayout>
+    <Nav />
+    <main
+      class={clsx(
+        'w-11/12 mx-auto lg:w-6/12',
+        'min-h-[55vh]',
+        'flex items-center justify-center',
+        'py-24'
+      )}
+    >
+      <section class="font-mlm-roman text-center">
+        <h1 class="text-2xl font-bold mb-6">404</h1>
+        <p class="text-lg text-black/70 mb-8">
+          The page you requested was not found.
+        </p>
+        <nav
+          aria-label="404 page links"
+          class="flex items-center justify-center gap-6"
+        >
+          <a
+            href="/"
+            class="underline hover:opacity-80 transition-opacity"
+          >
+            Home
+          </a>
+          <a
+            href="/about"
+            class="underline hover:opacity-80 transition-opacity"
+          >
+            About
+          </a>
+        </nav>
+      </section>
+    </main>
+    <Footer />
+  </BodyLayout>
+</HtmlLayout>
