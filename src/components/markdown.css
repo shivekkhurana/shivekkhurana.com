@@ -25,6 +25,19 @@
   overflow-x: auto;
 }
 
+.markdown.markdown-full-width :where(p, h3, h4, h5, ul, ol, hr) {
+  width: 100%;
+}
+
+.markdown.markdown-full-width pre.shiki,
+.markdown.markdown-full-width .vega-chart-wrapper {
+  width: 100%;
+}
+
+.markdown.markdown-full-width div:has(> table) {
+  width: 100%;
+}
+
 .markdown a {
   text-decoration: underline;
 }

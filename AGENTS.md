@@ -4,6 +4,11 @@
 
 Use `bun` for project builds and package scripts.
 
+Do not run the full build as the default validation step after every change.
+Prefer a focused typecheck or a route-level check first. Run the full build
+only when the user asks for it or when the change specifically needs build
+output validation.
+
 ## Domain Types
 
 Every domain module should keep its exported domain-specific types in a sibling `*.types.ts` file. For example, diet types belong in `src/domain/diet.types.ts`, not in another domain's type file or only in `src/domain/diet.ts`.
