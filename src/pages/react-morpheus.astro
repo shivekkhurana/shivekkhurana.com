@@ -8,103 +8,31 @@ import Footer from '@src/components/Footer';
 import Markdown, { renderMarkdown } from '@src/components/Markdown';
 import ReactMorpheusHero from '@src/components/ReactMorpheusHero';
 
-const docsMarkdown = `# Rationale
+const reactMorpheusReadmeUrl =
+  'https://raw.githubusercontent.com/shivekkhurana/react-morpheus/refs/heads/master/README.md';
 
-React Morpheus exists for interfaces where a control should become the next piece of UI instead of opening a detached popover.
-
-The component keeps the source surface, destination surface, and overlay explicit. Your app still owns state and content; Morpheus owns the measured transition between those two surfaces.
-
-# Installation
-
-~~~sh
-bun add react-morpheus
-~~~
-
-~~~sh
-yarn add react-morpheus
-~~~
-
-~~~sh
-npm i react-morpheus
-~~~
-
-# Usage
-
-~~~tsx
-import { useState } from "react";
-import {
-  Morpheus,
-  MorphAnchor,
-  morphSpringPresets,
-} from "react-morpheus";
-import "react-morpheus/style.css";
-
-function Example() {
-  const [expanded, setExpanded] = useState(false);
-  const source = (
-    <button type="button" onClick={() => setExpanded(true)}>
-      Open menu
-    </button>
-  );
-
-  return (
-    <Morpheus
-      anchor={MorphAnchor.TopMiddle}
-      expanded={expanded}
-      onClose={() => setExpanded(false)}
-      overlayColor="#0f172a"
-      overlayOpacity={0.18}
-      overlayBlur={3}
-      overlayZIndex={1200}
-      spring={morphSpringPresets.smooth}
-      collapsedContent={source}
-      expandedContent={
-        <section>
-          <h2>San Francisco</h2>
-          <p>Context, actions, and details live here.</p>
-          <button type="button" onClick={() => setExpanded(false)}>
-            Close
-          </button>
-        </section>
-      }
-    />
-  );
+function removeDemoSection(markdown: string): string {
+  return markdown
+    .replace(
+      /\n?## Demo\s*\n+<!-- react-morpheus-demo:start -->[\s\S]*?<!-- react-morpheus-demo:end -->\s*/u,
+      '\n'
+    )
+    .trim();
 }
-~~~
 
-# Props
+async function fetchReactMorpheusReadme(): Promise<string> {
+  const response = await fetch(reactMorpheusReadmeUrl);
 
-| Prop | Type | Required | Notes |
-| --- | --- | --- | --- |
-| anchor | MorphAnchor | Optional | The edge or point that stays visually anchored. |
-| expanded | boolean | Required | Controlled open state owned by your app. |
-| onClose | () => void | Optional | Called when the overlay requests closing. Use it to update your controlled open state. |
-| beforeClose | () => void | Optional | Called immediately before close state is requested. Useful for close-intent side effects. |
-| afterClose | () => void | Optional | Called after the closing animation completes. |
-| collapsedContent | ReactNode | Required | The source surface Morpheus measures, renders, and uses as the opener. |
-| expandedContent | ReactNode | Required | The destination surface Morpheus measures and animates into. |
-| className | string | Optional | Classes applied to the root wrapper. Useful for block layout and responsive width constraints. |
-| overlayColor | string | Optional | Backdrop color shown while expanded. |
-| overlayOpacity | number | Optional | Backdrop opacity from 0 to 1. |
-| overlayBlur | number | Optional | Backdrop blur in pixels. |
-| overlayZIndex | number | Optional | Stacking level for the overlay and expanded surface. Defaults to 1000. |
-| spring | Transition | Optional | Framer Motion transition. Pass your own transition or use morphSpringPresets. |
+  if (!response.ok) {
+    throw new Error(
+      `Failed to fetch React Morpheus README: ${response.status} ${response.statusText}`
+    );
+  }
 
-# Pitfalls
+  return removeDemoSection(await response.text());
+}
 
-## Responsiveness
-
-Let the collapsed trigger keep its natural size. Morpheus reads that box before animating to the expanded surface.
-
-Put responsive width rules on \`className\`, such as viewport-bound max widths, so the animated shell has stable constraints on narrow screens.
-
-Pick an anchor that matches the source location. Top anchors feel right for menus opening below a trigger; bottom anchors feel right for surfaces opening upward; middle anchors feel better for centered inspectors or command surfaces.
-
-## Parent Container Overflow
-
-Do not put \`overflow: hidden\` on the parent that hosts Morpheus. The expanded surface may animate outside that parent, and hidden overflow can clip the content.`;
-
-const docsParsedMd = await renderMarkdown(docsMarkdown);
+const docsParsedMd = await renderMarkdown(await fetchReactMorpheusReadme());
 ---
 
 <HtmlLayout>
@@ -126,7 +54,10 @@ const docsParsedMd = await renderMarkdown(docsMarkdown);
         <ReactMorpheusHero client:idle />
 
         <section class="mx-auto w-11/12 max-w-6xl py-16 md:py-24">
-          <Markdown parsedMd={docsParsedMd} className="markdown-full-width" />
+          <Markdown
+            parsedMd={docsParsedMd}
+            className="markdown-full-width"
+          />
         </section>
       </main>
       <Footer />

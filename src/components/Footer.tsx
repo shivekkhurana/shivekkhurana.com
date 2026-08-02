@@ -53,16 +53,28 @@ const otherLinks: { label: string; href: string; external?: boolean }[] = [
 type Repo = {
   name: string;
   url: string;
+  external?: boolean;
 };
 
 const repos: Repo[] = [
   {
     name: 'website',
     url: 'https://github.com/shivekkhurana/shivekkhurana.com',
+    external: true,
   },
   {
     name: 'state-of-being',
     url: 'https://github.com/shivekkhurana/state-of-being',
+    external: true,
+  },
+  {
+    name: 'eiphop',
+    url: 'https://github.com/krimlabs/eiphop',
+    external: true,
+  },
+  {
+    name: 'react-morpheus',
+    url: '/react-morpheus',
   },
 ];
 
@@ -121,8 +133,10 @@ function SourceColumn() {
           <li key={repo.name}>
             <a
               href={repo.url}
-              target="_blank"
-              rel="noopener noreferrer"
+              {...(repo.external && {
+                target: '_blank',
+                rel: 'noopener noreferrer',
+              })}
               className={clsx(
                 'font-mlm-roman',
                 'text-black',
