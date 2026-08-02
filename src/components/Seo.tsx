@@ -22,11 +22,6 @@ function SEO(
     canonicalUrl,
     heroImg,
   } = props;
-  const seoImage =
-    heroImg && heroImg.indexOf('https://') === -1
-      ? `https://shivekkhurana.com${heroImg}`
-      : heroImg;
-
   return (
     <>
       {/*SEO*/}
@@ -54,7 +49,7 @@ function SEO(
       />
       {subTitle && (
         <meta
-          property="og:description"
+          name="og:description"
           content={subTitle}
         />
       )}
@@ -90,10 +85,10 @@ function SEO(
           href={canonicalUrl}
         />
       )}
-      {seoImage && (
+      {heroImg && heroImg.indexOf('https://') === -1 && (
         <meta
           property="og:image"
-          content={seoImage}
+          content={`https://shivekkhurana.com${heroImg}`}
         />
       )}
 
@@ -101,22 +96,6 @@ function SEO(
         name="twitter:card"
         content="summary_large_image"
       />
-      <meta
-        name="twitter:title"
-        content={title}
-      />
-      {subTitle && (
-        <meta
-          name="twitter:description"
-          content={subTitle}
-        />
-      )}
-      {seoImage && (
-        <meta
-          name="twitter:image"
-          content={seoImage}
-        />
-      )}
     </>
   );
 }
