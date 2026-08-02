@@ -132,7 +132,9 @@ const controlButtonActive =
 const controlButtonIdle =
   'text-slate-600 hover:bg-slate-200 hover:text-slate-900';
 const heroActionBase =
-  'inline-flex h-8 items-center justify-center gap-1.5 rounded-md border border-slate-200 bg-white px-2.5 text-[11px] font-normal text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-slate-400/25';
+  'inline-flex h-8 shrink-0 items-center justify-center gap-1.5 rounded-md border border-slate-200 bg-white px-2.5 text-[11px] font-normal text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-slate-400/25';
+const installMenuHostClassName =
+  'relative inline-block shrink-0 shadow-none align-top [&_.rmorph\\:shadow-xs]:!shadow-none [&>.rmorph\\:invisible.rmorph\\:absolute]:left-1/2 [&>.rmorph\\:invisible.rmorph\\:absolute]:right-auto [&>.rmorph\\:invisible.rmorph\\:absolute]:w-max [&>.rmorph\\:invisible.rmorph\\:absolute]:max-w-[calc(100vw-2rem)] [&>.rmorph\\:invisible.rmorph\\:absolute]:-translate-x-1/2';
 
 const githubUrl = 'https://github.com/shivekkhurana/react-morpheus';
 const installOptions: HeroCopyOption[] = [
@@ -494,13 +496,11 @@ type NestedItem = {
   icon: LucideIcon;
 };
 
-type NestedTab = 'home' | 'cards' | 'activity' | 'settings';
+type NestedTab = 'home' | 'cards';
 
 const nestedTabs: { id: NestedTab; label: string; icon: LucideIcon }[] = [
   { id: 'home', label: 'Home', icon: HomeIcon },
   { id: 'cards', label: 'Cards', icon: CreditCardIcon },
-  { id: 'activity', label: 'Activity', icon: ActivityIcon },
-  { id: 'settings', label: 'Settings', icon: SettingsIcon },
 ];
 
 const nestedTabPanels: Record<
@@ -559,54 +559,6 @@ const nestedTabPanels: Record<
       },
     ],
   },
-  activity: {
-    title: 'Activity',
-    description: 'Review recent transactions and account events.',
-    items: [
-      {
-        id: 'grocery',
-        label: 'Grocery payment',
-        meta: '$82.40, today',
-        icon: ActivityIcon,
-      },
-      {
-        id: 'flight',
-        label: 'Flight refund',
-        meta: '$214.00 returned',
-        icon: ArrowLeftIcon,
-      },
-      {
-        id: 'subscription',
-        label: 'Subscription renewal',
-        meta: '$18.00, yesterday',
-        icon: ArrowRightIcon,
-      },
-    ],
-  },
-  settings: {
-    title: 'Settings',
-    description: 'Adjust workspace controls and notification preferences.',
-    items: [
-      {
-        id: 'members',
-        label: 'Members',
-        meta: 'Roles, invites, permissions',
-        icon: UserPlusIcon,
-      },
-      {
-        id: 'limits',
-        label: 'Spending limits',
-        meta: 'Monthly caps and alerts',
-        icon: SettingsIcon,
-      },
-      {
-        id: 'security',
-        label: 'Security',
-        meta: 'Devices and login history',
-        icon: SettingsIcon,
-      },
-    ],
-  },
 };
 
 const nestedDetailActions: Record<
@@ -623,19 +575,10 @@ const nestedDetailActions: Record<
     { label: 'Set limit', icon: SettingsIcon },
     { label: 'View card activity', icon: ActivityIcon },
   ],
-  activity: [
-    { label: 'Open receipt', icon: ActivityIcon },
-    { label: 'Add note', icon: SettingsIcon },
-    { label: 'Mark reviewed', icon: ArrowRightIcon },
-  ],
-  settings: [
-    { label: 'Edit setting', icon: SettingsIcon },
-    { label: 'Manage access', icon: UserPlusIcon },
-    { label: 'View history', icon: ActivityIcon },
-  ],
 };
 
-const nestedSurfaceClassName = 'w-[min(28rem,calc(100vw-3rem))]';
+const nestedMorpheusHostClassName = 'relative inline-block align-top';
+const nestedSurfaceClassName = 'w-full';
 
 function NestedBottomTabs({
   activeTab,
@@ -650,7 +593,7 @@ function NestedBottomTabs({
     <nav
       aria-label="Nested morph tabs"
       className={clsx(
-        'grid w-[min(28rem,calc(100vw-3rem))] grid-cols-4 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-950/95 p-1.5 shadow-2xl shadow-slate-950/20 transition',
+        'grid w-[7.5rem] grid-cols-2 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-950/95 p-1.5 shadow-2xl shadow-slate-950/20 transition sm:w-40 md:w-60 lg:w-80',
         expanded && 'opacity-0'
       )}
     >
@@ -873,7 +816,7 @@ function NestedPanel({
   return (
     <DemoMorpheus
       anchor={settings.anchor}
-      className="relative inline-block align-top"
+      className={nestedMorpheusHostClassName}
       expanded={nestedExpanded}
       overlayBlur={settings.overlayBlur}
       overlayColor={settings.overlayColor}
@@ -928,7 +871,7 @@ function NestedDemo({ mounted, settings }: DemoProps) {
       {mounted ? (
         <DemoMorpheus
           anchor={settings.anchor}
-          className="relative inline-block align-top"
+          className={nestedMorpheusHostClassName}
           expanded={expanded}
           overlayBlur={settings.overlayBlur}
           overlayColor={settings.overlayColor}
@@ -956,15 +899,17 @@ function NestedDemo({ mounted, settings }: DemoProps) {
           }
         />
       ) : (
-        <NestedBottomTabs
-          activeTab={activeTab}
-          expanded={false}
-          onSelectTab={(tab) => {
-            setActiveTab(tab);
-            setSelectedItem(nestedTabPanels[tab].items[0]);
-            setExpanded(true);
-          }}
-        />
+        <div className={nestedMorpheusHostClassName}>
+          <NestedBottomTabs
+            activeTab={activeTab}
+            expanded={false}
+            onSelectTab={(tab) => {
+              setActiveTab(tab);
+              setSelectedItem(nestedTabPanels[tab].items[0]);
+              setExpanded(true);
+            }}
+          />
+        </div>
       )}
     </div>
   );
@@ -1179,13 +1124,13 @@ function HeroCopyMenu({
   );
 
   if (!mounted) {
-    return collapsedContent;
+    return <div className={installMenuHostClassName}>{collapsedContent}</div>;
   }
 
   return (
     <DemoMorpheus
       anchor={MorphAnchor.MiddleMiddle}
-      className="install-morph-menu relative inline-block shadow-none align-top"
+      className={installMenuHostClassName}
       expanded={expanded}
       onClose={() => setExpanded(false)}
       overlayBlur={overlay ? 5 : 0}
@@ -1195,7 +1140,7 @@ function HeroCopyMenu({
       spring={morphSpringPresets.snappy}
       collapsedContent={collapsedContent}
       expandedContent={
-        <div className="w-[min(20rem,calc(100vw-2rem))] rounded-lg bg-white p-0">
+        <div className="w-[calc(100vw-2rem)] max-w-xs rounded-lg bg-white p-0">
           <div className="rounded-lg border border-slate-300 bg-white p-2.5">
             <div className="px-2 pb-3 pt-1 text-center">
               <h2 className="text-sm font-semibold text-slate-900">Install</h2>
@@ -1317,9 +1262,6 @@ function ReactMorpheusHero() {
   return (
     <section className="border-b border-slate-100 bg-white px-5 py-16 md:py-24">
       <CuelumeBinding />
-      <style>
-        {`.install-morph-menu .rmorph\\:shadow-xs { box-shadow: none !important; }`}
-      </style>
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-3xl text-center">
           <a
@@ -1344,7 +1286,7 @@ function ReactMorpheusHero() {
             final intraction. This makes ui state feel grounded an intuitive.
           </p>
 
-          <div className="mx-auto mb-12 mt-7 flex max-w-2xl flex-wrap justify-center gap-2.5">
+          <div className="mx-auto mb-12 mt-7 flex w-fit max-w-full flex-col gap-2.5 sm:flex-row">
             <a
               className={heroActionBase}
               href={githubUrl}
@@ -1376,7 +1318,7 @@ function ReactMorpheusHero() {
         <div
           role="tablist"
           aria-label="Morpheus demos"
-          className="mt-16 flex flex-wrap gap-2"
+          className="mt-16 flex flex-nowrap gap-2 overflow-x-auto"
         >
           {demoTabs.map((tab) => (
             <button
