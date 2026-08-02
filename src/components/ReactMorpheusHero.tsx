@@ -1,9 +1,4 @@
-import {
-  useEffect,
-  useState,
-  type ComponentProps,
-  type ReactElement,
-} from 'react';
+import { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import {
   ActivityIcon,
@@ -14,8 +9,6 @@ import {
   ChevronRightIcon,
   CopyIcon,
   CreditCardIcon,
-  DownloadIcon,
-  ExternalLinkIcon,
   HomeIcon,
   SettingsIcon,
   UserPlusIcon,
@@ -27,6 +20,7 @@ import {
   Morpheus,
   MorphAnchor,
   morphSpringPresets,
+  type MorphDirection,
   type MorphSpringPreset,
 } from 'react-morpheus';
 import {
@@ -36,16 +30,15 @@ import {
 } from '@src/lib/cuelume';
 
 type DemoTab = 'basic' | 'nested' | 'wizard';
-type DemoMorpheusProps = Omit<
-  ComponentProps<typeof Morpheus>,
-  'direction'
-> & {
-  direction?: never;
-};
 
-const DemoMorpheus = Morpheus as unknown as (
-  props: DemoMorpheusProps
-) => ReactElement;
+const directions: MorphDirection[] = ['top', 'right', 'bottom', 'left'];
+
+const directionLabels: Record<MorphDirection, string> = {
+  top: 'Grow up',
+  right: 'Grow right',
+  bottom: 'Grow down',
+  left: 'Grow left',
+};
 
 const anchorOptions = [
   MorphAnchor.LeftTop,
@@ -94,6 +87,7 @@ const anchorLabels: Record<MorphAnchor, string> = {
 
 type DemoSettings = {
   anchor: MorphAnchor;
+  direction: MorphDirection;
   overlayBlur: number;
   overlayColor: string;
   overlayOpacity: number;
@@ -105,13 +99,7 @@ type DemoProps = {
   settings: DemoSettings;
 };
 
-type HeroCopyTarget = string | null;
-type HeroCopyOption = {
-  id: string;
-  label: string;
-  runtimeLabel?: string;
-  value: string;
-};
+type HeroCopyTarget = 'install' | 'agents' | null;
 
 const loshmiButtonBase =
   'inline-flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap rounded-xl text-sm font-medium transition-all outline-none disabled:cursor-not-allowed disabled:opacity-50 focus-visible:ring-[3px] focus-visible:ring-slate-400/25 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0';
@@ -133,47 +121,13 @@ const controlButtonIdle =
   'text-slate-600 hover:bg-slate-200 hover:text-slate-900';
 const heroActionBase =
   'inline-flex h-8 shrink-0 items-center justify-center gap-1.5 rounded-md border border-slate-200 bg-white px-2.5 text-[11px] font-normal text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-slate-400/25';
-const installMenuHostClassName =
-  'relative inline-block shrink-0 shadow-none align-top [&_.rmorph\\:shadow-xs]:!shadow-none [&>.rmorph\\:invisible.rmorph\\:absolute]:left-1/2 [&>.rmorph\\:invisible.rmorph\\:absolute]:right-auto [&>.rmorph\\:invisible.rmorph\\:absolute]:w-max [&>.rmorph\\:invisible.rmorph\\:absolute]:max-w-[calc(100vw-2rem)] [&>.rmorph\\:invisible.rmorph\\:absolute]:-translate-x-1/2';
 
 const githubUrl = 'https://github.com/shivekkhurana/react-morpheus';
-const installOptions: HeroCopyOption[] = [
-  {
-    id: 'bun',
-    label: 'bun add react-morpheus',
-    runtimeLabel: 'Bun',
-    value: 'bun add react-morpheus',
-  },
-  {
-    id: 'pnpm',
-    label: 'pnpm add react-morpheus',
-    runtimeLabel: 'pnpm',
-    value: 'pnpm add react-morpheus',
-  },
-  {
-    id: 'yarn',
-    label: 'yarn add react-morpheus',
-    runtimeLabel: 'Yarn',
-    value: 'yarn add react-morpheus',
-  },
-  {
-    id: 'npm',
-    label: 'npm i react-morpheus',
-    runtimeLabel: 'Node',
-    value: 'npm i react-morpheus',
-  },
-];
+const installCommand = 'npm i react-morpheus';
 const agentsMarkdown = `# Repository Instructions
 
 - Use Bun for this project. Run package scripts and project commands with \`bun\` rather than \`npm\`, \`pnpm\`, or \`yarn\`.
 `;
-const agentsOptions: HeroCopyOption[] = [
-  {
-    id: 'agents',
-    label: 'Copy AGENTS.md',
-    value: agentsMarkdown,
-  },
-];
 
 function DemoControls({
   settings,
@@ -184,6 +138,28 @@ function DemoControls({
 }) {
   return (
     <aside className="grid h-full content-start gap-5 rounded-b-2xl border-t border-slate-200 bg-slate-100 p-4 md:rounded-b-none md:rounded-r-2xl md:border-l md:border-t-0">
+      <div className="grid gap-2">
+        <h2 className="text-sm font-semibold text-slate-950">Motion</h2>
+        <div className="grid grid-cols-2 gap-2">
+          {directions.map((item) => (
+            <button
+              key={item}
+              type="button"
+              data-cuelume-press={CuelumeSound.Toggle}
+              onClick={() => setSettings({ ...settings, direction: item })}
+              className={clsx(
+                controlButtonBase,
+                item === settings.direction
+                  ? controlButtonActive
+                  : controlButtonIdle
+              )}
+            >
+              {directionLabels[item]}
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className="grid gap-2">
         <h2 className="text-sm font-semibold text-slate-950">Morph anchor</h2>
         <div className="grid grid-cols-2 gap-2">
@@ -320,6 +296,9 @@ function ChartCard({ onDismiss }: { onDismiss: () => void }) {
           </p>
           <h2 className="mt-1 text-xl font-semibold">Revenue forecast</h2>
         </div>
+        <span className="rounded-full border border-emerald-400/30 bg-emerald-400/10 px-3 py-1 text-xs font-semibold text-emerald-200">
+          +18.4%
+        </span>
         <button
           type="button"
           aria-label="Close forecast"
@@ -461,15 +440,13 @@ function BasicDemo({ mounted, settings }: DemoProps) {
   );
 
   return (
-    <div className="grid min-h-[24rem] h-full place-items-center">
+    <div className="grid min-h-[24rem] h-full place-items-center bg-white">
       {mounted ? (
-        <DemoMorpheus
+        <Morpheus
           anchor={settings.anchor}
-          onClose={() => {
-            playCuelumeSound(CuelumeSound.Release);
-            setExpanded(false);
-          }}
-          className="relative inline-block align-top"
+          beforeClose={() => playCuelumeSound(CuelumeSound.Release)}
+          // className="relative inline-block align-top"
+          direction={settings.direction}
           expanded={expanded}
           overlayBlur={settings.overlayBlur}
           overlayColor={settings.overlayColor}
@@ -577,8 +554,7 @@ const nestedDetailActions: Record<
   ],
 };
 
-const nestedMorpheusHostClassName = 'relative inline-block align-top';
-const nestedSurfaceClassName = 'w-full';
+const nestedSurfaceClassName = 'w-[7.5rem] sm:w-40 md:w-60 lg:w-80';
 
 function NestedBottomTabs({
   activeTab,
@@ -593,7 +569,8 @@ function NestedBottomTabs({
     <nav
       aria-label="Nested morph tabs"
       className={clsx(
-        'grid w-[7.5rem] grid-cols-2 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-950/95 p-1.5 shadow-2xl shadow-slate-950/20 transition sm:w-40 md:w-60 lg:w-80',
+        nestedSurfaceClassName,
+        'grid grid-cols-2 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-950/95 p-1.5 shadow-2xl shadow-slate-950/20 transition',
         expanded && 'opacity-0'
       )}
     >
@@ -814,15 +791,15 @@ function NestedPanel({
   settings: DemoSettings;
 }) {
   return (
-    <DemoMorpheus
+    <Morpheus
       anchor={settings.anchor}
-      className={nestedMorpheusHostClassName}
+      className="relative inline-block align-top"
+      direction={settings.direction}
       expanded={nestedExpanded}
       overlayBlur={settings.overlayBlur}
       overlayColor={settings.overlayColor}
       overlayOpacity={settings.overlayOpacity}
       overlayZIndex={1300}
-      onClose={() => setNestedExpanded(false)}
       spring={morphSpringPresets[settings.springPreset]}
       collapsedContent={
         <NestedItemList
@@ -867,20 +844,17 @@ function NestedDemo({ mounted, settings }: DemoProps) {
   );
 
   return (
-    <div className="grid min-h-[24rem] h-full place-items-center">
+    <div className="grid min-h-[24rem] h-full place-items-center bg-white">
       {mounted ? (
-        <DemoMorpheus
+        <Morpheus
           anchor={settings.anchor}
-          className={nestedMorpheusHostClassName}
+          className="relative inline-block align-top"
+          direction={settings.direction}
           expanded={expanded}
           overlayBlur={settings.overlayBlur}
           overlayColor={settings.overlayColor}
           overlayOpacity={settings.overlayOpacity}
           overlayZIndex={1200}
-          onClose={() => {
-            setNestedExpanded(false);
-            setExpanded(false);
-          }}
           spring={morphSpringPresets[settings.springPreset]}
           collapsedContent={collapsedContent}
           expandedContent={
@@ -899,17 +873,15 @@ function NestedDemo({ mounted, settings }: DemoProps) {
           }
         />
       ) : (
-        <div className={nestedMorpheusHostClassName}>
-          <NestedBottomTabs
-            activeTab={activeTab}
-            expanded={false}
-            onSelectTab={(tab) => {
-              setActiveTab(tab);
-              setSelectedItem(nestedTabPanels[tab].items[0]);
-              setExpanded(true);
-            }}
-          />
-        </div>
+        <NestedBottomTabs
+          activeTab={activeTab}
+          expanded={false}
+          onSelectTab={(tab) => {
+            setActiveTab(tab);
+            setSelectedItem(nestedTabPanels[tab].items[0]);
+            setExpanded(true);
+          }}
+        />
       )}
     </div>
   );
@@ -1056,15 +1028,13 @@ function WizardDemo({ mounted, settings }: DemoProps) {
   );
 
   return (
-    <div className="grid min-h-[24rem] h-full place-items-center">
+    <div className="grid min-h-[24rem] h-full place-items-center bg-white">
       {mounted ? (
-        <DemoMorpheus
+        <Morpheus
           anchor={settings.anchor}
-          onClose={() => {
-            playCuelumeSound(CuelumeSound.Release);
-            setExpanded(false);
-          }}
+          beforeClose={() => playCuelumeSound(CuelumeSound.Release)}
           className="relative inline-block align-top"
+          direction={settings.direction}
           expanded={expanded}
           overlayBlur={settings.overlayBlur}
           overlayColor={settings.overlayColor}
@@ -1090,143 +1060,38 @@ function WizardDemo({ mounted, settings }: DemoProps) {
   );
 }
 
-function HeroCopyMenu({
+function CopyableHeroAction({
   copied,
+  copyTarget,
   label,
-  mounted,
-  overlay,
-  options,
   onCopy,
 }: {
   copied: HeroCopyTarget;
+  copyTarget: Exclude<HeroCopyTarget, null>;
   label: string;
-  mounted: boolean;
-  overlay?: boolean;
-  options: HeroCopyOption[];
-  onCopy: (option: HeroCopyOption) => void;
+  onCopy: (target: Exclude<HeroCopyTarget, null>) => void;
 }) {
-  const [expanded, setExpanded] = useState(false);
+  const isCopied = copied === copyTarget;
 
-  const collapsedContent = (
+  return (
     <button
       type="button"
-      data-cuelume-press={CuelumeSound.Press}
-      className={clsx(heroActionBase, expanded && 'opacity-0')}
-      onClick={() => setExpanded(true)}
+      className={clsx(heroActionBase, 'min-w-0')}
+      onClick={() => onCopy(copyTarget)}
     >
       <span className="truncate">{label}</span>
-      <DownloadIcon
-        aria-hidden="true"
-        strokeWidth={1.75}
-        className="ml-0.5 h-2 w-2 shrink-0 text-slate-500"
-      />
-    </button>
-  );
-
-  if (!mounted) {
-    return <div className={installMenuHostClassName}>{collapsedContent}</div>;
-  }
-
-  return (
-    <DemoMorpheus
-      anchor={MorphAnchor.MiddleMiddle}
-      className={installMenuHostClassName}
-      expanded={expanded}
-      onClose={() => setExpanded(false)}
-      overlayBlur={overlay ? 5 : 0}
-      overlayColor="#0f172a"
-      overlayOpacity={overlay ? 0.08 : 0}
-      overlayZIndex={1300}
-      spring={morphSpringPresets.snappy}
-      collapsedContent={collapsedContent}
-      expandedContent={
-        <div className="w-[calc(100vw-2rem)] max-w-xs rounded-lg bg-white p-0">
-          <div className="rounded-lg border border-slate-300 bg-white p-2.5">
-            <div className="px-2 pb-3 pt-1 text-center">
-              <h2 className="text-sm font-semibold text-slate-900">Install</h2>
-              <p className="mt-0.5 text-[0.68rem] font-semibold uppercase text-slate-500">
-                Pick a runtime
-              </p>
-            </div>
-            <ul className="grid gap-2">
-              {options.map((option) => {
-                const isCopied = copied === option.id;
-
-                return (
-                  <li key={option.id}>
-                    <button
-                      type="button"
-                      className="flex h-10 w-full min-w-0 items-center justify-between gap-3 rounded-md border border-slate-200 bg-white px-2.5 text-left text-xs font-medium text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 hover:text-slate-950 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-slate-400/25"
-                      onClick={() => {
-                        onCopy(option);
-                        window.setTimeout(() => setExpanded(false), 320);
-                      }}
-                    >
-                      <span className="min-w-0">
-                        <span className="block truncate text-xs font-semibold text-slate-900">
-                          {option.runtimeLabel}
-                        </span>
-                        <span className="mt-0.5 block truncate font-mono text-[0.68rem] font-medium text-slate-500">
-                          {option.label}
-                        </span>
-                      </span>
-                      {isCopied ? (
-                        <CheckIcon
-                          aria-hidden="true"
-                          strokeWidth={1.75}
-                          className="h-2.5 w-2.5 shrink-0 text-emerald-600"
-                        />
-                      ) : (
-                        <CopyIcon
-                          aria-hidden="true"
-                          strokeWidth={1.75}
-                          className="h-2.5 w-2.5 shrink-0 text-slate-400"
-                        />
-                      )}
-                    </button>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        </div>
-      }
-    />
-  );
-}
-
-function HeroCopyButton({
-  copied,
-  option,
-  onCopy,
-}: {
-  copied: HeroCopyTarget;
-  option: HeroCopyOption;
-  onCopy: (option: HeroCopyOption) => void;
-}) {
-  const isCopied = copied === option.id;
-
-  return (
-    <button
-      type="button"
-      data-cuelume-press={CuelumeSound.Press}
-      className={heroActionBase}
-      onClick={() => onCopy(option)}
-    >
-      <span>{isCopied ? 'Copied AGENTS.md' : 'AGENTS.md'}</span>
       {isCopied ? (
         <CheckIcon
           aria-hidden="true"
-          strokeWidth={1.75}
-          className="ml-0.5 h-2 w-2 shrink-0 text-emerald-600"
+          className="ml-1 h-2.5 w-2.5 shrink-0 text-emerald-600"
         />
       ) : (
         <CopyIcon
           aria-hidden="true"
-          strokeWidth={1.75}
-          className="ml-0.5 h-2 w-2 shrink-0 text-slate-500"
+          className="ml-0.5 h-2.5 w-2.5 shrink-0 text-slate-500"
         />
       )}
+      <span className="sr-only">{isCopied ? 'Copied' : `Copy ${label}`}</span>
     </button>
   );
 }
@@ -1237,6 +1102,7 @@ function ReactMorpheusHero() {
   const [copied, setCopied] = useState<HeroCopyTarget>(null);
   const [settings, setSettings] = useState<DemoSettings>({
     anchor: MorphAnchor.BottomMiddle,
+    direction: 'top',
     overlayBlur: 3,
     overlayColor: '#0f172a',
     overlayOpacity: 0.16,
@@ -1247,15 +1113,11 @@ function ReactMorpheusHero() {
     setMounted(true);
   }, []);
 
-  const copyHeroAction = async (
-    option: HeroCopyOption,
-    sound?: CuelumeSound
-  ) => {
-    await navigator.clipboard.writeText(option.value);
-    if (sound) {
-      playCuelumeSound(sound);
-    }
-    setCopied(option.id);
+  const copyHeroAction = async (target: Exclude<HeroCopyTarget, null>) => {
+    const copyValue = target === 'install' ? installCommand : agentsMarkdown;
+
+    await navigator.clipboard.writeText(copyValue);
+    setCopied(target);
     window.setTimeout(() => setCopied(null), 1600);
   };
 
@@ -1264,26 +1126,12 @@ function ReactMorpheusHero() {
       <CuelumeBinding />
       <div className="mx-auto max-w-6xl">
         <div className="mx-auto max-w-3xl text-center">
-          <a
-            className="mb-4 inline-flex"
-            href="https://www.npmjs.com/package/react-morpheus"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <img
-              alt="react-morpheus npm version"
-              className="h-5 w-auto"
-              height={20}
-              src="https://img.shields.io/npm/v/react-morpheus"
-              width={122}
-            />
-          </a>
           <h1 className="text-3xl font-semibold leading-tight tracking-normal text-slate-950 md:text-5xl">
             Fluid Component Morphing for React Interfaces
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-slate-500 md:text-lg">
-            React Morpheus preserves spatial contact from original cmponent to
-            final intraction. This makes ui state feel grounded an intuitive.
+            React Morpheus preserves spatial contact from original component to
+            final interaction. This makes UI state feel grounded and intuitive.
           </p>
 
           <div className="mx-auto mb-12 mt-7 flex w-fit max-w-full flex-col gap-2.5 sm:flex-row">
@@ -1294,22 +1142,17 @@ function ReactMorpheusHero() {
               target="_blank"
             >
               <span>View GitHub</span>
-              <ExternalLinkIcon
-                aria-hidden="true"
-                className="ml-0.5 h-2.5 w-2.5 shrink-0 text-slate-500"
-              />
             </a>
-            <HeroCopyMenu
+            <CopyableHeroAction
               copied={copied}
-              label="Install"
-              mounted={mounted}
-              overlay
-              options={installOptions}
-              onCopy={(option) => copyHeroAction(option, CuelumeSound.Whisper)}
+              copyTarget="install"
+              label={installCommand}
+              onCopy={copyHeroAction}
             />
-            <HeroCopyButton
+            <CopyableHeroAction
               copied={copied}
-              option={agentsOptions[0]}
+              copyTarget="agents"
+              label="AGENTS.md"
               onCopy={copyHeroAction}
             />
           </div>
@@ -1340,7 +1183,7 @@ function ReactMorpheusHero() {
 
         <div className="mt-4 rounded-2xl border border-slate-200 bg-slate-50">
           <div className="grid items-stretch md:grid-cols-[minmax(0,1fr)_18rem]">
-            <div className="h-full rounded-t-2xl md:rounded-l-2xl md:rounded-tr-none">
+            <div className="h-full rounded-2xl md:rounded-2xl md:rounded-tr-none">
               {activeTab === 'basic' && (
                 <BasicDemo
                   mounted={mounted}
