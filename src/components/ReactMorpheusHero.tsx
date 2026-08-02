@@ -459,7 +459,7 @@ function BasicDemo({ mounted, settings }: DemoProps) {
   );
 
   return (
-    <div className="grid min-h-[24rem] h-full place-items-center bg-white">
+    <div className="grid min-h-[24rem] h-full place-items-center">
       {mounted ? (
         <DemoMorpheus
           anchor={settings.anchor}
@@ -924,7 +924,7 @@ function NestedDemo({ mounted, settings }: DemoProps) {
   );
 
   return (
-    <div className="grid min-h-[24rem] h-full place-items-center bg-white">
+    <div className="grid min-h-[24rem] h-full place-items-center">
       {mounted ? (
         <DemoMorpheus
           anchor={settings.anchor}
@@ -1111,7 +1111,7 @@ function WizardDemo({ mounted, settings }: DemoProps) {
   );
 
   return (
-    <div className="grid min-h-[24rem] h-full place-items-center bg-white">
+    <div className="grid min-h-[24rem] h-full place-items-center">
       {mounted ? (
         <DemoMorpheus
           anchor={settings.anchor}

@@ -31,7 +31,7 @@
     "ramda": "^0.29.1",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "react-morpheus": "file:/Users/shivekkhurana/Wip/react-morpheus",
+    "react-morpheus": "^0.1.4",
     "react-vega": "^8.0.0",
     "recharts": "^3.4.1",
     "sharp": "0.35.3",
