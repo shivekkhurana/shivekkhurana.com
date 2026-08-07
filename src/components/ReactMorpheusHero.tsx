@@ -1,9 +1,4 @@
-import {
-  useEffect,
-  useState,
-  type ComponentProps,
-  type ReactElement,
-} from 'react';
+import { useEffect, useState } from 'react';
 import clsx from 'clsx';
 import {
   ActivityIcon,
@@ -36,16 +31,6 @@ import {
 } from '@src/lib/cuelume';
 
 type DemoTab = 'basic' | 'nested' | 'wizard';
-type DemoMorpheusProps = Omit<
-  ComponentProps<typeof Morpheus>,
-  'direction'
-> & {
-  direction?: never;
-};
-
-const DemoMorpheus = Morpheus as unknown as (
-  props: DemoMorpheusProps
-) => ReactElement;
 
 const anchorOptions = [
   MorphAnchor.LeftTop,
@@ -134,7 +119,7 @@ const controlButtonIdle =
 const heroActionBase =
   'inline-flex h-8 shrink-0 items-center justify-center gap-1.5 rounded-md border border-slate-200 bg-white px-2.5 text-[11px] font-normal text-slate-700 transition hover:border-slate-300 hover:bg-slate-50 focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-slate-400/25';
 const installMenuHostClassName =
-  'relative inline-block shrink-0 shadow-none align-top [&_.rmorph\\:shadow-xs]:!shadow-none [&>.rmorph\\:invisible.rmorph\\:absolute]:left-1/2 [&>.rmorph\\:invisible.rmorph\\:absolute]:right-auto [&>.rmorph\\:invisible.rmorph\\:absolute]:w-max [&>.rmorph\\:invisible.rmorph\\:absolute]:max-w-[calc(100vw-2rem)] [&>.rmorph\\:invisible.rmorph\\:absolute]:-translate-x-1/2';
+  'relative inline-block shrink-0 align-top';
 
 const githubUrl = 'https://github.com/shivekkhurana/react-morpheus';
 const installOptions: HeroCopyOption[] = [
@@ -400,13 +385,7 @@ function ChartCard({ onDismiss }: { onDismiss: () => void }) {
   );
 }
 
-function OpenChartButton({
-  expanded,
-  onActivate,
-}: {
-  expanded: boolean;
-  onActivate: () => void;
-}) {
+function OpenChartButton({ onActivate }: { onActivate: () => void }) {
   return (
     <button
       type="button"
@@ -415,8 +394,7 @@ function OpenChartButton({
       className={clsx(
         loshmiButtonBase,
         loshmiButtonDefault,
-        'h-12 min-w-64 px-7',
-        expanded && 'opacity-0'
+        'h-12 min-w-64 px-7'
       )}
     >
       <BarChart3Icon aria-hidden="true" />
@@ -425,13 +403,7 @@ function OpenChartButton({
   );
 }
 
-function OpenSignupButton({
-  expanded,
-  onActivate,
-}: {
-  expanded: boolean;
-  onActivate: () => void;
-}) {
+function OpenSignupButton({ onActivate }: { onActivate: () => void }) {
   return (
     <button
       type="button"
@@ -440,8 +412,7 @@ function OpenSignupButton({
       className={clsx(
         loshmiButtonBase,
         loshmiButtonDefault,
-        'h-12 min-w-64 px-7',
-        expanded && 'opacity-0'
+        'h-12 min-w-64 px-7'
       )}
     >
       <UserPlusIcon aria-hidden="true" />
@@ -454,16 +425,13 @@ function BasicDemo({ mounted, settings }: DemoProps) {
   const [expanded, setExpanded] = useState(false);
 
   const collapsedContent = (
-    <OpenChartButton
-      expanded={expanded}
-      onActivate={() => setExpanded(true)}
-    />
+    <OpenChartButton onActivate={() => setExpanded(true)} />
   );
 
   return (
     <div className="grid min-h-[24rem] h-full place-items-center">
       {mounted ? (
-        <DemoMorpheus
+        <Morpheus
           anchor={settings.anchor}
           onClose={() => {
             playCuelumeSound(CuelumeSound.Release);
@@ -480,10 +448,7 @@ function BasicDemo({ mounted, settings }: DemoProps) {
           expandedContent={<ChartCard onDismiss={() => setExpanded(false)} />}
         />
       ) : (
-        <OpenChartButton
-          expanded={false}
-          onActivate={() => setExpanded(true)}
-        />
+        <OpenChartButton onActivate={() => setExpanded(true)} />
       )}
     </div>
   );
@@ -582,20 +547,15 @@ const nestedSurfaceClassName = 'w-full';
 
 function NestedBottomTabs({
   activeTab,
-  expanded,
   onSelectTab,
 }: {
   activeTab: NestedTab;
-  expanded: boolean;
   onSelectTab: (tab: NestedTab) => void;
 }) {
   return (
     <nav
       aria-label="Nested morph tabs"
-      className={clsx(
-        'grid w-[7.5rem] grid-cols-2 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-950/95 p-1.5 shadow-2xl shadow-slate-950/20 transition sm:w-40 md:w-60 lg:w-80',
-        expanded && 'opacity-0'
-      )}
+      className="grid w-[7.5rem] grid-cols-2 items-center gap-1 rounded-2xl border border-slate-800 bg-slate-950/95 p-1.5 shadow-2xl shadow-slate-950/20 transition sm:w-40 md:w-60 lg:w-80"
     >
       {nestedTabs.map((tab) => {
         const TabIcon = tab.icon;
@@ -814,7 +774,7 @@ function NestedPanel({
   settings: DemoSettings;
 }) {
   return (
-    <DemoMorpheus
+    <Morpheus
       anchor={settings.anchor}
       className={nestedMorpheusHostClassName}
       expanded={nestedExpanded}
@@ -856,7 +816,6 @@ function NestedDemo({ mounted, settings }: DemoProps) {
   const collapsedContent = (
     <NestedBottomTabs
       activeTab={activeTab}
-      expanded={expanded}
       onSelectTab={(tab) => {
         setActiveTab(tab);
         setSelectedItem(nestedTabPanels[tab].items[0]);
@@ -869,7 +828,7 @@ function NestedDemo({ mounted, settings }: DemoProps) {
   return (
     <div className="grid min-h-[24rem] h-full place-items-center">
       {mounted ? (
-        <DemoMorpheus
+        <Morpheus
           anchor={settings.anchor}
           className={nestedMorpheusHostClassName}
           expanded={expanded}
@@ -902,7 +861,6 @@ function NestedDemo({ mounted, settings }: DemoProps) {
         <div className={nestedMorpheusHostClassName}>
           <NestedBottomTabs
             activeTab={activeTab}
-            expanded={false}
             onSelectTab={(tab) => {
               setActiveTab(tab);
               setSelectedItem(nestedTabPanels[tab].items[0]);
@@ -1049,16 +1007,13 @@ function WizardDemo({ mounted, settings }: DemoProps) {
   };
 
   const collapsedContent = (
-    <OpenSignupButton
-      expanded={expanded}
-      onActivate={() => setExpanded(true)}
-    />
+    <OpenSignupButton onActivate={() => setExpanded(true)} />
   );
 
   return (
     <div className="grid min-h-[24rem] h-full place-items-center">
       {mounted ? (
-        <DemoMorpheus
+        <Morpheus
           anchor={settings.anchor}
           onClose={() => {
             playCuelumeSound(CuelumeSound.Release);
@@ -1081,10 +1036,7 @@ function WizardDemo({ mounted, settings }: DemoProps) {
           }
         />
       ) : (
-        <OpenSignupButton
-          expanded={false}
-          onActivate={() => setExpanded(true)}
-        />
+        <OpenSignupButton onActivate={() => setExpanded(true)} />
       )}
     </div>
   );
@@ -1111,7 +1063,7 @@ function HeroCopyMenu({
     <button
       type="button"
       data-cuelume-press={CuelumeSound.Press}
-      className={clsx(heroActionBase, expanded && 'opacity-0')}
+      className={heroActionBase}
       onClick={() => setExpanded(true)}
     >
       <span className="truncate">{label}</span>
@@ -1128,9 +1080,10 @@ function HeroCopyMenu({
   }
 
   return (
-    <DemoMorpheus
+    <Morpheus
       anchor={MorphAnchor.MiddleMiddle}
       className={installMenuHostClassName}
+      shellClassName="!shadow-none"
       expanded={expanded}
       onClose={() => setExpanded(false)}
       overlayBlur={overlay ? 5 : 0}
