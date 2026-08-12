@@ -11,8 +11,12 @@ import ReactMorpheusHero from '@src/components/ReactMorpheusHero';
 const reactMorpheusReadmeUrl =
   'https://raw.githubusercontent.com/shivekkhurana/react-morpheus/refs/heads/master/README.md';
 
-function removeDemoSection(markdown: string): string {
+function removeEmbeddedMedia(markdown: string): string {
   return markdown
+    .replace(
+      /^\[!\[npm version\]\(https:\/\/img\.shields\.io\/npm\/v\/react-morpheus\.svg\)\]\(https:\/\/www\.npmjs\.com\/package\/react-morpheus\)\s*$/mu,
+      ''
+    )
     .replace(
       /\n?## Demo\s*\n+<!-- react-morpheus-demo:start -->[\s\S]*?<!-- react-morpheus-demo:end -->\s*/u,
       '\n'
@@ -29,7 +33,7 @@ async function fetchReactMorpheusReadme(): Promise<string> {
     );
   }
 
-  return removeDemoSection(await response.text());
+  return removeEmbeddedMedia(await response.text());
 }
 
 const docsParsedMd = await renderMarkdown(await fetchReactMorpheusReadme());
