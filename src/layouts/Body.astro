@@ -1,6 +1,7 @@
 ---
 import HireFloating from '@src/components/HireFloating';
 
+const isAvailableForWork = false;
 const isHirePage = Astro.url.pathname === '/hire' || Astro.url.pathname === '/hire/';
 ---
 
@@ -19,5 +20,5 @@ const isHirePage = Astro.url.pathname === '/hire' || Astro.url.pathname === '/hi
     >
     </div>
   </div>
-  {!isHirePage && <HireFloating />}
+  {isAvailableForWork && !isHirePage && <HireFloating />}
 </body>
